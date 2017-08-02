@@ -1,0 +1,12 @@
+
+State Machine - |bit_sync|M_sync:M_sync_inst|state_sync
+Name state_sync.00 state_sync.10 state_sync.01 
+state_sync.00 0 0 0 
+state_sync.01 1 0 1 
+state_sync.10 1 1 0 
+
+State Machine - |bit_sync|sync:sync_inst|state_sync
+Name state_sync.00 state_sync.10 state_sync.01 
+state_sync.00 0 0 0 
+state_sync.01 1 0 1 
+state_sync.10 1 1 0 
