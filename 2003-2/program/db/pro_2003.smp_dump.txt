@@ -1,0 +1,14 @@
+
+State Machine - |pro_2003|three_chufa:U3|three_state
+Name three_state.0011 three_state.0010 three_state.0001 three_state.0000 three_state.0100 
+three_state.0000 0 0 0 0 0 
+three_state.0001 0 0 1 1 0 
+three_state.0010 0 1 0 1 0 
+three_state.0011 1 0 0 1 0 
+three_state.0100 0 0 0 1 1 
+
+State Machine - |pro_2003|single_chufa:U2|sigle_state
+Name sigle_state.000 sigle_state.010 sigle_state.001 
+sigle_state.000 0 0 0 
+sigle_state.001 1 0 1 
+sigle_state.010 1 1 0 

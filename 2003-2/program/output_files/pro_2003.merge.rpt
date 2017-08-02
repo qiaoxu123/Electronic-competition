@@ -1,0 +1,928 @@
+Partition Merge report for pro_2003
+Fri Jul 28 15:56:31 2017
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Partition Merge Summary
+  3. Partition Merge Netlist Types Used
+  4. Connections to In-System Debugging Instance "auto_signaltap_0"
+  5. Partition Merge Partition Warnings
+  6. Partition Merge Partition Statistics
+  7. Partition Merge Partition Pin Processing
+  8. Partition Merge Resource Usage Summary
+  9. Partition Merge RAM Summary
+ 10. Partition Merge Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Partition Merge Summary                                                       ;
++---------------------------------+---------------------------------------------+
+; Partition Merge Status          ; Successful - Fri Jul 28 15:56:31 2017       ;
+; Quartus II 64-Bit Version       ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
+; Revision Name                   ; pro_2003                                    ;
+; Top-level Entity Name           ; pro_2003                                    ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; 1,920 / 32,070 ( 6 % )                      ;
+; Total registers                 ; 2207                                        ;
+; Total pins                      ; 41 / 457 ( 9 % )                            ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 308,992 / 4,065,280 ( 8 % )                 ;
+; Total DSP Blocks                ; 0 / 87 ( 0 % )                              ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI TX Channels          ; 0                                           ;
+; Total PLLs                      ; 0 / 6 ( 0 % )                               ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
++---------------------------------+---------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge Netlist Types Used                                                                                            ;
++--------------------------------+----------------+-------------------+------------------------+--------------------------------+
+; Partition Name                 ; Partition Type ; Netlist Type Used ; Netlist Type Requested ; Partition Contents             ;
++--------------------------------+----------------+-------------------+------------------------+--------------------------------+
+; Top                            ; User-created   ; Source File       ; Source File            ;                                ;
+; sld_hub:auto_hub               ; Auto-generated ; Post-Synthesis    ; Post-Synthesis         ; sld_hub:auto_hub               ;
+; sld_signaltap:auto_signaltap_0 ; Auto-generated ; Post-Synthesis    ; Post-Synthesis         ; sld_signaltap:auto_signaltap_0 ;
+; vga_top:U6                     ; User-created   ; Post-Fit          ; Post-Fit               ; vga_top:U6                     ;
+; hard_block:auto_generated_inst ; Auto-generated ; Source File       ; Source File            ; hard_block:auto_generated_inst ;
++--------------------------------+----------------+-------------------+------------------------+--------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Connections to In-System Debugging Instance "auto_signaltap_0"                                                                                                                                                                ;
++-----------------------------------+---------------+-----------+----------------+-------------------+----------------------------------------------------------------------------------------------------------------+---------+
+; Name                              ; Type          ; Status    ; Partition Name ; Netlist Type Used ; Actual Connection                                                                                              ; Details ;
++-----------------------------------+---------------+-----------+----------------+-------------------+----------------------------------------------------------------------------------------------------------------+---------+
+; clk                               ; pre-synthesis ; connected ; Top            ; post-synthesis    ; clk                                                                                                            ; N/A     ;
+; key_board:U4|key_value            ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_board:U4|key_value                                                                                         ; N/A     ;
+; key_board:U4|key_value            ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_board:U4|key_value                                                                                         ; N/A     ;
+; key_board:U4|row_col[0]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_board:U4|row_col[0]                                                                                        ; N/A     ;
+; key_board:U4|row_col[0]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_board:U4|row_col[0]                                                                                        ; N/A     ;
+; key_board:U4|row_col[1]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_board:U4|row_col[1]                                                                                        ; N/A     ;
+; key_board:U4|row_col[1]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_board:U4|row_col[1]                                                                                        ; N/A     ;
+; key_board:U4|row_col[2]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_board:U4|row_col[2]                                                                                        ; N/A     ;
+; key_board:U4|row_col[2]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_board:U4|row_col[2]                                                                                        ; N/A     ;
+; key_board:U4|row_col[3]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_board:U4|row_col[3]                                                                                        ; N/A     ;
+; key_board:U4|row_col[3]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_board:U4|row_col[3]                                                                                        ; N/A     ;
+; key_board:U4|row_col[4]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_board:U4|row_col[4]                                                                                        ; N/A     ;
+; key_board:U4|row_col[4]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_board:U4|row_col[4]                                                                                        ; N/A     ;
+; key_board:U4|row_col[5]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_board:U4|row_col[5]                                                                                        ; N/A     ;
+; key_board:U4|row_col[5]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_board:U4|row_col[5]                                                                                        ; N/A     ;
+; key_board:U4|row_col[6]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_board:U4|row_col[6]                                                                                        ; N/A     ;
+; key_board:U4|row_col[6]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_board:U4|row_col[6]                                                                                        ; N/A     ;
+; key_board:U4|row_col[7]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_board:U4|row_col[7]                                                                                        ; N/A     ;
+; key_board:U4|row_col[7]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_board:U4|row_col[7]                                                                                        ; N/A     ;
+; key_control:U5|key_add            ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_add                                                                                                        ; N/A     ;
+; key_control:U5|key_add            ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_add                                                                                                        ; N/A     ;
+; key_control:U5|key_sub            ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_sub                                                                                                        ; N/A     ;
+; key_control:U5|key_sub            ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_sub                                                                                                        ; N/A     ;
+; key_control:U5|many_chufa_data[0] ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[0]                                                                              ; N/A     ;
+; key_control:U5|many_chufa_data[0] ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[0]                                                                              ; N/A     ;
+; key_control:U5|many_chufa_data[1] ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[1]                                                                              ; N/A     ;
+; key_control:U5|many_chufa_data[1] ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[1]                                                                              ; N/A     ;
+; key_control:U5|many_chufa_data[2] ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[2]                                                                              ; N/A     ;
+; key_control:U5|many_chufa_data[2] ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[2]                                                                              ; N/A     ;
+; key_control:U5|many_chufa_data[3] ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[3]                                                                              ; N/A     ;
+; key_control:U5|many_chufa_data[3] ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[3]                                                                              ; N/A     ;
+; key_control:U5|many_chufa_data[4] ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[4]                                                                              ; N/A     ;
+; key_control:U5|many_chufa_data[4] ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[4]                                                                              ; N/A     ;
+; key_control:U5|many_chufa_data[5] ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[5]                                                                              ; N/A     ;
+; key_control:U5|many_chufa_data[5] ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[5]                                                                              ; N/A     ;
+; key_control:U5|next_ye            ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|next_ye                                                                                         ; N/A     ;
+; key_control:U5|next_ye            ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|next_ye                                                                                         ; N/A     ;
+; key_control:U5|one_chufa_data[0]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[0]                                                                               ; N/A     ;
+; key_control:U5|one_chufa_data[0]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[0]                                                                               ; N/A     ;
+; key_control:U5|one_chufa_data[1]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[1]                                                                               ; N/A     ;
+; key_control:U5|one_chufa_data[1]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[1]                                                                               ; N/A     ;
+; key_control:U5|one_chufa_data[2]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[2]                                                                               ; N/A     ;
+; key_control:U5|one_chufa_data[2]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[2]                                                                               ; N/A     ;
+; key_control:U5|one_chufa_data[3]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[3]                                                                               ; N/A     ;
+; key_control:U5|one_chufa_data[3]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[3]                                                                               ; N/A     ;
+; key_control:U5|one_chufa_data[4]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[4]                                                                               ; N/A     ;
+; key_control:U5|one_chufa_data[4]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[4]                                                                               ; N/A     ;
+; key_control:U5|one_chufa_data[5]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[5]                                                                               ; N/A     ;
+; key_control:U5|one_chufa_data[5]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[5]                                                                               ; N/A     ;
+; key_control:U5|one_chufa_data[6]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[6]                                                                               ; N/A     ;
+; key_control:U5|one_chufa_data[6]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[6]                                                                               ; N/A     ;
+; key_control:U5|one_chufa_data[7]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[7]                                                                               ; N/A     ;
+; key_control:U5|one_chufa_data[7]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[7]                                                                               ; N/A     ;
+; key_control:U5|q_sig[0]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[0] ; N/A     ;
+; key_control:U5|q_sig[0]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[0] ; N/A     ;
+; key_control:U5|q_sig[1]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[1] ; N/A     ;
+; key_control:U5|q_sig[1]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[1] ; N/A     ;
+; key_control:U5|q_sig[2]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[2] ; N/A     ;
+; key_control:U5|q_sig[2]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[2] ; N/A     ;
+; key_control:U5|q_sig[3]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[3] ; N/A     ;
+; key_control:U5|q_sig[3]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[3] ; N/A     ;
+; key_control:U5|q_sig[4]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[4] ; N/A     ;
+; key_control:U5|q_sig[4]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[4] ; N/A     ;
+; key_control:U5|q_sig[5]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[5] ; N/A     ;
+; key_control:U5|q_sig[5]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[5] ; N/A     ;
+; key_control:U5|q_sig[6]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[6] ; N/A     ;
+; key_control:U5|q_sig[6]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[6] ; N/A     ;
+; key_control:U5|q_sig[7]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[7] ; N/A     ;
+; key_control:U5|q_sig[7]           ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[7] ; N/A     ;
+; key_control:U5|q_sig_three[0]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|ram_logic:ram_three_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[0]  ; N/A     ;
+; key_control:U5|q_sig_three[0]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|ram_logic:ram_three_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[0]  ; N/A     ;
+; key_control:U5|q_sig_three[1]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|ram_logic:ram_three_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[1]  ; N/A     ;
+; key_control:U5|q_sig_three[1]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|ram_logic:ram_three_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[1]  ; N/A     ;
+; key_control:U5|q_sig_three[2]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|ram_logic:ram_three_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[2]  ; N/A     ;
+; key_control:U5|q_sig_three[2]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|ram_logic:ram_three_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[2]  ; N/A     ;
+; key_control:U5|q_sig_three[3]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|ram_logic:ram_three_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[3]  ; N/A     ;
+; key_control:U5|q_sig_three[3]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|ram_logic:ram_three_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[3]  ; N/A     ;
+; key_control:U5|q_sig_three[4]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|ram_logic:ram_three_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[4]  ; N/A     ;
+; key_control:U5|q_sig_three[4]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|ram_logic:ram_three_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[4]  ; N/A     ;
+; key_control:U5|q_sig_three[5]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|ram_logic:ram_three_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[5]  ; N/A     ;
+; key_control:U5|q_sig_three[5]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|ram_logic:ram_three_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[5]  ; N/A     ;
+; key_control:U5|q_sig_three[6]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|ram_logic:ram_three_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[6]  ; N/A     ;
+; key_control:U5|q_sig_three[6]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|ram_logic:ram_three_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[6]  ; N/A     ;
+; key_control:U5|q_sig_three[7]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|ram_logic:ram_three_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[7]  ; N/A     ;
+; key_control:U5|q_sig_three[7]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|ram_logic:ram_three_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[7]  ; N/A     ;
+; key_control:U5|time_line[0]       ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line[0]~_wirecell                                                                          ; N/A     ;
+; key_control:U5|time_line[0]       ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line[0]~_wirecell                                                                          ; N/A     ;
+; key_control:U5|time_line[1]       ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line[1]                                                                                    ; N/A     ;
+; key_control:U5|time_line[1]       ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line[1]                                                                                    ; N/A     ;
+; key_control:U5|time_line[2]       ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line[2]                                                                                    ; N/A     ;
+; key_control:U5|time_line[2]       ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line[2]                                                                                    ; N/A     ;
+; key_control:U5|time_line[3]       ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line[3]~_wirecell                                                                          ; N/A     ;
+; key_control:U5|time_line[3]       ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line[3]~_wirecell                                                                          ; N/A     ;
+; key_control:U5|time_line[4]       ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line[4]                                                                                    ; N/A     ;
+; key_control:U5|time_line[4]       ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line[4]                                                                                    ; N/A     ;
+; key_control:U5|time_line[5]       ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line[5]~_wirecell                                                                          ; N/A     ;
+; key_control:U5|time_line[5]       ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line[5]~_wirecell                                                                          ; N/A     ;
+; key_control:U5|time_line[6]       ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line[6]~_wirecell                                                                          ; N/A     ;
+; key_control:U5|time_line[6]       ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line[6]~_wirecell                                                                          ; N/A     ;
+; key_control:U5|time_line[7]       ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line[7]                                                                                    ; N/A     ;
+; key_control:U5|time_line[7]       ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line[7]                                                                                    ; N/A     ;
+; key_control:U5|time_line[8]       ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line[8]                                                                                    ; N/A     ;
+; key_control:U5|time_line[8]       ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line[8]                                                                                    ; N/A     ;
+; key_control:U5|time_line[9]       ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line[9]                                                                                    ; N/A     ;
+; key_control:U5|time_line[9]       ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line[9]                                                                                    ; N/A     ;
+; key_control:U5|time_line_addr[0]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_addr[0]                                                                               ; N/A     ;
+; key_control:U5|time_line_addr[0]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_addr[0]                                                                               ; N/A     ;
+; key_control:U5|time_line_addr[1]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_addr[1]                                                                               ; N/A     ;
+; key_control:U5|time_line_addr[1]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_addr[1]                                                                               ; N/A     ;
+; key_control:U5|time_line_addr[2]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_addr[2]                                                                               ; N/A     ;
+; key_control:U5|time_line_addr[2]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_addr[2]                                                                               ; N/A     ;
+; key_control:U5|time_line_addr[3]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_addr[3]                                                                               ; N/A     ;
+; key_control:U5|time_line_addr[3]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_addr[3]                                                                               ; N/A     ;
+; key_control:U5|time_line_addr[4]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_addr[4]                                                                               ; N/A     ;
+; key_control:U5|time_line_addr[4]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_addr[4]                                                                               ; N/A     ;
+; key_control:U5|time_line_addr[5]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_addr[5]                                                                               ; N/A     ;
+; key_control:U5|time_line_addr[5]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_addr[5]                                                                               ; N/A     ;
+; key_control:U5|time_line_data[0]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_data[0]                                                                               ; N/A     ;
+; key_control:U5|time_line_data[0]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_data[0]                                                                               ; N/A     ;
+; key_control:U5|time_line_data[1]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_data[1]                                                                               ; N/A     ;
+; key_control:U5|time_line_data[1]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_data[1]                                                                               ; N/A     ;
+; key_control:U5|time_line_data[2]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_data[2]                                                                               ; N/A     ;
+; key_control:U5|time_line_data[2]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_data[2]                                                                               ; N/A     ;
+; key_control:U5|time_line_data[3]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_data[3]                                                                               ; N/A     ;
+; key_control:U5|time_line_data[3]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_data[3]                                                                               ; N/A     ;
+; key_control:U5|time_line_data[4]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_data[4]                                                                               ; N/A     ;
+; key_control:U5|time_line_data[4]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_data[4]                                                                               ; N/A     ;
+; key_control:U5|time_line_data[5]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_data[5]                                                                               ; N/A     ;
+; key_control:U5|time_line_data[5]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_data[5]                                                                               ; N/A     ;
+; key_control:U5|time_line_data[6]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_data[6]                                                                               ; N/A     ;
+; key_control:U5|time_line_data[6]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_data[6]                                                                               ; N/A     ;
+; key_control:U5|time_line_data[7]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_data[7]                                                                               ; N/A     ;
+; key_control:U5|time_line_data[7]  ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|time_line_data[7]                                                                               ; N/A     ;
+; key_control:U5|vga_data[0]        ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|vga_data[0]                                                                                     ; N/A     ;
+; key_control:U5|vga_data[0]        ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|vga_data[0]                                                                                     ; N/A     ;
+; key_control:U5|vga_data[1]        ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|vga_data[1]                                                                                     ; N/A     ;
+; key_control:U5|vga_data[1]        ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|vga_data[1]                                                                                     ; N/A     ;
+; key_control:U5|vga_data[2]        ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|vga_data[2]                                                                                     ; N/A     ;
+; key_control:U5|vga_data[2]        ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|vga_data[2]                                                                                     ; N/A     ;
+; key_control:U5|vga_data[3]        ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|vga_data[3]                                                                                     ; N/A     ;
+; key_control:U5|vga_data[3]        ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|vga_data[3]                                                                                     ; N/A     ;
+; key_control:U5|vga_data[4]        ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|vga_data[4]                                                                                     ; N/A     ;
+; key_control:U5|vga_data[4]        ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|vga_data[4]                                                                                     ; N/A     ;
+; key_control:U5|vga_data[5]        ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|vga_data[5]                                                                                     ; N/A     ;
+; key_control:U5|vga_data[5]        ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|vga_data[5]                                                                                     ; N/A     ;
+; key_control:U5|vga_data[6]        ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|vga_data[6]                                                                                     ; N/A     ;
+; key_control:U5|vga_data[6]        ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|vga_data[6]                                                                                     ; N/A     ;
+; key_control:U5|vga_data[7]        ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|vga_data[7]                                                                                     ; N/A     ;
+; key_control:U5|vga_data[7]        ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|vga_data[7]                                                                                     ; N/A     ;
+; single_chufa:U2|q[0]              ; pre-synthesis ; connected ; Top            ; post-synthesis    ; shift_sig:U1|shift_sig[0]                                                                                      ; N/A     ;
+; single_chufa:U2|q[0]              ; pre-synthesis ; connected ; Top            ; post-synthesis    ; shift_sig:U1|shift_sig[0]                                                                                      ; N/A     ;
+; single_chufa:U2|q[1]              ; pre-synthesis ; connected ; Top            ; post-synthesis    ; shift_sig:U1|shift_sig[1]                                                                                      ; N/A     ;
+; single_chufa:U2|q[1]              ; pre-synthesis ; connected ; Top            ; post-synthesis    ; shift_sig:U1|shift_sig[1]                                                                                      ; N/A     ;
+; single_chufa:U2|q[2]              ; pre-synthesis ; connected ; Top            ; post-synthesis    ; shift_sig:U1|shift_sig[2]                                                                                      ; N/A     ;
+; single_chufa:U2|q[2]              ; pre-synthesis ; connected ; Top            ; post-synthesis    ; shift_sig:U1|shift_sig[2]                                                                                      ; N/A     ;
+; single_chufa:U2|q[3]              ; pre-synthesis ; connected ; Top            ; post-synthesis    ; shift_sig:U1|shift_sig[3]                                                                                      ; N/A     ;
+; single_chufa:U2|q[3]              ; pre-synthesis ; connected ; Top            ; post-synthesis    ; shift_sig:U1|shift_sig[3]                                                                                      ; N/A     ;
+; single_chufa:U2|q[4]              ; pre-synthesis ; connected ; Top            ; post-synthesis    ; shift_sig:U1|shift_sig[4]                                                                                      ; N/A     ;
+; single_chufa:U2|q[4]              ; pre-synthesis ; connected ; Top            ; post-synthesis    ; shift_sig:U1|shift_sig[4]                                                                                      ; N/A     ;
+; single_chufa:U2|q[5]              ; pre-synthesis ; connected ; Top            ; post-synthesis    ; shift_sig:U1|shift_sig[5]                                                                                      ; N/A     ;
+; single_chufa:U2|q[5]              ; pre-synthesis ; connected ; Top            ; post-synthesis    ; shift_sig:U1|shift_sig[5]                                                                                      ; N/A     ;
+; single_chufa:U2|q[6]              ; pre-synthesis ; connected ; Top            ; post-synthesis    ; shift_sig:U1|shift_sig[6]                                                                                      ; N/A     ;
+; single_chufa:U2|q[6]              ; pre-synthesis ; connected ; Top            ; post-synthesis    ; shift_sig:U1|shift_sig[6]                                                                                      ; N/A     ;
+; single_chufa:U2|q[7]              ; pre-synthesis ; connected ; Top            ; post-synthesis    ; shift_sig:U1|shift_sig[7]                                                                                      ; N/A     ;
+; single_chufa:U2|q[7]              ; pre-synthesis ; connected ; Top            ; post-synthesis    ; shift_sig:U1|shift_sig[7]                                                                                      ; N/A     ;
+; single_chufa:U2|q_set[0]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[0]                                                                               ; N/A     ;
+; single_chufa:U2|q_set[0]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[0]                                                                               ; N/A     ;
+; single_chufa:U2|q_set[1]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[1]                                                                               ; N/A     ;
+; single_chufa:U2|q_set[1]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[1]                                                                               ; N/A     ;
+; single_chufa:U2|q_set[2]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[2]                                                                               ; N/A     ;
+; single_chufa:U2|q_set[2]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[2]                                                                               ; N/A     ;
+; single_chufa:U2|q_set[3]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[3]                                                                               ; N/A     ;
+; single_chufa:U2|q_set[3]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[3]                                                                               ; N/A     ;
+; single_chufa:U2|q_set[4]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[4]                                                                               ; N/A     ;
+; single_chufa:U2|q_set[4]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[4]                                                                               ; N/A     ;
+; single_chufa:U2|q_set[5]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[5]                                                                               ; N/A     ;
+; single_chufa:U2|q_set[5]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[5]                                                                               ; N/A     ;
+; single_chufa:U2|q_set[6]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[6]                                                                               ; N/A     ;
+; single_chufa:U2|q_set[6]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[6]                                                                               ; N/A     ;
+; single_chufa:U2|q_set[7]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[7]                                                                               ; N/A     ;
+; single_chufa:U2|q_set[7]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|one_chufa_data[7]                                                                               ; N/A     ;
+; single_chufa:U2|q_sig[0]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[0] ; N/A     ;
+; single_chufa:U2|q_sig[0]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[0] ; N/A     ;
+; single_chufa:U2|q_sig[1]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[1] ; N/A     ;
+; single_chufa:U2|q_sig[1]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[1] ; N/A     ;
+; single_chufa:U2|q_sig[2]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[2] ; N/A     ;
+; single_chufa:U2|q_sig[2]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[2] ; N/A     ;
+; single_chufa:U2|q_sig[3]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[3] ; N/A     ;
+; single_chufa:U2|q_sig[3]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[3] ; N/A     ;
+; single_chufa:U2|q_sig[4]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[4] ; N/A     ;
+; single_chufa:U2|q_sig[4]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[4] ; N/A     ;
+; single_chufa:U2|q_sig[5]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[5] ; N/A     ;
+; single_chufa:U2|q_sig[5]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[5] ; N/A     ;
+; single_chufa:U2|q_sig[6]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[6] ; N/A     ;
+; single_chufa:U2|q_sig[6]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[6] ; N/A     ;
+; single_chufa:U2|q_sig[7]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[7] ; N/A     ;
+; single_chufa:U2|q_sig[7]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|q_b[7] ; N/A     ;
+; single_chufa:U2|r_addr[0]         ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[0]                                                                                       ; N/A     ;
+; single_chufa:U2|r_addr[0]         ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[0]                                                                                       ; N/A     ;
+; single_chufa:U2|r_addr[1]         ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[1]                                                                                       ; N/A     ;
+; single_chufa:U2|r_addr[1]         ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[1]                                                                                       ; N/A     ;
+; single_chufa:U2|r_addr[2]         ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[2]                                                                                       ; N/A     ;
+; single_chufa:U2|r_addr[2]         ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[2]                                                                                       ; N/A     ;
+; single_chufa:U2|r_addr[3]         ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[3]                                                                                       ; N/A     ;
+; single_chufa:U2|r_addr[3]         ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[3]                                                                                       ; N/A     ;
+; single_chufa:U2|r_addr[4]         ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[4]                                                                                       ; N/A     ;
+; single_chufa:U2|r_addr[4]         ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[4]                                                                                       ; N/A     ;
+; single_chufa:U2|r_addr[5]         ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[5]                                                                                       ; N/A     ;
+; single_chufa:U2|r_addr[5]         ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[5]                                                                                       ; N/A     ;
+; three_chufa:U3|q_set_three[0]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[0]                                                                              ; N/A     ;
+; three_chufa:U3|q_set_three[0]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[0]                                                                              ; N/A     ;
+; three_chufa:U3|q_set_three[1]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[1]                                                                              ; N/A     ;
+; three_chufa:U3|q_set_three[1]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[1]                                                                              ; N/A     ;
+; three_chufa:U3|q_set_three[2]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[2]                                                                              ; N/A     ;
+; three_chufa:U3|q_set_three[2]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[2]                                                                              ; N/A     ;
+; three_chufa:U3|q_set_three[3]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[3]                                                                              ; N/A     ;
+; three_chufa:U3|q_set_three[3]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[3]                                                                              ; N/A     ;
+; three_chufa:U3|q_set_three[4]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[4]                                                                              ; N/A     ;
+; three_chufa:U3|q_set_three[4]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[4]                                                                              ; N/A     ;
+; three_chufa:U3|q_set_three[5]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[5]                                                                              ; N/A     ;
+; three_chufa:U3|q_set_three[5]     ; pre-synthesis ; connected ; Top            ; post-synthesis    ; key_control:U5|many_chufa_data[5]                                                                              ; N/A     ;
+; three_chufa:U3|r_addr[0]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[0]                                                                                       ; N/A     ;
+; three_chufa:U3|r_addr[0]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[0]                                                                                       ; N/A     ;
+; three_chufa:U3|r_addr[1]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[1]                                                                                       ; N/A     ;
+; three_chufa:U3|r_addr[1]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[1]                                                                                       ; N/A     ;
+; three_chufa:U3|r_addr[2]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[2]                                                                                       ; N/A     ;
+; three_chufa:U3|r_addr[2]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[2]                                                                                       ; N/A     ;
+; three_chufa:U3|r_addr[3]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[3]                                                                                       ; N/A     ;
+; three_chufa:U3|r_addr[3]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[3]                                                                                       ; N/A     ;
+; three_chufa:U3|r_addr[4]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[4]                                                                                       ; N/A     ;
+; three_chufa:U3|r_addr[4]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[4]                                                                                       ; N/A     ;
+; three_chufa:U3|r_addr[5]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[5]                                                                                       ; N/A     ;
+; three_chufa:U3|r_addr[5]          ; pre-synthesis ; connected ; Top            ; post-synthesis    ; three_chufa:U3|r_addr[5]                                                                                       ; N/A     ;
++-----------------------------------+---------------+-----------+----------------+-------------------+----------------------------------------------------------------------------------------------------------------+---------+
+
+
++--------------------------------------------------------+
+; Partition Merge Partition Warnings                     ;
++-------------------------------+------------+-----------+
+; Port                          ; Partition  ; Info      ;
++-------------------------------+------------+-----------+
+; vga_top:U6|many_chufa_data[1] ; vga_top:U6 ; No fanout ;
+; vga_top:U6|many_chufa_data[2] ; vga_top:U6 ; No fanout ;
+; vga_top:U6|many_chufa_data[3] ; vga_top:U6 ; No fanout ;
+; vga_top:U6|many_chufa_data[4] ; vga_top:U6 ; No fanout ;
+; vga_top:U6|many_chufa_data[5] ; vga_top:U6 ; No fanout ;
++-------------------------------+------------+-----------+
+Note: The Incremental Compilation Advisor can be used to get more detailed recommendations.
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge Partition Statistics                                                                                                                                                    ;
++---------------------------------------------+------------------------+-----------------------+--------------------------------+------------------------+--------------------------------+
+; Statistic                                   ; Top                    ; sld_hub:auto_hub      ; sld_signaltap:auto_signaltap_0 ; vga_top:U6             ; hard_block:auto_generated_inst ;
++---------------------------------------------+------------------------+-----------------------+--------------------------------+------------------------+--------------------------------+
+; Estimate of Logic utilization (ALMs needed) ; 222 / 32070 ( < 1 % )  ; 59 / 32070 ( < 1 % )  ; 773 / 32070 ( 2 % )            ; 628 / 32070 ( 2 % )    ; 0 / 32070 ( 0 % )              ;
+;                                             ;                        ;                       ;                                ;                        ;                                ;
+; Combinational ALUT usage for logic          ; 437                    ; 92                    ; 366                            ; 1332                   ; 0                              ;
+;     -- 7 input functions                    ; 0                      ; 1                     ; 0                              ; 125                    ; 0                              ;
+;     -- 6 input functions                    ; 42                     ; 10                    ; 75                             ; 502                    ; 0                              ;
+;     -- 5 input functions                    ; 42                     ; 24                    ; 140                            ; 153                    ; 0                              ;
+;     -- 4 input functions                    ; 56                     ; 16                    ; 22                             ; 140                    ; 0                              ;
+;     -- <=3 input functions                  ; 297                    ; 41                    ; 129                            ; 380                    ; 0                              ;
+; Memory ALUT usage                           ; 0                      ; 0                     ; 0                              ; 32                     ; 0                              ;
+;     -- 64-address deep                      ; 0                      ; 0                     ; 0                              ; 0                      ; 0                              ;
+;     -- 32-address deep                      ; 0                      ; 0                     ; 0                              ; 32                     ; 0                              ;
+;                                             ;                        ;                       ;                                ;                        ;                                ;
+; Dedicated logic registers                   ; 272 / 128280 ( < 1 % ) ; 90 / 128280 ( < 1 % ) ; 1743 / 128280 ( 1 % )          ; 102 / 128280 ( < 1 % ) ; 0 / 128280 ( 0 % )             ;
+;                                             ;                        ;                       ;                                ;                        ;                                ;
+;                                             ;                        ;                       ;                                ;                        ;                                ;
+; I/O pins                                    ; 12                     ; 0                     ; 0                              ; 29                     ; 0                              ;
+; I/O registers                               ; 0                      ; 0                     ; 0                              ; 0                      ; 0                              ;
+; Total block memory bits                     ; 1024                   ; 0                     ; 237568                         ; 70400                  ; 0                              ;
+; Total block memory implementation bits      ; 20480                  ; 0                     ; 245760                         ; 245760                 ; 0                              ;
+; JTAG                                        ; 0 / 1 ( 0 % )          ; 0 / 1 ( 0 % )         ; 0 / 1 ( 0 % )                  ; 0 / 1 ( 0 % )          ; 1 / 1 ( 100 % )                ;
+; M10K block                                  ; 2 / 397 ( < 1 % )      ; 0 / 397 ( 0 % )       ; 24 / 397 ( 6 % )               ; 24 / 397 ( 6 % )       ; 0 / 397 ( 0 % )                ;
+; MLAB cell                                   ; 0 / 19700 ( 0 % )      ; 0 / 19700 ( 0 % )     ; 0 / 19700 ( 0 % )              ; 32 / 19700 ( < 1 % )   ; 0 / 19700 ( 0 % )              ;
+;                                             ;                        ;                       ;                                ;                        ;                                ;
+; Connections                                 ;                        ;                       ;                                ;                        ;                                ;
+;     -- Input Connections                    ; 35                     ; 134                   ; 2557                           ; 336                    ; 1                              ;
+;     -- Registered Input Connections         ; 0                      ; 109                   ; 2002                           ; 182                    ; 0                              ;
+;     -- Output Connections                   ; 1757                   ; 355                   ; 1                              ; 35                     ; 915                            ;
+;     -- Registered Output Connections        ; 333                    ; 354                   ; 0                              ; 0                      ; 0                              ;
+;                                             ;                        ;                       ;                                ;                        ;                                ;
+; Internal Connections                        ;                        ;                       ;                                ;                        ;                                ;
+;     -- Total Connections                    ; 4406                   ; 993                   ; 10021                          ; 6956                   ; 924                            ;
+;     -- Registered Connections               ; 1294                   ; 815                   ; 7909                           ; 1150                   ; 0                              ;
+;                                             ;                        ;                       ;                                ;                        ;                                ;
+; External Connections                        ;                        ;                       ;                                ;                        ;                                ;
+;     -- Top                                  ; 0                      ; 1                     ; 1420                           ; 371                    ; 0                              ;
+;     -- sld_hub:auto_hub                     ; 1                      ; 20                    ; 345                            ; 0                      ; 123                            ;
+;     -- sld_signaltap:auto_signaltap_0       ; 1420                   ; 345                   ; 0                              ; 0                      ; 793                            ;
+;     -- vga_top:U6                           ; 371                    ; 0                     ; 0                              ; 0                      ; 0                              ;
+;     -- hard_block:auto_generated_inst       ; 0                      ; 123                   ; 793                            ; 0                      ; 0                              ;
+;                                             ;                        ;                       ;                                ;                        ;                                ;
+; Partition Interface                         ;                        ;                       ;                                ;                        ;                                ;
+;     -- Input Ports                          ; 11                     ; 21                    ; 291                            ; 43                     ; 4                              ;
+;     -- Output Ports                         ; 150                    ; 39                    ; 244                            ; 105                    ; 9                              ;
+;     -- Bidir Ports                          ; 0                      ; 0                     ; 0                              ; 0                      ; 0                              ;
+;                                             ;                        ;                       ;                                ;                        ;                                ;
+; Registered Ports                            ;                        ;                       ;                                ;                        ;                                ;
+;     -- Registered Input Ports               ; 0                      ; 13                    ; 237                            ; 2                      ; 0                              ;
+;     -- Registered Output Ports              ; 0                      ; 28                    ; 233                            ; 44                     ; 0                              ;
+;                                             ;                        ;                       ;                                ;                        ;                                ;
+; Port Connectivity                           ;                        ;                       ;                                ;                        ;                                ;
+;     -- Input Ports driven by GND            ; 0                      ; 1                     ; 0                              ; 0                      ; 0                              ;
+;     -- Output Ports driven by GND           ; 0                      ; 1                     ; 0                              ; 0                      ; 0                              ;
+;     -- Input Ports driven by VCC            ; 0                      ; 0                     ; 0                              ; 0                      ; 0                              ;
+;     -- Output Ports driven by VCC           ; 0                      ; 0                     ; 0                              ; 0                      ; 0                              ;
+;     -- Input Ports with no Source           ; 0                      ; 1                     ; 35                             ; 0                      ; 0                              ;
+;     -- Output Ports with no Source          ; 0                      ; 0                     ; 0                              ; 0                      ; 0                              ;
+;     -- Input Ports with no Fanout           ; 0                      ; 2                     ; 40                             ; 5                      ; 0                              ;
+;     -- Output Ports with no Fanout          ; 0                      ; 15                    ; 233                            ; 66                     ; 0                              ;
++---------------------------------------------+------------------------+-----------------------+--------------------------------+------------------------+--------------------------------+
+Note: Resource usage numbers presented for Partitions containing post-synthesis logic are estimates.  For Partitions containing post-fit logic, resource usage numbers are accurate based on previous placement information.  Actual Fitter results may vary depending on current Fitter Preservation Level assignments.
+
+
++--------------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge Partition Pin Processing                                                                                             ;
++--------------------------------------+------------+---------------+--------------------+---------------------------------------------+
+; Name                                 ; Partition  ; Type          ; Location           ; Status                                      ;
++--------------------------------------+------------+---------------+--------------------+---------------------------------------------+
+; altera_reserved_tck                  ; Top        ; Input Port    ; n/a                ;                                             ;
+;     -- altera_reserved_tck           ; Top        ; Input Pad     ; Unplaced           ; Synthesized                                 ;
+;     -- altera_reserved_tck~input     ; Top        ; Input Buffer  ; Unplaced           ; Synthesized                                 ;
+;                                      ;            ;               ;                    ;                                             ;
+; altera_reserved_tdi                  ; Top        ; Input Port    ; n/a                ;                                             ;
+;     -- altera_reserved_tdi           ; Top        ; Input Pad     ; Unplaced           ; Synthesized                                 ;
+;     -- altera_reserved_tdi~input     ; Top        ; Input Buffer  ; Unplaced           ; Synthesized                                 ;
+;                                      ;            ;               ;                    ;                                             ;
+; altera_reserved_tdo                  ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- altera_reserved_tdo           ; Top        ; Output Pad    ; Unplaced           ; Synthesized                                 ;
+;     -- altera_reserved_tdo~output    ; Top        ; Output Buffer ; Unplaced           ; Synthesized                                 ;
+;                                      ;            ;               ;                    ;                                             ;
+; altera_reserved_tms                  ; Top        ; Input Port    ; n/a                ;                                             ;
+;     -- altera_reserved_tms           ; Top        ; Input Pad     ; Unplaced           ; Synthesized                                 ;
+;     -- altera_reserved_tms~input     ; Top        ; Input Buffer  ; Unplaced           ; Synthesized                                 ;
+;                                      ;            ;               ;                    ;                                             ;
+; clk                                  ; Top        ; Input Port    ; n/a                ;                                             ;
+;     -- clk                           ; Top        ; Input Pad     ; Unplaced           ; Synthesized                                 ;
+;     -- clk~input                     ; Top        ; Input Buffer  ; Unplaced           ; Synthesized                                 ;
+;                                      ;            ;               ;                    ;                                             ;
+; col[0]                               ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- col[0]                        ; Top        ; Output Pad    ; Unplaced           ; Synthesized                                 ;
+;     -- col[0]~output                 ; Top        ; Output Buffer ; Unplaced           ; Synthesized                                 ;
+;                                      ;            ;               ;                    ;                                             ;
+; col[1]                               ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- col[1]                        ; Top        ; Output Pad    ; Unplaced           ; Synthesized                                 ;
+;     -- col[1]~output                 ; Top        ; Output Buffer ; Unplaced           ; Synthesized                                 ;
+;                                      ;            ;               ;                    ;                                             ;
+; col[2]                               ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- col[2]                        ; Top        ; Output Pad    ; Unplaced           ; Synthesized                                 ;
+;     -- col[2]~output                 ; Top        ; Output Buffer ; Unplaced           ; Synthesized                                 ;
+;                                      ;            ;               ;                    ;                                             ;
+; col[3]                               ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- col[3]                        ; Top        ; Output Pad    ; Unplaced           ; Synthesized                                 ;
+;     -- col[3]~output                 ; Top        ; Output Buffer ; Unplaced           ; Synthesized                                 ;
+;                                      ;            ;               ;                    ;                                             ;
+; key_add                              ; Top        ; Input Port    ; n/a                ;                                             ;
+;     -- key_add                       ; Top        ; Input Pad     ; Unplaced           ; Synthesized                                 ;
+;     -- key_add~input                 ; Top        ; Input Buffer  ; Unplaced           ; Synthesized                                 ;
+;                                      ;            ;               ;                    ;                                             ;
+; key_sub                              ; Top        ; Input Port    ; n/a                ;                                             ;
+;     -- key_sub                       ; Top        ; Input Pad     ; Unplaced           ; Synthesized                                 ;
+;     -- key_sub~input                 ; Top        ; Input Buffer  ; Unplaced           ; Synthesized                                 ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_0_                   ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_1_                   ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_2_                   ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_3_                   ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_4_                   ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_5_                   ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_6_                   ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_7_                   ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_set_0_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_set_1_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_set_2_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_set_3_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_set_4_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_set_5_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_set_6_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_set_7_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_sig_0_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_sig_1_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_sig_2_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_sig_3_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_sig_4_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_sig_5_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_sig_6_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_q_sig_7_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_r_addr_0_              ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_r_addr_1_              ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_r_addr_2_              ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_r_addr_3_              ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_r_addr_4_              ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U2_r_addr_5_              ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U3_q_set_three_0_         ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U3_q_set_three_1_         ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U3_q_set_three_2_         ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U3_q_set_three_3_         ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U3_q_set_three_4_         ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U3_q_set_three_5_         ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U3_r_addr_0_              ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U3_r_addr_1_              ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U3_r_addr_2_              ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U3_r_addr_3_              ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U3_r_addr_4_              ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U3_r_addr_5_              ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U4_key_value              ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U4_row_col_0_             ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U4_row_col_1_             ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U4_row_col_2_             ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U4_row_col_3_             ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U4_row_col_4_             ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U4_row_col_5_             ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U4_row_col_6_             ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U4_row_col_7_             ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_key_add                ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_key_sub                ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_many_chufa_data_0_     ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_many_chufa_data_1_     ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_many_chufa_data_2_     ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_many_chufa_data_3_     ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_many_chufa_data_4_     ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_many_chufa_data_5_     ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_next_ye                ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_one_chufa_data_0_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_one_chufa_data_1_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_one_chufa_data_2_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_one_chufa_data_3_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_one_chufa_data_4_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_one_chufa_data_5_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_one_chufa_data_6_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_one_chufa_data_7_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_q_sig_0_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_q_sig_1_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_q_sig_2_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_q_sig_3_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_q_sig_4_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_q_sig_5_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_q_sig_6_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_q_sig_7_               ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_q_sig_three_0_         ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_q_sig_three_1_         ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_q_sig_three_2_         ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_q_sig_three_3_         ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_q_sig_three_4_         ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_q_sig_three_5_         ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_q_sig_three_6_         ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_q_sig_three_7_         ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_0_           ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_1_           ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_2_           ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_3_           ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_4_           ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_5_           ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_6_           ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_7_           ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_8_           ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_9_           ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_addr_0_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_addr_1_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_addr_2_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_addr_3_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_addr_4_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_addr_5_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_data_0_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_data_1_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_data_2_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_data_3_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_data_4_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_data_5_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_data_6_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_time_line_data_7_      ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_vga_data_0_            ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_vga_data_1_            ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_vga_data_2_            ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_vga_data_3_            ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_vga_data_4_            ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_vga_data_5_            ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_vga_data_6_            ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; pre_syn.bp.U5_vga_data_7_            ; Top        ; Output Port   ; n/a                ;                                             ;
+;                                      ;            ;               ;                    ;                                             ;
+; row[0]                               ; Top        ; Input Port    ; n/a                ;                                             ;
+;     -- row[0]                        ; Top        ; Input Pad     ; Unplaced           ; Synthesized                                 ;
+;     -- row[0]~input                  ; Top        ; Input Buffer  ; Unplaced           ; Synthesized                                 ;
+;                                      ;            ;               ;                    ;                                             ;
+; row[1]                               ; Top        ; Input Port    ; n/a                ;                                             ;
+;     -- row[1]                        ; Top        ; Input Pad     ; Unplaced           ; Synthesized                                 ;
+;     -- row[1]~input                  ; Top        ; Input Buffer  ; Unplaced           ; Synthesized                                 ;
+;                                      ;            ;               ;                    ;                                             ;
+; row[2]                               ; Top        ; Input Port    ; n/a                ;                                             ;
+;     -- row[2]                        ; Top        ; Input Pad     ; Unplaced           ; Synthesized                                 ;
+;     -- row[2]~input                  ; Top        ; Input Buffer  ; Unplaced           ; Synthesized                                 ;
+;                                      ;            ;               ;                    ;                                             ;
+; row[3]                               ; Top        ; Input Port    ; n/a                ;                                             ;
+;     -- row[3]                        ; Top        ; Input Pad     ; Unplaced           ; Synthesized                                 ;
+;     -- row[3]~input                  ; Top        ; Input Buffer  ; Unplaced           ; Synthesized                                 ;
+;                                      ;            ;               ;                    ;                                             ;
+; rst_n                                ; Top        ; Input Port    ; n/a                ;                                             ;
+;     -- rst_n                         ; Top        ; Input Pad     ; Unplaced           ; Synthesized                                 ;
+;     -- rst_n~input                   ; Top        ; Input Buffer  ; Unplaced           ; Synthesized                                 ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_b[0]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_B[0]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_b[0]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X40_Y81_N34  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_B[0]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X40_Y81_N36 ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_b[1]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_B[1]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_b[1]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X28_Y81_N17  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_B[1]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X28_Y81_N19 ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_b[2]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_B[2]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_b[2]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X20_Y81_N0   ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_B[2]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X20_Y81_N2  ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_b[3]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_B[3]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_b[3]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X36_Y81_N17  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_B[3]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X36_Y81_N19 ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_b[4]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_B[4]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_b[4]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X28_Y81_N0   ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_B[4]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X28_Y81_N2  ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_b[5]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_B[5]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_b[5]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X36_Y81_N0   ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_B[5]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X36_Y81_N2  ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_b[6]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_B[6]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_b[6]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X40_Y81_N17  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_B[6]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X40_Y81_N19 ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_b[7]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_B[7]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_b[7]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X32_Y81_N17  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_B[7]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X32_Y81_N19 ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_blank                            ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_BLANK_N        ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_blank                     ; vga_top:U6 ; Output Pad    ; IOPAD_X6_Y81_N17   ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_BLANK_N~output ; vga_top:U6 ; Output Buffer ; IOOBUF_X6_Y81_N19  ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_clk                              ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_CLK            ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_clk                       ; vga_top:U6 ; Output Pad    ; IOPAD_X38_Y81_N34  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_CLK~output     ; vga_top:U6 ; Output Buffer ; IOOBUF_X38_Y81_N36 ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_g[0]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_G[0]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_g[0]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X4_Y81_N17   ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_G[0]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X4_Y81_N19  ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_g[1]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_G[1]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_g[1]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X4_Y81_N0    ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_G[1]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X4_Y81_N2   ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_g[2]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_G[2]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_g[2]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X20_Y81_N17  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_G[2]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X20_Y81_N19 ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_g[3]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_G[3]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_g[3]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X6_Y81_N0    ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_G[3]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X6_Y81_N2   ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_g[4]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_G[4]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_g[4]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X10_Y81_N57  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_G[4]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X10_Y81_N59 ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_g[5]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_G[5]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_g[5]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X10_Y81_N40  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_G[5]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X10_Y81_N42 ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_g[6]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_G[6]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_g[6]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X18_Y81_N40  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_G[6]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X18_Y81_N42 ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_g[7]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_G[7]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_g[7]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X18_Y81_N57  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_G[7]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X18_Y81_N59 ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_hs                               ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_HS             ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_hs                        ; vga_top:U6 ; Output Pad    ; IOPAD_X36_Y81_N51  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_HS~output      ; vga_top:U6 ; Output Buffer ; IOOBUF_X36_Y81_N53 ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_r[0]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_R[0]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_r[0]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X40_Y81_N51  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_R[0]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X40_Y81_N53 ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_r[1]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_R[1]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_r[1]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X38_Y81_N0   ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_R[1]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X38_Y81_N2  ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_r[2]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_R[2]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_r[2]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X26_Y81_N57  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_R[2]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X26_Y81_N59 ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_r[3]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_R[3]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_r[3]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X38_Y81_N17  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_R[3]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X38_Y81_N19 ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_r[4]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_R[4]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_r[4]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X36_Y81_N34  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_R[4]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X36_Y81_N36 ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_r[5]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_R[5]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_r[5]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X22_Y81_N17  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_R[5]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X22_Y81_N19 ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_r[6]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_R[6]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_r[6]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X22_Y81_N0   ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_R[6]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X22_Y81_N2  ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_r[7]                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_R[7]           ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_r[7]                      ; vga_top:U6 ; Output Pad    ; IOPAD_X26_Y81_N40  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_R[7]~output    ; vga_top:U6 ; Output Buffer ; IOOBUF_X26_Y81_N42 ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_sync                             ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_SYNC_N         ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_sync                      ; vga_top:U6 ; Output Pad    ; IOPAD_X28_Y81_N34  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_SYNC_N~output  ; vga_top:U6 ; Output Buffer ; IOOBUF_X28_Y81_N36 ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
+; vga_vs                               ; Top        ; Output Port   ; n/a                ;                                             ;
+;     -- vga_top:U6|VGA_VS             ; vga_top:U6 ; Output Port   ; n/a                ;                                             ;
+;     -- vga_vs                        ; vga_top:U6 ; Output Pad    ; IOPAD_X34_Y81_N40  ; Preserved from Post-Fit or Imported Netlist ;
+;     -- vga_top:U6|VGA_VS~output      ; vga_top:U6 ; Output Buffer ; IOOBUF_X34_Y81_N42 ; Preserved from Post-Fit or Imported Netlist ;
+;                                      ;            ;               ;                    ;                                             ;
++--------------------------------------+------------+---------------+--------------------+---------------------------------------------+
+
+
++---------------------------------------------------------+
+; Partition Merge Resource Usage Summary                  ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimate of Logic utilization (ALMs needed) ; 1742      ;
+;                                             ;           ;
+; Combinational ALUT usage for logic          ; 2195      ;
+;     -- 7 input functions                    ; 126       ;
+;     -- 6 input functions                    ; 629       ;
+;     -- 5 input functions                    ; 359       ;
+;     -- 4 input functions                    ; 234       ;
+;     -- <=3 input functions                  ; 847       ;
+; Memory ALUT usage                           ; 32        ;
+;     -- 64-address deep                      ; 0         ;
+;     -- 32-address deep                      ; 32        ;
+;                                             ;           ;
+; Dedicated logic registers                   ; 2207      ;
+;                                             ;           ;
+; I/O pins                                    ; 41        ;
+; Total MLAB memory bits                      ; 1024      ;
+; Total block memory bits                     ; 308992    ;
+; Total DSP Blocks                            ; 0         ;
+; Maximum fan-out node                        ; clk~input ;
+; Maximum fan-out                             ; 1583      ;
+; Total fan-out                               ; 19209     ;
+; Average fan-out                             ; 4.10      ;
++---------------------------------------------+-----------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge RAM Summary                                                                                                                                                                                                                                                                                       ;
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+--------+------------+
+; Name                                                                                                                                                                                                  ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size   ; MIF        ;
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+--------+------------+
+; single_chufa:U2|ram_logic:ram_logic_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|ALTSYNCRAM                                                                                    ; AUTO ; Simple Dual Port ; 64           ; 8            ; 64           ; 8            ; 512    ; None       ;
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram|altsyncram_ma84:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 2048         ; 116          ; 2048         ; 116          ; 237568 ; None       ;
+; three_chufa:U3|ram_logic:ram_three_inst|altsyncram:altsyncram_component|altsyncram_4jt1:auto_generated|ALTSYNCRAM                                                                                     ; AUTO ; Simple Dual Port ; 64           ; 8            ; 64           ; 8            ; 512    ; None       ;
+; vga_top:U6|vga_control:vga_control|rom_ch:U6|altsyncram:altsyncram_component|altsyncram_8nf1:auto_generated|ALTSYNCRAM                                                                                ; AUTO ; ROM              ; 64           ; 32           ; --           ; --           ; 2048   ; ch.mif     ;
+; vga_top:U6|vga_control:vga_control|rom_number:U7|altsyncram:altsyncram_component|altsyncram_n6g1:auto_generated|ALTSYNCRAM                                                                            ; AUTO ; ROM              ; 512          ; 32           ; --           ; --           ; 16384  ; number.mif ;
+; vga_top:U6|vga_control:vga_control|rom_title:U5|altsyncram:altsyncram_component|altsyncram_c5g1:auto_generated|ALTSYNCRAM                                                                             ; MLAB ; ROM              ; 128          ; 448          ; 128          ; 448          ; 57344  ; title.mif  ;
+; vga_top:U6|vga_control:vga_control|rom_word2:U11|altsyncram:altsyncram_component|altsyncram_h0g1:auto_generated|ALTSYNCRAM                                                                            ; AUTO ; ROM              ; 64           ; 92           ; --           ; --           ; 5888   ; word2.mif  ;
+; vga_top:U6|vga_control:vga_control|rom_word:U10|altsyncram:altsyncram_component|altsyncram_m0g1:auto_generated|ALTSYNCRAM                                                                             ; MLAB ; ROM              ; 64           ; 288          ; 64           ; 288          ; 18432  ; word.mif   ;
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+--------+------------+
+
+
++--------------------------+
+; Partition Merge Messages ;
++--------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Partition Merge
+    Info: Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+    Info: Processing started: Fri Jul 28 15:56:27 2017
+Info: Command: quartus_cdb --read_settings_files=off --write_settings_files=off pro_2003 -c pro_2003 --merge=on
+Info (35007): Using synthesis netlist for partition "Top"
+Info (35006): Using previously generated Fitter netlist for partition "vga_top:U6"
+Info (35007): Using synthesis netlist for partition "sld_hub:auto_hub"
+Info (35007): Using synthesis netlist for partition "sld_signaltap:auto_signaltap_0"
+Info (35024): Succesfully connected in-system debug instance "auto_signaltap_0" to all 233 required data inputs, trigger inputs, acquisition clocks, and dynamic pins
+Info (35002): Resolved and merged 4 partition(s)
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 9 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (35047): Found 5 ports with no fan-out. For more information, refer to the Partition Merger report
+Warning (35016): Found partition port(s) not driving logic, possibly wasting area
+    Warning (35018): Partition port "vga_top:U6|many_chufa_data[1]", driven by node "key_control:U5|many_chufa_data[1]", does not drive logic
+    Warning (35018): Partition port "vga_top:U6|many_chufa_data[2]", driven by node "key_control:U5|many_chufa_data[2]", does not drive logic
+    Warning (35018): Partition port "vga_top:U6|many_chufa_data[3]", driven by node "key_control:U5|many_chufa_data[3]", does not drive logic
+    Warning (35018): Partition port "vga_top:U6|many_chufa_data[4]", driven by node "key_control:U5|many_chufa_data[4]", does not drive logic
+    Warning (35018): Partition port "vga_top:U6|many_chufa_data[5]", driven by node "key_control:U5|many_chufa_data[5]", does not drive logic
+Info (21057): Implemented 4072 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 11 input pins
+    Info (21059): Implemented 34 output pins
+    Info (21061): Implemented 3838 logic cells
+    Info (21064): Implemented 188 RAM segments
+Info: Quartus II 64-Bit Partition Merge was successful. 0 errors, 6 warnings
+    Info: Peak virtual memory: 735 megabytes
+    Info: Processing ended: Fri Jul 28 15:56:31 2017
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:04
+
+

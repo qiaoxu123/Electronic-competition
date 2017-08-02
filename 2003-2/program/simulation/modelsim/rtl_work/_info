@@ -1,0 +1,145 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\2017diansai\2003_luojifenxiyi\program\program2\simulation\modelsim
+vkey_board
+I>8VkC?b32>Yzh`^f41Sa[1
+VCi[ze=ThzINQ40KnbL[ND1
+Z1 dE:\2017diansai\2003_luojifenxiyi\program\program2\simulation\modelsim
+w1501152362
+8E:/2017diansai/2003_luojifenxiyi/program/program2/key_board.v
+FE:/2017diansai/2003_luojifenxiyi/program/program2/key_board.v
+L0 18
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+E:/2017diansai/2003_luojifenxiyi/program/program2 -O0
+!i10b 1
+!s100 oI8V_XMJ7We4_50kY;HT12
+!s85 0
+!s108 1501207475.809000
+!s107 E:/2017diansai/2003_luojifenxiyi/program/program2/key_board.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2003_luojifenxiyi/program/program2|E:/2017diansai/2003_luojifenxiyi/program/program2/key_board.v|
+!s101 -O0
+vpro_2003
+I9?ZOW;9MV=d9Z6G5aSW^=2
+V_z0V0:LQPYHaDfh1NAS@B2
+R1
+w1501207453
+8E:/2017diansai/2003_luojifenxiyi/program/program2/pro_2003.v
+FE:/2017diansai/2003_luojifenxiyi/program/program2/pro_2003.v
+L0 8
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 Gm;5eIDg8NFilNML`FjfV1
+!s85 0
+!s108 1501207476.018000
+!s107 E:/2017diansai/2003_luojifenxiyi/program/program2/pro_2003.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2003_luojifenxiyi/program/program2|E:/2017diansai/2003_luojifenxiyi/program/program2/pro_2003.v|
+!s101 -O0
+vram_logic
+I4PX9KjV0?dVWW]BLdIVW<1
+V=bhDmn2lcU90?32R>^2?<1
+R1
+w1501127011
+8E:/2017diansai/2003_luojifenxiyi/program/program2/ram_logic.v
+FE:/2017diansai/2003_luojifenxiyi/program/program2/ram_logic.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ZWzTDWHeLLiMlh<gb24UZ1
+!s85 0
+!s108 1501207476.078000
+!s107 E:/2017diansai/2003_luojifenxiyi/program/program2/ram_logic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2003_luojifenxiyi/program/program2|E:/2017diansai/2003_luojifenxiyi/program/program2/ram_logic.v|
+!s101 -O0
+vshift_sig
+ITeERY:ihAM72XgZ@HIiHL3
+Vk1^BL5fKoKGlU4I<JoB4G3
+R1
+w1501122246
+8E:/2017diansai/2003_luojifenxiyi/program/program2/shift_sig.v
+FE:/2017diansai/2003_luojifenxiyi/program/program2/shift_sig.v
+L0 8
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 Q9PNaZZgbJH`G7SK`V4<21
+!s85 0
+!s108 1501207475.954000
+!s107 E:/2017diansai/2003_luojifenxiyi/program/program2/shift_sig.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2003_luojifenxiyi/program/program2|E:/2017diansai/2003_luojifenxiyi/program/program2/shift_sig.v|
+!s101 -O0
+vsingle_chufa
+I<HM?d<_F2EPb7DR_SCjVU3
+VlAW5fU`mT9MzIHMkb7>Gd1
+R1
+w1501204424
+8E:/2017diansai/2003_luojifenxiyi/program/program2/single_chufa.v
+FE:/2017diansai/2003_luojifenxiyi/program/program2/single_chufa.v
+L0 8
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 mK4zXCm>NbXNb`H^l9iT43
+!s85 0
+!s108 1501207475.891000
+!s107 E:/2017diansai/2003_luojifenxiyi/program/program2/single_chufa.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2003_luojifenxiyi/program/program2|E:/2017diansai/2003_luojifenxiyi/program/program2/single_chufa.v|
+!s101 -O0
+vtb_2003
+!i10b 1
+!s100 hm=C1VTSBKGkB;?W:gaBG2
+IC2[h;z[G;0<0TMcEQ;W8b3
+V`Bgbm:FfR?:3^AXMFC<MP3
+R1
+w1501122933
+8E:/2017diansai/2003_luojifenxiyi/program/program2/tb_2003.v
+FE:/2017diansai/2003_luojifenxiyi/program/program2/tb_2003.v
+L0 9
+R2
+r1
+!s85 0
+31
+!s108 1501207476.145000
+!s107 E:/2017diansai/2003_luojifenxiyi/program/program2/tb_2003.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2003_luojifenxiyi/program/program2|E:/2017diansai/2003_luojifenxiyi/program/program2/tb_2003.v|
+!s101 -O0
+R3
+R4
+vthree_chufa
+IW0U__1DS2gz_8ZjM@K]OE2
+VFP;RHme1=H>X5ciGD:B3=2
+R1
+w1501204498
+8E:/2017diansai/2003_luojifenxiyi/program/program2/three_chufa.v
+FE:/2017diansai/2003_luojifenxiyi/program/program2/three_chufa.v
+L0 8
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 [5IOlRh_Jeh8Y?eShQYiZ0
+!s85 0
+!s108 1501207475.746000
+!s107 E:/2017diansai/2003_luojifenxiyi/program/program2/three_chufa.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2003_luojifenxiyi/program/program2|E:/2017diansai/2003_luojifenxiyi/program/program2/three_chufa.v|
+!s101 -O0

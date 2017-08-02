@@ -1,0 +1,115 @@
+# Reading D:/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do pro_2003_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2003_luojifenxiyi/program/program2 {E:/2017diansai/2003_luojifenxiyi/program/program2/three_chufa.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module three_chufa
+# 
+# Top level modules:
+# 	three_chufa
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2003_luojifenxiyi/program/program2 {E:/2017diansai/2003_luojifenxiyi/program/program2/key_board.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module key_board
+# 
+# Top level modules:
+# 	key_board
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2003_luojifenxiyi/program/program2 {E:/2017diansai/2003_luojifenxiyi/program/program2/single_chufa.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module single_chufa
+# 
+# Top level modules:
+# 	single_chufa
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2003_luojifenxiyi/program/program2 {E:/2017diansai/2003_luojifenxiyi/program/program2/shift_sig.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module shift_sig
+# 
+# Top level modules:
+# 	shift_sig
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2003_luojifenxiyi/program/program2 {E:/2017diansai/2003_luojifenxiyi/program/program2/pro_2003.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pro_2003
+# 
+# Top level modules:
+# 	pro_2003
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2003_luojifenxiyi/program/program2 {E:/2017diansai/2003_luojifenxiyi/program/program2/ram_logic.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram_logic
+# 
+# Top level modules:
+# 	ram_logic
+# 
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2003_luojifenxiyi/program/program2 {E:/2017diansai/2003_luojifenxiyi/program/program2/tb_2003.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tb_2003
+# 
+# Top level modules:
+# 	tb_2003
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_2003
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_2003 
+# Loading work.tb_2003
+# Loading work.pro_2003
+# Loading work.shift_sig
+# Loading work.single_chufa
+# Loading work.ram_logic
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.three_chufa
+# Loading work.key_board
+# ** Warning: (vsim-3017) E:/2017diansai/2003_luojifenxiyi/program/program2/tb_2003.v(26): [TFMPC] - Too few port connections. Expected 7, found 3.
+# 
+#         Region: /tb_2003/tb
+# ** Warning: (vsim-3722) E:/2017diansai/2003_luojifenxiyi/program/program2/tb_2003.v(26): [TFMPC] - Missing connection for port 'row'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2003_luojifenxiyi/program/program2/tb_2003.v(26): [TFMPC] - Missing connection for port 'col'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2003_luojifenxiyi/program/program2/tb_2003.v(26): [TFMPC] - Missing connection for port 'key_add'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2003_luojifenxiyi/program/program2/tb_2003.v(26): [TFMPC] - Missing connection for port 'key_sub'.
+# 
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+add wave -position insertpoint sim:/tb_2003/tb/U3/*
+restart
+# ** Warning: (vsim-3017) E:/2017diansai/2003_luojifenxiyi/program/program2/tb_2003.v(26): [TFMPC] - Too few port connections. Expected 7, found 3.
+# 
+#         Region: /tb_2003/tb
+# ** Warning: (vsim-3722) E:/2017diansai/2003_luojifenxiyi/program/program2/tb_2003.v(26): [TFMPC] - Missing connection for port 'row'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2003_luojifenxiyi/program/program2/tb_2003.v(26): [TFMPC] - Missing connection for port 'col'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2003_luojifenxiyi/program/program2/tb_2003.v(26): [TFMPC] - Missing connection for port 'key_add'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2003_luojifenxiyi/program/program2/tb_2003.v(26): [TFMPC] - Missing connection for port 'key_sub'.
+# 
+run
+add wave -position insertpoint sim:/tb_2003/tb/U2/*
+restart
+# ** Warning: (vsim-3017) E:/2017diansai/2003_luojifenxiyi/program/program2/tb_2003.v(26): [TFMPC] - Too few port connections. Expected 7, found 3.
+# 
+#         Region: /tb_2003/tb
+# ** Warning: (vsim-3722) E:/2017diansai/2003_luojifenxiyi/program/program2/tb_2003.v(26): [TFMPC] - Missing connection for port 'row'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2003_luojifenxiyi/program/program2/tb_2003.v(26): [TFMPC] - Missing connection for port 'col'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2003_luojifenxiyi/program/program2/tb_2003.v(26): [TFMPC] - Missing connection for port 'key_add'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2003_luojifenxiyi/program/program2/tb_2003.v(26): [TFMPC] - Missing connection for port 'key_sub'.
+# 
+run
