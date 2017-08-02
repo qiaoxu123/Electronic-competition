@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=W\R\/SCLK Pin=P5-3
+Removed Pin From Net: NetName=FSK/BPSK/HOLD Pin=P5-4
+Removed Pin From Net: NetName=+3.3VD Pin=P5-6
+Removed Pin From Net: NetName=DGND Pin=P5-7
+Removed Pin From Net: NetName=OSK Pin=P5-9
+Removed Pin From Net: NetName=R\D\/C\S\ Pin=P5-10
+Change Component DesignItemId : Designator=U4 Old DesignItemId= New DesignItemId=AD9854
+Change Component DesignItemId : Designator=U1 Old DesignItemId= New DesignItemId=AMS1117
+Change Component DesignItemId : Designator=U2 Old DesignItemId= New DesignItemId=LM317
+Change Component DesignItemId : Designator=P1 Old DesignItemId= New DesignItemId=Pin 2
+Change Component DesignItemId : Designator=P2 Old DesignItemId= New DesignItemId=pin 4
+Change Component DesignItemId : Designator=P3 Old DesignItemId= New DesignItemId=pin 4
+Change Component DesignItemId : Designator=P4 Old DesignItemId= New DesignItemId=Pin 6X2
+Change Component DesignItemId : Designator=P5 Old DesignItemId= New DesignItemId=Pin 6X2
+Change Component DesignItemId : Designator=U5 Old DesignItemId= New DesignItemId=有源晶振5032
+Change Component DesignItemId : Designator=RW1 Old DesignItemId= New DesignItemId=电位器
+Change Component Description : Designator=D1 Old Description=1 Amp General Purpose New Description=1 Amp General Purpose Rectifier
+Change Component Description : Designator=D2 Old Description=1 Amp General Purpose New Description=1 Amp General Purpose Rectifier
+Change Component Description : Designator=D3 Old Description=1 Amp General Purpose New Description=1 Amp General Purpose Rectifier
+Added Pin To Net: NetName=W\R\/SCLK Pin=P5-4
+Added Pin To Net: NetName=OSK Pin=P5-6
+Added Pin To Net: NetName=FSK/BPSK/HOLD Pin=P5-7
+Added Pin To Net: NetName=R\D\/C\S\ Pin=P5-9
+Added Room: Name=原理图

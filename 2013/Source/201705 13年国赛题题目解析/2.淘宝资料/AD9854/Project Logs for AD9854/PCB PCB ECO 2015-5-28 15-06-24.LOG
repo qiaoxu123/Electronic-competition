@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=RESET Pin=P5-2
+Removed Pin From Net: NetName=A0/SDIO Pin=P5-3
+Removed Pin From Net: NetName=W\R\/SCLK Pin=P5-4
+Removed Pin From Net: NetName=+3.3VD Pin=P5-5
+Removed Pin From Net: NetName=R\D\/C\S\ Pin=P5-9
+Removed Pin From Net: NetName=I/O UDCLK Pin=P5-10
+Removed Pin From Net: NetName=A1/SDO Pin=P5-11
+Added Pin To Net: NetName=RESET Pin=P5-1
+Added Pin To Net: NetName=A0/SDIO Pin=P5-2
+Added Pin To Net: NetName=W\R\/SCLK Pin=P5-3
+Added Pin To Net: NetName=+3.3VD Pin=P5-4
+Added Pin To Net: NetName=DGND Pin=P5-5
+Added Pin To Net: NetName=+3.3VD Pin=P5-9
+Added Pin To Net: NetName=R\D\/C\S\ Pin=P5-10
+Added Pin To Net: NetName=I/O UDCLK Pin=P5-11
+Added Pin To Net: NetName=A1/SDO Pin=P5-12
+Added Room: Name=‘≠¿ÌÕº

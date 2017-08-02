@@ -1,0 +1,331 @@
+Release 7.1.04i - xst H.42
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.59 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.59 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Reading design: sincos.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+  5) Advanced HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "sincos.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "sincos"
+Output Format                      : NGC
+Target Device                      : xc2s200-5-pq208
+
+---- Source Options
+Top Module Name                    : sincos
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : lut
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100
+Add Generic Clock Buffer(BUFG)     : 4
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : sincos.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+safe_implementation                : No
+Optimize Instantiated Primitives   : NO
+tristate2logic                     : Yes
+use_clock_enable                   : Yes
+use_sync_set                       : Yes
+use_sync_reset                     : Yes
+enable_auto_floorplanning          : No
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "E:/dds(9854)_test(sin_cos)/sincos.vhd" in Library work.
+Entity <sincos> compiled.
+Entity <sincos> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <sincos> (Architecture <behavioral>).
+Entity <sincos> analyzed. Unit <sincos> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sincos>.
+    Related source file is "E:/dds(9854)_test(sin_cos)/sincos.vhd".
+    Found 1-bit register for signal <mst_rst>.
+    Found 8-bit register for signal <d>.
+    Found 6-bit register for signal <a>.
+    Found 1-bit register for signal <io_ud>.
+    Found 7-bit comparator lessequal for signal <$n0005> created at line 55.
+    Found 6-bit register for signal <address_tmp>.
+    Found 6-bit up counter for signal <count>.
+    Found 8-bit register for signal <data_tmp>.
+    Found 6-bit up counter for signal <dount>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  30 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <sincos> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                         : 2
+ 6-bit up counter                  : 2
+# Registers                        : 6
+ 1-bit register                    : 2
+ 6-bit register                    : 2
+ 8-bit register                    : 2
+# Comparators                      : 1
+ 7-bit comparator lessequal        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch  <data_tmp_1> (without init value) has a constant value of 0 in block <sincos>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <data_tmp_5> (without init value) has a constant value of 0 in block <sincos>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <d_1> (without init value) has a constant value of 0 in block <sincos>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <d_5> (without init value) has a constant value of 0 in block <sincos>.
+
+Optimizing unit <sincos> ...
+Loading device for application Rf_Device from file 'v200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sincos, actual ratio is 1.
+FlipFlop count_2 has been replicated 1 time(s)
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : sincos.ngr
+Top Level Output File Name         : sincos
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 18
+
+Macro Statistics :
+# Registers                        : 8
+#      1-bit register              : 2
+#      6-bit register              : 4
+#      8-bit register              : 2
+# Adders/Subtractors               : 2
+#      6-bit adder                 : 2
+# Comparators                      : 1
+#      7-bit comparator lessequal  : 1
+
+Cell Usage :
+# BELS                             : 80
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 7
+#      LUT1_L                      : 3
+#      LUT2_D                      : 1
+#      LUT3                        : 9
+#      LUT3_D                      : 3
+#      LUT3_L                      : 4
+#      LUT4                        : 6
+#      LUT4_L                      : 22
+#      MUXCY                       : 10
+#      VCC                         : 1
+#      XORCY                       : 10
+# FlipFlops/Latches                : 39
+#      FD                          : 17
+#      FDE                         : 6
+#      FDR                         : 9
+#      FDS                         : 7
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 17
+#      OBUF                        : 17
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s200pq208-5 
+
+ Number of Slices:                      38  out of   2352     1%  
+ Number of Slice Flip Flops:            39  out of   4704     0%  
+ Number of 4 input LUTs:                55  out of   4704     1%  
+ Number of bonded IOBs:                 18  out of    144    12%  
+ Number of GCLKs:                        1  out of      4    25%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 39    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 9.671ns (Maximum Frequency: 103.402MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 7.999ns
+   Maximum combinational path delay: 12.342ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 9.671ns (frequency: 103.402MHz)
+  Total number of paths / destination ports: 314 / 59
+-------------------------------------------------------------------------
+Delay:               9.671ns (Levels of Logic = 2)
+  Source:            count_3 (FF)
+  Destination:       address_tmp_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: count_3 to address_tmp_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             18   1.292   3.000  count_3 (count_3)
+     LUT3_D:I0->O          7   0.653   1.950  Ker211 (N21)
+     LUT4:I3->O            2   0.653   1.340  Ker81 (N81)
+     FDS:S                     0.783          address_tmp_1
+    ----------------------------------------
+    Total                      9.671ns (3.381ns logic, 6.290ns route)
+                                       (35.0% logic, 65.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 14 / 14
+-------------------------------------------------------------------------
+Offset:              7.999ns (Levels of Logic = 1)
+  Source:            io_ud (FF)
+  Destination:       io_ud (PAD)
+  Source Clock:      clk rising
+
+  Data Path: io_ud to io_ud
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   1.292   1.150  io_ud (io_ud_OBUF)
+     OBUF:I->O                 5.557          io_ud_OBUF (io_ud)
+    ----------------------------------------
+    Total                      7.999ns (6.849ns logic, 1.150ns route)
+                                       (85.6% logic, 14.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               12.342ns (Levels of Logic = 3)
+  Source:            clk (PAD)
+  Destination:       wrb (PAD)
+
+  Data Path: clk to wrb
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     BUFGP:I->O           40   0.782   4.200  clk_BUFGP (clk_BUFGP)
+     INV:I->O              1   0.653   1.150  wrb1_INV_0 (wrb_OBUF)
+     OBUF:I->O                 5.557          wrb_OBUF (wrb)
+    ----------------------------------------
+    Total                     12.342ns (6.992ns logic, 5.350ns route)
+                                       (56.7% logic, 43.3% route)
+
+=========================================================================
+CPU : 3.72 / 4.40 s | Elapsed : 3.00 / 4.00 s
+ 
+--> 
+
+Total memory usage is 79856 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

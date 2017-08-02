@@ -1,0 +1,5 @@
+___adblockplus({"queryid" : "afd7aa1cd866fbae","tuid" : "u2811621_0","placement" : {"basic" : {"cname":"65035100_cpr","conBackEnv":1,"flowType":1,"mediumType":1,"rspFormat":1,"sellType":2,"sspId":1,"tuId":9223372032562620133,"userId":7812760}
+,"container" : {"anchoredType":1,"floated":{},"height":250,"sizeType":1,"width":680}
+,"fillstyle" : {"elements":[50],"ignoreStyleMode":2,"layout":[1,2],"styleTemplateId":[60101],"styleType":3,"txt":{"number":0}}
+,"userdefine" : "|adp=1|at=3|conBW=1|cpro_template=baiduCustNativeAD|pat=6|pih=0|piw=0|ptbg=90|ptp=0|ptt=0|rss1=#FFFFFF|rss2=#000000|titFF=微软雅黑|titFS=14|titSU=0|tn=baiduCustNativeAD","complement_type" : 2,"update" : "1478613314_1479259184"},"extends" : {"ssph":250,"sspw":680}
+,"pdb_deliv" : {"deliv_id" : "0","deliv_des" : {},"brandad" : 0},"order_deliv" : {"deliv_id" : "0","demand_id" : "0"},"rtb_deliv" : {"deliv_id" : "0","demand_id" : "2811621"},"media_protect" : ""});

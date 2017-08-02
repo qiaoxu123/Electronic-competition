@@ -1,0 +1,14 @@
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log

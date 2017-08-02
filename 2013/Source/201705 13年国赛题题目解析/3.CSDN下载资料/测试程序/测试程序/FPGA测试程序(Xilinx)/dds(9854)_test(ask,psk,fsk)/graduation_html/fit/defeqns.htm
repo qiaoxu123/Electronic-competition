@@ -1,0 +1,453 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+</td></tr><tr><td>
+$OpTx$FX_DC$36 <= dial(2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$OpTx$FX_DC$36 <= dial(1);
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+FDCPE_a0: FDCPE port map (a(0),address_tmp(0),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_a1: FDCPE port map (a(1),address_tmp(1),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_a2: FDCPE port map (a(2),address_tmp(2),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_a3: FDCPE port map (a(3),address_tmp(3),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_a4: FDCPE port map (a(4),d_0.EXP,clk,'0','0');
+</td></tr><tr><td>
+FDCPE_a5: FDCPE port map (a(5),address_tmp(5),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_address_tmp0: FDCPE port map (address_tmp(0),address_tmp_D(0),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;address_tmp_D(0) <= ((EXP40_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (EXP41_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(0) AND count(2) AND count(4) AND address_tmp(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND count(1) AND count(4) AND address_tmp(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(0) AND count(2) AND count(1) AND count(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	address_tmp(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(1) AND NOT count(2) AND NOT count(1) AND count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	address_tmp(0)));
+</td></tr><tr><td>
+FDCPE_address_tmp1: FDCPE port map (address_tmp(1),address_tmp_D(1),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;address_tmp_D(1) <= ((EXP42_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (EXP43_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(0) AND count(2) AND count(4) AND address_tmp(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT dial(0) AND NOT count(2) AND NOT count(1) AND address_tmp(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND count(1) AND count(4) AND address_tmp(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(0) AND count(2) AND count(1) AND count(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	address_tmp(1)));
+</td></tr><tr><td>
+FTCPE_address_tmp2: FTCPE port map (address_tmp(2),address_tmp_T(2),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;address_tmp_T(2) <= ((EXP45_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (EXP51_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT count(3) AND NOT count(0) AND address_tmp(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND NOT count(1) AND count(0) AND NOT address_tmp(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT count(2) AND count(1) AND count(3) AND NOT address_tmp(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(0) AND NOT count(2) AND count(1) AND count(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT address_tmp(2)));
+</td></tr><tr><td>
+FDCPE_address_tmp3: FDCPE port map (address_tmp(3),address_tmp_D(3),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;address_tmp_D(3) <= ((EXP14_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (EXP17_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(5) AND NOT address_tmp(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(0) AND count(2) AND NOT address_tmp(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(1) AND NOT count(2) AND NOT count(1) AND NOT address_tmp(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND count(1) AND count(4) AND NOT address_tmp(3)));
+</td></tr><tr><td>
+FTCPE_address_tmp4: FTCPE port map (address_tmp(4),address_tmp_T(4),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;address_tmp_T(4) <= ((EXP16_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a_4.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT dial(0) AND dial(2) AND NOT dial(1) AND count(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(4) AND NOT count(5) AND address_tmp(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT dial(0) AND NOT dial(2) AND dial(1) AND count(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(4) AND NOT count(5) AND address_tmp(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT dial(0) AND dial(2) AND NOT dial(1) AND count(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	count(1) AND NOT count(4) AND NOT count(5) AND address_tmp(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT dial(0) AND NOT dial(2) AND dial(1) AND count(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	count(1) AND NOT count(4) AND NOT count(5) AND address_tmp(4)));
+</td></tr><tr><td>
+FDCPE_address_tmp5: FDCPE port map (address_tmp(5),address_tmp_D(5),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;address_tmp_D(5) <= ((EXP48_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (EXP49_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(0) AND count(2) AND NOT count(1) AND address_tmp(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(0) AND count(2) AND count(3) AND address_tmp(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT count(1) AND NOT count(3) AND NOT count(4) AND address_tmp(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(1) AND NOT count(2) AND NOT count(1) AND count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	address_tmp(5)));
+</td></tr><tr><td>
+FTCPE_count0: FTCPE port map (count(0),count_T(0),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count_T(0) <= (NOT count(2) AND NOT count(1) AND count(3) AND NOT count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(0) AND count(5));
+</td></tr><tr><td>
+FTCPE_count1: FTCPE port map (count(1),count(0),clk,'0','0');
+</td></tr><tr><td>
+FTCPE_count2: FTCPE port map (count(2),count_T(2),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count_T(2) <= (count(1) AND count(0));
+</td></tr><tr><td>
+FTCPE_count3: FTCPE port map (count(3),count_T(3),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count_T(3) <= ((count(2) AND count(1) AND count(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT count(2) AND NOT count(1) AND count(3) AND NOT count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(0) AND count(5)));
+</td></tr><tr><td>
+FTCPE_count4: FTCPE port map (count(4),count_T(4),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count_T(4) <= (count(2) AND count(1) AND count(3) AND count(0));
+</td></tr><tr><td>
+FTCPE_count5: FTCPE port map (count(5),count_T(5),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count_T(5) <= ((count(2) AND count(1) AND count(3) AND count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	count(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT count(2) AND NOT count(1) AND count(3) AND NOT count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(0) AND count(5)));
+</td></tr><tr><td>
+FDCPE_d0: FDCPE port map (d(0),data_tmp(0),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_d1: FDCPE port map (d(1),data_tmp(1),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_d2: FDCPE port map (d(2),data_tmp(2),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_d3: FDCPE port map (d(3),data_tmp(3),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_d4: FDCPE port map (d(4),data_tmp(4),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_d5: FDCPE port map (d(5),data_tmp(5),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_d6: FDCPE port map (d(6),data_tmp(6),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_d7: FDCPE port map (d(7),data_tmp(7),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_data_tmp0: FDCPE port map (data_tmp(0),data_tmp_D(0),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data_tmp_D(0) <= ((EXP22_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (EXP23_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(5) AND NOT data_tmp(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(0) AND dial(2) AND NOT data_tmp(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(0) AND dial(1) AND NOT data_tmp(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(2) AND dial(1) AND NOT data_tmp(0)));
+</td></tr><tr><td>
+FDCPE_data_tmp1: FDCPE port map (data_tmp(1),data_tmp_D(1),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data_tmp_D(1) <= ((EXP34_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (EXP35_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(5) AND data_tmp(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(0) AND count(2) AND count(4) AND data_tmp(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND count(1) AND count(3) AND data_tmp(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(1) AND NOT count(2) AND NOT count(1) AND count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	data_tmp(1)));
+</td></tr><tr><td>
+FDCPE_data_tmp2: FDCPE port map (data_tmp(2),data_tmp_D(2),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data_tmp_D(2) <= ((EXP27_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (EXP38_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(5) AND data_tmp(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(0) AND count(2) AND count(4) AND data_tmp(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND count(1) AND count(3) AND data_tmp(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(1) AND NOT count(2) AND NOT count(1) AND count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	data_tmp(2)));
+</td></tr><tr><td>
+FDCPE_data_tmp3: FDCPE port map (data_tmp(3),data_tmp_D(3),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data_tmp_D(3) <= ((EXP11_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (EXP12_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(0) AND count(2) AND count(4) AND data_tmp(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(1) AND NOT count(2) AND NOT count(1) AND data_tmp(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(0) AND count(2) AND count(1) AND count(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	data_tmp(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT dial(0) AND dial(2) AND NOT dial(1) AND NOT count(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(1) AND count(3) AND NOT count(4) AND NOT count(5)));
+</td></tr><tr><td>
+FDCPE_data_tmp4: FDCPE port map (data_tmp(4),data_tmp_D(4),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data_tmp_D(4) <= ((EXP25_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (EXP26_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(5) AND data_tmp(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(0) AND count(2) AND count(4) AND data_tmp(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(0) AND count(2) AND count(1) AND count(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	data_tmp(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(1) AND NOT count(2) AND NOT count(1) AND count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	data_tmp(4)));
+</td></tr><tr><td>
+FDCPE_data_tmp5: FDCPE port map (data_tmp(5),data_tmp_D(5),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data_tmp_D(5) <= ((EXP28_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (EXP29_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT count(2) AND NOT count(3) AND NOT count(4) AND data_tmp(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(1) AND NOT count(2) AND NOT count(1) AND NOT count(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	data_tmp(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT dial(0) AND dial(2) AND NOT dial(1) AND count(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	count(1) AND count(3) AND NOT count(4) AND NOT count(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT dial(0) AND NOT dial(2) AND dial(1) AND count(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	count(3) AND NOT count(4) AND count(0) AND NOT count(5)));
+</td></tr><tr><td>
+FDCPE_data_tmp6: FDCPE port map (data_tmp(6),data_tmp_D(6),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data_tmp_D(6) <= ((EXP18_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (EXP19_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(5) AND data_tmp(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(0) AND count(2) AND count(4) AND data_tmp(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(1) AND NOT count(2) AND NOT count(1) AND count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	data_tmp(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT dial(1) AND count(2) AND count(1) AND count(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	data_tmp(6)));
+</td></tr><tr><td>
+FDCPE_data_tmp7: FDCPE port map (data_tmp(7),data_tmp_D(7),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data_tmp_D(7) <= ((EXP31_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (EXP32_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(5) AND data_tmp(7))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(0) AND count(2) AND count(4) AND data_tmp(7))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(0) AND count(2) AND count(1) AND count(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	data_tmp(7))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (dial(1) AND NOT count(2) AND NOT count(1) AND count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	data_tmp(7)));
+</td></tr><tr><td>
+FTCPE_div0: FTCPE port map (div(0),'1',clk,'0','0');
+</td></tr><tr><td>
+FTCPE_div1: FTCPE port map (div(1),div(0),clk,'0','0');
+</td></tr><tr><td>
+FTCPE_div2: FTCPE port map (div(2),div_T(2),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(2) <= (div(0) AND div(1));
+</td></tr><tr><td>
+FTCPE_div3: FTCPE port map (div(3),div_T(3),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(3) <= (div(0) AND div(1) AND div(2));
+</td></tr><tr><td>
+FTCPE_div4: FTCPE port map (div(4),div_T(4),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(4) <= (div(0) AND div(1) AND div(2) AND div(3));
+</td></tr><tr><td>
+FTCPE_div5: FTCPE port map (div(5),div_T(5),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(5) <= (div(0) AND div(1) AND div(2) AND div(3) AND div(4));
+</td></tr><tr><td>
+FTCPE_div6: FTCPE port map (div(6),div_T(6),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(6) <= (div(0) AND div(1) AND div(2) AND div(3) AND div(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(5));
+</td></tr><tr><td>
+FTCPE_div7: FTCPE port map (div(7),div_T(7),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(7) <= (div(0) AND div(1) AND div(2) AND div(3) AND div(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(5) AND div(6));
+</td></tr><tr><td>
+FTCPE_div8: FTCPE port map (div(8),div_T(8),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(8) <= (div(0) AND div(1) AND div(2) AND div(3) AND div(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(5) AND div(6) AND div(7));
+</td></tr><tr><td>
+FTCPE_div9: FTCPE port map (div(9),div_T(9),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(9) <= (div(0) AND div(1) AND div(2) AND div(3) AND div(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(5) AND div(6) AND div(7) AND div(8));
+</td></tr><tr><td>
+FTCPE_div10: FTCPE port map (div(10),div_T(10),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(10) <= (div(0) AND div(1) AND div(2) AND div(3) AND div(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(5) AND div(6) AND div(7) AND div(8) AND div(9));
+</td></tr><tr><td>
+FTCPE_div11: FTCPE port map (div(11),div_T(11),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;div_T(11) <= (div(0) AND div(10) AND div(1) AND div(2) AND div(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	div(4) AND div(5) AND div(6) AND div(7) AND div(8) AND div(9));
+</td></tr><tr><td>
+FTCPE_dount0: FTCPE port map (dount(0),dount_T(0),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dount_T(0) <= ((NOT dount(2) AND NOT dount(3) AND NOT dount(4) AND NOT dount(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT dount(0) AND NOT dount(1) AND NOT dount(3) AND NOT dount(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT dount(5)));
+</td></tr><tr><td>
+FTCPE_dount1: FTCPE port map (dount(1),dount_T(1),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dount_T(1) <= (dount(0) AND NOT dount(2) AND NOT dount(3) AND NOT dount(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT dount(5));
+</td></tr><tr><td>
+FTCPE_dount2: FTCPE port map (dount(2),dount_T(2),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dount_T(2) <= (dount(0) AND dount(1) AND NOT dount(2) AND NOT dount(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT dount(4) AND NOT dount(5));
+</td></tr><tr><td>
+FTCPE_dount3: FTCPE port map (dount(3),'0',clk,'0','0');
+</td></tr><tr><td>
+FTCPE_dount4: FTCPE port map (dount(4),'0',clk,'0','0');
+</td></tr><tr><td>
+FTCPE_dount5: FTCPE port map (dount(5),'0',clk,'0','0');
+</td></tr><tr><td>
+FDCPE_fsk: FDCPE port map (fsk,div(11),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_io_ud: FDCPE port map (io_ud,io_ud_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;io_ud_D <= (count(2) AND count(1) AND NOT count(3) AND count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	count(0) AND NOT count(5));
+</td></tr><tr><td>
+FDCPE_mst_rst: FDCPE port map (mst_rst,dount(1).EXP,clk,'0','0');
+</td></tr><tr><td>
+FDCPE_output27: FDCPE port map (output2(7),state(19),clk,'0','0');
+</td></tr><tr><td>
+FTCPE_state0: FTCPE port map (state(0),'1',clk,'0','0');
+</td></tr><tr><td>
+FTCPE_state1: FTCPE port map (state(1),state(0),clk,'0','0');
+</td></tr><tr><td>
+FTCPE_state2: FTCPE port map (state(2),state_T(2),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_T(2) <= (state(0) AND state(1));
+</td></tr><tr><td>
+FTCPE_state3: FTCPE port map (state(3),state_T(3),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_T(3) <= (state(0) AND state(1) AND state(2));
+</td></tr><tr><td>
+FTCPE_state4: FTCPE port map (state(4),state_T(4),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_T(4) <= (state(0) AND state(1) AND state(2) AND state(3));
+</td></tr><tr><td>
+FTCPE_state5: FTCPE port map (state(5),state_T(5),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_T(5) <= (state(0) AND state(1) AND state(2) AND state(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(4));
+</td></tr><tr><td>
+FTCPE_state6: FTCPE port map (state(6),state_T(6),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_T(6) <= (state(0) AND state(1) AND state(2) AND state(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(4) AND state(5));
+</td></tr><tr><td>
+FTCPE_state7: FTCPE port map (state(7),state_T(7),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_T(7) <= (state(0) AND state(1) AND state(2) AND state(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(4) AND state(5) AND state(6));
+</td></tr><tr><td>
+FTCPE_state8: FTCPE port map (state(8),state_T(8),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_T(8) <= (state(0) AND state(1) AND state(2) AND state(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(4) AND state(5) AND state(6) AND state(7));
+</td></tr><tr><td>
+FTCPE_state9: FTCPE port map (state(9),state_T(9),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_T(9) <= (state(0) AND state(1) AND state(2) AND state(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(4) AND state(5) AND state(6) AND state(7) AND state(8));
+</td></tr><tr><td>
+FTCPE_state10: FTCPE port map (state(10),state_T(10),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_T(10) <= (state(0) AND state(1) AND state(2) AND state(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(4) AND state(5) AND state(6) AND state(7) AND state(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(9));
+</td></tr><tr><td>
+FTCPE_state11: FTCPE port map (state(11),state_T(11),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_T(11) <= (state(0) AND state(10) AND state(1) AND state(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(3) AND state(4) AND state(5) AND state(6) AND state(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(8) AND state(9));
+</td></tr><tr><td>
+FTCPE_state12: FTCPE port map (state(12),state_T(12),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_T(12) <= (state(0) AND state(10) AND state(11) AND state(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(2) AND state(3) AND state(4) AND state(5) AND state(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(7) AND state(8) AND state(9));
+</td></tr><tr><td>
+FTCPE_state13: FTCPE port map (state(13),state_T(13),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_T(13) <= (state(0) AND state(10) AND state(11) AND state(12) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(1) AND state(2) AND state(3) AND state(4) AND state(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(6) AND state(7) AND state(8) AND state(9));
+</td></tr><tr><td>
+FTCPE_state14: FTCPE port map (state(14),state_T(14),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_T(14) <= (state(0) AND state(10) AND state(11) AND state(12) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(13) AND state(1) AND state(2) AND state(3) AND state(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(5) AND state(6) AND state(7) AND state(8) AND state(9));
+</td></tr><tr><td>
+FTCPE_state15: FTCPE port map (state(15),state_T(15),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_T(15) <= (state(0) AND state(10) AND state(11) AND state(12) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(13) AND state(14) AND state(1) AND state(2) AND state(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(4) AND state(5) AND state(6) AND state(7) AND state(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(9));
+</td></tr><tr><td>
+FTCPE_state16: FTCPE port map (state(16),state_T(16),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_T(16) <= (state(0) AND state(10) AND state(11) AND state(12) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(13) AND state(14) AND state(15) AND state(1) AND state(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(3) AND state(4) AND state(5) AND state(6) AND state(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(8) AND state(9));
+</td></tr><tr><td>
+FTCPE_state17: FTCPE port map (state(17),state_T(17),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_T(17) <= (state(0) AND state(10) AND state(11) AND state(12) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(13) AND state(14) AND state(15) AND state(16) AND state(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(2) AND state(3) AND state(4) AND state(5) AND state(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(7) AND state(8) AND state(9));
+</td></tr><tr><td>
+FTCPE_state18: FTCPE port map (state(18),state_T(18),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_T(18) <= (state(0) AND state(10) AND state(11) AND state(12) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(13) AND state(14) AND state(15) AND state(16) AND state(17) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(1) AND state(2) AND state(3) AND state(4) AND state(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(6) AND state(7) AND state(8) AND state(9));
+</td></tr><tr><td>
+FTCPE_state19: FTCPE port map (state(19),state_T(19),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;state_T(19) <= (state(0) AND state(10) AND state(11) AND state(12) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(13) AND state(14) AND state(15) AND state(16) AND state(17) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(18) AND state(1) AND state(2) AND state(3) AND state(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	state(5) AND state(6) AND state(7) AND state(8) AND state(9));
+</td></tr><tr><td>
+</td></tr><tr><td>
+wrb <= NOT clk;
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

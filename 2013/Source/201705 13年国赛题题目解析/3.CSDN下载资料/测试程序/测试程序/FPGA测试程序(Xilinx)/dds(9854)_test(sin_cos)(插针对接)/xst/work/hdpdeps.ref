@@ -1,0 +1,6 @@
+V2 3
+FL E:/dds(9854)_test(sin_cos)/sincos.vhd 2011/08/05.09:17:54 H.42
+EN work/SINCOS 1312532279          FL E:/dds(9854)_test(sin_cos)/sincos.vhd \
+      PB ieee/STD_LOGIC_1164 1106404628 PB ieee/STD_LOGIC_ARITH 1106404630 \
+      PB ieee/STD_LOGIC_UNSIGNED 1106404634
+AR work/SINCOS/BEHAVIORAL 1312532280 FL E:/dds(9854)_test(sin_cos)/sincos.vhd EN work/SINCOS 1312532279

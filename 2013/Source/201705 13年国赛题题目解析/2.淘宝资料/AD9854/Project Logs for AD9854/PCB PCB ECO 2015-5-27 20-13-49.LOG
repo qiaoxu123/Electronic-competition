@@ -1,0 +1,16 @@
+Added Component: Designator=C29(0805)
+Added Component: Designator=C30(0805)
+Added Component: Designator=C31(0805)
+Added Component: Designator=C32(0805)
+Added Component: Designator=C33(0805)
+Added Component: Designator=C34(0805)
+Added Pin To Net: NetName=NetC32_2 Pin=C32-2
+Added Pin To Net: NetName=NetC32_2 Pin=C33-1
+Added Net: Name=NetC32_2
+Added Member To Class: ClassName=原理图 Member=Component C29 C
+Added Member To Class: ClassName=原理图 Member=Component C30 C
+Added Member To Class: ClassName=原理图 Member=Component C31 C
+Added Member To Class: ClassName=原理图 Member=Component C32 C
+Added Member To Class: ClassName=原理图 Member=Component C33 C
+Added Member To Class: ClassName=原理图 Member=Component C34 C
+Added Room: Name=原理图

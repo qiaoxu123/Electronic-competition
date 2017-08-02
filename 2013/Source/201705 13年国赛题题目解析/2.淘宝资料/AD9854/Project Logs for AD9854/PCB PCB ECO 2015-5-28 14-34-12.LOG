@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetLED3_1 Pin=LED3-1
+Removed Pin From Net: NetName=-5VA Pin=LED3-2
+Removed Pin From Net: NetName=NetLED3_1 Pin=R25-1
+Removed Pin From Net: NetName=AGND Pin=R25-2
+Added Pin To Net: NetName=AGND Pin=LED3-1
+Added Pin To Net: NetName=NetLED3_1 Pin=LED3-2
+Added Pin To Net: NetName=-5VA Pin=R25-1
+Added Pin To Net: NetName=NetLED3_1 Pin=R25-2
+Change Net Name : Old Net Name=NetLED3_1 New Net Name=NetLED3_2
+Added Room: Name=‘≠¿ÌÕº

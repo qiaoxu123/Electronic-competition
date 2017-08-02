@@ -1,0 +1,23 @@
+NET "clk" LOC = "p128";
+#########################
+NET "io_ud" LOC = "p31";
+NET "d<7>" LOC = "p17";
+NET "d<6>" LOC = "p15";
+NET "d<5>" LOC = "p21";
+NET "d<4>" LOC = "p13";
+NET "d<3>" LOC = "p23";
+NET "d<2>" LOC = "p10";
+NET "d<1>" LOC = "p25";
+NET "d<0>" LOC = "p7";
+NET "a<5>" LOC = "p9";
+NET "a<4>" LOC = "p6";
+NET "a<3>" LOC = "p14";
+NET "a<2>" LOC = "p12";
+NET "a<1>" LOC = "p19";
+NET "a<0>" LOC = "p16";
+NET "wrb" LOC = "p26";
+NET "mst_rst" LOC = "p3";
+NET "fsk" LOC="p32";
+NET "dial<2>" LOC="p64";
+NET "dial<1>" LOC="p66";
+NET "dial<0>" LOC="p69";

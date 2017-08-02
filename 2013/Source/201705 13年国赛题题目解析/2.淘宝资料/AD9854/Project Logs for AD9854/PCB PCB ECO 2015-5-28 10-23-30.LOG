@@ -1,0 +1,6 @@
+Added Component: Designator=C36(0805)
+Added Pin To Net: NetName=NetP1_1 Pin=C36-1
+Added Pin To Net: NetName=AGND Pin=C36-2
+Change Net Name : Old Net Name=NetP1_1 New Net Name=NetC36_1
+Added Member To Class: ClassName=原理图 Member=Component C36 C
+Added Room: Name=原理图

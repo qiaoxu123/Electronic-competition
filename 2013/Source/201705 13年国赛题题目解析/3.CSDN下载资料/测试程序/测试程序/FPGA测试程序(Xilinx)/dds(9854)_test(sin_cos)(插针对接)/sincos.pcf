@@ -1,0 +1,24 @@
+//! **************************************************************************
+// Written by: Map H.42 on Fri Aug 05 09:18:06 2011
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "d<7>" LOCATE = SITE "P20" LEVEL 1;
+COMP "clk" LOCATE = SITE "P182" LEVEL 1;
+COMP "mst_rst" LOCATE = SITE "P23" LEVEL 1;
+COMP "a<0>" LOCATE = SITE "P5" LEVEL 1;
+COMP "a<1>" LOCATE = SITE "P4" LEVEL 1;
+COMP "a<2>" LOCATE = SITE "P7" LEVEL 1;
+COMP "a<3>" LOCATE = SITE "P6" LEVEL 1;
+COMP "io_ud" LOCATE = SITE "P206" LEVEL 1;
+COMP "a<4>" LOCATE = SITE "P9" LEVEL 1;
+COMP "a<5>" LOCATE = SITE "P8" LEVEL 1;
+COMP "d<0>" LOCATE = SITE "P14" LEVEL 1;
+COMP "d<1>" LOCATE = SITE "P10" LEVEL 1;
+COMP "d<2>" LOCATE = SITE "P16" LEVEL 1;
+COMP "d<3>" LOCATE = SITE "P15" LEVEL 1;
+COMP "wrb" LOCATE = SITE "P3" LEVEL 1;
+COMP "d<4>" LOCATE = SITE "P18" LEVEL 1;
+COMP "d<5>" LOCATE = SITE "P17" LEVEL 1;
+COMP "d<6>" LOCATE = SITE "P21" LEVEL 1;
+SCHEMATIC END;

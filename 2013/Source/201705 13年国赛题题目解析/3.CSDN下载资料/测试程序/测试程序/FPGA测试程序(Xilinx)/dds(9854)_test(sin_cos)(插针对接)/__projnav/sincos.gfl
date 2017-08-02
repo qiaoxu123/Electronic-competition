@@ -1,0 +1,9724 @@
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+sincos_html
+sincos.cmd_log
+# Create Timing Constraints
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Implmentation : Generate Timing
+__projnav/sincos_vm6TOtim_tcl.rsp
+sincos.tim
+sincos.mod
+sincos.data
+sincos.cmd_log
+f:\sincos/sincos_html
+__projnav\taengine.err
+# Implmentation : FitRpt
+sincos_html
+sincos._trpt
+sincos.cmd_log
+# Implmentation : FitRpt
+sincos.rptt
+# ModelSim : Launch ModelSim Simulator
+sincos.ldo
+# ModelSim : Launch ModelSim Simulator
+vsim.wlf
+# VHDL : Create Schematic Symbol
+__projnav/tb.rsp
+__projnav/vhd2spl.err
+# ModelSim : Launch ModelSim Simulator
+vsim.wlf
+# VHDL : View HDL Instantiation Template
+__projnav/tb.rsp
+sincos.vhi
+__projnav/vhd2vhi.err
+# View RTL Schematic
+sincos.ngr
+sincos.ngc
+# View Technology Schematic
+sincos.ngr
+sincos.ngc
+# Implmentation : FitRpt
+sincos_html
+sincos._hrpt
+sincos.cmd_log
+# Implmentation : FitRpt
+sincos.rpth
+# Generate Post-Fit Simulation Model
+__projnav/sincos_vm6TOnga_tcl.rsp
+sincos.nga
+sincos.cmd_log
+# Implmentation : Generate Post-Par Simulation Model (VHDL flow)
+sincos_timesim.vhd
+sincos_timesim.vhd
+ngaTOsincos.vhdsim_par
+sincos.vhdsim_par
+sincos_timesim.nlf
+sincos.cmd_log
+# Implementation : Generate IBIS Model (CPLD Flow)
+sincos.ibs
+sincos.cmd_log
+# Implmentation : Lock Pins (CPLD flow)
+__projnav/sincos_TO_lc_tcl.rsp
+sincos.lck
+sincos.lpc
+sincos.cmd_log
+# ModelSim : Launch ModelSim Simulator
+vsim.wlf
+# Create Timing Constraints
+# Assign Package Pins (Design Module)
+if
+ $IsCopy 
+
+            Xilinx::Dpm::dpm_flowUtilsFilesToDelete "DID_File"  "$HDLModule"
+         
+# Edit Constraints (Text)
+# View RTL Schematic
+sincos.ngr
+sincos.ngc
+# View Technology Schematic
+sincos.ngr
+sincos.ngc
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/sincos_edfTOngd_tcl.rsp
+sincos.ngd
+sincos.bld
+sincos_ngdbuild.nav
+_ngo/netlist.lst
+sincos.ucf.untf
+sincos_html
+sincos.cmd_log
+# Implmentation : Fit
+__projnav/sincos_ngdTOvm6_tcl.rsp
+sincos.vm6
+sincos.cxt
+sincos.blx
+sincos.mfd
+sincos.rpt
+sincos.log
+sincos.pnx
+sincos.gyd
+sincos.xml
+sincos_build.xml
+sincos.ptf
+sincos.bl
+errors.xml
+tmperr.err
+sincos.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/sincos_vm6TOjed_tcl.rsp
+sincos.jed
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Edit Constraints (Text)
+# Edit Constraints (Text)
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"f:\ceshi\sincos/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"f:\ceshi\sincos/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"f:\ceshi\sincos/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"f:\ceshi\sincos/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"f:\ceshi\sincos/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# xst flow : RunXST
+sincos_summary.html
+# Edit Constraints (Text)
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos_summary.html
+# Edit Constraints (Text)
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\dds(9854)_test/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\dds(9854)_test/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\dds(9854)_test/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\dds(9854)_test/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\dds(9854)_test/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\dds(9854)_test/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\dds(9854)_test/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\dds(9854)_test/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\dds(9854)_test/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\dds(9854)_test/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\dds(9854)_test/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\dds(9854)_test/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\dds(9854)_test/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\dds(9854)_test/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\dds(9854)_test/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# xst flow : RunXST
+sincos_summary.html
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\dds(9854)_test/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# xst flow : RunXST
+sincos_summary.html
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# xst flow : RunXST
+sincos_summary.html
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# xst flow : RunXST
+sincos_summary.html
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# xst flow : RunXST
+sincos_summary.html
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# xst flow : RunXST
+sincos_summary.html
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# xst flow : RunXST
+sincos_summary.html
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# xst flow : RunXST
+sincos_summary.html
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# xst flow : RunXST
+sincos_summary.html
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# xst flow : RunXST
+sincos_summary.html
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\??¡Á???¨¹??¨¦-????dds(ad9854asq)??¨¦?³²??¡Á???\??????¨°\fpga??????¨°(xilinx)\dds(9854)_test(sin_cos)(???????)/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# Edit Constraints (Text)
+# xst flow : RunXST
+sincos_summary.html
+# Edit Constraints (Text)
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"e:\dds(9854)_test(sin_cos)/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"e:\dds(9854)_test(sin_cos)/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"e:\dds(9854)_test(sin_cos)/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sincos.lso
+# xst flow : RunXST
+sincos_summary.html
+# xst flow : RunXST
+sincos.syr
+sincos.prj
+sincos.sprj
+sincos.ana
+sincos.stx
+sincos.cmd_log
+sincos.ngc
+sincos.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"e:\dds(9854)_test(sin_cos)/_ngo"
+sincos.ngd
+sincos_ngdbuild.nav
+sincos.bld
+sincos.ucf.untf
+sincos.cmd_log
+# Implementation : Map
+sincos_summary.html
+# Implementation : Map
+sincos_map.ncd
+sincos.ngm
+sincos.pcf
+sincos.nc1
+sincos.mrp
+sincos_map.mrp
+sincos.mdf
+sincos.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sincos"
+sincos_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sincos.twr
+sincos.twx
+sincos.tsi
+sincos.cmd_log
+# Implementation : Place & Route
+sincos_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sincos.ncd
+sincos.par
+sincos.pad
+sincos_pad.txt
+sincos_pad.csv
+sincos.pad_txt
+sincos.dly
+reportgen.log
+sincos.xpi
+sincos.grf
+sincos.itr
+sincos_last_par.ncd
+sincos.placed_ncd_tracker
+sincos.routed_ncd_tracker
+sincos.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sincos"
+# Generate Programming File
+__projnav/sincos_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sincos.ut
+# Generate Programming File
+sincos.bgn
+sincos.rbt
+sincos.ll
+sincos.msk
+sincos.drc
+sincos.nky
+sincos.bit
+sincos.bin
+sincos.isc
+sincos.cmd_log
+# Configure Device (iMPACT)
+sincos.prm
+sincos.isc
+sincos.svf
+xilinx.sys
+sincos.mcs
+sincos.exo
+sincos.hex
+sincos.tek
+sincos.dst
+sincos.dst_compressed
+sincos.mpm
+_impact.cmd
+_impact.log

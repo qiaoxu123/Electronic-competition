@@ -1,0 +1,29 @@
+Change Component DesignItemId : Designator=U4 Old DesignItemId= New DesignItemId=AD9854
+Change Component DesignItemId : Designator=U1 Old DesignItemId= New DesignItemId=AMS1117
+Change Component DesignItemId : Designator=U2 Old DesignItemId= New DesignItemId=LM317
+Change Component DesignItemId : Designator=P1 Old DesignItemId= New DesignItemId=Pin 2
+Change Component DesignItemId : Designator=P2 Old DesignItemId= New DesignItemId=pin 4
+Change Component DesignItemId : Designator=P3 Old DesignItemId= New DesignItemId=pin 4
+Change Component DesignItemId : Designator=P4 Old DesignItemId= New DesignItemId=Pin 6X2
+Change Component DesignItemId : Designator=P5 Old DesignItemId= New DesignItemId=Pin 6X2
+Change Component DesignItemId : Designator=U5 Old DesignItemId= New DesignItemId=有源晶振5032
+Change Component DesignItemId : Designator=RW1 Old DesignItemId= New DesignItemId=电位器
+Change Component Description : Designator=D1 Old Description=1 New Description=1 Amp General Purpose Rectifier
+Change Component Description : Designator=D2 Old Description=1 New Description=1 Amp General Purpose Rectifier
+Change Component Description : Designator=D3 Old Description=1 New Description=1 Amp General Purpose Rectifier
+Change Component Library : Designator=P1 Old Library= New Library=我的元件库.SchLib
+Change Component Library : Designator=P2 Old Library= New Library=我的元件库.SchLib
+Change Component Library : Designator=P3 Old Library= New Library=我的元件库.SchLib
+Change Component Library : Designator=P4 Old Library= New Library=我的元件库.SchLib
+Change Component Library : Designator=P5 Old Library= New Library=我的元件库.SchLib
+Change Component Library : Designator=RW1 Old Library= New Library=我的元件库.SchLib
+Change Component Library : Designator=U1 Old Library= New Library=我的元件库.SchLib
+Change Component Library : Designator=U2 Old Library= New Library=我的元件库.SchLib
+Change Component Library : Designator=U4 Old Library= New Library=我的集成库.IntLib
+Change Component Library : Designator=U5 Old Library= New Library=我的集成库.IntLib
+Added Component: Designator=R26(0805)
+Added Pin To Net: NetName=DGND Pin=R26-1
+Added Pin To Net: NetName=DGND Pin=R26-2
+Added Member To Class: ClassName=原理图 Member=Component C21 0.1u
+Added Member To Class: ClassName=原理图 Member=Component R26 0
+Added Room: Name=原理图

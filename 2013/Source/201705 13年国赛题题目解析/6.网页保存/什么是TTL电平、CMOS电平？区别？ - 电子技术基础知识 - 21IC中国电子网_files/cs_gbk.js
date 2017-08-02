@@ -1,0 +1,14 @@
+document.writeln("<dd><a target=\"_blank\" href=\"http://dl.21ic.com/adi/\">ADI亚德诺</a></dd>");
+document.writeln("<dd><a target=\"_blank\" href=\"http://cypress.21ic.com/\">Cypress</a></dd>");
+document.writeln("<dd><a target=\"_blank\" href=\"http://www.21ic.com/keysight/\">keysight是德科技</a></dd>");
+document.writeln("<dd><a target=\"_blank\" href=\"http://www.21ic.com/linear/\">Linear</a></dd>");
+document.writeln("<dd><a target=\"_blank\" href=\"http://www.21ic.com/microchip/\">Microchip</a></dd>");
+document.writeln("<dd><a target=\"_blank\" href=\"http://www.21ic.com/ni/\">NI美国国家仪器</a></dd>");
+document.writeln("<dd><a target=\"_blank\" href=\"http://21ic.sunrtb.cn/c?m=21ic&v=71.390.379&fc=1&l=http://www.21ic.com/pi/\">PI</a></dd>");
+document.writeln("<dd><a target=\"_blank\" href=\"http://www.21ic.com/st/f7/\">ST MCU技术子站</a></dd>");
+document.writeln("<dd><a target=\"_blank\" href=\"http://www.21ic.com/ti/\">TI热门产品</a></dd>");
+document.writeln("<dd><a target=\"_blank\" href=\"http://www.21ic.com/ti_dlp/\">TI DLP&reg; 技术充电站</a></dd>");
+document.writeln("<dd><a target=\"_blank\" href=\"http://www.21ic.com/ti/asc\">TI 信号链资料合集</a></dd>");
+document.writeln("<dd><a target=\"_blank\" href=\"http://www.21ic.com/deyisupport2017/\">TI技术支持社区</a></dd>");
+document.writeln("<dd><a target=\"_blank\" href=\"http://edu.21ic.com/\">TI在线培训</a></dd>");
+document.writeln("<dd><a target=\"_blank\" href=\"http://www.21ic.com/toshiba/\">TOSHIBA技术社区</a></dd>");

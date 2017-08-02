@@ -1,0 +1,106 @@
+C51 COMPILER V8.02   MAIN                                                                  08/27/2008 15:24:53 PAGE 1   
+
+
+C51 COMPILER V8.02, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN main.OBJ
+COMPILER INVOKED BY: d:\Keil\C51\BIN\C51.EXE main.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          //=====================================================================
+   2          //                    多功能高频测试仪程序
+   3          //硬件连接: 见各个子文件 
+   4          //文件名：  DDS.c
+   5          //writer:   谷雨 2008年8月23日于EDA实验室
+   6          //说明：    本程序为课题答辩程序
+   7          //=====================================================================
+   8          
+   9          /**********************************4*4键盘操作界面***********************/
+  10          /*                 
+  11                   0           1            2             3
+  12          
+  13                           4                       5                        6                             7
+  14          
+  15                           8                       9                      FSK/HZ        RFSK/KHZ
+  16          
+  17                     BPSK/MHZ       清零/OSK          退出/AM               确定/SIN
+  18          */
+  19          
+  20          #include <STC89C51RC.h>               //STC单片机头文件 
+  21          #include "AD9854.h"  
+  22          #include "ocmj.h"
+  23          #include "key.h" 
+  24          #include "menu.h"
+  25          
+  26          #define uint  unsigned int
+  27          #define uchar unsigned char
+  28          
+  29          int main(void)
+  30          {
+  31   1              uchar KEY;
+  32   1      
+  33   1              AD9854_Init();
+  34   1              init_lcd();
+  35   1              show_kaiji();
+  36   1              show_select();  
+  37   1              while(1)
+  38   1              {
+  39   2                      KEY=Key_Get();
+  40   2                      if(KEY!=0xff)
+  41   2                      {
+  42   3                              switch(KEY)
+  43   3                              {
+  44   4                                      case 0:
+  45   4                                      case 1:
+  46   4                                      case 2:
+  47   4                                      case 3:
+  48   4                                      case 4:
+  49   4                                      case 5:
+  50   4                                      case 6:
+  51   4                                      case 7:
+  52   4                                      case 8:
+  53   4                                      case 9:
+  54   4                                              show_error();
+  55   4                                              break;
+C51 COMPILER V8.02   MAIN                                                                  08/27/2008 15:24:53 PAGE 2   
+
+  56   4                                      case 10:
+  57   4                                              show_FSK();
+  58   4                                              break;
+  59   4                                      case 11:
+  60   4                                              show_RFSK();
+  61   4                                              break;
+  62   4                                      case 12:
+  63   4                                              show_BPSK();
+  64   4                                              break;
+  65   4                                      case 13:
+  66   4                                              show_OSK();
+  67   4                                              break;
+  68   4                                      case 14:
+  69   4                                              show_AM();
+  70   4                                              break;
+  71   4                                      case 15:
+  72   4                                              show_SIN();
+  73   4                                              break;
+  74   4                                      default:
+  75   4                                          break;
+  76   4                              }
+  77   3                              KEY=0xff;
+  78   3                      }       
+  79   2              } 
+  80   1      }
+  81          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    122    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----       1
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

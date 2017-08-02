@@ -1,0 +1,60 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.titlerec-main {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 610px;
+}
+.titlerec-col {
+    float: left;
+    width: 295px;
+    margin: 0 5px;
+}
+.titlerec-list {
+    width: 295px;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.titlerec-li {
+    background: url(/static/img/list-square.png) no-repeat scroll 0 center;
+    text-indent: 10px;
+    width: 295px;
+    height: 21px;
+    line-height: 21px;
+    font-size: 14px;
+    display: inline-block;
+    overflow: hidden;
+}
+.titlerec-item {
+    color: #767676;
+    text-decoration: none;
+}
+.titlerec-item:hover {
+    text-decoration: underline;
+    color: #767676;
+}
+.titlerec-item:visited {
+    color: #767676;
+}
+em {
+    font-style: normal;
+}
+.bdcs-logo {
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    z-index: 999;
+    border: none;
+}

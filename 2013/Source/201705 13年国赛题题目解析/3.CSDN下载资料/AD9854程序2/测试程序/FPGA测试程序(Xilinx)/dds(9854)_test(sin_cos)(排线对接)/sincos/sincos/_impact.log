@@ -1,0 +1,22 @@
+iMPACT Version: H.38
+iMPACT log file started on 2009/10/17 08:55:38
+// *** BATCH CMD : setPreference -pref UserLevel:NOVICE
+// *** BATCH CMD : setPreference -pref MessageLevel:DETAILED
+// *** BATCH CMD : setPreference -pref ConcurrentMode:FALSE
+// *** BATCH CMD : setPreference -pref UseHighz:FALSE
+// *** BATCH CMD : setPreference -pref ConfigOnFailure:STOP
+// *** BATCH CMD : setPreference -pref StartupCLock:AUTO_CORRECTION
+// *** BATCH CMD : setPreference -pref AutoSignature:FALSE
+// *** BATCH CMD : setPreference -pref KeepSVF:FALSE
+// *** BATCH CMD : setPreference -pref svfUseTime:FALSE
+// *** BATCH CMD : setPreference -pref UserLevel:NOVICE
+// *** BATCH CMD : setPreference -pref MessageLevel:DETAILED
+// *** BATCH CMD : setPreference -pref ConcurrentMode:FALSE
+// *** BATCH CMD : setPreference -pref UseHighz:FALSE
+// *** BATCH CMD : setPreference -pref ConfigOnFailure:STOP
+// *** BATCH CMD : setPreference -pref StartupCLock:AUTO_CORRECTION
+// *** BATCH CMD : setPreference -pref AutoSignature:FALSE
+// *** BATCH CMD : setPreference -pref KeepSVF:FALSE
+// *** BATCH CMD : setPreference -pref svfUseTime:FALSE
+// *** BATCH CMD : setMode -bs
+*****   Closing iMPACT program.   *****

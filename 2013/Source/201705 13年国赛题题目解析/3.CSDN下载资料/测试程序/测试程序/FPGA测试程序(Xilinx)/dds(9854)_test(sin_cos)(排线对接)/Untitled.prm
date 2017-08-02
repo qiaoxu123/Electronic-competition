@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator H.42
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o c:\电子竞赛模块-高速dds(ad9854asq)模块板发行资料\测试程序\fpga测试程序(xilinx)\dds(9854)_test(sin_cos)(排线对接)//Untitled.mcs -u 0 C:\电子竞赛模块-高速DDS(AD9854ASQ)模块板发行资料\测试程序\FPGA测试程序(Xilinx)\dds(9854)_test(sin_cos)(排线对接)\sincos_cclktemp.bit -x xcf02s 
+
+PROM c:\电子竞赛模块-高速dds(ad9854asq)模块板发行资料\测试程序\fpga测试程序(xilinx)\dds(9854)_test(sin_cos)(排线对接)//Untitled.prm map: Fri Jul 29 16:25:00 2011
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          256K
+PROM start    0000:0000
+PROM end      0003:ffff
+PROM checksum 0222d6f6
+
+        Addr1        Addr2 File(s)
+    0000:0000    0002:8c43 C:/电子竞赛模块-高速DDS(AD9854ASQ)模块板发行资料/测试程序/FPGA测试程序(Xilinx)/dds(9854)_test(sin_cos)(排线对接)/sincos_cclktemp.bit

@@ -1,0 +1,7 @@
+"main.obj",
+"key.obj",
+"ocmj.obj",
+"menu.obj",
+"AD9854.obj" 
+TO "DDS" 
+RAMSIZE(256) 

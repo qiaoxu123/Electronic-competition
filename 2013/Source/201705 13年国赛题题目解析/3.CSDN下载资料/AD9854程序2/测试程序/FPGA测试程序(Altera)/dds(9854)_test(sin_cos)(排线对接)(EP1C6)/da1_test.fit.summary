@@ -1,0 +1,12 @@
+Fitter Status : Successful - Sun Jul 03 23:25:03 2011
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : da1_test
+Top-level Entity Name : da1_test
+Family : Cyclone
+Device : EP1C6Q240C8
+Timing Models : Final
+Total logic elements : 75 / 5,980 ( 1 % )
+Total pins : 18 / 185 ( 10 % )
+Total virtual pins : 0
+Total memory bits : 0 / 92,160 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

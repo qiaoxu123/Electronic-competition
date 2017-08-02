@@ -1,0 +1,284 @@
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -i -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+taengine -f graduation -w --format html1 -l f:\graduation/graduation_html/tim/timing_report.htm
+XSLTProcess "graduation_build.xml"
+hprep6 -s IEEE1149 -n graduation -i graduation
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+taengine -f graduation -w --format html1 -l f:\graduation/graduation_html/tim/timing_report.htm
+XSLTProcess "graduation_build.xml"
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+taengine -f graduation -w --format html1 -l f:\graduation/graduation_html/tim/timing_report.htm
+XSLTProcess "graduation_build.xml"
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation
+xst -intstyle ise -ifn __projnav/graduation.xst -ofn graduation.syr
+ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc graduation.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper graduation.ngd
+hprep6 -s IEEE1149 -n graduation -i graduation

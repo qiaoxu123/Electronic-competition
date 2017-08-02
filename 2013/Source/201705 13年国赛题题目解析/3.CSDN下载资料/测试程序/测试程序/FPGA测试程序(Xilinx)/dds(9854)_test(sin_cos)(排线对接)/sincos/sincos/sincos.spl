@@ -1,0 +1,9 @@
+[Inputs]
+clk
+[Outputs]
+mst_rst
+wrb
+io_ud
+=d[7:0]=
+=a[5:0]=
+[BiDir]

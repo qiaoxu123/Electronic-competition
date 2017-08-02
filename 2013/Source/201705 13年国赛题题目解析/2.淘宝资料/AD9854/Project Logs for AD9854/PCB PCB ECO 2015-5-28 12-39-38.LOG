@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=A0/SDIO Pin=P5-2
+Removed Pin From Net: NetName=I/O UDCLK Pin=P5-11
+Added Pin To Net: NetName=A0/SDIO Pin=P5-3
+Added Pin To Net: NetName=I/O UDCLK Pin=P5-10
+Added Room: Name=‘≠¿ÌÕº

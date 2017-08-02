@@ -1,0 +1,209 @@
+Release 7.1.04i - xst H.42
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.14 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.16 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: graduation.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+  5) Advanced HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "graduation.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "graduation"
+Output Format                      : NGC
+Target Device                      : xc9500xl
+
+---- Source Options
+Top Module Name                    : graduation
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+Equivalent register Removal        : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : YES
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+
+---- Other Options
+lso                                : graduation.lso
+verilog2001                        : YES
+safe_implementation                : No
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "F:/graduation/graduation.vhd" in Library work.
+Entity <graduation> compiled.
+Entity <graduation> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <graduation> (Architecture <behavioral>).
+Entity <graduation> analyzed. Unit <graduation> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <graduation>.
+    Related source file is "F:/graduation/graduation.vhd".
+    Found 1-bit register for signal <mst_rst>.
+    Found 8-bit register for signal <d>.
+    Found 6-bit register for signal <a>.
+    Found 1-bit register for signal <io_ud>.
+    Found 7-bit comparator lessequal for signal <$n0008> created at line 99.
+    Found 6-bit register for signal <address_tmp>.
+    Found 6-bit up counter for signal <count>.
+    Found 8-bit register for signal <data_tmp>.
+    Found 12-bit up counter for signal <div>.
+    Found 6-bit up counter for signal <dount>.
+    Found 1-bit register for signal <fskhold>.
+    Found 8-bit register for signal <output1>.
+    Found 8-bit register for signal <output2>.
+    Found 20-bit up counter for signal <state>.
+    Summary:
+	inferred   4 Counter(s).
+	inferred   1 Comparator(s).
+Unit <graduation> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                         : 4
+ 12-bit up counter                 : 1
+ 20-bit up counter                 : 1
+ 6-bit up counter                  : 2
+# Registers                        : 9
+ 1-bit register                    : 3
+ 6-bit register                    : 2
+ 8-bit register                    : 4
+# Comparators                      : 1
+ 7-bit comparator lessequal        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch  <output2_2> (without init value) has a constant value of 0 in block <graduation>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <output1_7> (without init value) has a constant value of 0 in block <graduation>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <output1_6> (without init value) has a constant value of 0 in block <graduation>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <output1_3> (without init value) has a constant value of 0 in block <graduation>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <output1_4> (without init value) has a constant value of 0 in block <graduation>.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch  <output1_5> (without init value) has a constant value of 0 in block <graduation>.
+Register <output2_0> equivalent to <output2_7> has been removed
+Register <output1_1> equivalent to <output2_7> has been removed
+Register <output2_3> equivalent to <output2_7> has been removed
+Register <output1_2> equivalent to <output2_7> has been removed
+Register <output2_4> equivalent to <output2_7> has been removed
+Register <output2_5> equivalent to <output2_7> has been removed
+Register <output2_6> equivalent to <output2_7> has been removed
+Register <output1_0> equivalent to <output2_7> has been removed
+Register <output2_1> equivalent to <output2_7> has been removed
+
+Optimizing unit <graduation> ...
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : graduation.ngr
+Top Level Output File Name         : graduation
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : YES
+Target Technology                  : xc9500xl
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 22
+
+Macro Statistics :
+# Registers                        : 78
+#      1-bit register              : 78
+# Comparators                      : 1
+#      7-bit comparator lessequal  : 1
+# Xors                             : 20
+#      1-bit xor2                  : 20
+
+Cell Usage :
+# BELS                             : 1186
+#      AND2                        : 383
+#      AND3                        : 80
+#      AND4                        : 12
+#      AND5                        : 5
+#      AND6                        : 3
+#      GND                         : 1
+#      INV                         : 486
+#      OR2                         : 139
+#      OR3                         : 23
+#      OR4                         : 1
+#      OR5                         : 1
+#      XOR2                        : 52
+# FlipFlops/Latches                : 76
+#      FD                          : 70
+#      FDCE                        : 6
+# IO Buffers                       : 22
+#      IBUF                        : 4
+#      OBUF                        : 18
+=========================================================================
+CPU : 2.14 / 2.30 s | Elapsed : 2.00 / 2.00 s
+ 
+--> 
+
+Total memory usage is 80336 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

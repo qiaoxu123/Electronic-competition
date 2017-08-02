@@ -1,0 +1,49 @@
+Pin Freeze File:  version H.38
+
+95144XL144TQ XC95144XL-5-TQ144
+clk S:PIN128
+a<0> S:PIN15
+a<1> S:PIN6
+a<2> S:PIN17
+a<3> S:PIN9
+a<4> S:PIN21
+a<5> S:PIN12
+d<0> S:PIN23
+d<1> S:PIN14
+d<2> S:PIN38
+d<3> S:PIN16
+d<4> S:PIN31
+d<5> S:PIN19
+d<6> S:PIN28
+d<7> S:PIN22
+io_ud S:PIN7
+mst_rst S:PIN25
+wrb S:PIN13
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 d_0 d_3 a_2 mst_rst_OBUF
+		 d_5
+PARTITION FB1_8 a_4 d_7 d_4
+PARTITION FB1_15 d_6
+
+PARTITION FB2_1 count<4> count<3> count<1> count<0>
+		 count<5> count<2> address_tmp<5> address_tmp<3>
+		 a_1 io_ud_OBUF a_3 data_tmp<1>
+		 a_5 address_tmp<1> wrb_OBUF d_1
+		 a_0 address_tmp<0>
+PARTITION FB3_1 data_tmp<2> EXP10_
+PARTITION FB3_8 d_2
+PARTITION FB3_10 dount<4> dount<3> dount<2> address_tmp<2>
+		 data_tmp<6> dount<5> data_tmp<4> EXP11_
+		 data_tmp<3>
+PARTITION FB4_1 EXP12_
+PARTITION FB4_15 data_tmp<5> data_tmp<0> data_tmp<7> address_tmp<4>
+		
+PARTITION FB5_17 dount<1> dount<0>
+
+
+
+

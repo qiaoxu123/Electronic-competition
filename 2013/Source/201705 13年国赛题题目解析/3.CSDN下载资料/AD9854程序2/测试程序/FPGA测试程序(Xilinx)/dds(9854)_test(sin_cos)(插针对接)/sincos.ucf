@@ -1,0 +1,43 @@
+NET "clk" LOC = "p182";
+#########################
+NET "io_ud" LOC = "p206"; 
+NET "d<7>" LOC = "p20"; 
+NET "d<6>" LOC = "p21"; 
+NET "d<5>" LOC = "p17"; 
+NET "d<4>" LOC = "p18"; 
+NET "d<3>" LOC = "p15"; 
+NET "d<2>" LOC = "p16"; 
+NET "d<1>" LOC = "p10"; 
+NET "d<0>" LOC = "p14"; 
+NET "a<5>" LOC = "p8"; 
+NET "a<4>" LOC = "p9"; 
+NET "a<3>" LOC = "p6";
+NET "a<2>" LOC = "p7";
+NET "a<1>" LOC = "p4";
+NET "a<0>" LOC = "p5";
+NET "wrb" LOC = "p3";
+NET "mst_rst" LOC = "p23"; 
+
+#PINLOCK_BEGIN
+
+#Wed May 06 10:53:55 2009
+
+#NET "clk"            LOC =  "S:PIN128";
+#NET "a<0>"           LOC =  "S:PIN15";
+#NET "a<1>"           LOC =  "S:PIN6";
+#NET "a<2>"           LOC =  "S:PIN17";
+#NET "a<3>"           LOC =  "S:PIN9";
+#NET "a<4>"           LOC =  "S:PIN21";
+#NET "a<5>"           LOC =  "S:PIN12";
+#NET "d<0>"           LOC =  "S:PIN23";
+#NET "d<1>"           LOC =  "S:PIN14";
+#NET "d<2>"           LOC =  "S:PIN38";
+#NET "d<3>"           LOC =  "S:PIN16";
+#NET "d<4>"           LOC =  "S:PIN31";
+#NET "d<5>"           LOC =  "S:PIN19";
+#NET "d<6>"           LOC =  "S:PIN28";
+#NET "d<7>"           LOC =  "S:PIN22";
+#NET "io_ud"          LOC =  "S:PIN7";
+#NET "mst_rst"        LOC =  "S:PIN25";
+#NET "wrb"            LOC =  "S:PIN13";
+

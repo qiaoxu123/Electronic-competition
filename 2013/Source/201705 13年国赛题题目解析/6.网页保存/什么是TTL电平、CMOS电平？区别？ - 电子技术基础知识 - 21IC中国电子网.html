@@ -1,0 +1,339 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0071)http://www.21ic.com/jichuzhishi/analog/questions/2013-05-17/181650.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+
+<title>什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网</title>
+<link rel="stylesheet" type="text/css" href="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/css.css">
+<link rel="stylesheet" type="text/css" href="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/analog.css">
+<meta name="keywords" content="基础知识">
+<meta name="description" content="">
+<script type="text/javascript" async="" src="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/ga.js"></script><script type="text/javascript" src="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/function.js"></script>
+<script type="text/javascript" src="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/ajax.js"></script>
+
+</head>
+<body>
+<script type="text/javascript" src="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/jquery-1.7.2.min.js"></script>	
+<!--<script type="text/javascript" src="http://misc.21ic.com/pub/topbar/js/topbar_bbs.js"></script> -->
+<script type="text/javascript" src="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/topbar_gbk.js"></script>
+
+<!--[if IE 6]><script src="http://misc.21ic.com/pub/topbar/js/DD_belatedPNG_0.0.8a.js" mce_src="http://misc.21ic.com/pub/topbar/js/DD_belatedPNG_0.0.8a.js"></script><script type="text/javascript">DD_belatedPNG.fix('*');</script><![endif]-->
+<link rel="stylesheet" type="text/css" href="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/topline.css"> 
+<style>
+.topline_holder .top_downmenu1 dl{ margin:10px 0 0 8px;}
+.topline_holder .top_downmenu1 dl dt{ padding:0 0 5px 5px;}
+.topline_holder .top_downmenu1 dl dd{ margin:1px 0 0;}
+</style>
+<div class="topline_holder">
+          <div class="topline" style="width:1050px;">
+            <div class="topline_logo"><a href="http://www.21ic.com/" target="_blank"><img src="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/topline_logo.png" title="21ic首页"></a></div>
+                <ul class="topline_nav">
+                    <li><a class="topline_navone" href="http://www.21ic.com/" target="_blank">首页</a></li>
+                    <li><a class="topline_navone" href="http://bbs.21ic.com/" target="_blank">论坛</a></li>
+                    <li><a class="topline_navone" href="http://project.21ic.com/" target="_blank">外包</a></li>
+                    <li><a class="topline_navone" href="http://dl.21ic.com/" target="_blank">下载</a></li>
+                    <li><a class="topline_navone" href="http://www.21icsearch.com/" target="_blank">Datasheet</a></li>
+                    <li><a class="topline_navone" href="http://open.21ic.com/" target="_blank">21ic公开课</a></li>
+                    <li id="top_all" class="" onmouseover="showmenu1()" onmouseout="hidemenu1()"><span class="topline_navone down_arrow1">更多</span>
+                        <div class="top_downmenu1" style="display:none; left:0;">
+                            <dl style="width:110px;">
+                                <dt>阅读</dt>
+                                <dd><a href="http://www.21ic.com/chongdian/" target="_blank">充电吧</a></dd>
+                                <dd><a href="http://www.21ic.com/zhuanfang/" target="_blank">21ic原创</a></dd>
+                                <dd><a href="http://www.21ic.com/zhuanfang/bianjishidian/" target="_blank">编辑视点</a></dd>
+                                <dd><a href="http://www.21ic.com/evm/" target="_blank" style="color:#c33; font-weight:bold;">评测</a></dd>
+                                <dd><a href="http://photo.21ic.com/" target="_blank" style="color:#c33; font-weight:bold;">图酷</a></dd>
+                                <dd><a href="http://www.21ic.com/wz/topic.htm" target="_blank">专题
+</a></dd>
+                                <dd><a href="http://www.21ic.com/expo/" target="_blank">会展</a></dd>
+                                <dd><a href="http://www.21ic.com/zhuanfang/gaoduanfangtan/" target="_blank">高端访谈</a></dd>
+                                <dd><a href="http://www.21ic.com/csdt/" target="_blank">厂商动态</a></dd>
+                                <dd><a href="http://www.21ic.com/wyzt/" target="_blank">网友杂谈</a></dd>
+                                <dd><a href="http://www.21ic.com/hr/" target="_blank">人才职场</a></dd>
+                            </dl>
+                            <dl class="top_list_2row">
+                                <dt>技术</dt>
+                                <dd><a href="http://embed.21ic.com/" target="_blank">嵌入式</a></dd>
+                                <dd><a href="http://power.21ic.com/" target="_blank">电源</a></dd>
+                                <dd><a href="http://auto.21ic.com/" target="_blank">汽车电子</a></dd>
+                                <dd><a href="http://www.21ic.com/mcu/" target="_blank">单片机</a></dd>
+                                <dd><a href="http://www.21ic.com/ce/" target="_blank">消费电子</a></dd>
+                                <dd><a href="http://www.21ic.com/test" target="_blank">测试测量</a></dd>
+                                <dd><a href="http://www.21ic.com/opto" target="_blank">显示光电</a></dd>
+                                <dd><a href="http://www.21ic.com/smart/" target="_blank">物联网</a></dd>
+                                <dd><a href="http://www.21ic.com/lighting/" target="_blank">照明</a></dd>
+                                <dd><a href="http://www.21ic.com/analog/" target="_blank">模拟</a></dd>
+                                <dd><a href="http://www.21ic.com/rf/" target="_blank">通信技术</a></dd>
+                                <dd><a href="http://www.21ic.com/eda/" target="_blank">EDA</a></dd>
+                                <dd><a href="http://www.21ic.com/computer/" target="_blank">智能硬件</a></dd>
+                                <dd><a href="http://www.21ic.com/control/" target="_blank">工业控制</a></dd>
+                                <dd><a href="http://www.21ic.com/med/" target="_blank">医疗电子</a></dd>
+                                <dd><a href="http://www.21ic.com/news/" target="_blank">资讯</a></dd>
+                                <dd><a href="http://www.21ic.com/np/" target="_blank">新品</a></dd>
+                                <dd><a href="http://www.21ic.com/app/" target="_blank">应用</a></dd>
+                                <dd><a href="http://www.21ic.com/zhuanfang/jishuzhuanfang/" target="_blank">技术专访</a></dd>
+                                <dd><a href="http://www.21ic.com/jichuzhishi" target="_blank">基础知识</a></dd>
+                            </dl>
+                            <dl style="width:130px;">
+                                <dt>互动</dt>
+                                <dd><a href="http://bbs.21ic.com/" target="_blank">论坛</a></dd>
+                                <dd><a href="http://project.21ic.com/" target="_blank" style="color:#c33; font-weight:bold;">外包</a></dd>
+                                <dd><a href="http://bbs.21ic.com/blog.php" target="_blank">博客</a></dd>
+                                <dt style="padding-top:20px;">课程</dt>
+                                <dd><a href="http://open.21ic.com/" target="_blank" style="color:#c33; font-weight:bold;">公开课</a></dd>
+                                <dd><a href="http://seminar.21ic.com/" target="_blank">在线研讨会</a></dd>
+                                <dd><a href="http://edu.21ic.com/" target="_blank" style="color:#c33; font-weight:bold;">TI在线培训</a></dd>
+                            </dl>
+                            <dl style="width:150px;">
+                                <dt>资源</dt>
+                                <dd><a href="http://dl.21ic.com/" target="_blank">下载</a></dd>
+                                <!--dd><a href="http://code.21ic.com" target="_blank" style="color:#c33; font-weight:bold;">源码</a></dd-->                                
+                                <dd><a href="http://www.21ic.com/dianlu/" target="_blank">电路图</a></dd>
+                                <dd><a href="http://www.21icsearch.com/" target="_blank" style="color:#c33; font-weight:bold;">Datasheet</a></dd>
+                                <dd><a href="http://www.21ic.com/tools/" target="_blank">在线计算器</a></dd>
+                                <dd><a href="http://easypcb.21ic.com/" target="_blank">easyPCB布线工具</a></dd>
+                                <dd><a href="http://easysim.21ic.com/" target="_blank">easySim在线仿真</a></dd>
+                            </dl>
+                            <dl class="top_list_2row top_list_right">
+                                <dt>厂商</dt>
+                                <script type="text/javascript" src="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/cs_gbk.js"></script><dd><a target="_blank" href="http://dl.21ic.com/adi/">ADI亚德诺</a></dd>
+<dd><a target="_blank" href="http://cypress.21ic.com/">Cypress</a></dd>
+<dd><a target="_blank" href="http://www.21ic.com/keysight/">keysight是德科技</a></dd>
+<dd><a target="_blank" href="http://www.21ic.com/linear/">Linear</a></dd>
+<dd><a target="_blank" href="http://www.21ic.com/microchip/">Microchip</a></dd>
+<dd><a target="_blank" href="http://www.21ic.com/ni/">NI美国国家仪器</a></dd>
+<dd><a target="_blank" href="http://21ic.sunrtb.cn/c?m=21ic&amp;v=71.390.379&amp;fc=1&amp;l=http://www.21ic.com/pi/">PI</a></dd>
+<dd><a target="_blank" href="http://www.21ic.com/st/f7/">ST MCU技术子站</a></dd>
+<dd><a target="_blank" href="http://www.21ic.com/ti/">TI热门产品</a></dd>
+<dd><a target="_blank" href="http://www.21ic.com/ti_dlp/">TI DLP&#174; 技术充电站</a></dd>
+<dd><a target="_blank" href="http://www.21ic.com/ti/asc">TI 信号链资料合集</a></dd>
+<dd><a target="_blank" href="http://www.21ic.com/deyisupport2017/">TI技术支持社区</a></dd>
+<dd><a target="_blank" href="http://edu.21ic.com/">TI在线培训</a></dd>
+<dd><a target="_blank" href="http://www.21ic.com/toshiba/">TOSHIBA技术社区</a></dd>
+
+                            </dl>
+                        </div>
+                    </li>
+                </ul>
+                <div id="top_code" class="" onmouseover="showmenu4()" onmouseout="hidemenu4()"><span class="down_arrow4"></span>
+                    <div class="top_downmenu4" style="display:none;">
+                         <ul class="code_matrix">
+<script type="text/javascript" src="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/wx_gbk.js"></script><li><img src="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/bbs_web.jpg"><p>21ic 官方微信</p></li>
+<li><img src="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/bbs_power.jpg"><p>电源Fan</p></li>
+<li><img src="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/bbs_embed.jpg"><p>嵌入式ARM</p></li>
+<li><img src="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/project_magazine.jpg"><p>21ic项目外包</p></li>
+<li><img src="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/bbs_magazine.jpg"><p>免费杂志订阅</p></li>
+
+</ul>
+                    </div>
+                </div>
+                <span id="top_userlogin"><div id="top_login" class="top_login"><span class="login_link"><a href="http://my.21ic.com/logging.php">登录</a>|<a href="http://my.21ic.com/member.php?mod=register&amp;come_from=www">注册</a></span></div></span>
+                <div class="top_search" style="width:287px;">
+                    <div class="search" style="width:287px;">
+                        <form method="get" action="http://search.21ic.com/so.php?type=www" onsubmit="return checkinput();" name="formsearch" id="formsearch" target="_blank" accept-charset="UTF-8">
+                            <div class="sa" id="x1">
+                                <a id="s0">文章</a>
+                                <div class="lanmu" id="x2" style="display: none;">
+                                    <a id="s1">IC库存</a>
+                                    <a id="s2">Datasheet</a>
+                                    <a id="s3">文章</a>
+                                    <a id="s4">下载</a>
+                                </div>
+                            </div>
+                            <input type="text" name="type" id="topbar_type" value="" style="display:none;">
+                            <input type="text" name="keyword" value="请输入搜索关键词" onfocus="if(this.value==&#39;请输入搜索关键词&#39;){this.value=&#39;&#39;;}else{this.select();}this.style.color=&#39;black&#39;;" class="sb" id="topbar_q" style="width:150px;">
+                            <input type="submit" name="sc" value="" class="sc">
+                        </form>
+                    </div>
+                </div>  
+            </div>
+</div>
+
+<div class="container">
+  <!-- <div class="qjtop"><table width="100%" cellspacing="0" cellpadding="0" border="0" class="headertop"> <tbody><tr>
+<td width="640" align="left"> <a target="_blank" href="http://www.21ic.com/">21ic首页</a> | <a target="_blank" href="http://kucun.21ic.com/">IC库存</a> | <a target="_blank" href="http://www.21icsearch.com/">器件搜索</a> | <a href="http://book.21ic.com" target="_blank">图书</a> | <a target="_blank" href="http://bbs.21ic.com/">社区</a> | <a target="_blank" href="http://weibo.com/21icv" class="red">21ic官方微博</a> | </td> 
+<td width="50" valign="top" align="left"><img src="/jichuzhishi/images/toppic.jpg"></td> 
+<td width="333" align="right"  class="right" id="toplogin">
+<form name="FormLogin"  action="http://passport2.21ic.com/logging.php?action=login&amp;loginsubmit=yes" target="_blank" method="post" onsubmit="return doFormLogin();">
+<ul>
+<li><a href="http://passport2.21ic.com/" target="_blank">社区登录</a> |</li>
+<li><a href="http://kucun.21ic.com/" target="_blank">库存登录</a> |</li>
+<li><a href="/register.htm" class="orange" target="_blank">免费注册</a></li>
+</ul></form>
+<script src="/js/checklogin.js"></script>
+</td></tr> </tbody></table></div> -->
+<div class="qjbanner"><img src="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/top.jpg"></div>
+<div class="main">
+    <div class="mainnav">
+		<ul>
+			<li class="link1"><a href="http://www.21ic.com/jichuzhishi/mcu/">单片机</a></li>
+			<li class="link2"><a href="http://www.21ic.com/jichuzhishi/analog/">模拟</a></li>
+			<li class="link3"><a href="http://www.21ic.com/jichuzhishi/datasheet/">器件搜索</a></li>
+		</ul>
+    </div>	
+	<div class="maincont">
+	    <div class="jichuleft">
+		<ul>
+<li><a href="http://www.21ic.com/jichuzhishi/analog/basic/">半导体基础知识</a></li>
+
+<li><a href="http://www.21ic.com/jichuzhishi/analog/amplifier/">放大电路分析</a></li>
+
+<li><a href="http://www.21ic.com/jichuzhishi/analog/frequency/">放大电路频率特性</a></li>
+
+<li><a href="http://www.21ic.com/jichuzhishi/analog/feedback/">负反馈放大电路</a></li>
+
+<li><a href="http://www.21ic.com/jichuzhishi/analog/operation-amp/">集成运算放大器</a></li>
+
+<li><a href="http://www.21ic.com/jichuzhishi/analog/operation-amp-app/">集成运算放大电路的应用</a></li>
+
+<li><a href="http://www.21ic.com/jichuzhishi/analog/waveform/">波形产生电路与变换电路</a></li>
+
+<li><a href="http://www.21ic.com/jichuzhishi/analog/l-frequency/">低频功率放大电路</a></li>
+
+<li><a href="http://www.21ic.com/jichuzhishi/analog/dc-power/">直流稳压电源</a></li>
+
+<li><a href="http://www.21ic.com/jichuzhishi/analog/rectifier/">整流与稳压</a></li>
+
+<li><a href="http://www.21ic.com/jichuzhishi/analog/questions/">模拟技术常见问题</a></li>
+
+</ul>
+	  </div>
+	  
+	  <div class="jichucontent">
+    <div class="top">
+                        <h2>您当前的位置：<a href="http://www.21ic.com/index.htm">首页</a>&nbsp;&gt;&nbsp;<a href="http://www.21ic.com/jichuzhishi/">基础知识</a>&nbsp;&gt;&nbsp;<a href="http://www.21ic.com/jichuzhishi/analog/">模拟</a>&nbsp;&gt;&nbsp;<a href="http://www.21ic.com/jichuzhishi/analog/questions/">模拟技术常见问题</a></h2>
+    </div>
+				<div class="title">			   
+					<h1>什么是TTL电平、CMOS电平？区别？</h1>
+					<div class="time"> 来源：<a href="http://www.21ic.com/" target="_blank">21ic</a>  作者：<div class="time">关键字：<span class="tags"><a href="http://www.21ic.com/tags/CMOS" target="_blank">CMOS</a> &nbsp;&nbsp;<a href="http://www.21ic.com/tags/TTL" target="_blank">TTL</a> &nbsp;&nbsp;<a href="http://www.21ic.com/tags/%B5%E7%C6%BD" target="_blank">电平</a> &nbsp;&nbsp;<a href="http://www.21ic.com/tags/" target="_blank"></a> &nbsp;&nbsp;</span></div>
+</div>   
+				</div>
+				<div class="newstext" id="ff"><p><strong>什么是ttl电平</strong></p>
+<p>TTL电平信号被利用的最多是因为通常数据表示采用二进制规定，+5V等价于逻辑"1"，0V等价于逻辑"0"，这被称做TTL(晶体管-晶体管逻辑电平)信号系统，这是计算机处理器控制的设备内部各部分之间通信的标准技术。</p>
+<p>TTL电平信号对于计算机处理器控制的设备内部的数据传输是很理想的，首先计算机处理器控制的设备内部的数据传输对于电源的要求不高以及热损耗也较低，另外TTL电平信号直接与集成电路连接而不需要价格昂贵的线路驱动器以及接收器电路;再者，计算机处理器控制的设备内部的数据传输是在高速下进行的，而TTL接口的操作恰能满足这个要求。TTL型通信大多数情况下，是采用并行数据传输方式，而并行数据传输对于超过10英尺的距离就不适合了。这是由于可靠性和成本两面的原因。因为在并行接口中存在着偏相和不对称的问题，这些问题对可靠性均有影响;另外对于并行数据传输，电缆以及连接器的费用比起串行通信方式来也要高一些。</p>
+<p><strong>TTL电路的电平就叫TTL 电平，CMOS电路的电平就叫CMOS电平</strong></p>
+<p>TTL集成电路的全名是晶体管-晶体管逻辑集成电路(Transistor-Transistor Logic),主要有54/74系列标准TTL、高速型TTL(H-TTL)、低功耗型TTL(L-TTL)、肖特基型TTL(S-TTL)、低功耗肖特基型TTL(LS-TTL)五个系列。标准TTL输入高电平最小2V，输出高电平最小2.4V,典型值3.4V,输入低电平最大0.8V，输出低电平最大0.4V，典型值0.2V。S-TTL输入高电平最小2V，输出高电平最小Ⅰ类2.5V，Ⅱ、Ⅲ类2.7V,典型值3.4V,输入低电平最大0.8V，输出低电平最大0.5V。LS-TTL输入高电平最小2V，输出高电平最小Ⅰ类2.5V，Ⅱ、Ⅲ类2.7V,典型值3.4V,输入低电平最大Ⅰ类0.7V，Ⅱ、Ⅲ类0.8V，输出低电平最大Ⅰ类0.4V，Ⅱ、Ⅲ类0.5V，典型值0.25V。TTL电路的电源VDD供电只允许在+5V±10%范围内，扇出数为10个以下TTL门电路;</p>
+<p>COMS集成电路是互补对称金属氧化物半导体(Compiementary symmetry metal oxide semicoductor)集成电路的英文缩写，电路的许多基本逻辑单元都是用增强型PMOS晶体管和增强型NMOS管按照互补对称形式连接的，静态功耗很小。COMS电路的供电电压VDD范围比较广在+5--+15V均能正常工作，电压波动允许±10，当输出电压高于VDD-0.5V时为逻辑1，输出电压低于VSS+0.5V(VSS为数字地)为逻辑0，扇出数为10--20个COMS门电路.</p>
+<p>TTL电平信号被利用的最多是因为通常数据表示采用二进制规定，+5V等价于逻辑"1"，0V等价于逻辑"0"，这被称做TTL(晶体管-晶体管逻辑电平)信号系统，这是计算机处理器控制的设备内部各部分之间通信的标准技术。TTL电平信号对于计算机处理器控制的设备内部的数据传输是很理想的，首先计算机处理器控制的设备内部的数据传输对于电源的要求不高以及热损耗也较低，另外TTL电平信号直接与集成电路连接而不需要价格昂贵的线路驱动器以及接收器电路;再者，计算机处理器控制的设备内部的数据传输是在高速下进行的，而TTL接口的操作恰能满足这个要求。TTL型通信大多数情况下，是采用并行数据传输方式，而并行数据传输对于超过10英尺的距离就不适合了。这是由于可靠性和成本两面的原因。因为在并行接口中存在着偏相和不对称的问题，这些问题对可靠性均有影响;另外对于并行数据传输，电缆以及连接器的费用比起串行通信方式来也要高一些。CMOS电平和TTL电平: CMOS电平电压范围在3～15V，比如4000系列当5V供电时，输出在4.6以上为高电平，输出在0.05V以下为低电平。输入在3.5V以上为高电平，输入在1.5V以下为低电平。而对于TTL芯片，供电范围在0～5V，常见都是5V，如74系列5V供电，输出在2.7V以上为高电平，输出在0.5V以下为低电平，输入在2V以上为高电平，在0.8V以下为低电平。因此，CMOS电路与TTL电路就有一个电平转换的问题，使两者电平域值能匹配</p>
+<p><strong>TTL电平与CMOS电平的区别：</strong></p>
+<p>(一)TTL高电平3.6~5V，低电平0V~2.4V</p>
+<p>CMOS电平Vcc可达到12V</p>
+<p>CMOS电路输出高电平约为0.9Vcc，而输出低电平约为0.1Vcc。</p>
+<p>CMOS电路不使用的输入端不能悬空，会造成逻辑混乱。</p>
+<p>TTL电路不使用的输入端悬空为高电平</p>
+<p>另外，CMOS集成电路电源电压可以在较大范围内变化，因而对电源的要求不像TTL集成电路那样严格。</p>
+<p>用TTL电平他们就可以兼容</p>
+<p>(二)TTL电平是5V，CMOS电平一般是12V。</p>
+<p>因为TTL电路电源电压是5V，CMOS电路电源电压一般是12V。</p>
+<p>5V的电平不能触发CMOS电路，12V的电平会损坏TTL电路，因此不能互相兼容匹配。</p>
+<p>(三)TTL电平标准</p>
+<p>输出 L： &lt;0.8V ; H：&gt;2.4V。</p>
+<p>输入 L： &lt;1.2V ; H：&gt;2.0V</p>
+<p>TTL器件输出低电平要小于0.8V，高电平要大于2.4V。输入，低于1.2V就认为是0，高于2.0就认为是1。</p>
+<p>CMOS电平：</p>
+<p>输出 L： &lt;0.1*Vcc ; H：&gt;0.9*Vcc。</p>
+<p>输入 L： &lt;0.3*Vcc ; H：&gt;0.7*Vcc.</p>
+<p>一般单片机、DSP、FPGA他们之间管教能否直接相连. 一般情况下，同电压的是可以的，不过最好是要好好查查技术手册上的VIL,VIH,VOL,VOH的值，看是否能够匹配(VOL要小于VIL，VOH要大于VIH，是指一个连接当中的)。有些在一般应用中没有问题，但是参数上就是有点不够匹配，在某些情况下可能就不够稳定，或者不同批次的器件就不能运行。</p>
+<p>例如：74LS的器件的输出，接入74HC的器件。在一般情况下都能好好运行，但是，在参数上却是不匹配的，有些情况下就不能运行。</p>
+<p>74LS和54系列是TTL电路，74HC是CMOS电路。如果它们的序号相同，则逻辑功能一样，但电气性能和动态性能略有不同。如，TTL的逻辑高电平为&gt; 2.7V,CMOS为&gt; 3.6V。如果CMOS电路的前一级为TTL则隐藏着不可靠隐患，反之则没问题。</p>
+<p><strong>1，TTL电平：</strong></p>
+<p>输出高电平&gt;2.4V,输出低电平&lt;0.4V。在室温下，一般输出高电平是3.5V，输出低电平是0.2V。最小输入高电平和低电平：输入高电平&gt;=2.0V，输入低电平&lt;=0.8V，噪声容限是0.4V。</p>
+<p><strong>2，CMOS电平：</strong></p>
+<p>1逻辑电平电压接近于电源电压，0逻辑电平接近于0V。而且具有很宽的噪声容限。</p>
+<p><strong>3，电平转换电路：</strong></p>
+<p>因为TTL和COMS的高低电平的值不一样(ttl 5v&lt;==&gt;cmos 3.3v)，所以互相连接时需要电平的转换：就是用两个电阻对电平分压，没有什么高深的东西。哈哈</p>
+<p><strong>4，OC门，即集电极开路门电路，OD门，即漏极开路门电路</strong>，必须外界上拉电阻和电源才能将开关电平作为高低电平用。否则它一般只作为开关大电压和大电流负载，所以又叫做驱动门电路。</p>
+<p><strong>5，TTL和COMS电路比较：</strong></p>
+<p>1)TTL电路是电流控制器件，而coms电路是电压控制器件。</p>
+<p>2)TTL电路的速度快，传输延迟时间短(5-10ns)，但是功耗大。COMS电路的速度慢，传输延迟时间长(25-50ns),但功耗低。COMS电路本身的功耗与输入信号的脉冲频率有关，频率越高，芯片集越热，这是正常现象。</p>
+<p>3)COMS电路的锁定效应：</p>
+<p>COMS电路由于输入太大的电流，内部的电流急剧增大，除非切断电源，电流一直在增大。这种效应就是锁定效应。当产生锁定效应时，COMS的内部电流能达到40mA以上，很容易烧毁芯片。</p>
+<p>防御措施：</p>
+<p>1)在输入端和输出端加钳位电路，使输入和输出不超过不超过规定电压。</p>
+<p>2)芯片的电源输入端加去耦电路，防止VDD端出现瞬间的高压。</p>
+<p>3)在VDD和外电源之间加线流电阻，即使有大的电流也不让它进去。</p>
+<p>4)当系统由几个电源分别供电时，开关要按下列顺序：开启时，先开启COMS电路得电源，再开启输入信号和负载的电源;关闭时，先关闭输入信号和负载的电源，再关闭COMS电路的电源。</p>
+<p><strong>6，COMS电路的使用注意事项</strong></p>
+<p>1)COMS电路时电压控制器件，它的输入总抗很大，对干扰信号的捕捉能力很强。所以，不用的管脚不要悬空，要接上拉电阻或者下拉电阻，给它一个恒定的电平。</p>
+<p>2)输入端接低内组的信号源时，要在输入端和信号源之间要串联限流电阻，使输入的电流限制在1mA之内。</p>
+<p>3)当接长信号传输线时，在COMS电路端接匹配电阻。</p>
+<p>4)当输入端接大电容时，应该在输入端和电容间接保护电阻。电阻值为R=V0/1mA.V0是外界电容上的电压。</p>
+<p>5)COMS的输入电流超过1mA，就有可能烧坏COMS。</p>
+<p><strong>7，TTL门电路中输入端负载特性(输入端带电阻特殊情况的处理)：</strong></p>
+<p>1)悬空时相当于输入端接高电平。因为这时可以看作是输入端接一个无穷大的电阻。</p>
+<p>2)在门电路输入端串联10K电阻后再输入低电平，输入端出呈现的是高电平而不是低电平。因为由TTL门电路的输入端负载特性可知，只有在输入端接的串联电阻小于910欧时，它输入来的低电平信号才能被门电路识别出来，串联电阻再大的话输入端就一直呈现高电平。这个一定要注意。COMS门电路就不用考虑这些了。</p>
+<p><strong>8，TTL电路有集电极开路OC门，MOS管也有和集电极对应的漏极开路的OD门，它的输出就叫做开漏输出。</strong>OC门在截止时有漏电流输出，那就是漏电流，为什么有漏电流呢?那是因为当三机管截止的时候，它的基极电流约等于0，但是并不是真正的为0，经过三极管的集电极的电流也就不是真正的0，而是约0。而这个就是漏电流。开漏输出：OC门的输出就是开漏输出;OD门的输出也是开漏输出。它可以吸收很大的电流，但是不能向外输出的电流。</p>
+<p>所以，为了能输入和输出电流，它使用的时候要跟电源和上拉电阻一齐用。OD门一般作为输出缓冲/驱动器、电平转换器以及满足吸收大负载电流的需要。</p>
+<p><strong>9，什么叫做图腾柱，它与开漏电路有什么区别?</strong></p>
+<p>TTL集成电路中，输出有接上拉三极管的输出叫做图腾柱输出，没有的叫做OC门。因为TTL就是一个三级关，图腾柱也就是两个三级管推挽相连。所以推挽就是图腾。</p>
+<p>扩展阅读：<a title="电感和磁珠的区别与联系" href="http://www.21ic.com/jichuzhishi/analog/questions/2013-05-17/181637.html" target="_blank"><font color="#002280">电感和磁珠的区别与联系</font></a></p></div>
+			   <div class="page"><div class="epages"></div>
+			<table width="50" border="0" align="center" cellpadding="0" cellspacing="0" class="digg">
+				<tbody><tr>
+				<td class="diggnum" id="diggnum"><script type="text/javascript" src="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/ViewClick"></script>93</td>
+				</tr>
+				<tr>
+				<td class="diggit"><a href="JavaScript:makeRequest(&#39;http://www.21ic.com/e/public/digg?classid=798&amp;id=181650&amp;dotop=1&amp;doajax=1&amp;ajaxarea=diggnum&#39;,&#39;EchoReturnedText&#39;,&#39;GET&#39;,&#39;&#39;);">顶一下</a></td>
+				</tr>
+				</tbody></table>	
+		       </div>
+
+   </div>
+
+<script src="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/saved_resource"></script>	 
+		
+	</div>
+</div>
+<div class="mainbottom"><img src="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/footer.jpg"></div>
+</div>
+ <div id="footer">
+	<div class="footnav"> 
+		<ul>
+			<li><a href="http://www.21ic.com/copyright/about.htm">本站介绍</a></li>
+			<li><a href="http://www.21ic.com/copyright/hz.htm">合作联络</a></li>
+			<li><a href="http://www.21ic.com/copyright/tg.htm" rel="nofollow">欢迎投稿</a></li>
+			<li><a href="http://www.21ic.com/copyright/ys.htm" rel="nofollow">隐私声明</a></li>
+			<li><a href="http://www.21ic.com/copyright/ad.htm">广告业务</a></li>
+			<li><a href="http://www.21ic.com/copyright/map.htm">网站地图</a></li> 
+			<li><a href="http://www.21ic.com/copyright/contact.htm">联系我们</a></li>
+			<li class="else"><a href="http://www.21ic.com/copyright/job.htm" target="_blank" rel="nofollow">诚聘英才</a></li>
+                </ul>
+	</div>
+	<div class="copyright"> 
+		<ul>
+			<li class="blue">ICP许可证号：京ICP证070360号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21IC电子网 2000-<script>document.write(new Date().getFullYear())</script>2017 版权所有</li>
+			<li style="color:#f00;">公安部备案号：1101081962</li>
+		</ul>
+	</div>
+</div>
+
+<div style="display:none;">
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6402539-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F22332d78648b7586de15b4542cb6f7ae' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/h.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+    var _21icProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _21icProtocol + "tj.21ic.com/sn.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="./什么是TTL电平、CMOS电平？区别？ - 电子技术基础知识 - 21IC中国电子网_files/sn.js" type="text/javascript"></script>
+
+</div>
+   
+
+</body></html>

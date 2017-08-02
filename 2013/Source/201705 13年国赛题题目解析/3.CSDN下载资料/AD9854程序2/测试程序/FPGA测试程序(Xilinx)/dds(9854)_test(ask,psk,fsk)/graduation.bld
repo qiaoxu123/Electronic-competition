@@ -1,0 +1,22 @@
+Release 7.1.04i ngdbuild H.42
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -dd _ngo -uc graduation.ucf -p xc9500xl graduation.ngc
+graduation.ngd 
+
+Reading NGO file 'F:/graduation/graduation.ngc' ...
+
+Applying constraints in "graduation.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 62696 kilobytes
+
+Writing NGD file "graduation.ngd" ...
+
+Writing NGDBUILD log file "graduation.bld"...

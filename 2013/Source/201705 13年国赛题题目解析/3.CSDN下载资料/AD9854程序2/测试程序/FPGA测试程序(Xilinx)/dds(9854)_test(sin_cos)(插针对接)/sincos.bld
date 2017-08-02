@@ -1,0 +1,22 @@
+Release 7.1.04i ngdbuild H.42
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd e:\dds(9854)_test(sin_cos)/_ngo -nt
+timestamp -uc sincos.ucf -p xc2s200-pq208-5 sincos.ngc sincos.ngd 
+
+Reading NGO file 'E:/dds(9854)_test(sin_cos)/sincos.ngc' ...
+
+Applying constraints in "sincos.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 52728 kilobytes
+
+Writing NGD file "sincos.ngd" ...
+
+Writing NGDBUILD log file "sincos.bld"...

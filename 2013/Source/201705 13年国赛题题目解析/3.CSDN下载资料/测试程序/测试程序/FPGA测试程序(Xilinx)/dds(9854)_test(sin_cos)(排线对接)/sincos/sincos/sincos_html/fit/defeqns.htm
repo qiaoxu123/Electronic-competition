@@ -1,0 +1,225 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+FDCPE_a0: FDCPE port map (a(0),address_tmp(0),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_a1: FDCPE port map (a(1),address_tmp(1),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_a2: FDCPE port map (a(2),address_tmp(2),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_a3: FDCPE port map (a(3),address_tmp(3),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_a4: FDCPE port map (a(4),address_tmp(4),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_a5: FDCPE port map (a(5),address_tmp(5),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_address_tmp0: FDCPE port map (address_tmp(0),address_tmp_D(0),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;address_tmp_D(0) <= ((count(4).EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a_0.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(4) AND address_tmp(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(5) AND address_tmp(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT count(2) AND NOT count(3) AND address_tmp(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND count(3) AND count(1) AND address_tmp(0)));
+</td></tr><tr><td>
+FDCPE_address_tmp1: FDCPE port map (address_tmp(1),address_tmp_D(1),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;address_tmp_D(1) <= ((wrb_OBUF.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(4) AND address_tmp(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(5) AND address_tmp(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND count(1) AND address_tmp(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT count(2) AND NOT count(3) AND address_tmp(1)));
+</td></tr><tr><td>
+FTCPE_address_tmp2: FTCPE port map (address_tmp(2),address_tmp_T(2),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;address_tmp_T(2) <= ((dount(2).EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND NOT count(3) AND NOT count(4) AND NOT count(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT address_tmp(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(3) AND NOT count(1) AND count(0) AND NOT count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(5) AND address_tmp(2)));
+</td></tr><tr><td>
+FTCPE_address_tmp3: FTCPE port map (address_tmp(3),address_tmp_T(3),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;address_tmp_T(3) <= ((count(2) AND NOT count(3) AND NOT count(4) AND NOT count(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	address_tmp(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT count(2) AND count(3) AND NOT count(4) AND NOT count(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT address_tmp(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND NOT count(1) AND count(0) AND NOT count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(5) AND address_tmp(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(3) AND NOT count(1) AND NOT count(0) AND NOT count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(5) AND NOT address_tmp(3)));
+</td></tr><tr><td>
+FTCPE_address_tmp4: FTCPE port map (address_tmp(4),address_tmp_T(4),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;address_tmp_T(4) <= ((EXP12_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND NOT count(3) AND NOT count(4) AND NOT count(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	address_tmp(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT count(2) AND count(3) AND NOT count(1) AND NOT count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(5) AND address_tmp(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(3) AND NOT count(1) AND count(0) AND NOT count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(5) AND address_tmp(4)));
+</td></tr><tr><td>
+FTCPE_address_tmp5: FTCPE port map (address_tmp(5),address_tmp_T(5),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;address_tmp_T(5) <= ((count(2) AND NOT count(3) AND NOT count(4) AND NOT count(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	address_tmp(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT count(2) AND count(3) AND NOT count(4) AND NOT count(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	address_tmp(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND NOT count(1) AND NOT count(0) AND NOT count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(5) AND address_tmp(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND count(3) AND NOT count(1) AND count(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(4) AND NOT count(5) AND NOT address_tmp(5)));
+</td></tr><tr><td>
+FTCPE_count0: FTCPE port map (count(0),count_T(0),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count_T(0) <= (count(2) AND NOT count(3) AND NOT count(1) AND NOT count(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(4) AND count(5));
+</td></tr><tr><td>
+FTCPE_count1: FTCPE port map (count(1),count(0),clk,'0','0');
+</td></tr><tr><td>
+FTCPE_count2: FTCPE port map (count(2),count_T(2),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count_T(2) <= ((count(1) AND count(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND NOT count(3) AND NOT count(1) AND NOT count(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(4) AND count(5)));
+</td></tr><tr><td>
+FTCPE_count3: FTCPE port map (count(3),count_T(3),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count_T(3) <= (count(2) AND count(1) AND count(0));
+</td></tr><tr><td>
+FTCPE_count4: FTCPE port map (count(4),count_T(4),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count_T(4) <= (count(2) AND count(3) AND count(1) AND count(0));
+</td></tr><tr><td>
+FTCPE_count5: FTCPE port map (count(5),count_T(5),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count_T(5) <= ((count(2) AND count(3) AND count(1) AND count(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	count(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND NOT count(3) AND NOT count(1) AND NOT count(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(4) AND count(5)));
+</td></tr><tr><td>
+FDCPE_d0: FDCPE port map (d(0),data_tmp(0),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_d1: FDCPE port map (d(1),data_tmp(1),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_d2: FDCPE port map (d(2),data_tmp(2),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_d3: FDCPE port map (d(3),data_tmp(3),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_d4: FDCPE port map (d(4),data_tmp(4),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_d5: FDCPE port map (d(5),data_tmp(5),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_d6: FDCPE port map (d(6),data_tmp(6),clk,'0','0');
+</td></tr><tr><td>
+FDCPE_d7: FDCPE port map (d(7),data_tmp(7),clk,'0','0');
+</td></tr><tr><td>
+FTCPE_data_tmp0: FTCPE port map (data_tmp(0),data_tmp_T(0),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data_tmp_T(0) <= ((count(2) AND NOT count(3) AND NOT count(4) AND NOT count(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT data_tmp(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND count(3) AND NOT count(1) AND NOT count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(5) AND data_tmp(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT count(2) AND count(3) AND count(1) AND NOT count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(5) AND data_tmp(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT count(2) AND count(3) AND NOT count(1) AND NOT count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(5) AND NOT data_tmp(0)));
+</td></tr><tr><td>
+FDCPE_data_tmp1: FDCPE port map (data_tmp(1),data_tmp_D(1),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data_tmp_D(1) <= ((a_3.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a_5.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(4) AND data_tmp(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(5) AND data_tmp(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT count(2) AND NOT count(3) AND data_tmp(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND count(3) AND count(1) AND data_tmp(1)));
+</td></tr><tr><td>
+FDCPE_data_tmp2: FDCPE port map (data_tmp(2),data_tmp_D(2),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data_tmp_D(2) <= ((EXP10_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(4) AND NOT data_tmp(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(5) AND NOT data_tmp(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND count(3) AND NOT data_tmp(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT count(2) AND NOT count(3) AND NOT data_tmp(2)));
+</td></tr><tr><td>
+FDCPE_data_tmp3: FDCPE port map (data_tmp(3),data_tmp_D(3),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data_tmp_D(3) <= ((EXP11_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(4) AND data_tmp(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(5) AND data_tmp(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT count(2) AND NOT count(3) AND data_tmp(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND count(3) AND count(1) AND data_tmp(3)));
+</td></tr><tr><td>
+FDCPE_data_tmp4: FDCPE port map (data_tmp(4),data_tmp_D(4),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data_tmp_D(4) <= ((dount(5).EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(4) AND NOT data_tmp(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(5) AND NOT data_tmp(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND count(3) AND NOT data_tmp(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT count(2) AND NOT count(3) AND NOT data_tmp(4)));
+</td></tr><tr><td>
+FTCPE_data_tmp5: FTCPE port map (data_tmp(5),data_tmp_T(5),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data_tmp_T(5) <= ((count(2) AND NOT count(1) AND NOT count(4) AND NOT count(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	data_tmp(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT count(2) AND count(3) AND NOT count(4) AND NOT count(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	data_tmp(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND NOT count(3) AND count(0) AND NOT count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(5) AND data_tmp(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND NOT count(3) AND count(1) AND NOT count(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(4) AND NOT count(5) AND NOT data_tmp(5)));
+</td></tr><tr><td>
+FDCPE_data_tmp6: FDCPE port map (data_tmp(6),data_tmp_D(6),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data_tmp_D(6) <= ((address_tmp(2).EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(4) AND NOT data_tmp(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(5) AND NOT data_tmp(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT count(2) AND NOT count(3) AND NOT data_tmp(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND count(3) AND count(1) AND NOT data_tmp(6)));
+</td></tr><tr><td>
+FTCPE_data_tmp7: FTCPE port map (data_tmp(7),data_tmp_T(7),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data_tmp_T(7) <= ((address_tmp(4).EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT count(2) AND count(3) AND NOT count(4) AND NOT count(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	data_tmp(7))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(3) AND NOT count(1) AND NOT count(4) AND NOT count(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	data_tmp(7))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND NOT count(3) AND count(1) AND NOT count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(5) AND NOT data_tmp(7))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (count(2) AND NOT count(1) AND NOT count(0) AND NOT count(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT count(5) AND data_tmp(7)));
+</td></tr><tr><td>
+FTCPE_dount0: FTCPE port map (dount(0),dount_T(0),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dount_T(0) <= ((NOT dount(0) AND NOT dount(3) AND NOT dount(2) AND NOT dount(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT dount(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT dount(1) AND NOT dount(3) AND NOT dount(2) AND NOT dount(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT dount(5)));
+</td></tr><tr><td>
+FTCPE_dount1: FTCPE port map (dount(1),dount_T(1),clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dount_T(1) <= (dount(0) AND NOT dount(1) AND NOT dount(3) AND NOT dount(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT dount(4) AND NOT dount(5));
+</td></tr><tr><td>
+FTCPE_dount2: FTCPE port map (dount(2),'0',clk,'0','0');
+</td></tr><tr><td>
+FTCPE_dount3: FTCPE port map (dount(3),'0',clk,'0','0');
+</td></tr><tr><td>
+FTCPE_dount4: FTCPE port map (dount(4),'0',clk,'0','0');
+</td></tr><tr><td>
+FTCPE_dount5: FTCPE port map (dount(5),'0',clk,'0','0');
+</td></tr><tr><td>
+FDCPE_io_ud: FDCPE port map (io_ud,io_ud_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;io_ud_D <= (NOT count(2) AND NOT count(3) AND NOT count(1) AND NOT count(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	count(4) AND NOT count(5));
+</td></tr><tr><td>
+FDCPE_mst_rst: FDCPE port map (mst_rst,mst_rst_D,clk,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mst_rst_D <= ((NOT dount(0) AND NOT dount(3) AND NOT dount(2) AND NOT dount(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT dount(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT dount(1) AND NOT dount(3) AND NOT dount(2) AND NOT dount(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT dount(5)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+wrb <= NOT clk;
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

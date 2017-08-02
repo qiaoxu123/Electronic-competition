@@ -1,0 +1,366 @@
+BL51 BANKED LINKER/LOCATER V5.03                                                        04/29/2010  10:54:21  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V5.03, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE STARTUP.obj, DDS_TEST.obj TO DDS_TEST RAMSIZE (256)
+
+
+MEMORY MODEL: SMALL WITH FLOATING POINT ARITHMETIC
+
+
+INPUT MODULES INCLUDED:
+  STARTUP.obj (?C_STARTUP)
+  DDS_TEST.obj (DDS_TEST)
+  C:\KEIL\C51\LIB\C51FPS.LIB (?C?FPMUL)
+  C:\KEIL\C51\LIB\C51FPS.LIB (?C?FPDIV)
+  C:\KEIL\C51\LIB\C51FPS.LIB (?C?FCAST)
+  C:\KEIL\C51\LIB\C51FPS.LIB (?C?CASTF)
+  C:\KEIL\C51\LIB\C51FPS.LIB (?C?FPGETOPN)
+  C:\KEIL\C51\LIB\C51S.LIB (?C_INIT)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?LNEG)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?LLDIIDATA)
+
+
+LINK MAP OF MODULE:  DDS_TEST (?C_STARTUP)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     002DH     UNIT         ?DT?DDS_TEST
+            DATA    0035H     0004H     UNIT         _DATA_GROUP_
+            IDATA   0039H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     0293H     UNIT         ?C?LIB_CODE
+            CODE    0296H     00BAH     UNIT         ?PR?_TAB_DATAWORD?DDS_TEST
+            CODE    0350H     008CH     UNIT         ?C_C51STARTUP
+            CODE    03DCH     003FH     UNIT         ?PR?V_INIT?DDS_TEST
+            CODE    041BH     002EH     UNIT         ?PR?AD9854_IO_INT?DDS_TEST
+            CODE    0449H     002CH     UNIT         ?PR?_DELAY?DDS_TEST
+            CODE    0475H     0020H     UNIT         ?PR?MAIN?DDS_TEST
+            CODE    0495H     0010H     UNIT         ?PR?UPDATE?DDS_TEST
+            CODE    04A5H     0010H     UNIT         ?PR?PORT_IO_INIT?DDS_TEST
+            CODE    04B5H     0007H     UNIT         ?C_INITSEG
+            CODE    04BCH     0006H     UNIT         ?PR?INIT_DEVICE?DDS_TEST
+            CODE    04C2H     0004H     UNIT         ?PR?OSCILLATOR_INIT?DDS_TEST
+
+
+
+OVERLAY MAP OF MODULE:   DDS_TEST (?C_STARTUP)
+
+
+SEGMENT                                DATA_GROUP 
+  +--> CALLED SEGMENT                START    LENGTH
+----------------------------------------------------
+?C_C51STARTUP                        -----    -----
+  +--> ?PR?MAIN?DDS_TEST
+  +--> ?C_INITSEG
+BL51 BANKED LINKER/LOCATER V5.03                                                      04/29/2010  10:54:21  PAGE 2
+
+
+
+?PR?MAIN?DDS_TEST                    -----    -----
+  +--> ?PR?INIT_DEVICE?DDS_TEST
+  +--> ?PR?V_INIT?DDS_TEST
+  +--> ?PR?_TAB_DATAWORD?DDS_TEST
+  +--> ?PR?AD9854_IO_INT?DDS_TEST
+
+?PR?INIT_DEVICE?DDS_TEST             -----    -----
+  +--> ?PR?PORT_IO_INIT?DDS_TEST
+  +--> ?PR?OSCILLATOR_INIT?DDS_TEST
+
+?PR?V_INIT?DDS_TEST                  -----    -----
+  +--> ?PR?UPDATE?DDS_TEST
+  +--> ?PR?_DELAY?DDS_TEST
+
+?PR?UPDATE?DDS_TEST                  -----    -----
+  +--> ?PR?_DELAY?DDS_TEST
+
+?PR?_DELAY?DDS_TEST                  0035H    0004H
+
+?PR?_TAB_DATAWORD?DDS_TEST           0035H    0004H
+
+?PR?AD9854_IO_INT?DDS_TEST           -----    -----
+  +--> ?PR?UPDATE?DDS_TEST
+  +--> ?PR?_DELAY?DDS_TEST
+
+
+
+SYMBOL TABLE OF MODULE:  DDS_TEST (?C_STARTUP)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        ?C_STARTUP
+  C:0350H         SEGMENT       ?C_C51STARTUP
+  I:0039H         SEGMENT       ?STACK
+  C:0000H         PUBLIC        ?C_STARTUP
+  D:00E0H         SYMBOL        ACC
+  D:00F0H         SYMBOL        B
+  D:0083H         SYMBOL        DPH
+  D:0082H         SYMBOL        DPL
+  N:0000H         SYMBOL        IBPSTACK
+  N:0100H         SYMBOL        IBPSTACKTOP
+  N:0080H         SYMBOL        IDATALEN
+  C:0353H         SYMBOL        IDATALOOP
+  N:0000H         SYMBOL        PBPSTACK
+  N:0000H         SYMBOL        PBPSTACKTOP
+  N:0000H         SYMBOL        PDATALEN
+  N:0000H         SYMBOL        PDATASTART
+  N:0000H         SYMBOL        PPAGE
+  N:0000H         SYMBOL        PPAGEENABLE
+  D:00A0H         SYMBOL        PPAGE_SFR
+  D:0081H         SYMBOL        SP
+  C:0350H         SYMBOL        STARTUP1
+  N:0000H         SYMBOL        XBPSTACK
+  N:0000H         SYMBOL        XBPSTACKTOP
+  N:0000H         SYMBOL        XDATALEN
+BL51 BANKED LINKER/LOCATER V5.03                                                      04/29/2010  10:54:21  PAGE 3
+
+
+  N:0000H         SYMBOL        XDATASTART
+  C:0000H         LINE#         92
+  C:0350H         LINE#         99
+  C:0352H         LINE#         100
+  C:0353H         LINE#         101
+  C:0354H         LINE#         102
+  C:0356H         LINE#         151
+  C:0359H         LINE#         155
+  -------         ENDMOD        ?C_STARTUP
+
+  -------         MODULE        DDS_TEST
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0080H         PUBLIC        P0
+  D:0090H         PUBLIC        P1
+  D:00FFH         PUBLIC        WDTCN
+  D:00A0H         PUBLIC        P2
+  D:00B0H         PUBLIC        P3
+  C:0495H         PUBLIC        update
+  D:00E8H         PUBLIC        ADC0CN
+  D:00A4H         PUBLIC        P0MDOUT
+  D:00A5H         PUBLIC        P1MDOUT
+  D:00A8H         PUBLIC        IE
+  D:00A6H         PUBLIC        P2MDOUT
+  D:00A7H         PUBLIC        P3MDOUT
+  C:04A5H         PUBLIC        Port_IO_Init
+  D:00D8H         PUBLIC        PCA0CN
+  D:00B8H         PUBLIC        IP
+  C:04C2H         PUBLIC        Oscillator_Init
+  D:00E3H         PUBLIC        XBR2
+  D:00C0H         PUBLIC        SMB0CN
+  C:041BH         PUBLIC        AD9854_IO_INT
+  C:0475H         PUBLIC        main
+  B:00B0H.7       PUBLIC        WR
+  D:00F8H         PUBLIC        SPI0CN
+  C:0296H         PUBLIC        _TAB_DataWord
+  D:0008H         PUBLIC        TAB_Data
+  B:00B0H.3       PUBLIC        MASTER_RESET
+  D:0088H         PUBLIC        TCON
+  D:0030H         PUBLIC        temp
+  D:0031H         PUBLIC        fre
+  B:00B0H.4       PUBLIC        IO_UPDATE
+  D:00B2H         PUBLIC        OSCICN
+  C:04BCH         PUBLIC        Init_Device
+  B:00B0H.5       PUBLIC        FBH
+  B:0080H.3       PUBLIC        SHAPED_LEYING
+  D:0098H         PUBLIC        SCON0
+  D:00C8H         PUBLIC        T2CON
+  C:03DCH         PUBLIC        V_init
+  C:0449H         PUBLIC        _delay
+  D:00D0H         PUBLIC        PSW
+  -------         PROC          _DELAY
+  D:0035H         SYMBOL        t
+  -------         DO            
+  D:0002H         SYMBOL        i
+  -------         ENDDO         
+  C:0449H         LINE#         40
+  C:0451H         LINE#         41
+BL51 BANKED LINKER/LOCATER V5.03                                                      04/29/2010  10:54:21  PAGE 4
+
+
+  C:0451H         LINE#         42
+  C:0454H         LINE#         43
+  C:0461H         LINE#         44
+  C:0474H         LINE#         45
+  -------         ENDPROC       _DELAY
+  -------         PROC          UPDATE
+  C:0495H         LINE#         48
+  C:0495H         LINE#         49
+  C:0495H         LINE#         50
+  C:0497H         LINE#         51
+  C:04A2H         LINE#         52
+  C:04A4H         LINE#         55
+  -------         ENDPROC       UPDATE
+  -------         PROC          PORT_IO_INIT
+  C:04A5H         LINE#         58
+  C:04A5H         LINE#         59
+  C:04A5H         LINE#         61
+  C:04A8H         LINE#         62
+  C:04ABH         LINE#         63
+  C:04AEH         LINE#         64
+  C:04B1H         LINE#         65
+  C:04B4H         LINE#         66
+  -------         ENDPROC       PORT_IO_INIT
+  -------         PROC          OSCILLATOR_INIT
+  C:04C2H         LINE#         68
+  C:04C2H         LINE#         69
+  C:04C2H         LINE#         70
+  C:04C5H         LINE#         71
+  -------         ENDPROC       OSCILLATOR_INIT
+  -------         PROC          INIT_DEVICE
+  C:04BCH         LINE#         74
+  C:04BCH         LINE#         75
+  C:04BCH         LINE#         76
+  C:04BFH         LINE#         77
+  -------         ENDPROC       INIT_DEVICE
+  -------         PROC          MAIN
+  C:0475H         LINE#         82
+  C:0475H         LINE#         83
+  C:0475H         LINE#         85
+  C:0478H         LINE#         86
+  C:047BH         LINE#         88
+  C:047EH         LINE#         90
+  C:0481H         LINE#         91
+  C:0490H         LINE#         92
+  C:0493H         LINE#         93
+  -------         ENDPROC       MAIN
+  -------         PROC          _TAB_DATAWORD
+  D:0035H         SYMBOL        f
+  C:0296H         LINE#         100
+  C:029EH         LINE#         102
+  C:029EH         LINE#         107
+  C:02A1H         LINE#         108
+  C:02A3H         LINE#         110
+  C:02A5H         LINE#         111
+  C:02A7H         LINE#         115
+  C:02C9H         LINE#         116
+  C:02EBH         LINE#         117
+BL51 BANKED LINKER/LOCATER V5.03                                                      04/29/2010  10:54:21  PAGE 5
+
+
+  C:030DH         LINE#         118
+  C:030FH         LINE#         119
+  C:0311H         LINE#         120
+  C:0313H         LINE#         122
+  C:0315H         LINE#         123
+  C:0317H         LINE#         124
+  C:0319H         LINE#         125
+  C:031BH         LINE#         126
+  C:031DH         LINE#         127
+  C:031FH         LINE#         130
+  C:0321H         LINE#         131
+  C:0323H         LINE#         132
+  C:0325H         LINE#         133
+  C:0327H         LINE#         134
+  C:0329H         LINE#         135
+  C:032BH         LINE#         140
+  C:032DH         LINE#         141
+  C:032FH         LINE#         142
+  C:0331H         LINE#         143
+  C:0333H         LINE#         148
+  C:0335H         LINE#         149
+  C:0337H         LINE#         150
+  C:0339H         LINE#         154
+  C:033BH         LINE#         155
+  C:033DH         LINE#         156
+  C:033FH         LINE#         157
+  C:0341H         LINE#         162
+  C:0343H         LINE#         163
+  C:0345H         LINE#         165
+  C:0347H         LINE#         166
+  C:0349H         LINE#         171
+  C:034BH         LINE#         177
+  C:034DH         LINE#         178
+  C:034FH         LINE#         180
+  -------         ENDPROC       _TAB_DATAWORD
+  -------         PROC          AD9854_IO_INT
+  -------         DO            
+  D:0007H         SYMBOL        i
+  -------         ENDDO         
+  C:041BH         LINE#         185
+  C:041BH         LINE#         186
+  C:041BH         LINE#         189
+  C:041DH         LINE#         190
+  C:041FH         LINE#         191
+  C:0421H         LINE#         193
+  C:0424H         LINE#         195
+  C:0425H         LINE#         196
+  C:0425H         LINE#         197
+  C:0428H         LINE#         198
+  C:042FH         LINE#         199
+  C:0431H         LINE#         200
+  C:0433H         LINE#         201
+  C:0435H         LINE#         202
+  C:0437H         LINE#         203
+  C:043BH         LINE#         204
+  C:043EH         LINE#         205
+  -------         ENDPROC       AD9854_IO_INT
+BL51 BANKED LINKER/LOCATER V5.03                                                      04/29/2010  10:54:21  PAGE 6
+
+
+  -------         PROC          V_INIT
+  C:03DCH         LINE#         209
+  C:03DCH         LINE#         211
+  C:03DCH         LINE#         213
+  C:03DEH         LINE#         216
+  C:03E1H         LINE#         217
+  C:03E4H         LINE#         218
+  C:03E6H         LINE#         219
+  C:03E8H         LINE#         220
+  C:03EAH         LINE#         222
+  C:03EDH         LINE#         223
+  C:03F0H         LINE#         224
+  C:03F2H         LINE#         225
+  C:03F4H         LINE#         226
+  C:03F6H         LINE#         228
+  C:03F9H         LINE#         229
+  C:03FBH         LINE#         230
+  C:03FDH         LINE#         231
+  C:03FFH         LINE#         232
+  C:0401H         LINE#         234
+  C:0404H         LINE#         235
+  C:0407H         LINE#         236
+  C:0409H         LINE#         237
+  C:040BH         LINE#         238
+  C:040DH         LINE#         240
+  C:0410H         LINE#         242
+  -------         ENDPROC       V_INIT
+  -------         ENDMOD        DDS_TEST
+
+  -------         MODULE        ?C?FPMUL
+  C:0003H         PUBLIC        ?C?FPMUL
+  -------         ENDMOD        ?C?FPMUL
+
+  -------         MODULE        ?C?FPDIV
+  C:010CH         PUBLIC        ?C?FPDIV
+  -------         ENDMOD        ?C?FPDIV
+
+  -------         MODULE        ?C?FCAST
+  C:01B3H         PUBLIC        ?C?FCASTC
+  C:01AEH         PUBLIC        ?C?FCASTI
+  C:01A9H         PUBLIC        ?C?FCASTL
+  -------         ENDMOD        ?C?FCAST
+
+  -------         MODULE        ?C?CASTF
+  C:01E7H         PUBLIC        ?C?CASTF
+  -------         ENDMOD        ?C?CASTF
+
+  -------         MODULE        ?C?LNEG
+  C:0268H         PUBLIC        ?C?LNEG
+  -------         ENDMOD        ?C?LNEG
+
+  -------         MODULE        ?C?LLDIIDATA
+  C:027FH         PUBLIC        ?C?LLDIIDATA
+  C:0276H         PUBLIC        ?C?LLDIIDATA1
+  C:0278H         PUBLIC        ?C?LLDIIDATA8
+  -------         ENDMOD        ?C?LLDIIDATA
+
+BL51 BANKED LINKER/LOCATER V5.03                                                      04/29/2010  10:54:21  PAGE 7
+
+
+Program Size: data=58.0 xdata=0 code=1222
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=RESET Pin=P5-1
+Removed Pin From Net: NetName=A1/SDO Pin=P5-12
+Added Pin To Net: NetName=RESET Pin=P5-2
+Added Pin To Net: NetName=A1/SDO Pin=P5-11
+Added Room: Name=‘≠¿ÌÕº

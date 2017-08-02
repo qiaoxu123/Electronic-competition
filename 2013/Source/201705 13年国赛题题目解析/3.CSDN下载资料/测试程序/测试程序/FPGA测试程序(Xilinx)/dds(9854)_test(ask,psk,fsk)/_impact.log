@@ -1,0 +1,62 @@
+iMPACT Version: H.38
+iMPACT log file started on 2009/10/17 08:46:49
+// *** BATCH CMD : setPreference -pref UserLevel:NOVICE
+// *** BATCH CMD : setPreference -pref MessageLevel:DETAILED
+// *** BATCH CMD : setPreference -pref ConcurrentMode:FALSE
+// *** BATCH CMD : setPreference -pref UseHighz:FALSE
+// *** BATCH CMD : setPreference -pref ConfigOnFailure:STOP
+// *** BATCH CMD : setPreference -pref StartupCLock:AUTO_CORRECTION
+// *** BATCH CMD : setPreference -pref AutoSignature:FALSE
+// *** BATCH CMD : setPreference -pref KeepSVF:FALSE
+// *** BATCH CMD : setPreference -pref svfUseTime:FALSE
+// *** BATCH CMD : setPreference -pref UserLevel:NOVICE
+// *** BATCH CMD : setPreference -pref MessageLevel:DETAILED
+// *** BATCH CMD : setPreference -pref ConcurrentMode:FALSE
+// *** BATCH CMD : setPreference -pref UseHighz:FALSE
+// *** BATCH CMD : setPreference -pref ConfigOnFailure:STOP
+// *** BATCH CMD : setPreference -pref StartupCLock:AUTO_CORRECTION
+// *** BATCH CMD : setPreference -pref AutoSignature:FALSE
+// *** BATCH CMD : setPreference -pref KeepSVF:FALSE
+// *** BATCH CMD : setPreference -pref svfUseTime:FALSE
+// *** BATCH CMD : setMode -bs
+Loading cdf file f:\graduation/graduation.ipf...
+// *** BATCH CMD : setPreference -pref UserLevel:Novice
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -mpm
+// *** BATCH CMD : setMode -cf
+// *** BATCH CMD : setMode -dtconfig
+// *** BATCH CMD : setMode -bsfile
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : addDevice -position 1 -file "F:\graduation\graduation.jed"
+'1': Loading file 'F:\graduation\graduation.jed' ...
+done.
+INFO:iMPACT:1777 - 
+Reading C:/Xilinx/xc9500xl/data/xc95144xl.bsd...
+Reading C:/Xilinx/xc9500xl/data/xc95144xl.bsd...
+INFO:iMPACT:501 - '1': Added Device xc95144xl successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : 
+// *** BATCH CMD : setCable -port lpt1
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.0.0. LPT base address = 0378h.
+ ECP base address = 0778h.
+Cable connection failed.
+// *** BATCH CMD : setMode -bs
+Finish loading cdf file f:\graduation/graduation.ipf.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -bsfile
+// *** BATCH CMD : setMode -dtconfig
+// *** BATCH CMD : setMode -cf
+GUI --- Read System ACE CF Mode...
+// *** BATCH CMD : setMode -mpm
+GUI --- Read System ACE MPM Mode...
+// *** BATCH CMD : setMode -pff
+GUI --- Read PROM Formatter Mode...
+// *** BATCH CMD : setMode -bs
+*****   Closing iMPACT program.   *****

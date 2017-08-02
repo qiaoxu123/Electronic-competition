@@ -1,0 +1,69 @@
+Pin Freeze File:  version H.42
+
+95144XL144TQ XC95144XL-5-TQ144
+clk S:PIN128
+dial<0> S:PIN69
+dial<1> S:PIN66
+dial<2> S:PIN64
+a<0> S:PIN16
+a<1> S:PIN19
+a<2> S:PIN12
+a<3> S:PIN14
+a<4> S:PIN6
+a<5> S:PIN9
+d<0> S:PIN7
+d<1> S:PIN25
+d<2> S:PIN10
+d<3> S:PIN23
+d<4> S:PIN13
+d<5> S:PIN21
+d<6> S:PIN15
+d<7> S:PIN17
+fsk S:PIN32
+io_ud S:PIN31
+mst_rst S:PIN3
+wrb S:PIN26
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 d_3 a_0 d_7 d_1
+		 a_1
+PARTITION FB1_8 d_5
+PARTITION FB1_10 io_ud_OBUF
+PARTITION FB1_12 wrb_OBUF
+PARTITION FB1_14 EXP10_ EXP11_ data_tmp<3> EXP12_
+		 EXP13_
+PARTITION FB2_1 address_tmp<3> EXP14_ EXP15_ dount<2>
+		 dount<1> mst_rst_OBUF EXP16_ address_tmp<4>
+		 a_4 d_0 a_5 d_2
+		 a_2 dount<0> d_4 a_3
+		 d_6 EXP17_
+PARTITION FB3_1 state<9> fskhold state<8> state<7>
+		 state<6> state<5> state<4> state<3>
+		 state<19> state<18> state<17> state<16>
+		 state<15> state<14> state<13> state<12>
+		 state<11> state<10>
+PARTITION FB4_1 count<0> EXP18_ data_tmp<6> EXP19_
+		 EXP20_ count<5> count<3> EXP21_
+		 EXP22_ data_tmp<0> EXP23_ count<4>
+		 count<2> EXP24_ EXP25_ data_tmp<4>
+		 EXP26_ $OpTx$FX_DC$36
+PARTITION FB5_1 data_tmp<2> EXP27_ div<9> count<1>
+		 EXP28_ data_tmp<5> EXP29_ EXP30_
+		 EXP31_ data_tmp<7> EXP32_ EXP33_
+		 EXP34_ data_tmp<1> EXP35_ EXP36_
+		 EXP37_ EXP38_
+PARTITION FB6_1 div<8> div<7> div<6> div<5>
+		 div<4> div<3> div<2> div<1>
+		 EXP39_ EXP40_ address_tmp<0> EXP41_
+		 div<11> div<10> EXP42_ address_tmp<1>
+		 EXP43_ EXP44_
+PARTITION FB7_1 EXP45_ EXP46_
+PARTITION FB7_4 output2<7> state<1> state<2> div<0>
+		 dount<3> dount<4> dount<5> state<0>
+		 EXP47_ EXP48_ address_tmp<5> EXP49_
+		 EXP50_ EXP51_ address_tmp<2>
+
+

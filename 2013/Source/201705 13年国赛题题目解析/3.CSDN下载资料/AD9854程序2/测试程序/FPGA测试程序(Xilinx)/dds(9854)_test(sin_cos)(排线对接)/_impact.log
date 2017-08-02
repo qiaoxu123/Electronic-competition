@@ -1,0 +1,315 @@
+iMPACT Version: H.42
+iMPACT log file started on 2011/07/29 16:25:04
+// *** BATCH CMD : setPreference -pref UserLevel:NOVICE
+// *** BATCH CMD : setPreference -pref MessageLevel:DETAILED
+// *** BATCH CMD : setPreference -pref ConcurrentMode:FALSE
+// *** BATCH CMD : setPreference -pref UseHighz:FALSE
+// *** BATCH CMD : setPreference -pref ConfigOnFailure:STOP
+// *** BATCH CMD : setPreference -pref StartupCLock:AUTO_CORRECTION
+// *** BATCH CMD : setPreference -pref AutoSignature:FALSE
+// *** BATCH CMD : setPreference -pref KeepSVF:FALSE
+// *** BATCH CMD : setPreference -pref svfUseTime:FALSE
+// *** BATCH CMD : setPreference -pref UserLevel:NOVICE
+// *** BATCH CMD : setPreference -pref MessageLevel:DETAILED
+// *** BATCH CMD : setPreference -pref ConcurrentMode:FALSE
+// *** BATCH CMD : setPreference -pref UseHighz:FALSE
+// *** BATCH CMD : setPreference -pref ConfigOnFailure:STOP
+// *** BATCH CMD : setPreference -pref StartupCLock:AUTO_CORRECTION
+// *** BATCH CMD : setPreference -pref AutoSignature:FALSE
+// *** BATCH CMD : setPreference -pref KeepSVF:FALSE
+// *** BATCH CMD : setPreference -pref svfUseTime:FALSE
+// *** BATCH CMD : setMode -bs
+GUI --- Boundary-Scan Mode selected
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+CB_PROGRESS_START - Starting Operation.
+Connecting to cable (USB Port).
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 6.2.2.2. LPT base address = 03BCh.
+ ECP base address = FFFFFFFFh.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 6.2.2.2.Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 6.2.2.2.Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 6.2.2.2.Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver xusbdfwu.sys version: 1018 (1018).
+ Driver windrvr6.sys version = 6.2.2.2. Max current requested during enumeration is 280 mA.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1018.
+CPLD file version = 0006h.
+CPLD version = 0012h.
+CB_PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : Identify
+PROGRESS_START - Starting Operation.
+Identifying chain contents ....'1': : Manufacturer's ID =Xilinx xcf02s, Version : 0
+INFO:iMPACT:1777 - 
+Reading C:/Xilinx/xcf/data/xcf02s.bsd...
+Reading C:/Xilinx/xcf/data/xcf02s.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf02s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+Validating chain...
+Boundary-scan chain validated successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+xaf02s_vo20
+xaf04s_vo20
+xc18v02_pc44
+xc18v02_vq44
+xc18v04_pc44
+xc18v04_vq44
+xcf02s_vo20
+xcf04s_vo20
+xcf08p_fs48
+xcf08p_vo48
+xcf16p_fs48
+xcf16p_vo48
+xcf32p_fs48
+xcf32p_vo48
+// *** BATCH CMD : setAttribute -position 1 -attr devicePartName -value "xcf02s"
+// *** BATCH CMD : setAttribute -position 1 -attr configFileName -value "C:\电子竞赛模块-高速DDS(AD9854ASQ)模块板发行资料\测试程序\FPGA测试程序(Xilinx)\dds(9854)_test(sin_cos)(排线对接)\Untitled.mcs"
+'1': Loading file 'C:\电子竞赛模块-高速DDS(AD9854ASQ)模块板发行资料\测试程序\FPGA测试程序(Xilinx)\dds(9854)_test(sin_cos)(排线对接)\Untitled.mcs' ...
+done.
+// *** BATCH CMD : Program -p 1 -e -v 
+PROGRESS_START - Starting Operation.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Erasing device...
+Erasure completed successfully.
+done.
+'1': Putting device in ISP mode...done.
+'1': Putting device in ISP mode...done.
+'1': Verifying device...done.
+'1': Verification completed successfully.
+'1': Calculated checksum matches expected checksum, 00222d6f6
+'1': Putting device in ISP mode...done.
+'1': Putting device in ISP mode...done.
+'1': Setting user-programmable bits...
+done.
+'1': Putting device in ISP mode...done.
+'1': Programming completed successfully.
+Programming completed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =     17 sec.
+// *** BATCH CMD : Identify
+PROGRESS_START - Starting Operation.
+Identifying chain contents ....done.
+ERROR:iMPACT:585 - A problem may exist in the hardware configuration.
+	Check that the cable, scan chain, and power connections are intact,
+	that the specified scan chain configuration matches the actual hardware, and
+	 that the power supply is adequate and delivering the correct voltage.
+	Check that the cable, scan chain, and power connections are intact,
+	that the specified scan chain configuration matches the actual hardware, and
+	 that the power supply is adequate and delivering the correct voltage.
+	that the specified scan chain configuration matches the actual hardware, and
+	 that the power supply is adequate and delivering the correct voltage.
+	 that the power supply is adequate and delivering the correct voltage.
+Validating chain...
+Boundary-scan chain validated successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      2 sec.
+Cable is not connected.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+CB_PROGRESS_START - Starting Operation.
+Connecting to cable (USB Port).
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 6.2.2.2. LPT base address = 03BCh.
+ ECP base address = FFFFFFFFh.
+Cable connection established.
+CB_PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : Identify
+PROGRESS_START - Starting Operation.
+Identifying chain contents ....'1': : Manufacturer's ID =Xilinx xcv200, Version : 3
+INFO:iMPACT:1777 - 
+Reading C:/Xilinx/virtex/data/xcv200.bsd...
+Reading C:/Xilinx/virtex/data/xcv200.bsd...
+INFO:iMPACT:501 - '1': Added Device xcv200 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+Validating chain...
+Boundary-scan chain validated successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      0 sec.
+// *** BATCH CMD : setAttribute -position 1 -attr configFileName -value "C:\电子竞赛模块-高速DDS(AD9854ASQ)模块板发行资料\测试程序\FPGA测试程序(Xilinx)\dds(9854)_test(sin_cos)(排线对接)\sincos.bit"
+'1': Loading file 'C:\电子竞赛模块-高速DDS(AD9854ASQ)模块板发行资料\测试程序\FPGA测试程序(Xilinx)\dds(9854)_test(sin_cos)(排线对接)\sincos.bit' ...
+done.
+INFO:iMPACT:1777 - 
+Reading C:/Xilinx/spartan2/data/xc2s200.bsd...
+Reading C:/Xilinx/spartan2/data/xc2s200.bsd...
+INFO:iMPACT:501 - '1': Added Device xc2s200 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : Program -p 1 
+PROGRESS_START - Starting Operation.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1':Programming  device...
+done.
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT:580 - '1':Checking done pin ....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      8 sec.
+// *** BATCH CMD : Identify
+PROGRESS_START - Starting Operation.
+Identifying chain contents ....'1': : Manufacturer's ID =Xilinx xcf02s, Version : 0
+INFO:iMPACT:1777 - 
+Reading C:/Xilinx/xcf/data/xcf02s.bsd...
+Reading C:/Xilinx/xcf/data/xcf02s.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf02s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+Validating chain...
+Boundary-scan chain validated successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      0 sec.
+xaf02s_vo20
+xaf04s_vo20
+xc18v02_pc44
+xc18v02_vq44
+xc18v04_pc44
+xc18v04_vq44
+xcf02s_vo20
+xcf04s_vo20
+xcf08p_fs48
+xcf08p_vo48
+xcf16p_fs48
+xcf16p_vo48
+xcf32p_fs48
+xcf32p_vo48
+// *** BATCH CMD : setAttribute -position 1 -attr devicePartName -value "xcf02s"
+// *** BATCH CMD : setAttribute -position 1 -attr configFileName -value "C:\电子竞赛模块-高速DDS(AD9854ASQ)模块板发行资料\测试程序\FPGA测试程序(Xilinx)\dds(9854)_test(sin_cos)(排线对接)\Untitled.mcs"
+'1': Loading file 'C:\电子竞赛模块-高速DDS(AD9854ASQ)模块板发行资料\测试程序\FPGA测试程序(Xilinx)\dds(9854)_test(sin_cos)(排线对接)\Untitled.mcs' ...
+done.
+// *** BATCH CMD : Program -p 1 -e -v 
+PROGRESS_START - Starting Operation.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Erasing device...
+Erasure completed successfully.
+done.
+'1': Putting device in ISP mode...done.
+'1': Putting device in ISP mode...done.
+'1': Verifying device...done.
+'1': Verification completed successfully.
+'1': Calculated checksum matches expected checksum, 00222d6f6
+'1': Putting device in ISP mode...done.
+'1': Putting device in ISP mode...done.
+'1': Setting user-programmable bits...
+done.
+'1': Putting device in ISP mode...done.
+'1': Programming completed successfully.
+Programming completed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =     30 sec.
+// *** BATCH CMD : Identify
+PROGRESS_START - Starting Operation.
+Identifying chain contents ....'1': : Manufacturer's ID =Xilinx xc2s200, Version : 8
+INFO:iMPACT:1777 - 
+Reading C:/Xilinx/spartan2/data/xc2s200.bsd...
+Reading C:/Xilinx/spartan2/data/xc2s200.bsd...
+INFO:iMPACT:501 - '1': Added Device xc2s200 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+Validating chain...
+Boundary-scan chain validated successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : setAttribute -position 1 -attr configFileName -value "C:\电子竞赛模块-高速DDS(AD9854ASQ)模块板发行资料\测试程序\FPGA测试程序(Xilinx)\dds(9854)_test(sin_cos)(排线对接)\sincos.bit"
+'1': Loading file 'C:\电子竞赛模块-高速DDS(AD9854ASQ)模块板发行资料\测试程序\FPGA测试程序(Xilinx)\dds(9854)_test(sin_cos)(排线对接)\sincos.bit' ...
+done.
+INFO:iMPACT:501 - '1': Added Device xc2s200 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : Program -p 1 
+PROGRESS_START - Starting Operation.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1':Programming  device...
+done.
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT:580 - '1':Checking done pin ....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      7 sec.
+// *** BATCH CMD : Identify
+PROGRESS_START - Starting Operation.
+Identifying chain contents ....'1': : Manufacturer's ID =Xilinx xcf02s, Version : 0
+INFO:iMPACT:1777 - 
+Reading C:/Xilinx/xcf/data/xcf02s.bsd...
+Reading C:/Xilinx/xcf/data/xcf02s.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf02s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+Validating chain...
+Boundary-scan chain validated successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      0 sec.
+xaf02s_vo20
+xaf04s_vo20
+xc18v02_pc44
+xc18v02_vq44
+xc18v04_pc44
+xc18v04_vq44
+xcf02s_vo20
+xcf04s_vo20
+xcf08p_fs48
+xcf08p_vo48
+xcf16p_fs48
+xcf16p_vo48
+xcf32p_fs48
+xcf32p_vo48
+// *** BATCH CMD : setAttribute -position 1 -attr devicePartName -value "xcf02s"
+// *** BATCH CMD : setAttribute -position 1 -attr configFileName -value "C:\电子竞赛模块-高速DDS(AD9854ASQ)模块板发行资料\测试程序\FPGA测试程序(Xilinx)\dds(9854)_test(sin_cos)(排线对接)\Untitled.mcs"
+'1': Loading file 'C:\电子竞赛模块-高速DDS(AD9854ASQ)模块板发行资料\测试程序\FPGA测试程序(Xilinx)\dds(9854)_test(sin_cos)(排线对接)\Untitled.mcs' ...
+done.
+// *** BATCH CMD : Program -p 1 -e -v 
+PROGRESS_START - Starting Operation.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Erasing device...
+Erasure completed successfully.
+done.
+'1': Putting device in ISP mode...done.
+'1': Putting device in ISP mode...done.
+'1': Verifying device...done.
+'1': Verification completed successfully.
+'1': Calculated checksum matches expected checksum, 00222d6f6
+'1': Putting device in ISP mode...done.
+'1': Putting device in ISP mode...done.
+'1': Setting user-programmable bits...
+done.
+'1': Putting device in ISP mode...done.
+'1': Programming completed successfully.
+Programming completed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =     30 sec.
+Cable is not connected.
+*****   Closing iMPACT program.   *****

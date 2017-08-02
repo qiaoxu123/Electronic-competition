@@ -1,0 +1,18 @@
+Change Component DesignItemId : Designator=U4 Old DesignItemId= New DesignItemId=AD9854
+Change Component DesignItemId : Designator=U1 Old DesignItemId= New DesignItemId=AMS1117
+Change Component DesignItemId : Designator=U2 Old DesignItemId= New DesignItemId=LM317
+Change Component DesignItemId : Designator=P1 Old DesignItemId= New DesignItemId=Pin 2
+Change Component DesignItemId : Designator=P2 Old DesignItemId= New DesignItemId=pin 4
+Change Component DesignItemId : Designator=P3 Old DesignItemId= New DesignItemId=pin 4
+Change Component DesignItemId : Designator=P4 Old DesignItemId= New DesignItemId=Pin 6X2
+Change Component DesignItemId : Designator=P5 Old DesignItemId= New DesignItemId=Pin 6X2
+Change Component DesignItemId : Designator=U5 Old DesignItemId= New DesignItemId=有源晶振5032
+Change Component DesignItemId : Designator=RW1 Old DesignItemId= New DesignItemId=电位器
+Change Component Description : Designator=D1 Old Description=1 Amp General Purpose New Description=1 Amp General Purpose Rectifier
+Change Component Description : Designator=D2 Old Description=1 Amp General Purpose New Description=1 Amp General Purpose Rectifier
+Change Component Description : Designator=D3 Old Description=1 Amp General Purpose New Description=1 Amp General Purpose Rectifier
+Added Component: Designator=C35(0805)
+Added Pin To Net: NetName=AGND Pin=C35-1
+Added Pin To Net: NetName=+3.3VA Pin=C35-2
+Added Member To Class: ClassName=原理图 Member=Component C35 C
+Added Room: Name=原理图

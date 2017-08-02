@@ -1,0 +1,4 @@
+"STARTUP.obj",
+"DDS_TEST.obj" 
+TO "DDS_TEST" 
+RAMSIZE(256) 

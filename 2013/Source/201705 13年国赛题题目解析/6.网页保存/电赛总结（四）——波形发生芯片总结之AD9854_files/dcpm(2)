@@ -1,0 +1,5 @@
+___adblockplus({"queryid" : "53f8f24f070556be","tuid" : "u2910327_0","placement" : {"basic" : {"cname":"65035100_cpr","conBackEnv":1,"flowType":1,"mediumType":1,"rspFormat":1,"sellType":2,"sspId":1,"tuId":9223372032562718839,"userId":7812760}
+,"container" : {"anchoredType":1,"floated":{},"height":280,"sizeType":1,"width":336}
+,"fillstyle" : {"backgroundColor":"#ffffff","cloudTheme":{"stid":5},"elements":[0,4,1,5,2],"flush":0,"layout":[1,2],"lu":{"borderWidth":0,"number":0},"opacity":0,"search":{},"styleType":1,"txt":{"align":1,"bborder":0,"cbackground":"#ffffff","cborder":"#ffffff","cdesc":"#444444","cflush":"#e10900","ctitle":"#0000ff","curl":"#008000","fontName":"宋体","fontSize":12,"number":4},"video":{}}
+,"userdefine" : "|cpro_cpro_lu=1,#dfe4f9,#000000,宋体,#ffffff|cpro_template=text_default_336_280|cpro_version=2.0","complement_type" : 2,"update" : "1488524974_1489191692"},"extends" : {"ssph":280,"sspw":336}
+,"pdb_deliv" : {"deliv_id" : "0","deliv_des" : {},"brandad" : 0},"order_deliv" : {"deliv_id" : "0","demand_id" : "0"},"rtb_deliv" : {"deliv_id" : "0","demand_id" : "2910327"},"media_protect" : ""});

@@ -1,0 +1,636 @@
+BL51 BANKED LINKER/LOCATER V6.00                                                        08/24/2008  18:04:52  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.00, INVOKED BY:
+D:\KEIL\C51\BIN\BL51.EXE main.obj TO AD9854 RAMSIZE (256)
+
+
+MEMORY MODEL: SMALL WITH FLOATING POINT ARITHMETIC
+
+
+INPUT MODULES INCLUDED:
+  main.obj (MAIN)
+  D:\KEIL\C51\LIB\C51FPS.LIB (?C?FPADD)
+  D:\KEIL\C51\LIB\C51FPS.LIB (?C?FPMUL)
+  D:\KEIL\C51\LIB\C51FPS.LIB (?C?FPDIV)
+  D:\KEIL\C51\LIB\C51FPS.LIB (?C?FCAST)
+  D:\KEIL\C51\LIB\C51FPS.LIB (?C?CASTF)
+  D:\KEIL\C51\LIB\C51FPS.LIB (?C?FPGETOPN)
+  D:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+  D:\KEIL\C51\LIB\C51S.LIB (?C?LMUL)
+  D:\KEIL\C51\LIB\C51S.LIB (?C?LNEG)
+  D:\KEIL\C51\LIB\C51S.LIB (?C?ULSHR)
+  D:\KEIL\C51\LIB\C51S.LIB (?C?SLSHR)
+  D:\KEIL\C51\LIB\C51S.LIB (?C_INIT)
+
+
+LINK MAP OF MODULE:  AD9854 (MAIN)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0017H     UNIT         _DATA_GROUP_
+            DATA    001FH     0015H     UNIT         ?DT?_AD9854_SETRFSK?MAIN
+            DATA    0034H     000EH     UNIT         ?DT?_FREQ_DOUBLE_CONVERT?MAIN
+            DATA    0042H     000EH     UNIT         ?DT?MAIN
+            DATA    0050H     000CH     UNIT         ?DT?_AD9854_SETFSK?MAIN
+            DATA    005CH     0009H     UNIT         ?DT?_AD9854_SETBPSK?MAIN
+            DATA    0065H     0007H     UNIT         ?DT?_AD9854_SETSINE_DOUBLE?MAIN
+            DATA    006CH     0005H     UNIT         ?DT?AD9854_INITAM?MAIN
+            DATA    0071H     0004H     UNIT         ?DT?_AD9854_SETOSK?MAIN
+            IDATA   0075H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     03E1H     UNIT         ?C?LIB_CODE
+            CODE    03E4H     0121H     UNIT         ?PR?_FREQ_CONVERT?MAIN
+            CODE    0505H     00CEH     UNIT         ?PR?_AD9854_SETRFSK?MAIN
+            CODE    05D3H     00AFH     UNIT         ?PR?_FREQ_DOUBLE_CONVERT?MAIN
+            CODE    0682H     008CH     UNIT         ?C_C51STARTUP
+            CODE    070EH     007CH     UNIT         ?PR?_AD9854_SETBPSK?MAIN
+            CODE    078AH     0076H     UNIT         ?PR?_AD9854_SETFSK?MAIN
+            CODE    0800H     0056H     UNIT         ?PR?_AD9854_SETOSK?MAIN
+            CODE    0856H     004AH     UNIT         ?PR?_AD9854_SETSINE_DOUBLE?MAIN
+            CODE    08A0H     0045H     UNIT         ?PR?AD9854_INITAM?MAIN
+            CODE    08E5H     0040H     UNIT         ?PR?_AD9854_SETSINE?MAIN
+            CODE    0925H     0026H     UNIT         ?PR?_AD9854_WR_BYTE?MAIN
+            CODE    094BH     0022H     UNIT         ?PR?_AD9854_SETAM?MAIN
+            CODE    096DH     0016H     UNIT         ?PR?MAIN?MAIN
+BL51 BANKED LINKER/LOCATER V6.00                                                      08/24/2008  18:04:52  PAGE 2
+
+
+            CODE    0983H     0014H     UNIT         ?PR?AD9854_INIT?MAIN
+            CODE    0997H     0014H     UNIT         ?PR?AD9854_INITFSK?MAIN
+            CODE    09ABH     0014H     UNIT         ?PR?AD9854_INITBPSK?MAIN
+            CODE    09BFH     0014H     UNIT         ?PR?AD9854_INITOSK?MAIN
+            CODE    09D3H     0014H     UNIT         ?PR?AD9854_INITRFSK?MAIN
+            CODE    09E7H     0013H     UNIT         ?PR?_DELAY?MAIN
+            CODE    09FAH     000DH     UNIT         ?C_INITSEG
+
+
+
+OVERLAY MAP OF MODULE:   AD9854 (MAIN)
+
+
+SEGMENT                                   DATA_GROUP 
+  +--> CALLED SEGMENT                   START    LENGTH
+-------------------------------------------------------
+?C_C51STARTUP                           -----    -----
+  +--> ?PR?MAIN?MAIN
+  +--> ?C_INITSEG
+
+?PR?MAIN?MAIN                           -----    -----
+  +--> ?PR?AD9854_INIT?MAIN
+  +--> ?PR?_AD9854_SETSINE?MAIN
+
+?PR?AD9854_INIT?MAIN                    -----    -----
+  +--> ?PR?_AD9854_WR_BYTE?MAIN
+
+?PR?_AD9854_SETSINE?MAIN                0008H    0007H
+  +--> ?PR?_FREQ_CONVERT?MAIN
+  +--> ?PR?_AD9854_WR_BYTE?MAIN
+
+?PR?_FREQ_CONVERT?MAIN                  000FH    0010H
+
+
+
+SYMBOL TABLE OF MODULE:  AD9854 (MAIN)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        MAIN
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0080H         PUBLIC        P0
+  C:070EH         PUBLIC        _AD9854_SetBPSK
+  D:0090H         PUBLIC        P1
+  D:00A0H         PUBLIC        P2
+  D:00B0H         PUBLIC        P3
+  D:00E8H         PUBLIC        P4
+  C:0505H         PUBLIC        _AD9854_SetRFSK
+  C:09ABH         PUBLIC        AD9854_InitBPSK
+  D:00A8H         PUBLIC        IE
+  C:09D3H         PUBLIC        AD9854_InitRFSK
+  D:00B8H         PUBLIC        IP
+  D:0042H         PUBLIC        Freq_mult_doulle
+  C:096DH         PUBLIC        main
+  D:0046H         PUBLIC        FreqWord
+  C:078AH         PUBLIC        _AD9854_SetFSK
+BL51 BANKED LINKER/LOCATER V6.00                                                      08/24/2008  18:04:52  PAGE 3
+
+
+  D:0098H         PUBLIC        SCON
+  D:0088H         PUBLIC        TCON
+  C:05D3H         SYMBOL        _Freq_double_convert
+  B:00B0H.6       PUBLIC        AD9854_UDCLK
+  B:00B0H.7       PUBLIC        AD9854_RST
+  C:0800H         PUBLIC        _AD9854_SetOSK
+  C:0997H         PUBLIC        AD9854_InitFSK
+  D:004CH         PUBLIC        Freq_mult_ulong
+  C:0856H         PUBLIC        _AD9854_SetSine_double
+  C:0939H         SYMBOL        _AD9854_WR_Byte
+  C:09BFH         PUBLIC        AD9854_InitOSK
+  C:03E4H         SYMBOL        _Freq_convert
+  C:0983H         PUBLIC        AD9854_Init
+  B:00B0H.4       PUBLIC        AD9854_RD
+  C:094BH         PUBLIC        _AD9854_SetAM
+  C:08E5H         PUBLIC        _AD9854_SetSine
+  C:08A0H         PUBLIC        AD9854_InitAM
+  D:00C8H         PUBLIC        T2CON
+  B:00B0H.5       PUBLIC        AD9854_WR
+  C:09E7H         SYMBOL        _delay
+  D:00D0H         PUBLIC        PSW
+  C:0925H         SYMBOL        L?0046
+  -------         PROC          L?0045
+  -------         ENDPROC       L?0045
+  C:0925H         SYMBOL        L?0046
+  -------         PROC          _AD9854_WR_BYTE
+  D:0007H         SYMBOL        addr
+  D:0005H         SYMBOL        dat
+  C:0939H         LINE#         146
+  C:0939H         LINE#         147
+  C:0939H         LINE#         148
+  C:0944H         LINE#         149
+  C:0946H         LINE#         150
+  C:0948H         LINE#         151
+  C:094AH         LINE#         152
+  -------         ENDPROC       _AD9854_WR_BYTE
+  -------         PROC          AD9854_INIT
+  C:0983H         LINE#         160
+  C:0983H         LINE#         161
+  C:0983H         LINE#         162
+  C:0983H         LINE#         163
+  C:0983H         LINE#         164
+  C:0983H         LINE#         165
+  C:0983H         LINE#         166
+  C:0983H         LINE#         168
+  C:0983H         LINE#         169
+  C:0986H         LINE#         170
+  C:098CH         LINE#         171
+  C:0992H         LINE#         173
+  C:0994H         LINE#         174
+  C:0996H         LINE#         175
+  -------         ENDPROC       AD9854_INIT
+  -------         PROC          _FREQ_CONVERT
+  D:000FH         SYMBOL        Freq
+  -------         DO            
+  D:0013H         SYMBOL        FreqBuf
+  D:0017H         SYMBOL        Temp
+BL51 BANKED LINKER/LOCATER V6.00                                                      08/24/2008  18:04:52  PAGE 4
+
+
+  D:001BH         SYMBOL        Array_Freq
+  -------         ENDDO         
+  C:03E4H         LINE#         186
+  C:03ECH         LINE#         187
+  C:03ECH         LINE#         189
+  C:03F8H         LINE#         192
+  C:03FAH         LINE#         193
+  C:0401H         LINE#         194
+  C:0410H         LINE#         195
+  C:041FH         LINE#         197
+  C:0438H         LINE#         198
+  C:043AH         LINE#         199
+  C:0447H         LINE#         201
+  C:046CH         LINE#         202
+  C:046FH         LINE#         203
+  C:0483H         LINE#         205
+  C:04A8H         LINE#         206
+  C:04ABH         LINE#         207
+  C:04BFH         LINE#         209
+  C:04E4H         LINE#         210
+  C:04E7H         LINE#         211
+  C:04FBH         LINE#         213
+  C:04FDH         LINE#         214
+  C:0504H         LINE#         215
+  -------         ENDPROC       _FREQ_CONVERT
+  -------         PROC          _AD9854_SETSINE
+  D:0004H         SYMBOL        Freq
+  D:000CH         SYMBOL        Shape
+  -------         DO            
+  D:0004H         SYMBOL        count
+  D:000EH         SYMBOL        Adress
+  -------         ENDDO         
+  C:08E5H         LINE#         224
+  C:08E5H         LINE#         225
+  C:08E5H         LINE#         229
+  C:08E8H         LINE#         231
+  C:08EBH         LINE#         233
+  C:08F3H         LINE#         234
+  C:08F3H         LINE#         235
+  C:0901H         LINE#         236
+  C:0903H         LINE#         238
+  C:090BH         LINE#         239
+  C:0912H         LINE#         241
+  C:0919H         LINE#         242
+  C:0920H         LINE#         244
+  C:0922H         LINE#         245
+  C:0924H         LINE#         246
+  -------         ENDPROC       _AD9854_SETSINE
+  -------         PROC          _FREQ_DOUBLE_CONVERT
+  D:0034H         SYMBOL        Freq
+  -------         DO            
+  D:0038H         SYMBOL        Low32
+  D:003CH         SYMBOL        High16
+  D:003EH         SYMBOL        Temp
+  -------         ENDDO         
+  C:05D3H         LINE#         259
+  C:05DBH         LINE#         260
+BL51 BANKED LINKER/LOCATER V6.00                                                      08/24/2008  18:04:52  PAGE 5
+
+
+  C:05DBH         LINE#         263
+  C:05E7H         LINE#         264
+  C:05FAH         LINE#         266
+  C:060BH         LINE#         267
+  C:0648H         LINE#         268
+  C:0653H         LINE#         270
+  C:0655H         LINE#         271
+  C:065CH         LINE#         272
+  C:066BH         LINE#         273
+  C:067AH         LINE#         274
+  C:067DH         LINE#         275
+  C:0681H         LINE#         276
+  -------         ENDPROC       _FREQ_DOUBLE_CONVERT
+  -------         PROC          _AD9854_SETSINE_DOUBLE
+  D:0065H         SYMBOL        Freq
+  D:0069H         SYMBOL        Shape
+  -------         DO            
+  D:0004H         SYMBOL        count
+  D:006BH         SYMBOL        Adress
+  -------         ENDDO         
+  C:0856H         LINE#         285
+  C:085EH         LINE#         286
+  C:085EH         LINE#         287
+  C:085EH         LINE#         290
+  C:0861H         LINE#         292
+  C:0866H         LINE#         294
+  C:086EH         LINE#         295
+  C:086EH         LINE#         296
+  C:087CH         LINE#         297
+  C:087EH         LINE#         299
+  C:0886H         LINE#         300
+  C:088DH         LINE#         302
+  C:0894H         LINE#         303
+  C:089BH         LINE#         305
+  C:089DH         LINE#         306
+  C:089FH         LINE#         307
+  -------         ENDPROC       _AD9854_SETSINE_DOUBLE
+  -------         PROC          AD9854_INITFSK
+  C:0997H         LINE#         315
+  C:0997H         LINE#         316
+  C:0997H         LINE#         317
+  C:0997H         LINE#         318
+  C:0997H         LINE#         319
+  C:0997H         LINE#         320
+  C:0997H         LINE#         321
+  C:0997H         LINE#         323
+  C:0997H         LINE#         324
+  C:099AH         LINE#         325
+  C:09A0H         LINE#         326
+  C:09A6H         LINE#         328
+  C:09A8H         LINE#         329
+  C:09AAH         LINE#         330
+  -------         ENDPROC       AD9854_INITFSK
+  -------         PROC          _AD9854_SETFSK
+  D:0050H         SYMBOL        Freq1
+  D:0054H         SYMBOL        Freq2
+  -------         DO            
+BL51 BANKED LINKER/LOCATER V6.00                                                      08/24/2008  18:04:52  PAGE 6
+
+
+  D:0004H         SYMBOL        count
+  D:0058H         SYMBOL        Adress1
+  D:0059H         SYMBOL        Adress2
+  D:005AH         SYMBOL        Shape
+  -------         ENDDO         
+  C:078AH         LINE#         339
+  C:0792H         LINE#         340
+  C:0792H         LINE#         341
+  C:0792H         LINE#         344
+  C:0798H         LINE#         346
+  C:079BH         LINE#         347
+  C:079EH         LINE#         349
+  C:07A3H         LINE#         351
+  C:07ABH         LINE#         352
+  C:07ABH         LINE#         353
+  C:07B9H         LINE#         354
+  C:07BBH         LINE#         356
+  C:07C6H         LINE#         358
+  C:07CEH         LINE#         359
+  C:07CEH         LINE#         360
+  C:07DCH         LINE#         361
+  C:07DEH         LINE#         363
+  C:07E6H         LINE#         364
+  C:07EDH         LINE#         366
+  C:07F4H         LINE#         367
+  C:07FBH         LINE#         369
+  C:07FDH         LINE#         370
+  C:07FFH         LINE#         371
+  -------         ENDPROC       _AD9854_SETFSK
+  -------         PROC          AD9854_INITBPSK
+  C:09ABH         LINE#         379
+  C:09ABH         LINE#         380
+  C:09ABH         LINE#         381
+  C:09ABH         LINE#         382
+  C:09ABH         LINE#         383
+  C:09ABH         LINE#         384
+  C:09ABH         LINE#         385
+  C:09ABH         LINE#         387
+  C:09ABH         LINE#         388
+  C:09AEH         LINE#         389
+  C:09B4H         LINE#         390
+  C:09BAH         LINE#         392
+  C:09BCH         LINE#         393
+  C:09BEH         LINE#         394
+  -------         ENDPROC       AD9854_INITBPSK
+  -------         PROC          _AD9854_SETBPSK
+  D:005CH         SYMBOL        Phase1
+  D:0002H         SYMBOL        Phase2
+  -------         DO            
+  D:0004H         SYMBOL        count
+  D:005EH         SYMBOL        Freq
+  D:0062H         SYMBOL        Shape
+  D:0064H         SYMBOL        Adress
+  -------         ENDDO         
+  C:070EH         LINE#         405
+  C:0716H         LINE#         406
+  C:0716H         LINE#         409
+BL51 BANKED LINKER/LOCATER V6.00                                                      08/24/2008  18:04:52  PAGE 7
+
+
+  C:0721H         LINE#         410
+  C:0727H         LINE#         413
+  C:072AH         LINE#         415
+  C:0732H         LINE#         416
+  C:0739H         LINE#         418
+  C:073FH         LINE#         419
+  C:0745H         LINE#         421
+  C:0750H         LINE#         423
+  C:0758H         LINE#         424
+  C:0758H         LINE#         425
+  C:0766H         LINE#         426
+  C:0768H         LINE#         428
+  C:0770H         LINE#         429
+  C:0777H         LINE#         431
+  C:077EH         LINE#         432
+  C:0785H         LINE#         434
+  C:0787H         LINE#         435
+  C:0789H         LINE#         436
+  -------         ENDPROC       _AD9854_SETBPSK
+  -------         PROC          AD9854_INITOSK
+  C:09BFH         LINE#         444
+  C:09BFH         LINE#         445
+  C:09BFH         LINE#         446
+  C:09BFH         LINE#         447
+  C:09BFH         LINE#         448
+  C:09BFH         LINE#         449
+  C:09BFH         LINE#         450
+  C:09BFH         LINE#         452
+  C:09BFH         LINE#         453
+  C:09C2H         LINE#         454
+  C:09C8H         LINE#         455
+  C:09CEH         LINE#         457
+  C:09D0H         LINE#         458
+  C:09D2H         LINE#         459
+  -------         ENDPROC       AD9854_INITOSK
+  -------         PROC          _AD9854_SETOSK
+  D:0071H         SYMBOL        RateShape
+  -------         DO            
+  D:0004H         SYMBOL        count
+  D:0004H         SYMBOL        Freq
+  D:0072H         SYMBOL        Shape
+  D:0074H         SYMBOL        Adress
+  -------         ENDDO         
+  C:0800H         LINE#         467
+  C:0802H         LINE#         468
+  C:0802H         LINE#         471
+  C:080AH         LINE#         472
+  C:0810H         LINE#         475
+  C:0813H         LINE#         477
+  C:0816H         LINE#         479
+  C:081EH         LINE#         480
+  C:081EH         LINE#         481
+  C:082CH         LINE#         482
+  C:082EH         LINE#         484
+  C:0836H         LINE#         485
+  C:083DH         LINE#         487
+  C:0844H         LINE#         488
+BL51 BANKED LINKER/LOCATER V6.00                                                      08/24/2008  18:04:52  PAGE 8
+
+
+  C:084BH         LINE#         491
+  C:0851H         LINE#         493
+  C:0853H         LINE#         494
+  C:0855H         LINE#         495
+  -------         ENDPROC       _AD9854_SETOSK
+  -------         PROC          AD9854_INITAM
+  -------         DO            
+  D:0004H         SYMBOL        count
+  D:006CH         SYMBOL        Freq
+  D:0070H         SYMBOL        Adress
+  -------         ENDDO         
+  C:08A0H         LINE#         503
+  C:08A0H         LINE#         504
+  C:08A0H         LINE#         507
+  C:08ABH         LINE#         510
+  C:08AEH         LINE#         512
+  C:08AEH         LINE#         513
+  C:08AEH         LINE#         514
+  C:08AEH         LINE#         515
+  C:08AEH         LINE#         516
+  C:08AEH         LINE#         518
+  C:08AEH         LINE#         519
+  C:08B1H         LINE#         520
+  C:08B7H         LINE#         521
+  C:08BDH         LINE#         523
+  C:08C8H         LINE#         525
+  C:08D0H         LINE#         526
+  C:08D0H         LINE#         527
+  C:08DEH         LINE#         528
+  C:08E0H         LINE#         530
+  C:08E2H         LINE#         531
+  C:08E4H         LINE#         532
+  -------         ENDPROC       AD9854_INITAM
+  -------         PROC          _AD9854_SETAM
+  D:0002H         SYMBOL        Shape
+  C:094BH         LINE#         540
+  C:094FH         LINE#         541
+  C:094FH         LINE#         542
+  C:0956H         LINE#         543
+  C:095CH         LINE#         545
+  C:0962H         LINE#         546
+  C:0968H         LINE#         548
+  C:096AH         LINE#         549
+  C:096CH         LINE#         550
+  -------         ENDPROC       _AD9854_SETAM
+  -------         PROC          AD9854_INITRFSK
+  C:09D3H         LINE#         558
+  C:09D3H         LINE#         559
+  C:09D3H         LINE#         560
+  C:09D3H         LINE#         561
+  C:09D3H         LINE#         562
+  C:09D3H         LINE#         563
+  C:09D3H         LINE#         564
+  C:09D3H         LINE#         566
+  C:09D3H         LINE#         567
+  C:09D6H         LINE#         568
+  C:09DCH         LINE#         569
+BL51 BANKED LINKER/LOCATER V6.00                                                      08/24/2008  18:04:52  PAGE 9
+
+
+  C:09E2H         LINE#         571
+  C:09E4H         LINE#         572
+  C:09E6H         LINE#         573
+  -------         ENDPROC       AD9854_INITRFSK
+  -------         PROC          _AD9854_SETRFSK
+  D:001FH         SYMBOL        Freq_Low
+  D:0023H         SYMBOL        Freq_High
+  D:0027H         SYMBOL        Freq_Up_Down
+  D:002BH         SYMBOL        FreRate
+  -------         DO            
+  D:0004H         SYMBOL        count
+  D:002FH         SYMBOL        Adress1
+  D:0030H         SYMBOL        Adress2
+  D:0031H         SYMBOL        Adress3
+  D:0032H         SYMBOL        Shape
+  -------         ENDDO         
+  C:0505H         LINE#         586
+  C:050DH         LINE#         587
+  C:050DH         LINE#         588
+  C:050DH         LINE#         590
+  C:0513H         LINE#         592
+  C:0516H         LINE#         593
+  C:0519H         LINE#         594
+  C:051CH         LINE#         596
+  C:0521H         LINE#         598
+  C:0529H         LINE#         599
+  C:0529H         LINE#         600
+  C:0537H         LINE#         601
+  C:0539H         LINE#         603
+  C:0544H         LINE#         605
+  C:054CH         LINE#         606
+  C:054CH         LINE#         607
+  C:055AH         LINE#         608
+  C:055CH         LINE#         610
+  C:0567H         LINE#         612
+  C:056FH         LINE#         613
+  C:056FH         LINE#         614
+  C:057DH         LINE#         615
+  C:057FH         LINE#         617
+  C:0597H         LINE#         618
+  C:05ABH         LINE#         619
+  C:05B1H         LINE#         621
+  C:05B9H         LINE#         622
+  C:05C0H         LINE#         624
+  C:05C7H         LINE#         625
+  C:05CEH         LINE#         627
+  C:05D0H         LINE#         628
+  C:05D2H         LINE#         629
+  -------         ENDPROC       _AD9854_SETRFSK
+  -------         PROC          _DELAY
+  D:0006H         SYMBOL        us
+  -------         DO            
+  D:0004H         SYMBOL        i
+  -------         ENDDO         
+  C:09E7H         LINE#         637
+  C:09E7H         LINE#         638
+  C:09E7H         LINE#         640
+BL51 BANKED LINKER/LOCATER V6.00                                                      08/24/2008  18:04:52  PAGE 10
+
+
+  C:09F1H         LINE#         641
+  C:09F9H         LINE#         642
+  -------         ENDPROC       _DELAY
+  -------         PROC          MAIN
+  C:096DH         LINE#         647
+  C:096DH         LINE#         648
+  C:096DH         LINE#         649
+  C:0970H         LINE#         650
+  C:0981H         LINE#         651
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        MAIN
+
+  -------         MODULE        ?C?FPADD
+  C:000AH         PUBLIC        ?C?FPADD
+  C:0006H         PUBLIC        ?C?FPSUB
+  -------         ENDMOD        ?C?FPADD
+
+  -------         MODULE        ?C?FPMUL
+  C:00FBH         PUBLIC        ?C?FPMUL
+  -------         ENDMOD        ?C?FPMUL
+
+  -------         MODULE        ?C?FPDIV
+  C:0204H         PUBLIC        ?C?FPDIV
+  -------         ENDMOD        ?C?FPDIV
+
+  -------         MODULE        ?C?FCAST
+  C:02ABH         PUBLIC        ?C?FCASTC
+  C:02A6H         PUBLIC        ?C?FCASTI
+  C:02A1H         PUBLIC        ?C?FCASTL
+  -------         ENDMOD        ?C?FCAST
+
+  -------         MODULE        ?C?CASTF
+  C:02DFH         PUBLIC        ?C?CASTF
+  -------         ENDMOD        ?C?CASTF
+
+  -------         MODULE        ?C?LMUL
+  C:0360H         PUBLIC        ?C?LMUL
+  -------         ENDMOD        ?C?LMUL
+
+  -------         MODULE        ?C?LNEG
+  C:03AFH         PUBLIC        ?C?LNEG
+  -------         ENDMOD        ?C?LNEG
+
+  -------         MODULE        ?C?ULSHR
+  C:03BDH         PUBLIC        ?C?ULSHR
+  -------         ENDMOD        ?C?ULSHR
+
+  -------         MODULE        ?C?SLSHR
+  C:03D0H         PUBLIC        ?C?SLSHR
+  -------         ENDMOD        ?C?SLSHR
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_AD9854_SETSINE_DOUBLE?MAIN
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?AD9854_INITFSK?MAIN
+
+BL51 BANKED LINKER/LOCATER V6.00                                                      08/24/2008  18:04:52  PAGE 11
+
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_AD9854_SETFSK?MAIN
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?AD9854_INITBPSK?MAIN
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_AD9854_SETBPSK?MAIN
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?AD9854_INITOSK?MAIN
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_AD9854_SETOSK?MAIN
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?AD9854_INITAM?MAIN
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_AD9854_SETAM?MAIN
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?AD9854_INITRFSK?MAIN
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_AD9854_SETRFSK?MAIN
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+
+Program Size: data=118.0 xdata=0 code=2567
+LINK/LOCATE RUN COMPLETE.  12 WARNING(S),  0 ERROR(S)

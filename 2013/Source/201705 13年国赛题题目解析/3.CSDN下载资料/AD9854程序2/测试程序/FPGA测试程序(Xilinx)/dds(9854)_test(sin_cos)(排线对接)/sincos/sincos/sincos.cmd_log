@@ -1,0 +1,503 @@
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -i -p xc9500xl sincos.ngc sincos.ngd
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+taengine -f sincos -w --format html1 -l f:\sincos/sincos_html/tim/timing_report.htm
+XSLTProcess "sincos_build.xml"
+XSLTProcess "sincos_build.xml"
+tsim sincos sincos.nga
+netgen -rpw 100 -ar Structure -xon true -w -ofmt vhdl -sim sincos.nga sincos_timesim.vhd
+ibiswriter -intstyle ise -g VCCIO:LVTTL sincos.pnx sincos.ibs
+pin2ucf sincos.gyd -o sincos.ucf -r sincos.lck
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos
+xst -intstyle ise -ifn __projnav/sincos.xst -ofn sincos.syr
+ngdbuild -dd _ngo -uc sincos.ucf -p xc9500xl sincos.ngc sincos.ngd
+cpldfit -p xc95144xl-5-TQ144 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sincos.ngd
+hprep6 -s IEEE1149 -n sincos -i sincos

@@ -1,0 +1,11 @@
+Output: PADS ASCII Netlist
+Type  : PADSNetlist
+From  : Project [AD9854.PrjPCB]
+   Generated File[原理图.NET]
+   Generated File[原理图.PRT]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 8:59:42 On 2015/6/30

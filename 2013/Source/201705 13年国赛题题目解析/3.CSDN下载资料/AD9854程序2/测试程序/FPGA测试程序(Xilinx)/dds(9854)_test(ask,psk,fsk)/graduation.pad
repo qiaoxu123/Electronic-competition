@@ -1,0 +1,173 @@
+Release 7.1i - Fit H.42
+Copyright(c) 1995-2003 Xilinx Inc. All rights reserved
+
+ 7- 3-2009  3:00PM
+
+NOTE: This file is designed to be imported into a spreadsheet program
+such as Microsoft Excel for viewing, printing and sorting. The pipe '|'
+character is used as the data field separator.
+This file is also designed to support parsing.
+
+Input file:  graduation.ngd
+output file: graduation.pad
+Part type:   xc95144xl
+Speed grade: -5
+Package:     tq144
+
+Pinout by Pin Number:
+
+-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+Pin Number|Signal Name|Pin Usage|Pin Name|Direction|IO Standard|IO Bank Number|{blank}|Slew Rate|Termination|{blank}|Voltage|Constraint|
+P1|VCC||VCCIO||||||||||
+P2|TIE||I/O/GTS3||||||||||
+P3|mst_rst|O|I/O/GTS4|OUTPUT|||||||||
+P4|TIE||I/O||||||||||
+P5|TIE||I/O/GTS1||||||||||
+P6|a<4>|O|I/O/GTS2|OUTPUT|||||||||
+P7|d<0>|O|I/O|OUTPUT|||||||||
+P8|VCC||VCCINT||||||||||
+P9|a<5>|O|I/O|OUTPUT|||||||||
+P10|d<2>|O|I/O|OUTPUT|||||||||
+P11|TIE||I/O||||||||||
+P12|a<2>|O|I/O|OUTPUT|||||||||
+P13|d<4>|O|I/O|OUTPUT|||||||||
+P14|a<3>|O|I/O|OUTPUT|||||||||
+P15|d<6>|O|I/O|OUTPUT|||||||||
+P16|a<0>|O|I/O|OUTPUT|||||||||
+P17|d<7>|O|I/O|OUTPUT|||||||||
+P18|GND||GND||||||||||
+P19|a<1>|O|I/O|OUTPUT|||||||||
+P20|TIE||I/O||||||||||
+P21|d<5>|O|I/O|OUTPUT|||||||||
+P22|TIE||I/O||||||||||
+P23|d<3>|O|I/O|OUTPUT|||||||||
+P24|TIE||I/O||||||||||
+P25|d<1>|O|I/O|OUTPUT|||||||||
+P26|wrb|O|I/O|OUTPUT|||||||||
+P27|TIE||I/O||||||||||
+P28|TIE||I/O||||||||||
+P29|GND||GND||||||||||
+P30|TIE||I/O/GCK1||||||||||
+P31|io_ud|O|I/O|OUTPUT|||||||||
+P32|fsk|O|I/O/GCK2|OUTPUT|||||||||
+P33|TIE||I/O||||||||||
+P34|TIE||I/O||||||||||
+P35|TIE||I/O||||||||||
+P36|GND||GND||||||||||
+P37|VCC||VCCIO||||||||||
+P38|TIE||I/O/GCK3||||||||||
+P39|TIE||I/O||||||||||
+P40|TIE||I/O||||||||||
+P41|TIE||I/O||||||||||
+P42|VCC||VCCINT||||||||||
+P43|TIE||I/O||||||||||
+P44|TIE||I/O||||||||||
+P45|TIE||I/O||||||||||
+P46|TIE||I/O||||||||||
+P47|GND||GND||||||||||
+P48|TIE||I/O||||||||||
+P49|TIE||I/O||||||||||
+P50|TIE||I/O||||||||||
+P51|TIE||I/O||||||||||
+P52|TIE||I/O||||||||||
+P53|TIE||I/O||||||||||
+P54|TIE||I/O||||||||||
+P55|VCC||VCCIO||||||||||
+P56|TIE||I/O||||||||||
+P57|TIE||I/O||||||||||
+P58|TIE||I/O||||||||||
+P59|TIE||I/O||||||||||
+P60|TIE||I/O||||||||||
+P61|TIE||I/O||||||||||
+P62|GND||GND||||||||||
+P63|TDI||TDI||||||||||
+P64|dial<2>|I|I/O|INPUT|||||||||
+P65|TMS||TMS||||||||||
+P66|dial<1>|I|I/O|INPUT|||||||||
+P67|TCK||TCK||||||||||
+P68|TIE||I/O||||||||||
+P69|dial<0>|I|I/O|INPUT|||||||||
+P70|TIE||I/O||||||||||
+P71|TIE||I/O||||||||||
+P72|GND||GND||||||||||
+P73|VCC||VCCIO||||||||||
+P74|TIE||I/O||||||||||
+P75|TIE||I/O||||||||||
+P76|TIE||I/O||||||||||
+P77|TIE||I/O||||||||||
+P78|TIE||I/O||||||||||
+P79|TIE||I/O||||||||||
+P80|TIE||I/O||||||||||
+P81|TIE||I/O||||||||||
+P82|TIE||I/O||||||||||
+P83|TIE||I/O||||||||||
+P84|VCC||VCCINT||||||||||
+P85|TIE||I/O||||||||||
+P86|TIE||I/O||||||||||
+P87|TIE||I/O||||||||||
+P88|TIE||I/O||||||||||
+P89|GND||GND||||||||||
+P90|GND||GND||||||||||
+P91|TIE||I/O||||||||||
+P92|TIE||I/O||||||||||
+P93|TIE||I/O||||||||||
+P94|TIE||I/O||||||||||
+P95|TIE||I/O||||||||||
+P96|TIE||I/O||||||||||
+P97|TIE||I/O||||||||||
+P98|TIE||I/O||||||||||
+P99|GND||GND||||||||||
+P100|TIE||I/O||||||||||
+P101|TIE||I/O||||||||||
+P102|TIE||I/O||||||||||
+P103|TIE||I/O||||||||||
+P104|TIE||I/O||||||||||
+P105|TIE||I/O||||||||||
+P106|TIE||I/O||||||||||
+P107|TIE||I/O||||||||||
+P108|GND||GND||||||||||
+P109|VCC||VCCIO||||||||||
+P110|TIE||I/O||||||||||
+P111|TIE||I/O||||||||||
+P112|TIE||I/O||||||||||
+P113|TIE||I/O||||||||||
+P114|GND||GND||||||||||
+P115|TIE||I/O||||||||||
+P116|TIE||I/O||||||||||
+P117|TIE||I/O||||||||||
+P118|TIE||I/O||||||||||
+P119|TIE||I/O||||||||||
+P120|TIE||I/O||||||||||
+P121|TIE||I/O||||||||||
+P122|TDO||TDO||||||||||
+P123|GND||GND||||||||||
+P124|TIE||I/O||||||||||
+P125|TIE||I/O||||||||||
+P126|TIE||I/O||||||||||
+P127|VCC||VCCIO||||||||||
+P128|clk|I|I/O|INPUT|||||||||
+P129|TIE||I/O||||||||||
+P130|TIE||I/O||||||||||
+P131|TIE||I/O||||||||||
+P132|TIE||I/O||||||||||
+P133|TIE||I/O||||||||||
+P134|TIE||I/O||||||||||
+P135|TIE||I/O||||||||||
+P136|TIE||I/O||||||||||
+P137|TIE||I/O||||||||||
+P138|TIE||I/O||||||||||
+P139|TIE||I/O||||||||||
+P140|TIE||I/O||||||||||
+P141|VCC||VCCINT||||||||||
+P142|TIE||I/O||||||||||
+P143|TIE||I/O/GSR||||||||||
+P144|GND||GND||||||||||
+
+To preserve the pinout above for future design iterations in
+Project Navigator simply execute the (Lock Pins) process
+located under the (Implement Design) process in a toolbox named
+(Optional Implementation Tools) or invoke PIN2UCF from the
+command line. The location constraints will be written into your
+specified UCF file
+
+

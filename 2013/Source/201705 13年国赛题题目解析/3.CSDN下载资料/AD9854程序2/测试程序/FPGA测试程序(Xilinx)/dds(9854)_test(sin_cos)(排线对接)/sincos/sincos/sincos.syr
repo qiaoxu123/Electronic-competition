@@ -1,0 +1,182 @@
+Release 7.1i - xst H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.70 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.70 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Reading design: sincos.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+  5) Advanced HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "sincos.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "sincos"
+Output Format                      : NGC
+Target Device                      : xc9500xl
+
+---- Source Options
+Top Module Name                    : sincos
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+Equivalent register Removal        : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : YES
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+
+---- Other Options
+lso                                : sincos.lso
+verilog2001                        : YES
+safe_implementation                : No
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "E:/sincos/sincos.vhd" in Library work.
+Entity <sincos> compiled.
+Entity <sincos> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <sincos> (Architecture <behavioral>).
+Entity <sincos> analyzed. Unit <sincos> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sincos>.
+    Related source file is "E:/sincos/sincos.vhd".
+    Found 1-bit register for signal <mst_rst>.
+    Found 8-bit register for signal <d>.
+    Found 6-bit register for signal <a>.
+    Found 1-bit register for signal <io_ud>.
+    Found 7-bit comparator lessequal for signal <$n0005> created at line 65.
+    Found 6-bit register for signal <address_tmp>.
+    Found 6-bit up counter for signal <count>.
+    Found 8-bit register for signal <data_tmp>.
+    Found 6-bit up counter for signal <dount>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   1 Comparator(s).
+Unit <sincos> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                         : 2
+ 6-bit up counter                  : 2
+# Registers                        : 6
+ 1-bit register                    : 2
+ 6-bit register                    : 2
+ 8-bit register                    : 2
+# Comparators                      : 1
+ 7-bit comparator lessequal        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sincos> ...
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : sincos.ngr
+Top Level Output File Name         : sincos
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : YES
+Target Technology                  : xc9500xl
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 18
+
+Macro Statistics :
+# Comparators                      : 1
+#      7-bit comparator lessequal  : 1
+# Xors                             : 10
+#      1-bit xor2                  : 10
+
+Cell Usage :
+# BELS                             : 311
+#      AND2                        : 126
+#      AND3                        : 12
+#      AND4                        : 3
+#      AND6                        : 1
+#      GND                         : 1
+#      INV                         : 117
+#      OR2                         : 36
+#      OR3                         : 7
+#      XOR2                        : 8
+# FlipFlops/Latches                : 42
+#      FD                          : 36
+#      FDCE                        : 6
+# IO Buffers                       : 18
+#      IBUF                        : 1
+#      OBUF                        : 17
+=========================================================================
+CPU : 1.83 / 2.56 s | Elapsed : 2.00 / 3.00 s
+ 
+--> 
+
+Total memory usage is 78428 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

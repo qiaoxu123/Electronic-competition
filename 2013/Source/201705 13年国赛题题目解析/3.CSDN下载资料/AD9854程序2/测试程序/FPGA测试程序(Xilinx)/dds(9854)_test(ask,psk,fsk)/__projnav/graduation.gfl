@@ -1,0 +1,4046 @@
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Implmentation : Generate Timing
+__projnav/graduation_vm6TOtim_tcl.rsp
+graduation.tim
+graduation.mod
+graduation.data
+graduation.cmd_log
+f:\graduation/graduation_html
+__projnav\taengine.err
+# Implmentation : FitRpt
+graduation_html
+graduation._hrpt
+graduation.cmd_log
+# Implmentation : FitRpt
+graduation.rpth
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# Create Timing Constraints
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Implmentation : Generate Timing
+__projnav/graduation_vm6TOtim_tcl.rsp
+graduation.tim
+graduation.mod
+graduation.data
+graduation.cmd_log
+f:\graduation/graduation_html
+__projnav\taengine.err
+# Implmentation : FitRpt
+graduation_html
+graduation._hrpt
+graduation.cmd_log
+# Implmentation : FitRpt
+graduation.rpth
+# Implmentation : FitRpt
+graduation.rpth
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Implmentation : Generate Timing
+__projnav/graduation_vm6TOtim_tcl.rsp
+graduation.tim
+graduation.mod
+graduation.data
+graduation.cmd_log
+f:\graduation/graduation_html
+__projnav\taengine.err
+# Implmentation : FitRpt
+graduation_html
+graduation._hrpt
+graduation.cmd_log
+# Implmentation : FitRpt
+graduation.rpth
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# View RTL Schematic
+graduation.ngr
+graduation.ngc
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+graduation.lso
+# xst flow : RunXST
+graduation.syr
+graduation.prj
+graduation.sprj
+graduation.ana
+graduation.stx
+graduation.cmd_log
+graduation.ngc
+graduation.ngr
+# Implmentation : Translate (CPLD flow)
+__projnav/graduation_edfTOngd_tcl.rsp
+graduation.ngd
+graduation.bld
+graduation_ngdbuild.nav
+_ngo/netlist.lst
+graduation.ucf.untf
+graduation_html
+graduation.cmd_log
+# Implmentation : Fit
+__projnav/graduation_ngdTOvm6_tcl.rsp
+graduation.vm6
+graduation.cxt
+graduation.blx
+graduation.mfd
+graduation.rpt
+graduation.log
+graduation.pnx
+graduation.gyd
+graduation.xml
+graduation_build.xml
+graduation.ptf
+graduation.bl
+errors.xml
+tmperr.err
+graduation.cmd_log
+# Generate Programming File (CPLD flow)
+__projnav/graduation_vm6TOjed_tcl.rsp
+graduation.jed
+graduation.isc
+graduation.cmd_log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+graduation.prm
+graduation.isc
+graduation.svf
+xilinx.sys
+graduation.mcs
+graduation.exo
+graduation.hex
+graduation.tek
+graduation.dst
+graduation.dst_compressed
+graduation.mpm
+_impact.cmd
+_impact.log
