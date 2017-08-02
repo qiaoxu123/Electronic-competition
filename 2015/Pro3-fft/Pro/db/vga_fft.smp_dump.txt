@@ -1,0 +1,90 @@
+
+State Machine - |vga_fft|cepin:inst15|flag
+Name flag.00 flag.10 flag.01 
+flag.00 0 0 0 
+flag.01 1 0 1 
+flag.10 1 1 0 
+
+State Machine - |vga_fft|cepin:inst15|status
+Name status.011 status.010 status.001 status.000 status.100 
+status.000 0 0 0 0 0 
+status.001 0 0 1 1 0 
+status.010 0 1 0 1 0 
+status.011 1 0 0 1 0 
+status.100 0 0 0 1 1 
+
+State Machine - |vga_fft|ad_ctrl:inst1|state
+Name state.00 state.10 state.01 
+state.00 0 0 0 
+state.01 1 0 1 
+state.10 1 1 0 
+
+State Machine - |vga_fft|ad_ctrl:inst1|next_state
+Name next_state.00 next_state.10 next_state.01 
+next_state.00 0 0 0 
+next_state.01 1 0 1 
+next_state.10 1 1 0 
+
+State Machine - |vga_fft|fft_ip:inst3|asj_fft_si_sose_so_b_fft_131:asj_fft_si_sose_so_b_fft_131_inst|fft_s1_cur
+Name fft_s1_cur.FFT_PROCESS_A fft_s1_cur.NO_WRITE fft_s1_cur.DONE_WRITING fft_s1_cur.EARLY_DONE fft_s1_cur.WRITE_INPUT fft_s1_cur.WAIT_FOR_INPUT fft_s1_cur.IDLE 
+fft_s1_cur.IDLE 0 0 0 0 0 0 0 
+fft_s1_cur.WAIT_FOR_INPUT 0 0 0 0 0 1 1 
+fft_s1_cur.WRITE_INPUT 0 0 0 0 1 0 1 
+fft_s1_cur.EARLY_DONE 0 0 0 1 0 0 1 
+fft_s1_cur.DONE_WRITING 0 0 1 0 0 0 1 
+fft_s1_cur.NO_WRITE 0 1 0 0 0 0 1 
+fft_s1_cur.FFT_PROCESS_A 1 0 0 0 0 0 1 
+
+State Machine - |vga_fft|fft_ip:inst3|asj_fft_si_sose_so_b_fft_131:asj_fft_si_sose_so_b_fft_131_inst|fft_s2_cur
+Name fft_s2_cur.LPP_DONE fft_s2_cur.LPP_OUTPUT_RDY fft_s2_cur.FIRST_LPP fft_s2_cur.START_LPP fft_s2_cur.WAIT_FOR_LPP_INPUT fft_s2_cur.IDLE 
+fft_s2_cur.IDLE 0 0 0 0 0 0 
+fft_s2_cur.WAIT_FOR_LPP_INPUT 0 0 0 0 1 1 
+fft_s2_cur.START_LPP 0 0 0 1 0 1 
+fft_s2_cur.FIRST_LPP 0 0 1 0 0 1 
+fft_s2_cur.LPP_OUTPUT_RDY 0 1 0 0 0 1 
+fft_s2_cur.LPP_DONE 1 0 0 0 0 1 
+
+State Machine - |vga_fft|fft_ip:inst3|asj_fft_si_sose_so_b_fft_131:asj_fft_si_sose_so_b_fft_131_inst|asj_fft_dft_bfp_sgl_fft_131:\gen_de:bfpdft_y|asj_fft_bfp_o_fft_131:bfp_detect|sdet
+Name sdet.BLOCK_GAP sdet.DISABLE sdet.ENABLE sdet.BLOCK_READY sdet.IDLE 
+sdet.IDLE 0 0 0 0 0 
+sdet.BLOCK_READY 0 0 0 1 1 
+sdet.ENABLE 0 0 1 0 1 
+sdet.DISABLE 0 1 0 0 1 
+sdet.BLOCK_GAP 1 0 0 0 1 
+
+State Machine - |vga_fft|fft_ip:inst3|asj_fft_si_sose_so_b_fft_131:asj_fft_si_sose_so_b_fft_131_inst|asj_fft_dft_bfp_sgl_fft_131:\gen_de:bfpdft_x|asj_fft_bfp_o_fft_131:bfp_detect|sdet
+Name sdet.BLOCK_GAP sdet.DISABLE sdet.ENABLE sdet.BLOCK_READY sdet.IDLE 
+sdet.IDLE 0 0 0 0 0 
+sdet.BLOCK_READY 0 0 0 1 1 
+sdet.ENABLE 0 0 1 0 1 
+sdet.DISABLE 0 1 0 0 1 
+sdet.BLOCK_GAP 1 0 0 0 1 
+
+State Machine - |vga_fft|fft_ip:inst3|asj_fft_si_sose_so_b_fft_131:asj_fft_si_sose_so_b_fft_131_inst|asj_fft_m_k_counter_fft_131:ctrl|k_state
+Name k_state.HOLD k_state.NEXT_PASS_UPD k_state.RUN_CNT k_state.IDLE 
+k_state.IDLE 0 0 0 0 
+k_state.RUN_CNT 0 0 1 1 
+k_state.NEXT_PASS_UPD 0 1 0 1 
+k_state.HOLD 1 0 0 1 
+
+State Machine - |vga_fft|fft_ip:inst3|asj_fft_si_sose_so_b_fft_131:asj_fft_si_sose_so_b_fft_131_inst|auk_dspip_avalon_streaming_source_fft_131:auk_dsp_atlantic_source_1|source_state
+Name source_state.end1 source_state.st_err source_state.run1 source_state.sop source_state.start 
+source_state.start 0 0 0 0 0 
+source_state.sop 0 0 0 1 1 
+source_state.run1 0 0 1 0 1 
+source_state.st_err 0 1 0 0 1 
+source_state.end1 1 0 0 0 1 
+
+State Machine - |vga_fft|fft_ip:inst3|asj_fft_si_sose_so_b_fft_131:asj_fft_si_sose_so_b_fft_131_inst|auk_dspip_avalon_streaming_sink_fft_131:auk_dsp_atlantic_sink_1|sink_out_state
+Name sink_out_state.empty_and_ready sink_out_state.empty_and_not_ready sink_out_state.normal 
+sink_out_state.normal 0 0 0 
+sink_out_state.empty_and_not_ready 0 1 1 
+sink_out_state.empty_and_ready 1 0 1 
+
+State Machine - |vga_fft|fft_ip:inst3|asj_fft_si_sose_so_b_fft_131:asj_fft_si_sose_so_b_fft_131_inst|auk_dspip_avalon_streaming_sink_fft_131:auk_dsp_atlantic_sink_1|sink_state
+Name sink_state.end1 sink_state.st_err sink_state.run1 sink_state.stall sink_state.start 
+sink_state.start 0 0 0 0 0 
+sink_state.stall 0 0 0 1 1 
+sink_state.run1 0 0 1 0 1 
+sink_state.st_err 0 1 0 0 1 
+sink_state.end1 1 0 0 0 1 

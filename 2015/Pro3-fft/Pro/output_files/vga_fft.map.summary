@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Wed Aug 02 20:36:12 2017
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : vga_fft
+Top-level Entity Name : vga_fft
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 3848
+Total pins : 45
+Total virtual pins : 0
+Total block memory bits : 261,312
+Total DSP Blocks : 6
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI TX Channels : 0
+Total PLLs : 1
+Total DLLs : 0
