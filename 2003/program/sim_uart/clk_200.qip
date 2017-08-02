@@ -1,0 +1,13 @@
+set_global_assignment -entity "clk_200" -library "clk_200" -name IP_TOOL_NAME "altera_pll"
+set_global_assignment -entity "clk_200" -library "clk_200" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "clk_200" -library "clk_200" -name IP_TOOL_ENV "mwpim"
+set_global_assignment -library "clk_200" -name MISC_FILE [file join $::quartus(qip_path) "clk_200.cmp"]
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+
+set_global_assignment -library "clk_200" -name VERILOG_FILE [file join $::quartus(qip_path) "clk_200.v"]
+set_global_assignment -library "clk_200" -name VERILOG_FILE [file join $::quartus(qip_path) "clk_200/clk_200_0002.v"]
+set_global_assignment -library "clk_200" -name QIP_FILE [file join $::quartus(qip_path) "clk_200/clk_200_0002.qip"]
+
+set_global_assignment -entity "clk_200_0002" -library "clk_200" -name IP_TOOL_NAME "altera_pll"
+set_global_assignment -entity "clk_200_0002" -library "clk_200" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "clk_200_0002" -library "clk_200" -name IP_TOOL_ENV "mwpim"

@@ -1,0 +1,12 @@
+
+State Machine - |pro_uart|phase:u1|state1
+Name state1.000 state1.010 state1.001 
+state1.000 0 0 0 
+state1.001 1 0 1 
+state1.010 1 1 0 
+
+State Machine - |pro_uart|phase:u1|state
+Name state.000 state.010 state.001 
+state.000 0 0 0 
+state.001 1 0 1 
+state.010 1 1 0 

@@ -1,0 +1,145 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\2017diansai\2003\program\simulation\modelsim
+vdds
+I9H]ZC:ZJ@3z^c:Q<5?mE:1
+VfJ?FSgRWzNQ3QJYRZ7_NB0
+Z1 dE:\2017diansai\2003\program\simulation\modelsim
+w1500337887
+8E:/2017diansai/2003/program/dds.v
+FE:/2017diansai/2003/program/dds.v
+L0 7
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+E:/2017diansai/2003/program -O0
+!i10b 1
+!s100 l<ekeUekzTVMf;:k7[nm?0
+!s85 0
+!s108 1500377209.944000
+!s107 E:/2017diansai/2003/program/dds.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2003/program|E:/2017diansai/2003/program/dds.v|
+!s101 -O0
+vdiv_28_9
+IhBc4=@ZlNAYP`:W20UC<;3
+V=RM<Ff[_fToMYkcR`RWEh2
+R1
+w1500335842
+8E:/2017diansai/2003/program/div_28_9.v
+FE:/2017diansai/2003/program/div_28_9.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 O=6PBl_Oc6gkLnKZg_f1d2
+!s85 0
+!s108 1500377209.826000
+!s107 E:/2017diansai/2003/program/div_28_9.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2003/program|E:/2017diansai/2003/program/div_28_9.v|
+!s101 -O0
+vdiv_48_32
+IX6Re3HP^SRLT]A3oDb0V=2
+V>ZP;^Vk3`jFhT`lm=9j[=2
+R1
+w1500335760
+8E:/2017diansai/2003/program/div_48_32.v
+FE:/2017diansai/2003/program/div_48_32.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 AfkPQUUBWX0<RB`<74j3X0
+!s85 0
+!s108 1500377209.770000
+!s107 E:/2017diansai/2003/program/div_48_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2003/program|E:/2017diansai/2003/program/div_48_32.v|
+!s101 -O0
+viss_1
+I6Y3aKhnZULV];mJQ^EkV70
+V]n0;90oIH>>lM[BR2:lOK1
+R1
+w1500334589
+8E:/2017diansai/2003/program/iss_1.v
+FE:/2017diansai/2003/program/iss_1.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 CW4f;ZDk_8n<f2E>:Ha1g2
+!s85 0
+!s108 1500377209.709000
+!s107 E:/2017diansai/2003/program/iss_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2003/program|E:/2017diansai/2003/program/iss_1.v|
+!s101 -O0
+vkey_control
+!i10b 1
+!s100 QGicHd=jz;L3o5;MU>BY11
+I6R20063CFSnf<GVka:hb40
+VOP:[ehT4a1JNW?ZohHB=k3
+R1
+w1500341791
+8E:/2017diansai/2003/program/key_control.v
+FE:/2017diansai/2003/program/key_control.v
+L0 8
+R2
+r1
+!s85 0
+31
+!s108 1500377210.003000
+!s107 E:/2017diansai/2003/program/key_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2003/program|E:/2017diansai/2003/program/key_control.v|
+!s101 -O0
+R3
+R4
+vpro_2003
+IeHg>[5SA3V<DaFiVio0hR0
+V@9IKL?I9]<H>4kJb[cImD2
+R1
+w1500372540
+8E:/2017diansai/2003/program/pro_2003.v
+FE:/2017diansai/2003/program/pro_2003.v
+L0 8
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 =36^TO<N;:mfn5<@EaU=E1
+!s85 0
+!s108 1500377209.883000
+!s107 E:/2017diansai/2003/program/pro_2003.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2003/program|E:/2017diansai/2003/program/pro_2003.v|
+!s101 -O0
+vsin_rom
+Iz0KooSEQ=3@]Y<P@[?3?T2
+V7WYo4c??L_UcA;faeM[>^3
+R1
+w1500299919
+8E:/2017diansai/2003/program/sin_rom.v
+FE:/2017diansai/2003/program/sin_rom.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 o[h8egiG[TFhhn5SR[E4>1
+!s85 0
+!s108 1500377209.646000
+!s107 E:/2017diansai/2003/program/sin_rom.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2003/program|E:/2017diansai/2003/program/sin_rom.v|
+!s101 -O0

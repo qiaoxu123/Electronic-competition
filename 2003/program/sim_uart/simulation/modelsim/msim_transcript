@@ -1,0 +1,60 @@
+# Reading D:/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do pro_uart_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2003/program/sim_uart {E:/2017diansai/2003/program/sim_uart/div_32_32.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module div_32_32
+# 
+# Top level modules:
+# 	div_32_32
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2003/program/sim_uart {E:/2017diansai/2003/program/sim_uart/pro_uart.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pro_uart
+# 
+# Top level modules:
+# 	pro_uart
+# 
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2003/program/sim_uart {E:/2017diansai/2003/program/sim_uart/tb_uart.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tb_uart
+# 
+# Top level modules:
+# 	tb_uart
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_uart
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_uart 
+# Loading work.tb_uart
+# Loading work.pro_uart
+# Loading work.div_32_32
+# Loading lpm_ver.lpm_divide
+# Loading lpm_ver.LPM_HINT_EVALUATION
+# ** Warning: (vsim-3017) E:/2017diansai/2003/program/sim_uart/pro_uart.v(315): [TFMPC] - Too few port connections. Expected 4, found 3.
+# 
+#         Region: /tb_uart/tb_inst/div_32_32_inst
+# ** Warning: (vsim-3722) E:/2017diansai/2003/program/sim_uart/pro_uart.v(315): [TFMPC] - Missing connection for port 'remain'.
+# 
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+add wave -position insertpoint sim:/tb_uart/tb_inst/*
+restart
+# ** Warning: (vsim-3017) E:/2017diansai/2003/program/sim_uart/pro_uart.v(315): [TFMPC] - Too few port connections. Expected 4, found 3.
+# 
+#         Region: /tb_uart/tb_inst/div_32_32_inst
+# ** Warning: (vsim-3722) E:/2017diansai/2003/program/sim_uart/pro_uart.v(315): [TFMPC] - Missing connection for port 'remain'.
+# 
+run

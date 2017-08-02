@@ -1,0 +1,81 @@
+# Reading D:/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do pro_2003_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2003/program {E:/2017diansai/2003/program/sin_rom.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module sin_rom
+# 
+# Top level modules:
+# 	sin_rom
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2003/program {E:/2017diansai/2003/program/iss_1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module iss_1
+# 
+# Top level modules:
+# 	iss_1
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2003/program {E:/2017diansai/2003/program/div_48_32.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module div_48_32
+# 
+# Top level modules:
+# 	div_48_32
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2003/program {E:/2017diansai/2003/program/div_28_9.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module div_28_9
+# 
+# Top level modules:
+# 	div_28_9
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2003/program {E:/2017diansai/2003/program/pro_2003.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pro_2003
+# 
+# Top level modules:
+# 	pro_2003
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2003/program {E:/2017diansai/2003/program/dds.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module dds
+# 
+# Top level modules:
+# 	dds
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2003/program {E:/2017diansai/2003/program/key_control.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module key_control
+# 
+# Top level modules:
+# 	key_control
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2003/program {E:/2017diansai/2003/program/tx.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tx
+# ** Error: E:/2017diansai/2003/program/tx.v(51): (vlog-2730) Undefined variable: 'state'.
+# 
+# ** Error: E:/2017diansai/2003/program/tx.v(51): (vlog-2730) Undefined variable: 'STOP'.
+# 
+# ** Error: E:/2017diansai/2003/program/tx.v(82): (vlog-2730) Undefined variable: 'STOP_1'.
+# 
+# ** Error: E:/2017diansai/2003/program/tx.v(98): 'STOP' already declared in this scope.
+# ** Error: E:/2017diansai/2003/program/tx.v(99): 'STOP_1' already declared in this scope.
+# ** Error: E:/2017diansai/2003/program/tx.v(101): 'state' already declared in this scope (tx).
+# ** Error: E:/2017diansai/2003/program/tx.v(124): (vlog-2730) Undefined variable: 'uart_begin'.
+# 
+# ** Error: E:/2017diansai/2003/program/tx.v(143): (vlog-2730) Undefined variable: 'uart_value'.
+# 
+# ** Error: E:/2017diansai/2003/program/tx.v(220): (vlog-2730) Undefined variable: 'uart_end'.
+# 
+# ** Error: E:/2017diansai/2003/program/tx.v(252): 'uart_value' already declared in this scope (tx).
+# ** Error: E:/2017diansai/2003/program/tx.v(253): 'uart_begin' already declared in this scope (tx).
+# ** Error: E:/2017diansai/2003/program/tx.v(254): 'uart_end' already declared in this scope (tx).
+# ** Error: D:/13.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./pro_2003_run_msim_rtl_verilog.do line 15
+# D:/13.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+E:/2017diansai/2003/program {E:/2017diansai/2003/program/tx.v}"

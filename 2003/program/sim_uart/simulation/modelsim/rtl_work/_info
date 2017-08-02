@@ -1,0 +1,65 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\2017diansai\2003\program\sim_uart\simulation\modelsim
+vdiv_32_32
+IR38?W?Y5SJ^XYozK77I7?3
+V2CnLO5_RzoT4h`dLREB:12
+Z1 dE:\2017diansai\2003\program\sim_uart\simulation\modelsim
+w1500426853
+8E:/2017diansai/2003/program/sim_uart/div_32_32.v
+FE:/2017diansai/2003/program/sim_uart/div_32_32.v
+L0 39
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+E:/2017diansai/2003/program/sim_uart -O0
+!i10b 1
+!s100 10YCz=LCD5oRjZhCbS>9]1
+!s85 0
+!s108 1500428753.662000
+!s107 E:/2017diansai/2003/program/sim_uart/div_32_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2003/program/sim_uart|E:/2017diansai/2003/program/sim_uart/div_32_32.v|
+!s101 -O0
+vpro_uart
+I[Y:lPHgDf>c@^Cl[jR>4?0
+V^bTGboEAVXahTL4344gH41
+R1
+w1500428140
+8E:/2017diansai/2003/program/sim_uart/pro_uart.v
+FE:/2017diansai/2003/program/sim_uart/pro_uart.v
+L0 8
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 X2]R8bLQnVz2dzN3c`8?00
+!s85 0
+!s108 1500428753.748000
+!s107 E:/2017diansai/2003/program/sim_uart/pro_uart.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2003/program/sim_uart|E:/2017diansai/2003/program/sim_uart/pro_uart.v|
+!s101 -O0
+vtb_uart
+!i10b 1
+!s100 6]Y5@gdT^YaLg]o^>e[8L2
+I^=]RP4lINTE3^[Vi@Q[jI0
+VOogb1_jz9cl;N9P=WzVAg2
+R1
+w1500422337
+8E:/2017diansai/2003/program/sim_uart/tb_uart.v
+FE:/2017diansai/2003/program/sim_uart/tb_uart.v
+L0 8
+R2
+r1
+!s85 0
+31
+!s108 1500428753.810000
+!s107 E:/2017diansai/2003/program/sim_uart/tb_uart.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2003/program/sim_uart|E:/2017diansai/2003/program/sim_uart/tb_uart.v|
+!s101 -O0
+R3
+R4

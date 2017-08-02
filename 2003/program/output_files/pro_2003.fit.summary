@@ -1,0 +1,19 @@
+Fitter Status : Successful - Fri Jul 21 11:18:03 2017
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : pro_2003
+Top-level Entity Name : vga_top
+Family : Cyclone V
+Device : 5CSEMA5F31C6
+Timing Models : Preliminary
+Logic utilization (in ALMs) : 10,497 / 32,070 ( 33 % )
+Total registers : 5917
+Total pins : 35 / 457 ( 8 % )
+Total virtual pins : 0
+Total block memory bits : 212,992 / 4,065,280 ( 5 % )
+Total DSP Blocks : 2 / 87 ( 2 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI TX Channels : 0
+Total PLLs : 1 / 6 ( 17 % )
+Total DLLs : 0 / 4 ( 0 % )
