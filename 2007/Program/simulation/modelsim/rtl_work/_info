@@ -1,0 +1,64 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\2017diansai\2007\program\simulation\modelsim
+vclk_sam
+IVnd6clS=SLb1SS:GN^^hJ0
+VmFz[V7o[2YCFm44kz;3^V3
+Z1 dE:\2017diansai\2007\program\simulation\modelsim
+w1500651156
+8E:/2017diansai/2007/program/clk_sam_sim/clk_sam.vo
+FE:/2017diansai/2007/program/clk_sam_sim/clk_sam.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+o-O0
+!i10b 1
+!s100 LHeSb3f<Sk;WgkPIGh1_a3
+!s85 0
+!s108 1500793242.304000
+!s107 E:/2017diansai/2007/program/clk_sam_sim/clk_sam.vo|
+!s90 -reportprogress|300|E:/2017diansai/2007/program/clk_sam_sim/clk_sam.vo|
+!s101 -O0
+vram200_8
+IGAl2BL^<X;1B9GGkFB8AJ0
+VL`^g@bRKh6IeYc`HoSzNF0
+R1
+w1500598825
+8E:/2017diansai/2007/program/ram200_8.v
+FE:/2017diansai/2007/program/ram200_8.v
+L0 39
+R2
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 kR:HQVe;Pk:4IWlkeHn4O1
+!s85 0
+!s108 1500793242.379000
+!s107 E:/2017diansai/2007/program/ram200_8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2007/program|E:/2017diansai/2007/program/ram200_8.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+E:/2017diansai/2007/program -O0
+vrom_12_12
+!i10b 1
+!s100 RH8LV=XPf4GA50V>I<h<J1
+IY1bH1QET6UieEJ_;HL6Yf0
+VHIHV989<N06bVIZoOWR@a2
+R1
+w1500624252
+8E:/2017diansai/2007/program/rom_12_12.v
+FE:/2017diansai/2007/program/rom_12_12.v
+L0 39
+R2
+r1
+!s85 0
+31
+!s108 1500793242.445000
+!s107 E:/2017diansai/2007/program/rom_12_12.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2007/program|E:/2017diansai/2007/program/rom_12_12.v|
+!s101 -O0
+R3
+R4

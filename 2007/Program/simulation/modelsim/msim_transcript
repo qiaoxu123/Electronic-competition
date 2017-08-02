@@ -1,0 +1,53 @@
+# Reading D:/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do pr_2007_run_msim_rtl_verilog.do 
+# if ![file isdirectory pr_2007_iputf_libs] {
+# 	file mkdir pr_2007_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "E:/2017diansai/2007/program/clk_sam_sim/clk_sam.vo"
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module clk_sam
+# 
+# Top level modules:
+# 	clk_sam
+# 
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2007/program {E:/2017diansai/2007/program/ram200_8.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram200_8
+# 
+# Top level modules:
+# 	ram200_8
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2007/program {E:/2017diansai/2007/program/rom_12_12.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rom_12_12
+# 
+# Top level modules:
+# 	rom_12_12
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2007/program {E:/2017diansai/2007/program/pr_2007.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pr_2007
+# ** Error: E:/2017diansai/2007/program/pr_2007.v(274): near "input": syntax error, unexpected input
+# ** Error: E:/2017diansai/2007/program/pr_2007.v(288): 'value_x' already declared in this scope (pr_2007).
+# ** Error: E:/2017diansai/2007/program/pr_2007.v(289): 'value_y' already declared in this scope (pr_2007).
+# ** Error: E:/2017diansai/2007/program/pr_2007.v(291): near ")": syntax error, unexpected ')'
+# ** Error: D:/13.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./pr_2007_run_msim_rtl_verilog.do line 21
+# D:/13.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+E:/2017diansai/2007/program {E:/2017diansai/2007/program/pr_2007.v}"

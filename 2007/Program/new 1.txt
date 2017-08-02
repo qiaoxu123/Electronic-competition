@@ -1,0 +1,90 @@
+//--------------------------------
+//Funtion :  sample_begin
+
+always @(posedge clk or negedge rst_n)
+begin
+	if(!rst_n)
+		wr_add_fre <= 0;
+	else if(wr_add_fre == 255 && sample_begin && wren_fre)
+		wr_add_fre <= 0;
+	else if(sample_1k && wren_fre)
+		wr_add_fre <= wr_add_fre + 1;
+	else
+		wr_add_fre <= wr_add_fre;
+end  
+
+//--------------------------------
+//Funtion :  sample_data	fre
+
+always @(posedge clk or negedge rst_n)
+begin
+	if(!rst_n)
+		data_sig_fre <= 0;
+	else if(sample_1k)
+		data_sig_fre <= sample_1m_data;
+	else
+		data_sig_fre <= data_sig_fre;
+end
+
+//--------------------------------
+//Funtion :  sample_addr	fre
+
+always @(posedge clk or negedge rst_n)
+begin
+	if(!rst_n)
+		rd_add_fre <= 0;
+	else if(!wren_fre )//&& wren_vga)
+		rd_add_fre <= rd_add_fre + 1;
+	else if(!wren_fre && rd_add_fre == 255)
+		rd_add_fre <= 0;
+	else
+		rd_add_fre <= rd_add_fre;
+end
+
+always @(posedge clk or negedge rst_n)
+begin
+	if(!rst_n)
+		wr_add_vga <= 0;
+	else
+		wr_add_vga <= rd_add_fre;
+end
+
+//--------------------------------
+//Funtion :  wren		fre
+
+always @(posedge clk or negedge rst_n)
+begin
+	if(!rst_n)
+		wren_fre <= 1;
+	else if(wren_fre && wr_add_fre == 255)
+		wren_fre <= 0;
+	else if(!wren_fre && rd_add_fre == 255)
+		wren_fre <= 1;
+end
+
+
+//--------------------------------
+//Funtion :  vga	wren
+
+always @(posedge clk or negedge rst_n)
+begin
+	if(!rst_n)
+		wren_vga <= 1;
+	else if(wren_vga == 1 && vga_write_rom_value && wr_add_vga == 255)
+		wren_vga <= 0;
+	else if(wren_vga == 0 && !vga_write_rom_value && rd_add_vga == 255)
+		wren_vga <= 1;
+	else
+		wren_vga <= wren_fre;
+end
+
+//--------------------------------
+//Funtion :  vga	rd_add_vga
+
+always @(posedge clk or negedge rst_n)
+begin
+	if(!rst_n)
+		rd_add_vga <= 0;
+	else if(!wren_vga)
+		rd_add_vga <= vga_add[7:0]; 
+end

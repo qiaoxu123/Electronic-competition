@@ -1,0 +1,51 @@
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
++------------------------------------------------------------------------+
+; Quartus II Imported QXP Stub                                           ;
++------------------+-----------------------------------------------------+
+; Field            ; Value                                               ;
++------------------+-----------------------------------------------------+
+; QXP Source       ; E:/Electronic-competition/2007/Pro-v1.1/vga_top.qxp ;
+; Software Version ; Version 13.1.0 Build 162 10/23/2013 SJ Full Version ;
+; Date             ; Mon Jul 24 09:05:53 2017                            ;
+; Contents         ; Netlist Only                                        ;
+; Family           ; 5CSEMA5F31C6                                        ;
+; Device           ; CYCLONEV_SE90M_V_F896C6                             ;
++------------------+-----------------------------------------------------+
+
++--------------------------------------------------------------+
+; Boundary Ports                                               ;
++------------------+--------+----------------------------------+
+; Port Name        ; Type   ; Default Value                    ;
++------------------+--------+----------------------------------+
+; clk              ; input  ; 0                                ;
+; rst_n            ; input  ; 0                                ;
+; VGA_CLK          ; output ; 0                                ;
+; VGA_BLANK_N      ; output ; 0                                ;
+; VGA_SYNC_N       ; output ; 0                                ;
+; VGA_R [7:0]      ; output ; 00000000                         ;
+; VGA_B [7:0]      ; output ; 00000000                         ;
+; VGA_G [7:0]      ; output ; 00000000                         ;
+; VGA_HS           ; output ; 0                                ;
+; VGA_VS           ; output ; 0                                ;
+; vga_data [7:0]   ; input  ; 00000000                         ;
+; key_state1 [1:0] ; input  ; 00                               ;
+; key_state2 [1:0] ; input  ; 00                               ;
+; value_x [9:0]    ; output ; 0000000000                       ;
+; value_y [9:0]    ; output ; 0000000000                       ;
+; freq [31:0]      ; input  ; 00000000000000000000000000000000 ;
+; ad_level [9:0]   ; input  ; 0000000000                       ;
+; fuzhi [9:0]      ; input  ; 0000000000                       ;
++------------------+--------+----------------------------------+
