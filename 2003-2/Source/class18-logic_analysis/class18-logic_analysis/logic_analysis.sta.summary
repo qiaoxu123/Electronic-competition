@@ -1,0 +1,57 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'sys_ctrl:uut_sys_ctrl|PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk1'
+Slack : 2.209
+TNS   : 0.000
+
+Type  : Setup 'sys_ctrl:uut_sys_ctrl|PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk0'
+Slack : 4.483
+TNS   : 0.000
+
+Type  : Setup 'clk'
+Slack : 39.087
+TNS   : 0.000
+
+Type  : Hold 'sys_ctrl:uut_sys_ctrl|PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk1'
+Slack : 0.860
+TNS   : 0.000
+
+Type  : Hold 'clk'
+Slack : 0.861
+TNS   : 0.000
+
+Type  : Hold 'sys_ctrl:uut_sys_ctrl|PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk0'
+Slack : 1.041
+TNS   : 0.000
+
+Type  : Recovery 'sys_ctrl:uut_sys_ctrl|PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk1'
+Slack : 3.280
+TNS   : 0.000
+
+Type  : Recovery 'sys_ctrl:uut_sys_ctrl|PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk0'
+Slack : 35.100
+TNS   : 0.000
+
+Type  : Removal 'sys_ctrl:uut_sys_ctrl|PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk0'
+Slack : 4.846
+TNS   : 0.000
+
+Type  : Removal 'sys_ctrl:uut_sys_ctrl|PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk1'
+Slack : 4.846
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'sys_ctrl:uut_sys_ctrl|PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk1'
+Slack : 3.182
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'clk'
+Slack : 18.182
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'sys_ctrl:uut_sys_ctrl|PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk0'
+Slack : 18.182
+TNS   : 0.000
+
+------------------------------------------------------------

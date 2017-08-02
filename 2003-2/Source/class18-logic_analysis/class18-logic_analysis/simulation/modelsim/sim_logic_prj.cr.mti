@@ -1,0 +1,177 @@
+E:/Personal/EP1C3T144_board/cyclone_prj/logic_analysis0417g/logic_analysis/simulation/modelsim/sys_ctrl_task.v {1 {vlog -work work E:/Personal/EP1C3T144_board/cyclone_prj/logic_analysis0417g/logic_analysis/simulation/modelsim/sys_ctrl_task.v
+Model Technology ModelSim SE vlog 5.7d Compiler 2003.05 May 10 2003
+-- Compiling module sys_ctrl_task
+
+Top level modules:
+	sys_ctrl_task
+
+} {} {}} E:/Personal/EP1C3T144_board/cyclone_prj/logic_analysis0417g/logic_analysis/simulation/modelsim/tb_logic_analysis.v {1 {vlog -work work E:/Personal/EP1C3T144_board/cyclone_prj/logic_analysis0417g/logic_analysis/simulation/modelsim/tb_logic_analysis.v
+Model Technology ModelSim SE vlog 5.7d Compiler 2003.05 May 10 2003
+-- Compiling module tb_logic_analysis
+
+Top level modules:
+	tb_logic_analysis
+
+} {} {}} E:/Personal/EP1C3T144_board/cyclone_prj/logic_analysis0417g/logic_analysis/simulation/modelsim/print_task.v {1 {vlog -work work E:/Personal/EP1C3T144_board/cyclone_prj/logic_analysis0417g/logic_analysis/simulation/modelsim/print_task.v
+Model Technology ModelSim SE vlog 5.7d Compiler 2003.05 May 10 2003
+-- Compiling module print_task
+
+Top level modules:
+	print_task
+
+} {} {}} E:/Personal/EP1C3T144_board/cyclone_prj/logic_analysis0417g/logic_analysis/simulation/modelsim/altera_mf.v {1 {vlog -work work E:/Personal/EP1C3T144_board/cyclone_prj/logic_analysis0417g/logic_analysis/simulation/modelsim/altera_mf.v
+Model Technology ModelSim SE vlog 5.7d Compiler 2003.05 May 10 2003
+-- Compiling module lcell
+-- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+-- Compiling module ALTERA_MF_HINT_EVALUATION
+-- Compiling module ALTERA_DEVICE_FAMILIES
+-- Compiling module dffp
+-- Compiling module pll_iobuf
+-- Compiling module stx_m_cntr
+-- Compiling module stx_n_cntr
+-- Compiling module stx_scale_cntr
+-- Compiling module MF_pll_reg
+-- Compiling module MF_stratix_pll
+-- Compiling module arm_m_cntr
+-- Compiling module arm_n_cntr
+-- Compiling module arm_scale_cntr
+-- Compiling module MF_stratixii_pll
+-- Compiling module ttn_m_cntr
+-- Compiling module ttn_n_cntr
+-- Compiling module ttn_scale_cntr
+-- Compiling module MF_stratixiii_pll
+-- Compiling module cda_m_cntr
+-- Compiling module cda_n_cntr
+-- Compiling module cda_scale_cntr
+-- Compiling module MF_cycloneiii_pll
+-- Compiling module altpll
+-- Compiling module altlvds_rx
+-- Compiling module stratix_lvds_rx
+-- Compiling module stratixgx_dpa_lvds_rx
+-- Compiling module stratixii_lvds_rx
+-- Compiling module flexible_lvds_rx
+-- Compiling module stratixiii_lvds_rx
+-- Compiling module stratixiii_lvds_rx_channel
+-- Compiling module stratixiii_lvds_rx_dpa
+-- Compiling module altlvds_tx
+-- Compiling module stratix_tx_outclk
+-- Compiling module stratixii_tx_outclk
+-- Compiling module flexible_lvds_tx
+-- Compiling module dcfifo_dffpipe
+-- Compiling module dcfifo_fefifo
+-- Compiling module dcfifo_async
+-- Compiling module dcfifo_sync
+-- Compiling module dcfifo_low_latency
+-- Compiling module dcfifo_mixed_widths
+-- Compiling module dcfifo
+-- Compiling module altaccumulate
+-- Compiling module altmult_accum
+-- Compiling module altmult_add
+-- Compiling module altfp_mult
+-- Compiling module altsqrt
+-- Compiling module altclklock
+-- Compiling module altddio_in
+-- Compiling module altddio_out
+-- Compiling module altddio_bidir
+-- Compiling module altcam
+-- Compiling module altdpram
+-- Compiling module altsyncram
+-- Compiling module alt3pram
+-- Compiling module altqpram
+-- Compiling module parallel_add
+-- Compiling module scfifo
+-- Compiling module altshift_taps
+-- Compiling module a_graycounter
+-- Compiling module altsquare
+-- Compiling module altdq_dqs
+-- Compiling module signal_gen
+-- Compiling module jtag_tap_controller
+-- Compiling module dummy_hub
+-- Compiling module sld_virtual_jtag
+-- Compiling module sld_signaltap
+-- Compiling module altstratixii_oct
+-- Compiling module altparallel_flash_loader
+-- Compiling module altserial_flash_loader
+-- Compiling module altsource_probe
+
+Top level modules:
+	lcell
+	altpll
+	altlvds_rx
+	altlvds_tx
+	dcfifo
+	altaccumulate
+	altmult_accum
+	altmult_add
+	altfp_mult
+	altsqrt
+	altddio_bidir
+	altcam
+	altdpram
+	alt3pram
+	altqpram
+	parallel_add
+	scfifo
+	altshift_taps
+	a_graycounter
+	altsquare
+	altdq_dqs
+	sld_virtual_jtag
+	sld_signaltap
+	altstratixii_oct
+	altparallel_flash_loader
+	altserial_flash_loader
+	altsource_probe
+
+} {} {}} E:/Personal/EP1C3T144_board/cyclone_prj/logic_analysis0417g/logic_analysis/simulation/modelsim/cyclone_atoms.v {1 {vlog -work work E:/Personal/EP1C3T144_board/cyclone_prj/logic_analysis0417g/logic_analysis/simulation/modelsim/cyclone_atoms.v
+Model Technology ModelSim SE vlog 5.7d Compiler 2003.05 May 10 2003
+-- Compiling UDP CYCLONE_PRIM_DFFE
+-- Compiling module cyclone_dffe
+-- Compiling module cyclone_latch
+-- Compiling module cyclone_mux21
+-- Compiling module cyclone_mux41
+-- Compiling module cyclone_and1
+-- Compiling module cyclone_and16
+-- Compiling module cyclone_bmux21
+-- Compiling module cyclone_b17mux21
+-- Compiling module cyclone_nmux21
+-- Compiling module cyclone_b5mux21
+-- Compiling module cyclone_asynch_lcell
+-- Compiling module cyclone_lcell_register
+-- Compiling module cyclone_lcell
+-- Compiling module cyclone_ram_pulse_generator
+-- Compiling module cyclone_ram_register
+-- Compiling module cyclone_ram_block
+-- Compiling module cyclone_m_cntr
+-- Compiling module cyclone_n_cntr
+-- Compiling module cyclone_scale_cntr
+-- Compiling module cyclone_pll_reg
+-- Compiling module cyclone_pll
+-- Compiling module cyclone_dll
+-- Compiling module cyclone_jtag
+-- Compiling module cyclone_crcblock
+-- Compiling module cyclone_routing_wire
+-- Compiling module cyclone_asynch_io
+-- Compiling module cyclone_io
+-- Compiling module cyclone_asmiblock
+
+Top level modules:
+	cyclone_latch
+	cyclone_mux41
+	cyclone_and1
+	cyclone_and16
+	cyclone_bmux21
+	cyclone_b17mux21
+	cyclone_nmux21
+	cyclone_b5mux21
+	cyclone_lcell
+	cyclone_ram_block
+	cyclone_pll
+	cyclone_dll
+	cyclone_jtag
+	cyclone_crcblock
+	cyclone_routing_wire
+	cyclone_io
+	cyclone_asmiblock
+
+} {} {}}

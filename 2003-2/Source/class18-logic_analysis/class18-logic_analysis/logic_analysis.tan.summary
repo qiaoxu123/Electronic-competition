@@ -1,0 +1,86 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 4.817 ns
+From           : sampling_mode[0]
+To             : sampling_ctrl:uut_sampling|sampling_end
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 8.018 ns
+From           : vga_ctrl:uut_vga_ctrl|vga_rgb[2]
+To             : vga_r
+From Clock     : clk
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -3.026 ns
+From           : trigger
+To             : sampling_ctrl:uut_sampling|trigger_r1
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Setup: 'PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk0'
+Slack          : 0.687 ns
+Required Time  : 25.00 MHz ( period = 40.000 ns )
+Actual Time    : N/A
+From           : sampling_ctrl:uut_sampling|sft_r3[49]
+To             : vga_ctrl:uut_vga_ctrl|vga_rgb[1]
+From Clock     : PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk1
+To Clock       : PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Clock Setup: 'PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk1'
+Slack          : 5.410 ns
+Required Time  : 100.00 MHz ( period = 10.000 ns )
+Actual Time    : 217.86 MHz ( period = 4.590 ns )
+From           : sampling_ctrl:uut_sampling|sampling_end
+To             : sampling_ctrl:uut_sampling|sft_r0[27]
+From Clock     : PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk1
+To Clock       : PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk1
+Failed Paths   : 0
+
+Type           : Clock Hold: 'PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk1'
+Slack          : 0.861 ns
+Required Time  : 100.00 MHz ( period = 10.000 ns )
+Actual Time    : N/A
+From           : sampling_ctrl:uut_sampling|sft_r1[15]
+To             : sampling_ctrl:uut_sampling|sft_r1[14]
+From Clock     : PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk1
+To Clock       : PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk1
+Failed Paths   : 0
+
+Type           : Clock Hold: 'PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk0'
+Slack          : 1.080 ns
+Required Time  : 25.00 MHz ( period = 40.000 ns )
+Actual Time    : N/A
+From           : vga_ctrl:uut_vga_ctrl|x_cnt[6]
+To             : vga_ctrl:uut_vga_ctrl|hsync_r
+From Clock     : PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk0
+To Clock       : PLL_ctrl:uut_PLL_ctrl|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+
