@@ -1,0 +1,10 @@
+
+State Machine - |pro_2017|sync:sync_inst|state_sync
+Name state_sync.01 
+state_sync.00 0 
+state_sync.01 1 
+
+State Machine - |pro_2017|sync:sync_inst|state_sync_1
+Name state_sync_1.01 
+state_sync_1.00 0 
+state_sync_1.01 1 

@@ -1,0 +1,166 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\2017diansai\2011\2011_program\simulation\modelsim
+vanjian
+I_Ah[R7nif@m2_eB]z_]U^3
+VMSTXa;jNWX=VHHBHj]`;=2
+Z1 dE:\2017diansai\2011\2011_program\simulation\modelsim
+w1500269673
+8E:/2017diansai/2011/2011_program/anjian.v
+FE:/2017diansai/2011/2011_program/anjian.v
+L0 8
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+E:/2017diansai/2011/2011_program -O0
+!i10b 1
+!s100 z2cObm=QB`gOnbQIfm^^]3
+!s85 0
+!s108 1500282895.186000
+!s107 E:/2017diansai/2011/2011_program/anjian.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2011/2011_program|E:/2017diansai/2011/2011_program/anjian.v|
+!s101 -O0
+vclk_200
+ICba@Nn>ZYo7?5IY7S0g;B1
+Vo0VDZNTIMH``ZJl>I]f[h1
+R1
+w1500255977
+8E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo
+FE:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo
+L0 31
+R2
+r1
+31
+o-O0
+!i10b 1
+!s100 ENfTA:6]bBiVYN[<D1V?90
+!s85 0
+!s108 1500282895.030000
+!s107 E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo|
+!s90 -reportprogress|300|E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo|
+!s101 -O0
+vdisplay
+I;5JZH]7NjM6oX^LJhkjS[3
+Vj=U5LQ5z<Z3kZWRY]eWbT0
+R1
+w1500280921
+8E:/2017diansai/2011/2011_program/display.v
+FE:/2017diansai/2011/2011_program/display.v
+L0 8
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 E0eD>L^aPAzKL=EF^dME?3
+!s85 0
+!s108 1500282895.471000
+!s107 E:/2017diansai/2011/2011_program/display.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2011/2011_program|E:/2017diansai/2011/2011_program/display.v|
+!s101 -O0
+vM_1
+I8;<4>M[3`GTH0@P?[[mzz1
+V91dckIMl:`Q0L<K:ccSBi1
+R1
+w1500252075
+8E:/2017diansai/2011/2011_program/m_1.v
+FE:/2017diansai/2011/2011_program/m_1.v
+L0 8
+R2
+r1
+31
+R3
+R4
+n@m_1
+!i10b 1
+!s100 3]<CQLolXE2MF?>j7O2XP0
+!s85 0
+!s108 1500282895.256000
+!s107 E:/2017diansai/2011/2011_program/m_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2011/2011_program|E:/2017diansai/2011/2011_program/m_1.v|
+!s101 -O0
+vM_2
+IGnVjbUM>W`7QUcT6S^GNe2
+Vf@CNE<1HYmAze>4LX]5TY1
+R1
+w1500182412
+8E:/2017diansai/2011/2011_program/m_2.v
+FE:/2017diansai/2011/2011_program/m_2.v
+L0 8
+R2
+r1
+31
+R3
+R4
+n@m_2
+!i10b 1
+!s100 gA^7X7=3OSWCZ=k87TPiO0
+!s85 0
+!s108 1500282895.332000
+!s107 E:/2017diansai/2011/2011_program/m_2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2011/2011_program|E:/2017diansai/2011/2011_program/m_2.v|
+!s101 -O0
+vpro_2017
+IDanMcf:aT1PV2jY1_85:=0
+V<6M:jdAY=06Th`MdHoT?43
+R1
+w1500280892
+8E:/2017diansai/2011/2011_program/pro_2017.v
+FE:/2017diansai/2011/2011_program/pro_2017.v
+L0 8
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 :=Q?n:LPQYXO2I`6JZ<Ph3
+!s85 0
+!s108 1500282895.118000
+!s107 E:/2017diansai/2011/2011_program/pro_2017.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2011/2011_program|E:/2017diansai/2011/2011_program/pro_2017.v|
+!s101 -O0
+vsync
+I[`M<KH;jZ0iWhDee6FF<P2
+VEH6ELcHR[3S]AAfe9OX3^3
+R1
+w1500282878
+8E:/2017diansai/2011/2011_program/sync.v
+FE:/2017diansai/2011/2011_program/sync.v
+L0 8
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 7]m1:6e8e9_[WzT]0XcUW2
+!s85 0
+!s108 1500282895.404000
+!s107 E:/2017diansai/2011/2011_program/sync.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2011/2011_program|E:/2017diansai/2011/2011_program/sync.v|
+!s101 -O0
+vtb_2011
+!i10b 1
+!s100 R6[:iU<4`WI0^:mXSQn^J0
+IfU?7Q>K0f949k`:1TKdhP0
+V2Q5CLhe6:zF@?OdJP3nD<2
+R1
+w1500189606
+8E:/2017diansai/2011/2011_program/tb_2011.v
+FE:/2017diansai/2011/2011_program/tb_2011.v
+L0 8
+R2
+r1
+!s85 0
+31
+!s108 1500282895.534000
+!s107 E:/2017diansai/2011/2011_program/tb_2011.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/2017diansai/2011/2011_program|E:/2017diansai/2011/2011_program/tb_2011.v|
+!s101 -O0
+R3
+R4

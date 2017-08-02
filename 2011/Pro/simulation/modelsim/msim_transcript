@@ -1,0 +1,248 @@
+# Reading D:/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do pro_2017_run_msim_rtl_verilog.do 
+# if ![file isdirectory pro_2017_iputf_libs] {
+# 	file mkdir pro_2017_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo"
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module clk_200
+# 
+# Top level modules:
+# 	clk_200
+# 
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2011/2011_program {E:/2017diansai/2011/2011_program/pro_2017.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pro_2017
+# 
+# Top level modules:
+# 	pro_2017
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2011/2011_program {E:/2017diansai/2011/2011_program/anjian.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module anjian
+# 
+# Top level modules:
+# 	anjian
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2011/2011_program {E:/2017diansai/2011/2011_program/m_1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module M_1
+# 
+# Top level modules:
+# 	M_1
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2011/2011_program {E:/2017diansai/2011/2011_program/m_2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module M_2
+# 
+# Top level modules:
+# 	M_2
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2011/2011_program {E:/2017diansai/2011/2011_program/sync.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module sync
+# 
+# Top level modules:
+# 	sync
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2011/2011_program {E:/2017diansai/2011/2011_program/display.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module display
+# 
+# Top level modules:
+# 	display
+# 
+# vlog -vlog01compat -work work +incdir+E:/2017diansai/2011/2011_program {E:/2017diansai/2011/2011_program/tb_2011.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tb_2011
+# 
+# Top level modules:
+# 	tb_2011
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_2011
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_2011 
+# Loading work.tb_2011
+# Loading work.pro_2017
+# Loading work.clk_200
+# Loading sv_std.std
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading work.anjian
+# Loading work.M_1
+# Loading work.M_2
+# Loading work.sync
+# Loading work.display
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# ** Warning: (vsim-3017) E:/2017diansai/2011/2011_program/tb_2011.v(33): [TFMPC] - Too few port connections. Expected 10, found 7.
+# 
+#         Region: /tb_2011/tb_inst
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/tb_2011.v(33): [TFMPC] - Missing connection for port 'signal_v1_man'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/tb_2011.v(33): [TFMPC] - Missing connection for port 'sync_clk'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/tb_2011.v(33): [TFMPC] - Missing connection for port 'smg1'.
+# 
+# ** Warning: (vsim-3017) E:/2017diansai/2011/2011_program/pro_2017.v(42): [TFMPC] - Too few port connections. Expected 5, found 4.
+# 
+#         Region: /tb_2011/tb_inst/pll_inst
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/pro_2017.v(42): [TFMPC] - Missing connection for port 'locked'.
+# 
+# ** Warning: (vsim-3017) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Too few port connections. Expected 25, found 5.
+# 
+#         Region: /tb_2011/tb_inst/pll_inst/clk_200_altera_pll_altera_pll_i_1096
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'refclk1'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'phase_en'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'updn'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'scanclk'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'cntsel'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'extswitch'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'adjpllin'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'cclk'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'fboutclk'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'phase_done'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'activeclk'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'clkbad'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'phout'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'lvds_clk'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'loaden'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'cascade_out'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# 
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb_2011.tb_inst.pll_inst.clk_200_altera_pll_altera_pll_i_1096.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb_2011.tb_inst.pll_inst.clk_200_altera_pll_altera_pll_i_1096.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 200 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 2500.000000
+# Info: output_clock_low_period = 2500.000000
+add wave -position insertpoint sim:/tb_2011/tb_inst/sync_inst/*
+add wave -position insertpoint  \
+sim:/tb_2011/tb_inst/signal_v1_clk
+restart
+# Loading sv_std.std
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# ** Warning: (vsim-3017) E:/2017diansai/2011/2011_program/tb_2011.v(33): [TFMPC] - Too few port connections. Expected 10, found 7.
+# 
+#         Region: /tb_2011/tb_inst
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/tb_2011.v(33): [TFMPC] - Missing connection for port 'signal_v1_man'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/tb_2011.v(33): [TFMPC] - Missing connection for port 'sync_clk'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/tb_2011.v(33): [TFMPC] - Missing connection for port 'smg1'.
+# 
+# ** Warning: (vsim-3017) E:/2017diansai/2011/2011_program/pro_2017.v(42): [TFMPC] - Too few port connections. Expected 5, found 4.
+# 
+#         Region: /tb_2011/tb_inst/pll_inst
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/pro_2017.v(42): [TFMPC] - Missing connection for port 'locked'.
+# 
+# ** Warning: (vsim-3017) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Too few port connections. Expected 25, found 5.
+# 
+#         Region: /tb_2011/tb_inst/pll_inst/clk_200_altera_pll_altera_pll_i_1096
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'refclk1'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'phase_en'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'updn'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'scanclk'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'cntsel'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'extswitch'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'adjpllin'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'cclk'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'fboutclk'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'phase_done'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'activeclk'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'clkbad'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'phout'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'lvds_clk'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'loaden'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'cascade_out'.
+# 
+# ** Warning: (vsim-3722) E:/2017diansai/2011/2011_program/clk_200_sim/clk_200.vo(53): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# 
+run
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb_2011.tb_inst.pll_inst.clk_200_altera_pll_altera_pll_i_1096.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb_2011.tb_inst.pll_inst.clk_200_altera_pll_altera_pll_i_1096.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 200 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 2500.000000
+# Info: output_clock_low_period = 2500.000000
+run
