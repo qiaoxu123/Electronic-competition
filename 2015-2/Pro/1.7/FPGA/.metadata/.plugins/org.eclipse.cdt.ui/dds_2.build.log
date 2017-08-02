@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project dds_2 ****
+
+make all 
+Info: Building ../dds_2_bsp/
+make --no-print-directory -C ../dds_2_bsp/
+[BSP build complete]
+[dds_2 build complete]
+
+**** Build Finished ****

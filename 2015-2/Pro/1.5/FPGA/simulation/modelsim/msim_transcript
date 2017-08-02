@@ -1,0 +1,104 @@
+# Reading D:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do pro_nios_run_msim_rtl_verilog.do 
+# if ![file isdirectory pro_nios_iputf_libs] {
+# 	file mkdir pro_nios_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "E:/Electronic_Exam/1.5/FPGA/pll_100M_sim/pll_100M.vo"
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pll_100M
+# 
+# Top level modules:
+# 	pll_100M
+# vlog "E:/Electronic_Exam/1.5/FPGA/pll_200M_sim/pll_200M.vo"
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pll_200M
+# 
+# Top level modules:
+# 	pll_200M
+# 
+# vlog -vlog01compat -work work +incdir+E:/Electronic_Exam/1.5/FPGA {E:/Electronic_Exam/1.5/FPGA/pro_nios.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Nios
+# 
+# Top level modules:
+# 	Nios
+# vlog -vlog01compat -work work +incdir+E:/Electronic_Exam/1.5/FPGA {E:/Electronic_Exam/1.5/FPGA/Digital_Freq_top.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Digital_Freq_top
+# 
+# Top level modules:
+# 	Digital_Freq_top
+# vlog -vlog01compat -work work +incdir+E:/Electronic_Exam/1.5/FPGA {E:/Electronic_Exam/1.5/FPGA/Duty_Cycle.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Duty_Cycle
+# 
+# Top level modules:
+# 	Duty_Cycle
+# vlog -vlog01compat -work work +incdir+E:/Electronic_Exam/1.5/FPGA {E:/Electronic_Exam/1.5/FPGA/Freq_check.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Freq_check
+# 
+# Top level modules:
+# 	Freq_check
+# vlog -vlog01compat -work work +incdir+E:/Electronic_Exam/1.5/FPGA {E:/Electronic_Exam/1.5/FPGA/Time_period_check.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Time_period_check
+# 
+# Top level modules:
+# 	Time_period_check
+# 
+# vlog -vlog01compat -work work +incdir+E:/Electronic_Exam/1.5/FPGA {E:/Electronic_Exam/1.5/FPGA/Digital_Freq_top_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Digital_Freq_top_tb
+# 
+# Top level modules:
+# 	Digital_Freq_top_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Digital_Freq_top_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps Digital_Freq_top_tb 
+# Loading work.Digital_Freq_top_tb
+# Loading work.Digital_Freq_top
+# Loading work.pll_200M
+# Loading sv_std.std
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading work.Freq_check
+# Loading work.Time_period_check
+# Loading work.Duty_Cycle
+# Loading work.Nios
+# ** Error: (vsim-3033) E:/Electronic_Exam/1.5/FPGA/pro_nios.v(78): Instantiation of 'cpu' failed. The design unit was not found.
+# 
+#         Region: /Digital_Freq_top_tb/Digital_Freq_top_module/Nios_module
+#         Searched libraries:
+#             D:/altera/13.1/modelsim_ase/altera/verilog/altera
+#             D:/altera/13.1/modelsim_ase/altera/verilog/220model
+#             D:/altera/13.1/modelsim_ase/altera/verilog/sgate
+#             D:/altera/13.1/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/13.1/modelsim_ase/altera/verilog/altera_lnsim
+#             D:/altera/13.1/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/13.1/modelsim_ase/altera/verilog/cyclonev_hssi
+#             D:/altera/13.1/modelsim_ase/altera/verilog/cyclonev_pcie_hip
+#             E:/Electronic_Exam/1.5/FPGA/simulation/modelsim/rtl_work
+#             E:/Electronic_Exam/1.5/FPGA/simulation/modelsim/rtl_work
+#             E:/Electronic_Exam/1.5/FPGA/simulation/modelsim/rtl_work
+# Loading work.pll_100M
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./pro_nios_run_msim_rtl_verilog.do PAUSED at line 28

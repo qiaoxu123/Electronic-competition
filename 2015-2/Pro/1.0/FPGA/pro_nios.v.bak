@@ -1,0 +1,79 @@
+module	pro_nios(
+		//system		 clk
+		input				clk,
+		input				rst_n,
+		//sdram			interface
+		output		[12:0]	sdram_addr,
+		output		[1:0]	sdram_ba,
+		inout		[15:0]	sdram_dq,
+		output		[1:0]	sdram_dqm,
+		output				sdram_ras_n,
+		output				sdram_cas_n,
+		output				sdram_cs_n,
+		output				sdram_we_n,
+		output				sdram_cke,
+		output				sdram_clk,
+		//hex			interface
+		output				led,
+		output		[6:0]	hex0,
+		output		[6:0]	hex1,
+		output		[6:0]	hex2,
+		output				uart_rx,
+		output				uart_tx,
+		output		[7:0]	lcd_data,
+		output				lcd_en,
+		output				lcd_rw,
+		output				lcd_rs
+);
+wire				[31:0]	hex_data;
+wire						cpu_clk;
+wire						cpu_reset_n;
+wire						pll_locked;
+assign						cpu_reset_n = pll_locked;
+
+
+hex		U2(
+		//system		interface
+		.clk(clk),
+		.rst_n(rst_n),
+		//hex			interface
+		.hex_data(hex_data)	
+);
+
+pll_100M U1(
+		.refclk(clk),   //  refclk.clk
+		.rst(~rst_n),      //   reset.reset
+		.outclk_0(cpu_clk), // outclk0.clk
+		.outclk_1(sdram_clk), // outclk1.clk
+		.locked(pll_locked)    //  locked.export
+	);
+
+
+    cpu u0 (
+        .clk_clk       (cpu_clk),       //   clk.clk
+        .reset_reset_n (cpu_reset_n), // reset.reset_n
+        .sdram_addr    (sdram_addr),    // sdram.addr
+        .sdram_ba      (sdram_ba),      //      .ba
+        .sdram_cas_n   (sdram_cas_n),   //      .cas_n
+        .sdram_cke     (sdram_cke),     //      .cke
+        .sdram_cs_n    (sdram_cs_n),    //      .cs_n
+        .sdram_dq      (sdram_dq),      //      .dq
+        .sdram_dqm     (sdram_dqm),     //      .dqm
+        .sdram_ras_n   (sdram_ras_n),   //      .ras_n
+        .sdram_we_n    (sdram_we_n),     //      .we_n
+		.led_export    (led),     //   led.export
+        .data_export   (hex_data),   //  data.export
+        .hex_export    (hex0) ,		//   hex.export
+        .hex1_export   (hex1),   //  hex1.export
+        .hex2_export   (hex2) ,   //  hex2.export
+        .uart_rxd      (uart_rx),      //  uart.rxd
+        .uart_txd      (uart_tx),      //  
+        .lcd_data_export (lcd_data), // lcd_data.export
+        .lcd_en_export   (lcd_en),   //   lcd_en.export
+        .lcd_rs_export   (lcd_rs),   //   lcd_rs.export
+        .lcd_rw_export   (lcd_rw)    //   lcd_rw.export
+	);
+
+
+
+endmodule

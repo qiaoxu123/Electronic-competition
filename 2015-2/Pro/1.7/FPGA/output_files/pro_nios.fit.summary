@@ -1,0 +1,19 @@
+Fitter Status : Successful - Mon Jul 03 19:13:18 2017
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : pro_nios
+Top-level Entity Name : nios_top
+Family : Cyclone V
+Device : 5CSEMA5F31C6
+Timing Models : Preliminary
+Logic utilization (in ALMs) : 2,276 / 32,070 ( 7 % )
+Total registers : 3863
+Total pins : 47 / 457 ( 10 % )
+Total virtual pins : 0
+Total block memory bits : 174,144 / 4,065,280 ( 4 % )
+Total DSP Blocks : 2 / 87 ( 2 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI TX Channels : 0
+Total PLLs : 1 / 6 ( 17 % )
+Total DLLs : 0 / 4 ( 0 % )

@@ -1,0 +1,23 @@
+transcript on
+if ![file isdirectory pro_nios_iputf_libs] {
+	file mkdir pro_nios_iputf_libs
+}
+
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+
+
+vlog "E:/DE1-SOC/class10-Digital_Freq/pll_100M_sim/pll_100M.vo"
+
+vlog -vlog01compat -work work +incdir+E:/DE1-SOC/class10-Digital_Freq {E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v}
+vlog -vlog01compat -work work +incdir+E:/DE1-SOC/class10-Digital_Freq {E:/DE1-SOC/class10-Digital_Freq/Duty_Cycle.v}
+vlog -vlog01compat -work work +incdir+E:/DE1-SOC/class10-Digital_Freq {E:/DE1-SOC/class10-Digital_Freq/Freq_check.v}
+vlog -vlog01compat -work work +incdir+E:/DE1-SOC/class10-Digital_Freq {E:/DE1-SOC/class10-Digital_Freq/Time_period_check.v}
+

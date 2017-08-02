@@ -1,0 +1,62 @@
+!SESSION 2017-06-23 13:31:16.096 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-23 13:34:25.426
+!MESSAGE Indexed 'my_cpu_bsp' (94 sources, 65 headers) in 1.75 sec: 2,217 declarations; 9,907 references; 121 unresolved inclusions; 5 syntax errors; 198 unresolved names (1.61%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-23 13:34:34.448
+!MESSAGE Indexed 'my_cpu' (1 sources, 13 headers) in 0.05 sec: 8 declarations; 23 references; 15 unresolved inclusions; 0 syntax errors; 6 unresolved names (16.22%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-06-23 13:37:00.528
+!MESSAGE Executing: [D:/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x4001028]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-06-23 13:37:09.782
+!MESSAGE Executing: [D:/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x4001028 /cygdrive/e/FPGA-project/ku/nios/software/my_cpu/my_cpu.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-06-23 13:37:20.245
+!MESSAGE Failed Executing: [nios2-download, '--cable=DE-SoC on localhost [USB-1]', --device=2, --instance=0, --go, --accept-bad-sysid, --sidp=0x4001028, /cygdrive/e/FPGA-project/ku/nios/software/my_cpu/my_cpu.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-06-23 13:37:20.253
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-06-23 18:20:06.435
+!MESSAGE Executing: [D:/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x4001028]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-06-23 18:20:13.406
+!MESSAGE Executing: [D:/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x4001028 /cygdrive/e/FPGA-project/ku/nios/software/my_cpu/my_cpu.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-06-23 18:20:24.301
+!MESSAGE Failed Executing: [nios2-download, '--cable=DE-SoC on localhost [USB-1]', --device=2, --instance=0, --go, --accept-bad-sysid, --sidp=0x4001028, /cygdrive/e/FPGA-project/ku/nios/software/my_cpu/my_cpu.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-06-23 18:20:24.302
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-06-23 18:36:41.382
+!MESSAGE Executing: [D:/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x4001028]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-06-23 18:36:43.223
+!MESSAGE Executing: [D:/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x4001028 /cygdrive/e/FPGA-project/ku/nios/software/my_cpu/my_cpu.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-06-23 18:36:45.408
+!MESSAGE Failed Executing: [nios2-download, '--cable=DE-SoC on localhost [USB-1]', --device=2, --instance=0, --go, --accept-bad-sysid, --sidp=0x4001028, /cygdrive/e/FPGA-project/ku/nios/software/my_cpu/my_cpu.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-06-23 18:36:45.409
+!MESSAGE Downloading ELF Process failed
+!SESSION 2017-06-23 18:53:13.215 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-06-23 18:54:23.954
+!MESSAGE Executing: [D:/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x4001028]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-06-23 18:54:25.838
+!MESSAGE Executing: [D:/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x4001028 /cygdrive/e/FPGA-project/ku/nios/software/my_cpu/my_cpu.elf]

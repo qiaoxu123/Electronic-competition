@@ -1,0 +1,76 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include <stdio.h>
+#include "altera_avalon_uart_regs.h"
+#include "altera_avalon_pio_regs.h"
+#include "system.h"
+
+void delay(int z)	//Delay
+{
+	int x,y;
+	for(x = z;x>0;x--)
+		for(y = 110;y>0;y--);
+}
+
+int main()
+{
+
+  int Freq_a_num;				//淇″彿A鍦ㄩ椄闂ㄦ椂闂村唴涓暟
+  int Freq_b_num;				//淇″彿B鍦ㄩ椄闂ㄦ椂闂村唴涓暟
+  int Freq_standard_num;		//鏍囧噯淇″彿鍦ㄩ椄闂ㄦ椂闂村唴涓暟
+  int Time_interval_1000;			//涓よ矾淇″彿鏃堕棿闂撮殧
+  int Duty_Cycle_a_1000;				//A璺俊鍙�000涓尝宄版椂闂存�闀�
+  int Duty_Cycle_b_1000;				//B璺俊鍙�000涓尝宄版椂闂存�闀�
+  int Whole_Time_a_1000;				//A璺俊鍙�000涓懆鏈熸椂闂存�闀�
+  int Whole_Time_b_1000;				//B璺俊鍙�000涓懆鏈熸椂闂存�闀�
+
+  float Freq_a;		//A璺俊鍙烽鐜�
+  float Freq_b;		//B璺俊鍙烽鐜�
+  float Time_interval;	//涓よ矾淇″彿鏃堕棿闂撮殧
+  float Duty_Cycle_a;	//A璺俊鍙峰崰绌烘瘮
+  float Duty_Cycle_b;	//B璺俊鍙峰崰绌烘瘮
+
+  while(1)
+  {
+	//灏咶PGA涓婃祴寰楃殑鏁版嵁锛屼紶閫佸埌杞牳
+	  Freq_a_num 			= IORD_ALTERA_AVALON_PIO_DATA(FREQ_A_BASE);
+	  Freq_b_num 			= IORD_ALTERA_AVALON_PIO_DATA(FREQ_B_BASE);
+	  Freq_standard_num 	= IORD_ALTERA_AVALON_PIO_DATA(FREQ_STANDARD_BASE);
+	  Time_interval_1000 	= IORD_ALTERA_AVALON_PIO_DATA(TIME_INTERVAL_BASE);
+	  Duty_Cycle_a_1000 	= IORD_ALTERA_AVALON_PIO_DATA(DUTY_CYCLE_A_BASE);
+	  Duty_Cycle_b_1000 	= IORD_ALTERA_AVALON_PIO_DATA(DUTY_CYCLE_B_BASE);
+	  Whole_Time_a_1000 	= IORD_ALTERA_AVALON_PIO_DATA(WHOLE_TIME_A_BASE);
+	  Whole_Time_b_1000		= IORD_ALTERA_AVALON_PIO_DATA(WHOLE_TIME_B_BASE);
+
+	  //璁＄畻棰戠巼
+	  Freq_a = (Freq_a_num/Freq_standard_num)*50;
+	  Freq_b = (Freq_b_num/Freq_standard_num)*50;
+	  
+	  //璁＄畻鏃堕棿闂撮殧
+	  Time_interval = Time_interval_1000/1000;
+	  
+	  //璁＄畻鍗犵┖姣�
+	  Duty_Cycle_a = Duty_Cycle_a_1000 / Whole_Time_a_1000;
+	  Duty_Cycle_b = Duty_Cycle_b_1000 / Whole_Time_b_1000;
+
+	  printf("The Freq of A:%f\n",Freq_a);
+	  delay(10000);
+  }	  
+
+
+  return 0;
+}

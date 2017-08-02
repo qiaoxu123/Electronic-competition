@@ -1,0 +1,22 @@
+
+**** Build of configuration Nios II for project freq3 ****
+
+make all 
+Info: Building ../freq3_bsp/
+make --no-print-directory -C ../freq3_bsp/
+[BSP build complete]
+Info: Linking freq3.elf
+nios2-elf-g++  -T'../freq3_bsp//linker.x' -msys-crt0='../freq3_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../freq3_bsp/   -Wl,-Map=freq3.map   -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx  -o freq3.elf obj/default/hello_world.o -lm 
+nios2-elf-insert freq3.elf --thread_model hal --cpu_name cpu --qsys true --simulation_enabled false --id 2 --sidp 0x80010e8 --timestamp 1498619909 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name cpu --quartus_project_dir "E:/DE1-SOC/class10-Digital_Freq" --sopcinfo E:/DE1-SOC/class10-Digital_Freq/cpu.sopcinfo
+      0 [main] perl (1280) D:\altera\13.1\quartus\bin\cygwin\bin\perl.exe: *** fatal error - cygheap base mismatch detected - 0x612708D0/0x7E08D0.
+This problem is probably due to using incompatible versions of the cygwin DLL.
+Search for cygwin1.dll using the Windows Start->Find/Search facility
+and delete all but the most recent version.  The most recent version *should*
+reside in x:\cygwin\bin, where 'x' is the drive on which you have
+installed the cygwin distribution.  Rebooting is also suggested if you
+are unable to find another cygwin DLL.
+/cygdrive/d/altera/13.1/nios2eds/bin/sh_pl.sh: line 2:  5172 Segmentation fault      PERL5LIB=`cygpath -u "$SOPC_KIT_NIOS2/bin"` perl "${SH_PL:-$0.pl}" $@
+make: *** [freq3.elf] Error 139
+make: *** Deleting file `freq3.elf'
+
+**** Build Finished ****

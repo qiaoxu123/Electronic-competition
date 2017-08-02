@@ -1,0 +1,45 @@
+# Reading D:/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do pro_pinlv_run_msim_rtl_verilog.do 
+# if ![file isdirectory pro_pinlv_iputf_libs] {
+# 	file mkdir pro_pinlv_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "E:/FPGA-project/2015_F/pinlv/pll_100m_sim/pll_100m.vo"
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pll_100m
+# 
+# Top level modules:
+# 	pll_100m
+# vlog "E:/FPGA-project/2015_F/pinlv/pll_500_sim/pll_500.vo"  
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pll_500
+# 
+# Top level modules:
+# 	pll_500
+# 
+# vlog -vlog01compat -work work +incdir+E:/FPGA-project/2015_F/pinlv {E:/FPGA-project/2015_F/pinlv/pll_500.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vlog-7) Failed to open design unit file "E:/FPGA-project/2015_F/pinlv/pll_500.vo" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: D:/13.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./pro_pinlv_run_msim_rtl_verilog.do line 20
+# D:/13.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+E:/FPGA-project/2015_F/pinlv {E:/FPGA-project/2015_F/pinlv/pll_500.vo}"

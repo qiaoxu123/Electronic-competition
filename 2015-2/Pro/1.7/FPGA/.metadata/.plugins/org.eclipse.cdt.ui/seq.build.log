@@ -1,0 +1,19 @@
+
+**** Build of configuration Nios II for project seq ****
+
+make all 
+Info: Building ../seq_bsp/
+make --no-print-directory -C ../seq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../seq_bsp//HAL/inc -I../seq_bsp/ -I../seq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+Info: Linking seq.elf
+nios2-elf-g++  -T'../seq_bsp//linker.x' -msys-crt0='../seq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../seq_bsp/   -Wl,-Map=seq.map   -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx  -o seq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert seq.elf --thread_model hal --cpu_name cpu --qsys true --simulation_enabled false --id 2 --sidp 0x8001068 --timestamp 1498981549 --stderr_dev uart --stdin_dev uart --stdout_dev uart --sopc_system_name cpu --quartus_project_dir "E:/Electronic_Exam/Freq_Measure/1.7/FPGA" --sopcinfo E:/Electronic_Exam/Freq_Measure/1.7/FPGA/cpu.sopcinfo
+Info: (seq.elf) 18 KBytes program size (code + initialized data).
+Info:           65512 KBytes free for stack + heap.
+Info: Creating seq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source seq.elf >seq.objdump
+[seq build complete]
+
+**** Build Finished ****

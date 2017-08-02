@@ -1,0 +1,16 @@
+
+State Machine - |pro_pinlv|duty:U4|state_low
+Name state_low.001 
+state_low.000 0 
+state_low.001 1 
+
+State Machine - |pro_pinlv|duty:U4|state_high
+Name state_high.001 
+state_high.000 0 
+state_high.001 1 
+
+State Machine - |pro_pinlv|cycle:U3|state
+Name state.000 state.010 state.001 
+state.000 0 0 0 
+state.001 1 0 1 
+state.010 1 1 0 

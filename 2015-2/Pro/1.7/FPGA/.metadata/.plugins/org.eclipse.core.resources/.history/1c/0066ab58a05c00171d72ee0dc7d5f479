@@ -1,0 +1,149 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include <stdio.h>
+#include "altera_avalon_uart_regs.h"
+#include "system.h"
+#include "altera_avalon_pio_regs.h"
+
+char fore_txdata[3] = {'a','c','e','g','i'};
+char latter_txdata[3] = {'b','d','f','h','j'};
+float data = 130;
+
+void delay(int z)
+{
+	int x,y;
+	for(x = z;x>0;x--)
+		for(y = 110;y>0;y--);
+}
+
+
+long double Freq_a_num;
+long double Freq_b_num;
+long double Freq_standard_num;
+long double Time_interval_1000;
+long double Duty_Cycle_a_1000;
+long double Duty_Cycle_b_1000;
+long double Whole_Time_a_1000;
+long double Whole_Time_b_1000;
+
+long double r_Freq_a;
+long double r_Freq_b;
+long double Time_interval;
+long double r_Duty_Cycle_a;
+long double r_Duty_Cycle_b;
+
+int Freq_a;
+int Freq_b;
+int Duty_Cycle_a;
+int Duty_Cycle_b;
+
+double freq1;
+
+int main()
+{
+  while(1)
+  {
+	  Freq_a_num 			= IORD_ALTERA_AVALON_PIO_DATA(FREQ_A_BASE);
+	  Freq_b_num 			= IORD_ALTERA_AVALON_PIO_DATA(FREQ_B_BASE);
+	  Freq_standard_num 	= IORD_ALTERA_AVALON_PIO_DATA(FREQ_STANDARD_BASE);
+	  Time_interval_1000 	= IORD_ALTERA_AVALON_PIO_DATA(TIME_INTERVAL_BASE);
+	  Duty_Cycle_a_1000 	= IORD_ALTERA_AVALON_PIO_DATA(DUTY_CYCLE_A_BASE);
+	  Duty_Cycle_b_1000 	= IORD_ALTERA_AVALON_PIO_DATA(DUTY_CYCLE_B_BASE);
+	  Whole_Time_a_1000 	= IORD_ALTERA_AVALON_PIO_DATA(WHOLE_TIME_A_BASE);
+	  Whole_Time_b_1000		= IORD_ALTERA_AVALON_PIO_DATA(WHOLE_TIME_B_BASE);
+
+	  //freq1 = 126067/24999998;
+	  r_Freq_a = (((Freq_a_num*10)/Freq_standard_num)*50)*100;
+	  r_Freq_b = (((Freq_b_num*10)/Freq_standard_num)*50)*100;
+
+
+	  Time_interval = (Time_interval_1000/1000)*20;
+
+
+	  Duty_Cycle_a = (Duty_Cycle_a_1000 / Whole_Time_a_1000)*100;
+	  Duty_Cycle_b = (Duty_Cycle_b_1000 / Whole_Time_b_1000)*100;
+
+	  Freq_a = r_Freq_a;
+	  Freq_b = r_Freq_b;
+
+	  Duty_Cycle_a = r_Duty_Cycle_a;
+	  Duty_Cycle_b = r_Duty_Cycle_b;
+
+	  printf("Freq_b_num = %lf\n",Freq_b_num);
+	  printf("Freq_standard_num = %lf\n",Freq_standard_num);
+	  printf("Freq_b = %d\n",Freq_b);
+	  printf("Time_interval = %lf\n",Time_interval);
+
+//	  printf("Duty_Cycle_a_1000 = %lf\n",Duty_Cycle_a_1000);
+//	  printf("Whole_Time_a_1000 = %lf\n",Whole_Time_a_1000);
+//	  printf("Duty_Cycle_a = %lf\n",Duty_Cycle_a);
+//
+//	  printf("Duty_Cycle_b_1000 = %lf\n",Duty_Cycle_b_1000);
+//	  printf("Whole_Time_b_1000 = %lf\n",Whole_Time_b_1000);
+//	  printf("Duty_Cycle_b = %lf\n",Duty_Cycle_b);
+
+	  delay(100000);
+
+//	  char Freq_a1;
+//	  char Freq_a2;
+//
+//	  Freq_a2 = Freq_a & 255;
+//	  Freq_a1 = (Freq_a>>8) & 255;
+
+	 // Freq_a pinlv
+	  while(!(ALTERA_AVALON_UART_STATUS_TRDY_MSK & IORD_ALTERA_AVALON_UART_STATUS(UART_BASE)));
+	  IOWR_ALTERA_AVALON_UART_TXDATA(UART_BASE, fore_txdata[0]);
+	  while(!(ALTERA_AVALON_UART_STATUS_TRDY_MSK & IORD_ALTERA_AVALON_UART_STATUS(UART_BASE)));
+	  IOWR_ALTERA_AVALON_UART_TXDATA(UART_BASE, Freq_a);
+	  while(!(ALTERA_AVALON_UART_STATUS_TRDY_MSK & IORD_ALTERA_AVALON_UART_STATUS(UART_BASE)));
+	  IOWR_ALTERA_AVALON_UART_TXDATA(UART_BASE, latter_txdata[0]);
+
+//	  //Freq_b
+	  while(!(ALTERA_AVALON_UART_STATUS_TRDY_MSK & IORD_ALTERA_AVALON_UART_STATUS(UART_BASE)));
+	  IOWR_ALTERA_AVALON_UART_TXDATA(UART_BASE, fore_txdata[1]);
+	  while(!(ALTERA_AVALON_UART_STATUS_TRDY_MSK & IORD_ALTERA_AVALON_UART_STATUS(UART_BASE)));
+	  IOWR_ALTERA_AVALON_UART_TXDATA(UART_BASE, Freq_b);
+	  while(!(ALTERA_AVALON_UART_STATUS_TRDY_MSK & IORD_ALTERA_AVALON_UART_STATUS(UART_BASE)));
+	  IOWR_ALTERA_AVALON_UART_TXDATA(UART_BASE, latter_txdata[1]);
+
+	  //Duty_Cycle_a zhankongbi
+	  while(!(ALTERA_AVALON_UART_STATUS_TRDY_MSK & IORD_ALTERA_AVALON_UART_STATUS(UART_BASE)));
+	  IOWR_ALTERA_AVALON_UART_TXDATA(UART_BASE, fore_txdata[2]);
+	  while(!(ALTERA_AVALON_UART_STATUS_TRDY_MSK & IORD_ALTERA_AVALON_UART_STATUS(UART_BASE)));
+	  IOWR_ALTERA_AVALON_UART_TXDATA(UART_BASE, Duty_Cycle_a);
+	  while(!(ALTERA_AVALON_UART_STATUS_TRDY_MSK & IORD_ALTERA_AVALON_UART_STATUS(UART_BASE)));
+	  IOWR_ALTERA_AVALON_UART_TXDATA(UART_BASE, latter_txdata[2]);
+
+
+	  //Duty_Cycle_b
+	  while(!(ALTERA_AVALON_UART_STATUS_TRDY_MSK & IORD_ALTERA_AVALON_UART_STATUS(UART_BASE)));
+	  IOWR_ALTERA_AVALON_UART_TXDATA(UART_BASE, fore_txdata[3]);
+	  while(!(ALTERA_AVALON_UART_STATUS_TRDY_MSK & IORD_ALTERA_AVALON_UART_STATUS(UART_BASE)));
+	  IOWR_ALTERA_AVALON_UART_TXDATA(UART_BASE, Duty_Cycle_b);
+	  while(!(ALTERA_AVALON_UART_STATUS_TRDY_MSK & IORD_ALTERA_AVALON_UART_STATUS(UART_BASE)));
+	  IOWR_ALTERA_AVALON_UART_TXDATA(UART_BASE, latter_txdata[3]);
+
+	  //Time_interval
+	  while(!(ALTERA_AVALON_UART_STATUS_TRDY_MSK & IORD_ALTERA_AVALON_UART_STATUS(UART_BASE)));
+	  IOWR_ALTERA_AVALON_UART_TXDATA(UART_BASE, fore_txdata[4]);
+	  while(!(ALTERA_AVALON_UART_STATUS_TRDY_MSK & IORD_ALTERA_AVALON_UART_STATUS(UART_BASE)));
+	  IOWR_ALTERA_AVALON_UART_TXDATA(UART_BASE, Time_interval);
+	  while(!(ALTERA_AVALON_UART_STATUS_TRDY_MSK & IORD_ALTERA_AVALON_UART_STATUS(UART_BASE)));
+	  IOWR_ALTERA_AVALON_UART_TXDATA(UART_BASE, latter_txdata[4]);
+  }
+  return 0;
+}

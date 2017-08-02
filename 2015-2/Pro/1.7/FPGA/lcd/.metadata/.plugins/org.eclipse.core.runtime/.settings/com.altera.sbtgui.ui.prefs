@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newSoftwareExampleWizardPage.defaultLocation=E\:\\FPGA-project\\ku\\nios\\software\\pro_lcd
+newSoftwareExampleWizardPage.sopcinfoFile=E\:\\FPGA-project\\ku\\nios\\cpu.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=E\:\\FPGA-project\\ku\\nios\\software\\pro_lcd_bsp

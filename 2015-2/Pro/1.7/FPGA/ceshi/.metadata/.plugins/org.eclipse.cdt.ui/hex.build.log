@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project hex ****
+
+make all 
+Info: Building ../hex_bsp/
+make --no-print-directory -C ../hex_bsp/
+[BSP build complete]
+[hex build complete]
+
+**** Build Finished ****

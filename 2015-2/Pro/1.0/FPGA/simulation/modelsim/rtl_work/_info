@@ -1,0 +1,130 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\DE1-SOC\class10-Digital_Freq\simulation\modelsim
+vDigital_Freq_top
+INS^ZLM[?dV5J8?1hRa;LV3
+VfdD_f12P^N>I_Hazoke0D0
+Z1 dE:\DE1-SOC\class10-Digital_Freq\simulation\modelsim
+w1498526570
+8E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v
+FE:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v
+L0 13
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@digital_@freq_top
+Z4 !s92 -vlog01compat -work work +incdir+E:/DE1-SOC/class10-Digital_Freq -O0
+!i10b 1
+!s100 A6:=UW9zYQR:l9=Zi>I[W0
+!s85 0
+!s108 1498528718.776000
+!s107 E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/DE1-SOC/class10-Digital_Freq|E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v|
+!s101 -O0
+vDigital_Freq_top_tb
+!i10b 1
+!s100 H0XP9okhc=4I;LdoRDJ`P0
+I06aEAl41koH96DT:Q84ZQ3
+VL=fM4_ehfD;?6W??>m_S61
+R1
+w1498528680
+8E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top_tb.v
+FE:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top_tb.v
+L0 16
+R2
+r1
+!s85 0
+31
+!s108 1498528719.029000
+!s107 E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/DE1-SOC/class10-Digital_Freq|E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top_tb.v|
+!s101 -O0
+R3
+R4
+n@digital_@freq_top_tb
+vDuty_Cycle
+Ia8gTBO4U5bj?^NkeFEZFO3
+VR4^g?[75YRidV:h`VR;;K2
+R1
+w1498473157
+8E:/DE1-SOC/class10-Digital_Freq/Duty_Cycle.v
+FE:/DE1-SOC/class10-Digital_Freq/Duty_Cycle.v
+L0 13
+R2
+r1
+31
+R3
+R4
+n@duty_@cycle
+!i10b 1
+!s100 QP9ozlXUUn0UUA<AklRIQ2
+!s85 0
+!s108 1498528718.835000
+!s107 E:/DE1-SOC/class10-Digital_Freq/Duty_Cycle.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/DE1-SOC/class10-Digital_Freq|E:/DE1-SOC/class10-Digital_Freq/Duty_Cycle.v|
+!s101 -O0
+vFreq_check
+I9e^kZf@3HFHLUbGYMPAk_0
+Vm^mG2BWFHe]7AWMHZf9]m0
+R1
+w1498473728
+8E:/DE1-SOC/class10-Digital_Freq/Freq_check.v
+FE:/DE1-SOC/class10-Digital_Freq/Freq_check.v
+L0 13
+R2
+r1
+31
+R3
+R4
+n@freq_check
+!i10b 1
+!s100 k@O92?E3g]D6HhlnDQOaH3
+!s85 0
+!s108 1498528718.900000
+!s107 E:/DE1-SOC/class10-Digital_Freq/Freq_check.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/DE1-SOC/class10-Digital_Freq|E:/DE1-SOC/class10-Digital_Freq/Freq_check.v|
+!s101 -O0
+vpll_100M
+IRI?mRAfHG8[D7WNC19J[@0
+V`KlgYk2^62NT1@^z7l`IV2
+R1
+w1498214565
+8E:/DE1-SOC/class10-Digital_Freq/pll_100M_sim/pll_100M.vo
+FE:/DE1-SOC/class10-Digital_Freq/pll_100M_sim/pll_100M.vo
+L0 31
+R2
+r1
+31
+o-O0
+npll_100@m
+!i10b 1
+!s100 :2dAz5zEh9@PlCWBz9OhA1
+!s85 0
+!s108 1498528718.710000
+!s107 E:/DE1-SOC/class10-Digital_Freq/pll_100M_sim/pll_100M.vo|
+!s90 -reportprogress|300|E:/DE1-SOC/class10-Digital_Freq/pll_100M_sim/pll_100M.vo|
+!s101 -O0
+vTime_period_check
+ITb8Ml<M0GZP8RfmDA1E@z3
+V<RB;nd0Oki2ZFn_OWZZ_^2
+R1
+w1498473391
+8E:/DE1-SOC/class10-Digital_Freq/Time_period_check.v
+FE:/DE1-SOC/class10-Digital_Freq/Time_period_check.v
+L0 13
+R2
+r1
+31
+R3
+R4
+n@time_period_check
+!i10b 1
+!s100 hVi>XgPM4T29mU=?gV@a^1
+!s85 0
+!s108 1498528718.964000
+!s107 E:/DE1-SOC/class10-Digital_Freq/Time_period_check.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/DE1-SOC/class10-Digital_Freq|E:/DE1-SOC/class10-Digital_Freq/Time_period_check.v|
+!s101 -O0

@@ -1,0 +1,159 @@
+set_global_assignment -entity "cpu" -library "cpu" -name IP_TOOL_NAME "Qsys"
+set_global_assignment -entity "cpu" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -library "cpu" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../cpu.sopcinfo"]
+set_global_assignment -entity "cpu" -library "cpu" -name SLD_INFO "QSYS_NAME cpu HAS_SOPCINFO 1 GENERATION_ID 1498619909"
+set_global_assignment -library "cpu" -name MISC_FILE [file join $::quartus(qip_path) "../../cpu.cmp"]
+set_global_assignment -library "cpu" -name SLD_FILE [file join $::quartus(qip_path) "cpu.regmap"]
+set_global_assignment -library "cpu" -name SLD_FILE [file join $::quartus(qip_path) "cpu.debuginfo"]
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "cpu" -name MISC_FILE [file join $::quartus(qip_path) "../../cpu.qsys"]
+
+set_global_assignment -library "cpu" -name VERILOG_FILE [file join $::quartus(qip_path) "cpu.v"]
+set_global_assignment -library "cpu" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.v"]
+set_global_assignment -library "cpu" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_synchronizer.v"]
+set_global_assignment -library "cpu" -name SDC_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.sdc"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_irq_mapper.sv"]
+set_global_assignment -library "cpu" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_mm_interconnect_0.v"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_width_adapter.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_address_alignment.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_burst_uncompressor.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_arbitrator.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_mm_interconnect_0_rsp_xbar_mux_001.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_mm_interconnect_0_rsp_xbar_mux.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_mm_interconnect_0_rsp_xbar_demux_002.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_mm_interconnect_0_rsp_xbar_demux.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_mm_interconnect_0_cmd_xbar_mux_002.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_mm_interconnect_0_cmd_xbar_mux.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_mm_interconnect_0_cmd_xbar_demux_001.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_mm_interconnect_0_cmd_xbar_demux.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_burst_adapter.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_traffic_limiter.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_reorder_memory.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_sc_fifo.v"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_st_pipeline_base.v"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_mm_interconnect_0_id_router_002.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_mm_interconnect_0_id_router_001.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_mm_interconnect_0_id_router.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_mm_interconnect_0_addr_router_001.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_mm_interconnect_0_addr_router.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_slave_agent.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_agent.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_slave_translator.sv"]
+set_global_assignment -library "cpu" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_translator.sv"]
+set_global_assignment -library "cpu" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_Freq_a.v"]
+set_global_assignment -library "cpu" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_uart.v"]
+set_global_assignment -library "cpu" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_jtag_uart_0.v"]
+set_global_assignment -library "cpu" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_sysid0.v"]
+set_global_assignment -library "cpu" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_sdram.v"]
+set_global_assignment -library "cpu" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_sdram_test_component.v"]
+set_global_assignment -library "cpu" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_timer_10ms.v"]
+set_global_assignment -library "cpu" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/cpu_cpu.ocp"]
+set_global_assignment -library "cpu" -name SDC_FILE [file join $::quartus(qip_path) "submodules/cpu_cpu.sdc"]
+set_global_assignment -library "cpu" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_cpu.v"]
+set_global_assignment -library "cpu" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/cpu_cpu_bht_ram.mif"]
+set_global_assignment -library "cpu" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/cpu_cpu_dc_tag_ram.mif"]
+set_global_assignment -library "cpu" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/cpu_cpu_ic_tag_ram.mif"]
+set_global_assignment -library "cpu" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_cpu_jtag_debug_module_sysclk.v"]
+set_global_assignment -library "cpu" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_cpu_jtag_debug_module_tck.v"]
+set_global_assignment -library "cpu" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_cpu_jtag_debug_module_wrapper.v"]
+set_global_assignment -library "cpu" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_cpu_mult_cell.v"]
+set_global_assignment -library "cpu" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/cpu_cpu_ociram_default_contents.mif"]
+set_global_assignment -library "cpu" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_cpu_oci_test_bench.v"]
+set_global_assignment -library "cpu" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/cpu_cpu_rf_ram_a.mif"]
+set_global_assignment -library "cpu" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/cpu_cpu_rf_ram_b.mif"]
+set_global_assignment -library "cpu" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/cpu_cpu_test_bench.v"]
+
+set_global_assignment -entity "altera_reset_controller" -library "cpu" -name IP_TOOL_NAME "altera_reset_controller"
+set_global_assignment -entity "altera_reset_controller" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "altera_reset_controller" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_irq_mapper" -library "cpu" -name IP_TOOL_NAME "altera_irq_mapper"
+set_global_assignment -entity "cpu_irq_mapper" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_irq_mapper" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_mm_interconnect_0" -library "cpu" -name IP_TOOL_NAME "altera_merlin_interconnect_wrapper"
+set_global_assignment -entity "cpu_mm_interconnect_0" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_mm_interconnect_0" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_width_adapter" -library "cpu" -name IP_TOOL_NAME "altera_merlin_width_adapter"
+set_global_assignment -entity "altera_merlin_width_adapter" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "altera_merlin_width_adapter" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_mm_interconnect_0_rsp_xbar_mux_001" -library "cpu" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "cpu_mm_interconnect_0_rsp_xbar_mux_001" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_mm_interconnect_0_rsp_xbar_mux_001" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_mm_interconnect_0_rsp_xbar_mux" -library "cpu" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "cpu_mm_interconnect_0_rsp_xbar_mux" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_mm_interconnect_0_rsp_xbar_mux" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_mm_interconnect_0_rsp_xbar_demux_002" -library "cpu" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "cpu_mm_interconnect_0_rsp_xbar_demux_002" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_mm_interconnect_0_rsp_xbar_demux_002" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_mm_interconnect_0_rsp_xbar_demux" -library "cpu" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "cpu_mm_interconnect_0_rsp_xbar_demux" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_mm_interconnect_0_rsp_xbar_demux" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_mm_interconnect_0_cmd_xbar_mux_002" -library "cpu" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "cpu_mm_interconnect_0_cmd_xbar_mux_002" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_mm_interconnect_0_cmd_xbar_mux_002" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_mm_interconnect_0_cmd_xbar_mux" -library "cpu" -name IP_TOOL_NAME "altera_merlin_multiplexer"
+set_global_assignment -entity "cpu_mm_interconnect_0_cmd_xbar_mux" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_mm_interconnect_0_cmd_xbar_mux" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_mm_interconnect_0_cmd_xbar_demux_001" -library "cpu" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "cpu_mm_interconnect_0_cmd_xbar_demux_001" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_mm_interconnect_0_cmd_xbar_demux_001" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_mm_interconnect_0_cmd_xbar_demux" -library "cpu" -name IP_TOOL_NAME "altera_merlin_demultiplexer"
+set_global_assignment -entity "cpu_mm_interconnect_0_cmd_xbar_demux" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_mm_interconnect_0_cmd_xbar_demux" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_burst_adapter" -library "cpu" -name IP_TOOL_NAME "altera_merlin_burst_adapter"
+set_global_assignment -entity "altera_merlin_burst_adapter" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "altera_merlin_burst_adapter" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_traffic_limiter" -library "cpu" -name IP_TOOL_NAME "altera_merlin_traffic_limiter"
+set_global_assignment -entity "altera_merlin_traffic_limiter" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "altera_merlin_traffic_limiter" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_mm_interconnect_0_id_router_002" -library "cpu" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "cpu_mm_interconnect_0_id_router_002" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_mm_interconnect_0_id_router_002" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_mm_interconnect_0_id_router_001" -library "cpu" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "cpu_mm_interconnect_0_id_router_001" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_mm_interconnect_0_id_router_001" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_mm_interconnect_0_id_router" -library "cpu" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "cpu_mm_interconnect_0_id_router" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_mm_interconnect_0_id_router" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_mm_interconnect_0_addr_router_001" -library "cpu" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "cpu_mm_interconnect_0_addr_router_001" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_mm_interconnect_0_addr_router_001" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_mm_interconnect_0_addr_router" -library "cpu" -name IP_TOOL_NAME "altera_merlin_router"
+set_global_assignment -entity "cpu_mm_interconnect_0_addr_router" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_mm_interconnect_0_addr_router" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "cpu" -name IP_TOOL_NAME "altera_avalon_sc_fifo"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_slave_agent" -library "cpu" -name IP_TOOL_NAME "altera_merlin_slave_agent"
+set_global_assignment -entity "altera_merlin_slave_agent" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "altera_merlin_slave_agent" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_master_agent" -library "cpu" -name IP_TOOL_NAME "altera_merlin_master_agent"
+set_global_assignment -entity "altera_merlin_master_agent" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "altera_merlin_master_agent" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "cpu" -name IP_TOOL_NAME "altera_merlin_slave_translator"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_master_translator" -library "cpu" -name IP_TOOL_NAME "altera_merlin_master_translator"
+set_global_assignment -entity "altera_merlin_master_translator" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "altera_merlin_master_translator" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_Freq_a" -library "cpu" -name IP_TOOL_NAME "altera_avalon_pio"
+set_global_assignment -entity "cpu_Freq_a" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_Freq_a" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_uart" -library "cpu" -name IP_TOOL_NAME "altera_avalon_uart"
+set_global_assignment -entity "cpu_uart" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_uart" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_jtag_uart_0" -library "cpu" -name IP_TOOL_NAME "altera_avalon_jtag_uart"
+set_global_assignment -entity "cpu_jtag_uart_0" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_jtag_uart_0" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_sysid0" -library "cpu" -name IP_TOOL_NAME "altera_avalon_sysid_qsys"
+set_global_assignment -entity "cpu_sysid0" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_sysid0" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_sdram" -library "cpu" -name IP_TOOL_NAME "altera_avalon_new_sdram_controller"
+set_global_assignment -entity "cpu_sdram" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_sdram" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_timer_10ms" -library "cpu" -name IP_TOOL_NAME "altera_avalon_timer"
+set_global_assignment -entity "cpu_timer_10ms" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_timer_10ms" -library "cpu" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "cpu_cpu" -library "cpu" -name IP_TOOL_NAME "altera_nios2_qsys"
+set_global_assignment -entity "cpu_cpu" -library "cpu" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "cpu_cpu" -library "cpu" -name IP_TOOL_ENV "Qsys"

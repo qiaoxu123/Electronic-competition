@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <altera_avalon_pio_regs.h>
+#include <system.h>
+void delay_us(int n)
+{
+	int i;
+	int t = 100;
+	while(t)
+	{
+		i = n;
+		while(i)
+		{
+			i--;
+		}
+		t--;
+	}
+}
+int main()
+{
+  printf("Hello from Nios II!\n");
+  while(1)
+  {
+	  IOWR_ALTERA_AVALON_PIO_DATA(LED_BASE, 0);
+	  delay_us(100000);
+	  IOWR_ALTERA_AVALON_PIO_DATA(LED_BASE, 1);
+	  delay_us(100000);
+  }
+  return 0;
+}

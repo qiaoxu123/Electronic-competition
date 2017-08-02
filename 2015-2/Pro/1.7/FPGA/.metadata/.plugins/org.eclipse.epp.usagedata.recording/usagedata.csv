@@ -1,0 +1,143 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui",1499214686417
+started,bundle,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console",1499214686417
+started,bundle,org.eclipse.ui.editors,3.7.0.v20110928-1504,"org.eclipse.ui.editors",1499214686417
+started,bundle,org.eclipse.ui.forms,3.5.101.v20111011-1919,"org.eclipse.ui.forms",1499214686418
+started,bundle,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.ide",1499214686418
+started,bundle,org.eclipse.ui.navigator,3.5.101.v20120106-1355,"org.eclipse.ui.navigator",1499214686419
+started,bundle,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.resources",1499214686419
+started,bundle,org.eclipse.ui.net,1.2.100.v20111208-1155,"org.eclipse.ui.net",1499214686419
+started,bundle,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views",1499214686420
+started,bundle,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"org.eclipse.ui.workbench",1499214686420
+started,bundle,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.workbench.texteditor",1499214686421
+started,bundle,org.eclipse.update.configurator,3.3.100.v20100512,"org.eclipse.update.configurator",1499214686421
+started,bundle,org.eclipse.update.core,3.2.500.v20110330,"org.eclipse.update.core",1499214686422
+started,bundle,org.eclipse.update.scheduler,3.2.300.v20100512,"org.eclipse.update.scheduler",1499214686422
+started,bundle,com.altera.sbtgui.integration,13.1.0.162,"com.altera.sbtgui.integration",1499214686422
+started,bundle,com.altera.sbtgui.launch,13.1.0.162,"com.altera.sbtgui.launch",1499214686423
+started,bundle,com.altera.sbtgui.project,13.1.0.162,"com.altera.sbtgui.project",1499214686423
+started,bundle,com.altera.systemconsole,13.1.0.162,"com.altera.systemconsole",1499214686424
+started,bundle,com.altera.systemconsole.designs.plugin,13.1.0.162,"com.altera.systemconsole.designs.plugin",1499214686424
+started,bundle,com.altera.utilities,13.1.0.162,"com.altera.utilities",1499214686424
+os,sysinfo,,,"win32",1499214686426
+arch,sysinfo,,,"x86",1499214686426
+ws,sysinfo,,,"win32",1499214686426
+locale,sysinfo,,,"zh_CN",1499214686426
+processors,sysinfo,,,"4",1499214686426
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1499214686426
+java.runtime.version,sysinfo,,,"1.6.0_23-b05",1499214686426
+java.specification.name,sysinfo,,,"Java Platform API Specification",1499214686426
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1499214686426
+java.specification.version,sysinfo,,,"1.6",1499214686426
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1499214686426
+java.version,sysinfo,,,"1.6.0_23",1499214686426
+java.vm.info,sysinfo,,,"mixed mode",1499214686426
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1499214686426
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1499214686426
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1499214686426
+java.vm.specification.version,sysinfo,,,"1.0",1499214686426
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1499214686426
+java.vm.version,sysinfo,,,"19.0-b09",1499214686426
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.buildAll",1499214688821
+opened,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1499214689128
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499214689145
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499214693435
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499214695324
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499214698686
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499214703297
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499214710412
+started,bundle,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui",1499214710572
+started,bundle,org.eclipse.cdt.debug.core,7.1.0.201202111925,"org.eclipse.cdt.debug.core",1499214710627
+started,bundle,org.eclipse.cdt.debug.ui,7.1.2.201202111925,"org.eclipse.cdt.debug.ui",1499214710632
+started,bundle,org.eclipse.cdt.launch,7.0.0.201202111925,"org.eclipse.cdt.launch",1499214710658
+started,bundle,com.altera.sbtgui.core,13.1.0.162,"com.altera.sbtgui.core",1499214710662
+opened,view,com.altera.sbtgui.launch,13.1.0.162,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1499214714114
+started,bundle,org.eclipse.cdt.debug.mi.ui,6.1.1.201202111925,"org.eclipse.cdt.debug.mi.ui",1499214714622
+started,bundle,org.eclipse.cdt.dsf,2.2.0.201202111925,"org.eclipse.cdt.dsf",1499214714632
+started,bundle,org.eclipse.cdt.dsf.gdb,4.0.2.201202111925,"org.eclipse.cdt.dsf.gdb",1499214714634
+started,bundle,org.eclipse.cdt.dsf.gdb.ui,2.2.1.201202111925,"org.eclipse.cdt.dsf.gdb.ui",1499214714635
+started,bundle,org.eclipse.cdt.debug.mi.core,7.1.1.201202111925,"org.eclipse.cdt.debug.mi.core",1499214714649
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499214722870
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499215115789
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499215116825
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499220603780
+started,bundle,com.altera.sbt4e.launch,13.1.0.162,"com.altera.sbt4e.launch",1499220607838
+started,bundle,com.altera.debug.cdi.gdb.plugin,13.1.0.162,"com.altera.debug.cdi.gdb.plugin",1499220608998
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499220609115
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499220612220
+activated,view,com.altera.sbtgui.launch,13.1.0.162,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1499220614783
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1499220618734
+error,log,,,"Failed Executing: [nios2-download, '--cable=DE-SoC on localhost [USB-1]', --device=2, --instance=0, --go, --accept-bad-sysid, --sidp=0x8001068, /cygdrive/e/Electronic_Exam/Freq_Measure/1.7/FPGA/software/dds_2/dds_2.elf] return code: 4, 'other error'",1499220628910
+error,log,,,"Downloading ELF Process failed",1499220628916
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499220628973
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499220636629
+activated,view,com.altera.sbtgui.launch,13.1.0.162,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1499220640899
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1499220644674
+error,log,,,"Failed Executing: [nios2-download, '--cable=DE-SoC on localhost [USB-1]', --device=2, --instance=0, --go, --accept-bad-sysid, --sidp=0x8001068, /cygdrive/e/Electronic_Exam/Freq_Measure/1.7/FPGA/software/dds_2/dds_2.elf] return code: 4, 'other error'",1499220654894
+error,log,,,"Downloading ELF Process failed",1499220654897
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499220654939
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499220656428
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1499220657498
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.buildAll",1499220660494
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499220660828
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499220663896
+activated,view,com.altera.sbtgui.launch,13.1.0.162,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1499220668590
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1499220672400
+activated,view,com.altera.sbtgui.launch,13.1.0.162,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1499220676102
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499220677563
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499220910073
+activated,editor,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui.editor.CEditor",1499220910095
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499220912629
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499220996264
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.selectAll",1499220998243
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1499220999044
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499221000221
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499221015067
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499221015782
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499221016810
+started,bundle,org.eclipse.cdt.mylyn.ui,3.6.0.v20110608-1400,"org.eclipse.cdt.mylyn.ui",1499221016943
+closed,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1499221017005
+started,bundle,org.eclipse.compare,3.5.202.R37x_v20111109-0800,"org.eclipse.compare",1499221017366
+stopped,bundle,org.eclipse.cdt.build.crossgcc,1.0.2.201202111925,"org.eclipse.cdt.build.crossgcc",1499221020591
+stopped,bundle,org.eclipse.cdt.codan.checkers.ui,1.0.0.201202111925,"org.eclipse.cdt.codan.checkers.ui",1499221020592
+stopped,bundle,com.altera.debug.cdi.gdb.plugin,13.1.0.162,"com.altera.debug.cdi.gdb.plugin",1499221020592
+stopped,bundle,com.altera.sbtgui.launch,13.1.0.162,"com.altera.sbtgui.launch",1499221021591
+stopped,bundle,com.altera.sbtgui.ui,13.1.0.162,"com.altera.sbtgui.ui",1499221021600
+stopped,bundle,com.altera.sbtgui.project,13.1.0.162,"com.altera.sbtgui.project",1499221021600
+stopped,bundle,org.eclipse.cdt.codan.checkers,1.0.1.201202111925,"org.eclipse.cdt.codan.checkers",1499221021600
+stopped,bundle,org.eclipse.cdt.codan.ui.cxx,2.0.0.201202111925,"org.eclipse.cdt.codan.ui.cxx",1499221021600
+stopped,bundle,org.eclipse.cdt.codan.core.cxx,1.0.0.201202111925,"org.eclipse.cdt.codan.core.cxx",1499221021600
+stopped,bundle,org.eclipse.cdt.launch.remote,2.3.0.201202111925,"org.eclipse.cdt.launch.remote",1499221021604
+stopped,bundle,org.eclipse.cdt.debug.mi.ui,6.1.1.201202111925,"org.eclipse.cdt.debug.mi.ui",1499221021604
+stopped,bundle,com.altera.sbt4e.launch,13.1.0.162,"com.altera.sbt4e.launch",1499221021605
+stopped,bundle,org.eclipse.cdt.debug.mi.core,7.1.1.201202111925,"org.eclipse.cdt.debug.mi.core",1499221021605
+stopped,bundle,org.eclipse.cdt.debug.ui.memory.memorybrowser,1.2.100.201202111925,"org.eclipse.cdt.debug.ui.memory.memorybrowser",1499221021608
+stopped,bundle,org.eclipse.cdt.debug.ui.memory.search,1.2.1.201202111925,"org.eclipse.cdt.debug.ui.memory.search",1499221021613
+stopped,bundle,org.eclipse.cdt.dsf.gdb.ui,2.2.1.201202111925,"org.eclipse.cdt.dsf.gdb.ui",1499221021613
+stopped,bundle,org.eclipse.cdt.dsf.ui,2.2.1.201202111925,"org.eclipse.cdt.dsf.ui",1499221021624
+stopped,bundle,org.eclipse.cdt.gdb.ui,7.0.0.201202111925,"org.eclipse.cdt.gdb.ui",1499221021626
+stopped,bundle,org.eclipse.cdt.dsf.gdb,4.0.2.201202111925,"org.eclipse.cdt.dsf.gdb",1499221021626
+stopped,bundle,org.eclipse.cdt.launch,7.0.0.201202111925,"org.eclipse.cdt.launch",1499221021626
+stopped,bundle,org.eclipse.cdt.debug.ui,7.1.2.201202111925,"org.eclipse.cdt.debug.ui",1499221021626
+stopped,bundle,org.eclipse.cdt.debug.ui.memory.traditional,1.2.1.201202111925,"org.eclipse.cdt.debug.ui.memory.traditional",1499221021629
+stopped,bundle,org.eclipse.cdt.dsf,2.2.0.201202111925,"org.eclipse.cdt.dsf",1499221021629
+stopped,bundle,org.eclipse.cdt.debug.core,7.1.0.201202111925,"org.eclipse.cdt.debug.core",1499221021629
+stopped,bundle,org.eclipse.linuxtools.cdt.autotools.ui,1.0.1.201202152032,"org.eclipse.linuxtools.cdt.autotools.ui",1499221021634
+stopped,bundle,org.eclipse.linuxtools.cdt.autotools.core,1.0.2.201202152032,"org.eclipse.linuxtools.cdt.autotools.core",1499221021634
+stopped,bundle,org.eclipse.cdt.managedbuilder.ui,8.0.2.201202111925,"org.eclipse.cdt.managedbuilder.ui",1499221021637
+stopped,bundle,org.eclipse.cdt.make.ui,7.1.2.201202111925,"org.eclipse.cdt.make.ui",1499221021638
+stopped,bundle,org.eclipse.cdt.managedbuilder.gnu.ui,8.0.2.201202111925,"org.eclipse.cdt.managedbuilder.gnu.ui",1499221021638
+stopped,bundle,org.eclipse.cdt.msw.build,1.0.0.201202111925,"org.eclipse.cdt.msw.build",1499221021638
+stopped,bundle,org.eclipse.cdt.managedbuilder.core,8.0.2.201202111925,"org.eclipse.cdt.managedbuilder.core",1499221021638
+stopped,bundle,org.eclipse.cdt.make.core,7.1.2.201202111925,"org.eclipse.cdt.make.core",1499221021638
+stopped,bundle,org.eclipse.cdt.mylyn.ui,3.6.0.v20110608-1400,"org.eclipse.cdt.mylyn.ui",1499221021638
+stopped,bundle,org.eclipse.cdt.codan.ui,2.0.1.201202111925,"org.eclipse.cdt.codan.ui",1499221021638
+stopped,bundle,com.altera.sbtgui.flash.plugin,13.1.0.162,"com.altera.sbtgui.flash.plugin",1499221021639
+stopped,bundle,com.altera.sbtgui.gprof,13.1.0.162,"com.altera.sbtgui.gprof",1499221021641
+stopped,bundle,com.altera.sbtgui.core,13.1.0.162,"com.altera.sbtgui.core",1499221021641
+stopped,bundle,org.eclipse.cdt.ui,5.3.2.201202111925,"org.eclipse.cdt.ui",1499221021641
+stopped,bundle,org.eclipse.cdt.core,5.3.2.201202111925,"org.eclipse.cdt.core",1499221021641
+stopped,bundle,org.eclipse.compare.win32,1.0.200.I20110510-0800,"org.eclipse.compare.win32",1499221021642
+stopped,bundle,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui",1499221021642
+stopped,bundle,org.eclipse.egit.core,1.3.0.201202151440-r,"org.eclipse.egit.core",1499221021642
+stopped,bundle,org.eclipse.equinox.p2.ui.sdk,1.0.200.v20110815-1419,"org.eclipse.equinox.p2.ui.sdk",1499221021644

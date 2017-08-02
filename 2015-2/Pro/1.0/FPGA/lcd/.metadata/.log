@@ -1,0 +1,37 @@
+!SESSION 2017-06-25 15:34:08.659 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-25 15:35:32.628
+!MESSAGE Indexed 'pro_lcd_bsp' (87 sources, 64 headers) in 1.13 sec: 1,085 declarations; 2,849 references; 123 unresolved inclusions; 5 syntax errors; 222 unresolved names (5.34%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-06-25 15:35:35.274
+!MESSAGE Indexed 'pro_lcd' (1 sources, 13 headers) in 0.02 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-06-25 15:40:56.433
+!MESSAGE Executing: [D:/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001188]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-06-25 15:41:01.514
+!MESSAGE Executing: [D:/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001188 /cygdrive/e/FPGA-project/ku/nios/software/pro_lcd/pro_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-06-25 15:41:09.591
+!MESSAGE Failed Executing: [nios2-download, '--cable=DE-SoC on localhost [USB-1]', --device=2, --instance=0, --go, --accept-bad-sysid, --sidp=0x8001188, /cygdrive/e/FPGA-project/ku/nios/software/pro_lcd/pro_lcd.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-06-25 15:41:09.596
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-06-25 15:43:02.141
+!MESSAGE Executing: [D:/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid --sidp=0x8001188]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-06-25 15:43:07.468
+!MESSAGE Executing: [D:/13.1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid --sidp=0x8001188 /cygdrive/e/FPGA-project/ku/nios/software/pro_lcd/pro_lcd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-06-25 15:43:15.829
+!MESSAGE Failed Executing: [nios2-download, '--cable=DE-SoC on localhost [USB-1]', --device=2, --instance=0, --go, --accept-bad-sysid, --sidp=0x8001188, /cygdrive/e/FPGA-project/ku/nios/software/pro_lcd/pro_lcd.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-06-25 15:43:15.832
+!MESSAGE Downloading ELF Process failed

@@ -1,0 +1,275 @@
+Flow report for pro_nios
+Wed Jul 05 08:20:11 2017
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Wed Jul 05 08:20:11 2017       ;
+; Quartus II 64-Bit Version       ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
+; Revision Name                   ; pro_nios                                    ;
+; Top-level Entity Name           ; Digital_Freq_top                            ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CSEMA5F31C6                                ;
+; Timing Models                   ; Preliminary                                 ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 4021                                        ;
+; Total pins                      ; 47                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 86,080                                      ;
+; Total DSP Blocks                ; 2                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI TX Channels          ; 0                                           ;
+; Total PLLs                      ; 1                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 07/05/2017 08:19:36 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; pro_nios            ;
++-------------------+---------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                                   ;
++--------------------------------------+----------------------------------------------------------------------------+---------------+------------------------------------------+---------------------+
+; Assignment Name                      ; Value                                                                      ; Default Value ; Entity Name                              ; Section Id          ;
++--------------------------------------+----------------------------------------------------------------------------+---------------+------------------------------------------+---------------------+
+; COMPILER_SIGNATURE_ID                ; 264390072779909.149921397601096                                            ; --            ; --                                       ; --                  ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                         ; --            ; --                                       ; Digital_Freq_top_tb ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; Digital_Freq_top_tb                                                        ; --            ; --                                       ; eda_simulation      ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                                                                ; --            ; --                                       ; eda_simulation      ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)                                                  ; <None>        ; --                                       ; --                  ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                                                            ; --            ; --                                       ; eda_simulation      ;
+; EDA_TEST_BENCH_FILE                  ; Digital_Freq_top_tb.v                                                      ; --            ; --                                       ; Digital_Freq_top_tb ;
+; EDA_TEST_BENCH_MODULE_NAME           ; Digital_Freq_top_tb                                                        ; --            ; --                                       ; Digital_Freq_top_tb ;
+; EDA_TEST_BENCH_NAME                  ; Digital_Freq_top_tb                                                        ; --            ; --                                       ; eda_simulation      ;
+; EDA_TIME_SCALE                       ; 1 ps                                                                       ; --            ; --                                       ; eda_simulation      ;
+; ENABLE_SIGNALTAP                     ; On                                                                         ; --            ; --                                       ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; altera_avalon_sc_fifo                    ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; altera_merlin_burst_adapter              ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; altera_merlin_master_agent               ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; altera_merlin_master_translator          ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; altera_merlin_slave_agent                ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; altera_merlin_slave_translator           ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; altera_merlin_traffic_limiter            ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; altera_merlin_width_adapter              ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; altera_reset_controller                  ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu                                      ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_Freq_a                               ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_cpu                                  ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_irq_mapper                           ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_jtag_uart_0                          ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_mm_interconnect_0                    ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_mm_interconnect_0_addr_router        ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_mm_interconnect_0_addr_router_001    ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_mm_interconnect_0_cmd_xbar_demux     ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_mm_interconnect_0_cmd_xbar_demux_001 ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_mm_interconnect_0_cmd_xbar_mux       ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_mm_interconnect_0_cmd_xbar_mux_002   ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_mm_interconnect_0_id_router          ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_mm_interconnect_0_id_router_001      ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_mm_interconnect_0_id_router_002      ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_mm_interconnect_0_rsp_xbar_demux     ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_mm_interconnect_0_rsp_xbar_demux_002 ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_mm_interconnect_0_rsp_xbar_mux       ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_mm_interconnect_0_rsp_xbar_mux_001   ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_sdram                                ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_sysid0                               ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_timer_10ms                           ; --                  ;
+; IP_TOOL_ENV                          ; Qsys                                                                       ; --            ; cpu_uart                                 ; --                  ;
+; IP_TOOL_ENV                          ; mwpim                                                                      ; --            ; pll_100M                                 ; --                  ;
+; IP_TOOL_ENV                          ; mwpim                                                                      ; --            ; pll_100M                                 ; --                  ;
+; IP_TOOL_ENV                          ; mwpim                                                                      ; --            ; pll_100M_0002                            ; --                  ;
+; IP_TOOL_NAME                         ; altera_avalon_sc_fifo                                                      ; --            ; altera_avalon_sc_fifo                    ; --                  ;
+; IP_TOOL_NAME                         ; altera_merlin_burst_adapter                                                ; --            ; altera_merlin_burst_adapter              ; --                  ;
+; IP_TOOL_NAME                         ; altera_merlin_master_agent                                                 ; --            ; altera_merlin_master_agent               ; --                  ;
+; IP_TOOL_NAME                         ; altera_merlin_master_translator                                            ; --            ; altera_merlin_master_translator          ; --                  ;
+; IP_TOOL_NAME                         ; altera_merlin_slave_agent                                                  ; --            ; altera_merlin_slave_agent                ; --                  ;
+; IP_TOOL_NAME                         ; altera_merlin_slave_translator                                             ; --            ; altera_merlin_slave_translator           ; --                  ;
+; IP_TOOL_NAME                         ; altera_merlin_traffic_limiter                                              ; --            ; altera_merlin_traffic_limiter            ; --                  ;
+; IP_TOOL_NAME                         ; altera_merlin_width_adapter                                                ; --            ; altera_merlin_width_adapter              ; --                  ;
+; IP_TOOL_NAME                         ; altera_reset_controller                                                    ; --            ; altera_reset_controller                  ; --                  ;
+; IP_TOOL_NAME                         ; Qsys                                                                       ; --            ; cpu                                      ; --                  ;
+; IP_TOOL_NAME                         ; altera_avalon_pio                                                          ; --            ; cpu_Freq_a                               ; --                  ;
+; IP_TOOL_NAME                         ; altera_nios2_qsys                                                          ; --            ; cpu_cpu                                  ; --                  ;
+; IP_TOOL_NAME                         ; altera_irq_mapper                                                          ; --            ; cpu_irq_mapper                           ; --                  ;
+; IP_TOOL_NAME                         ; altera_avalon_jtag_uart                                                    ; --            ; cpu_jtag_uart_0                          ; --                  ;
+; IP_TOOL_NAME                         ; altera_merlin_interconnect_wrapper                                         ; --            ; cpu_mm_interconnect_0                    ; --                  ;
+; IP_TOOL_NAME                         ; altera_merlin_router                                                       ; --            ; cpu_mm_interconnect_0_addr_router        ; --                  ;
+; IP_TOOL_NAME                         ; altera_merlin_router                                                       ; --            ; cpu_mm_interconnect_0_addr_router_001    ; --                  ;
+; IP_TOOL_NAME                         ; altera_merlin_demultiplexer                                                ; --            ; cpu_mm_interconnect_0_cmd_xbar_demux     ; --                  ;
+; IP_TOOL_NAME                         ; altera_merlin_demultiplexer                                                ; --            ; cpu_mm_interconnect_0_cmd_xbar_demux_001 ; --                  ;
+; IP_TOOL_NAME                         ; altera_merlin_multiplexer                                                  ; --            ; cpu_mm_interconnect_0_cmd_xbar_mux       ; --                  ;
+; IP_TOOL_NAME                         ; altera_merlin_multiplexer                                                  ; --            ; cpu_mm_interconnect_0_cmd_xbar_mux_002   ; --                  ;
+; IP_TOOL_NAME                         ; altera_merlin_router                                                       ; --            ; cpu_mm_interconnect_0_id_router          ; --                  ;
+; IP_TOOL_NAME                         ; altera_merlin_router                                                       ; --            ; cpu_mm_interconnect_0_id_router_001      ; --                  ;
+; IP_TOOL_NAME                         ; altera_merlin_router                                                       ; --            ; cpu_mm_interconnect_0_id_router_002      ; --                  ;
+; IP_TOOL_NAME                         ; altera_merlin_demultiplexer                                                ; --            ; cpu_mm_interconnect_0_rsp_xbar_demux     ; --                  ;
+; IP_TOOL_NAME                         ; altera_merlin_demultiplexer                                                ; --            ; cpu_mm_interconnect_0_rsp_xbar_demux_002 ; --                  ;
+; IP_TOOL_NAME                         ; altera_merlin_multiplexer                                                  ; --            ; cpu_mm_interconnect_0_rsp_xbar_mux       ; --                  ;
+; IP_TOOL_NAME                         ; altera_merlin_multiplexer                                                  ; --            ; cpu_mm_interconnect_0_rsp_xbar_mux_001   ; --                  ;
+; IP_TOOL_NAME                         ; altera_avalon_new_sdram_controller                                         ; --            ; cpu_sdram                                ; --                  ;
+; IP_TOOL_NAME                         ; altera_avalon_sysid_qsys                                                   ; --            ; cpu_sysid0                               ; --                  ;
+; IP_TOOL_NAME                         ; altera_avalon_timer                                                        ; --            ; cpu_timer_10ms                           ; --                  ;
+; IP_TOOL_NAME                         ; altera_avalon_uart                                                         ; --            ; cpu_uart                                 ; --                  ;
+; IP_TOOL_NAME                         ; altera_pll                                                                 ; --            ; pll_100M                                 ; --                  ;
+; IP_TOOL_NAME                         ; altera_pll                                                                 ; --            ; pll_100M                                 ; --                  ;
+; IP_TOOL_NAME                         ; altera_pll                                                                 ; --            ; pll_100M_0002                            ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; altera_avalon_sc_fifo                    ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; altera_merlin_burst_adapter              ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; altera_merlin_master_agent               ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; altera_merlin_master_translator          ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; altera_merlin_slave_agent                ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; altera_merlin_slave_translator           ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; altera_merlin_traffic_limiter            ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; altera_merlin_width_adapter              ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; altera_reset_controller                  ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu                                      ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_Freq_a                               ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_cpu                                  ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_irq_mapper                           ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_jtag_uart_0                          ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_mm_interconnect_0                    ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_mm_interconnect_0_addr_router        ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_mm_interconnect_0_addr_router_001    ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_mm_interconnect_0_cmd_xbar_demux     ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_mm_interconnect_0_cmd_xbar_demux_001 ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_mm_interconnect_0_cmd_xbar_mux       ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_mm_interconnect_0_cmd_xbar_mux_002   ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_mm_interconnect_0_id_router          ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_mm_interconnect_0_id_router_001      ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_mm_interconnect_0_id_router_002      ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_mm_interconnect_0_rsp_xbar_demux     ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_mm_interconnect_0_rsp_xbar_demux_002 ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_mm_interconnect_0_rsp_xbar_mux       ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_mm_interconnect_0_rsp_xbar_mux_001   ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_sdram                                ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_sysid0                               ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_timer_10ms                           ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; cpu_uart                                 ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; pll_100M                                 ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; pll_100M                                 ; --                  ;
+; IP_TOOL_VERSION                      ; 13.1                                                                       ; --            ; pll_100M_0002                            ; --                  ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                                                         ; --            ; --                                       ; --                  ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                                                          ; --            ; --                                       ; --                  ;
+; MISC_FILE                            ; cpu/synthesis/../../cpu.cmp                                                ; --            ; --                                       ; --                  ;
+; MISC_FILE                            ; cpu/synthesis/../../cpu.qsys                                               ; --            ; --                                       ; --                  ;
+; MISC_FILE                            ; pll_100M.cmp                                                               ; --            ; --                                       ; --                  ;
+; MISC_FILE                            ; pll_100M_sim/pll_100M.vo                                                   ; --            ; --                                       ; --                  ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                                                          ; --            ; --                                       ; --                  ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                                                          ; --            ; --                                       ; --                  ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                                                                 ; --            ; --                                       ; --                  ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                                                                 ; --            ; --                                       ; --                  ;
+; PARTITION_COLOR                      ; 16764057                                                                   ; --            ; Digital_Freq_top                         ; Top                 ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; PLACEMENT_AND_ROUTING                                                      ; --            ; Digital_Freq_top                         ; Top                 ;
+; PARTITION_NETLIST_TYPE               ; SOURCE                                                                     ; --            ; Digital_Freq_top                         ; Top                 ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                                                        ; --            ; --                                       ; --                  ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                      ; --            ; --                                       ; --                  ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                                                               ; --            ; --                                       ; --                  ;
+; SLD_FILE                             ; cpu/synthesis/cpu.regmap                                                   ; --            ; --                                       ; --                  ;
+; SLD_FILE                             ; cpu/synthesis/cpu.debuginfo                                                ; --            ; --                                       ; --                  ;
+; SLD_FILE                             ; db/stp2_auto_stripped.stp                                                  ; --            ; --                                       ; --                  ;
+; SLD_INFO                             ; QSYS_NAME cpu HAS_SOPCINFO 1 GENERATION_ID 1498619909                      ; --            ; cpu                                      ; --                  ;
+; SLD_NODE_CREATOR_ID                  ; 110                                                                        ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_ENTITY_NAME                 ; sld_signaltap                                                              ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_RAM_BLOCK_TYPE=AUTO                                                    ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_NODE_INFO=805334528                                                    ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_POWER_UP_TRIGGER=0                                                     ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0                              ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ATTRIBUTE_MEM_MODE=OFF                                                 ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STATE_FLOW_USE_GENERATED=0                                             ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STATE_BITS=11                                                          ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_BUFFER_FULL_STOP=1                                                     ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_CURRENT_RESOURCE_WIDTH=1                                               ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_LEVEL=1                                                        ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_IN_ENABLED=0                                                   ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ADVANCED_TRIGGER_ENTITY=basic,1,                                       ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_LEVEL_PIPELINE=1                                               ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ENABLE_ADVANCED_TRIGGER=0                                              ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_DATA_BITS=10                                                           ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_BITS=10                                                        ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INVERSION_MASK=0000000000000000000000000000000000000000000000000000000 ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INVERSION_MASK_LENGTH=55                                               ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_SEGMENT_SIZE=2048                                                      ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_NODE_CRC_LOWORD=26406                                                  ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_NODE_CRC_HIWORD=60275                                                  ; --            ; --                                       ; auto_signaltap_0    ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_SAMPLE_DEPTH=2048                                                      ; --            ; --                                       ; auto_signaltap_0    ;
+; SOPCINFO_FILE                        ; cpu/synthesis/../../cpu.sopcinfo                                           ; --            ; --                                       ; --                  ;
+; SPD_FILE                             ; pll_100M.spd                                                               ; --            ; --                                       ; --                  ;
+; SYNTHESIS_ONLY_QIP                   ; On                                                                         ; --            ; --                                       ; --                  ;
+; SYNTHESIS_ONLY_QIP                   ; On                                                                         ; --            ; --                                       ; --                  ;
+; TOP_LEVEL_ENTITY                     ; Digital_Freq_top                                                           ; pro_nios      ; --                                       ; --                  ;
+; USE_SIGNALTAP_FILE                   ; stp2.stp                                                                   ; --            ; --                                       ; --                  ;
++--------------------------------------+----------------------------------------------------------------------------+---------------+------------------------------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:33     ; 1.0                     ; 763 MB              ; 00:00:32                           ;
+; Total                ; 00:00:33     ; --                      ; --                  ; 00:00:32                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-----------------------------------------------------------------------------------+
+; Flow OS Summary                                                                   ;
++----------------------+------------------+-----------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++----------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis ; Q-PC             ; Windows 7 ; 6.1        ; x86_64         ;
++----------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off pro_nios -c pro_nios
+
+
+

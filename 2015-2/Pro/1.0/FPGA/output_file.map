@@ -1,0 +1,12 @@
+BLOCK		START ADDRESS		END ADDRESS
+
+freq.hex		0x002018DB		0x002072E6
+Page_0		0x00207300		0x008C89A3
+
+
+
+Notes:
+
+- Data checksum for this conversion is 0x94F14949
+
+- All the addresses in this file are byte addresses

@@ -1,0 +1,171 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Electronic_Exam\1.5\FPGA\simulation\modelsim
+vDigital_Freq_top
+IT`EVoRBWgI5;Ee3L?5XYk1
+VJGS:9_XkZ6_[YFz@>9CUH2
+Z1 dE:\Electronic_Exam\1.5\FPGA\simulation\modelsim
+w1499040272
+8E:/Electronic_Exam/1.5/FPGA/Digital_Freq_top.v
+FE:/Electronic_Exam/1.5/FPGA/Digital_Freq_top.v
+L0 13
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+E:/Electronic_Exam/1.5/FPGA -O0
+n@digital_@freq_top
+!i10b 1
+!s100 UVJMa88F4ogk6^3`KHd841
+!s85 0
+!s108 1499040544.576000
+!s107 E:/Electronic_Exam/1.5/FPGA/Digital_Freq_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Electronic_Exam/1.5/FPGA|E:/Electronic_Exam/1.5/FPGA/Digital_Freq_top.v|
+!s101 -O0
+vDigital_Freq_top_tb
+!i10b 1
+!s100 ei;2bn8aFZfJM6LljzMA:3
+IB7ILPY37;73ne4zEd4@042
+VL=fM4_ehfD;?6W??>m_S61
+R1
+w1498528680
+8E:/Electronic_Exam/1.5/FPGA/Digital_Freq_top_tb.v
+FE:/Electronic_Exam/1.5/FPGA/Digital_Freq_top_tb.v
+L0 16
+R2
+r1
+!s85 0
+31
+!s108 1499040544.836000
+!s107 E:/Electronic_Exam/1.5/FPGA/Digital_Freq_top_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Electronic_Exam/1.5/FPGA|E:/Electronic_Exam/1.5/FPGA/Digital_Freq_top_tb.v|
+!s101 -O0
+R3
+R4
+n@digital_@freq_top_tb
+vDuty_Cycle
+I[m2]=5zF9Zn@zSTGozJRz3
+VR4^g?[75YRidV:h`VR;;K2
+R1
+w1498705113
+8E:/Electronic_Exam/1.5/FPGA/Duty_Cycle.v
+FE:/Electronic_Exam/1.5/FPGA/Duty_Cycle.v
+L0 13
+R2
+r1
+31
+R3
+R4
+n@duty_@cycle
+!i10b 1
+!s100 A3K_o^l@]RIIQYa>1Zn`X2
+!s85 0
+!s108 1499040544.646000
+!s107 E:/Electronic_Exam/1.5/FPGA/Duty_Cycle.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Electronic_Exam/1.5/FPGA|E:/Electronic_Exam/1.5/FPGA/Duty_Cycle.v|
+!s101 -O0
+vFreq_check
+IE45?ZIGIg@3NEV<eSG?;i1
+Va;I[_M1DVFac]iEcGZ3BX0
+R1
+w1498952603
+8E:/Electronic_Exam/1.5/FPGA/Freq_check.v
+FE:/Electronic_Exam/1.5/FPGA/Freq_check.v
+L0 13
+R2
+r1
+31
+R3
+R4
+n@freq_check
+!i10b 1
+!s100 LO::ENWa<YH1XzZ2b8jJk2
+!s85 0
+!s108 1499040544.706000
+!s107 E:/Electronic_Exam/1.5/FPGA/Freq_check.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Electronic_Exam/1.5/FPGA|E:/Electronic_Exam/1.5/FPGA/Freq_check.v|
+!s101 -O0
+vNios
+ICbBhHSOCWifRoggAmngiW3
+VkEZe[KMY1:VWJG4L6JdUm0
+R1
+w1498472952
+8E:/Electronic_Exam/1.5/FPGA/pro_nios.v
+FE:/Electronic_Exam/1.5/FPGA/pro_nios.v
+L0 13
+R2
+r1
+31
+R3
+n@nios
+R4
+!i10b 1
+!s100 J3bkmhFWeZTD:>ak__JYW3
+!s85 0
+!s108 1499040544.526000
+!s107 E:/Electronic_Exam/1.5/FPGA/pro_nios.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Electronic_Exam/1.5/FPGA|E:/Electronic_Exam/1.5/FPGA/pro_nios.v|
+!s101 -O0
+vpll_100M
+I7HL4We_<^`D25[bkgIAXg1
+V`KlgYk2^62NT1@^z7l`IV2
+R1
+w1498214565
+8E:/Electronic_Exam/1.5/FPGA/pll_100M_sim/pll_100M.vo
+FE:/Electronic_Exam/1.5/FPGA/pll_100M_sim/pll_100M.vo
+L0 31
+R2
+r1
+31
+o-O0
+npll_100@m
+!s100 ;:PQ[GFG5i:;0Som:NSz=2
+!s108 1499040544.376000
+!s107 E:/Electronic_Exam/1.5/FPGA/pll_100M_sim/pll_100M.vo|
+!s90 -reportprogress|300|E:/Electronic_Exam/1.5/FPGA/pll_100M_sim/pll_100M.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vpll_200M
+Ilf:?hbbUUcf[fAUP6fD_J3
+VPciYE87SVgge;:lC6S6e=0
+R1
+w1499040463
+8E:/Electronic_Exam/1.5/FPGA/pll_200M_sim/pll_200M.vo
+FE:/Electronic_Exam/1.5/FPGA/pll_200M_sim/pll_200M.vo
+L0 31
+R2
+r1
+31
+o-O0
+npll_200@m
+!i10b 1
+!s100 5Cglb6MN_@;=T`fBZOATB3
+!s85 0
+!s108 1499040544.456000
+!s107 E:/Electronic_Exam/1.5/FPGA/pll_200M_sim/pll_200M.vo|
+!s90 -reportprogress|300|E:/Electronic_Exam/1.5/FPGA/pll_200M_sim/pll_200M.vo|
+!s101 -O0
+vTime_period_check
+IO=eXcGEg[fj:;FY6Ozlz=0
+V<RB;nd0Oki2ZFn_OWZZ_^2
+R1
+w1498646025
+8E:/Electronic_Exam/1.5/FPGA/Time_period_check.v
+FE:/Electronic_Exam/1.5/FPGA/Time_period_check.v
+L0 13
+R2
+r1
+31
+R3
+R4
+n@time_period_check
+!i10b 1
+!s100 <<c8K5YMQhoQU>FdCzSjd0
+!s85 0
+!s108 1499040544.776000
+!s107 E:/Electronic_Exam/1.5/FPGA/Time_period_check.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Electronic_Exam/1.5/FPGA|E:/Electronic_Exam/1.5/FPGA/Time_period_check.v|
+!s101 -O0

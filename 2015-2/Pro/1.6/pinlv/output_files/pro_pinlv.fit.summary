@@ -1,0 +1,19 @@
+Fitter Status : Successful - Mon Jun 12 17:21:20 2017
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : pro_pinlv
+Top-level Entity Name : pro_pinlv
+Family : Cyclone V
+Device : 5CSEMA5F31C6
+Timing Models : Preliminary
+Logic utilization (in ALMs) : 1,153 / 32,070 ( 4 % )
+Total registers : 2963
+Total pins : 5 / 457 ( 1 % )
+Total virtual pins : 0
+Total block memory bits : 22,272 / 4,065,280 ( < 1 % )
+Total DSP Blocks : 0 / 87 ( 0 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI TX Channels : 0
+Total PLLs : 1 / 6 ( 17 % )
+Total DLLs : 0 / 4 ( 0 % )

@@ -1,0 +1,8 @@
+
+
+E:/Electronic_Exam/1.5/FPGA/pll3/pll3_0002.v
+
+Jul 03 07AM:50:08>: MegaWizard Plug-In Manager does not recognize E:/Electronic_Exam/1.5/FPGA/pll3/pll3_0002.v as a wizard-generated
+custom megafunction variation.
+
+Do you want to use a wizard to overwrite it?

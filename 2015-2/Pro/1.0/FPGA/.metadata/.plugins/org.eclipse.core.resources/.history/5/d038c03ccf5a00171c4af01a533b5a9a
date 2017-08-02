@@ -1,0 +1,75 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include <stdio.h>
+#include "altera_avalon_uart_regs.h"
+#include "altera_avalon_pio_regs.h"
+
+void delay(int z)	//Delay
+{
+	int x,y;
+	for(x = z;x>0;x--)
+		for(y = 110;y>0;y--);
+}
+
+int main()
+{
+
+  int Freq_a_num;				//信号A在闸门时间内个数
+  int Freq_b_num;				//信号B在闸门时间内个数
+  int Freq_standard_num;		//标准信号在闸门时间内个数
+  int Time_interval_1000;			//两路信号时间间隔
+  int Duty_Cycle_a;				//A路信号1000个波峰时间总长
+  int Duty_Cycle_b;				//B路信号1000个波峰时间总长
+  int Whole_Time_a;				//A路信号1000个周期时间总长
+  int Whole_Time_b;				//B路信号1000个周期时间总长
+  
+  float Freq_a;		//A路信号频率
+  float Freq_b;		//B路信号频率
+  float Time_interval;	//两路信号时间间隔
+  float Duty_Cycle_a;	//A路信号占空比
+  float Duty_Cycle_b;	//B路信号占空比
+
+  while(1)
+  {
+	//将FPGA上测得的数据，传送到软核
+	  Freq_a_num 			= IORD_ALTERA_AVALON_PIO_DATA(FREQ_A_BASE);
+	  Freq_b_num 			= IORD_ALTERA_AVALON_PIO_DATA(FREQ_B_BASE);
+	  Freq_standard_num 	= IORD_ALTERA_AVALON_PIO_DATA(FREQ_STANDARD_BASE);
+	  Time_interval_1000 	= IORD_ALTERA_AVALON_PIO_DATA(TIME_INTERVAL_BASE);
+	  Duty_Cycle_a_1000 	= IORD_ALTERA_AVALON_PIO_DATA(DUTY_CYCLE_A_BASE);
+	  Duty_Cycle_b_1000 	= IORD_ALTERA_AVALON_PIO_DATA(DUTY_CYCLE_B_BASE);
+	  Whole_Time_a_1000 	= IORD_ALTERA_AVALON_PIO_DATA(WHOLE_TIME_A_BASE);
+	  Whole_Time_b_1000		= IORD_ALTERA_AVALON_PIO_DATA(WHOLE_TIME_B_BASE);
+
+	  //计算频率
+	  Freq_a = 1/((Freq_standard_num*50)/Freq_a_num);
+	  Freq_b = 1/((Freq_standard_num*50)/Freq_b_num);
+	  
+	  //计算时间间隔
+	  Time_interval = Time_interval_1000/1000;
+	  
+	  //计算占空比
+	  Duty_Cycle_a = Duty_Cycle_a_1000 / Whole_Time_a_1000;
+	  Duty_Cycle_b = Duty_Cycle_b_1000 / Whole_Time_b_1000;
+
+	  printf("The Freq of A:%d\n",Freq_a);
+	  delay(10000);
+  }	  
+
+
+  return 0;
+}

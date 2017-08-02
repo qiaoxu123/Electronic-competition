@@ -1,0 +1,114 @@
+/* ==================================================================
+* Family:				Cyclone V
+* Device:				5CSEMA5F31C6
+* Stage:				   DE1-SOC			
+* Version:				Quartus II 64-Bit Version & 13.1.0 Build 162 10/23/2013 SJ Full Version
+* Author: 				Qiaoxu
+* Address:				Lab
+* Data:					2017/
+* Function:				实现labview接收频率检测信号，在上位机输出频率，占空比，时间间隔等信息
+* 
+* ==================================================================*/
+
+module Digital_Freq_top(
+	
+	//共用引脚部分
+	input wire 			 clk,	
+	input	wire			 rst_n,
+	input wire 			 One_Signal_in,	//输入A路信号
+	input wire 			 Two_Signal_in,	//输入B路信号
+	
+	//串口接收部分
+	//	input wire 		Rs232_Rx,		//串口接收端
+	output wire 	    RS232_Tx		//Rs232信号输出
+	
+	//Nios模块引脚
+	output wire [12:0] sdram_addr,    // sdram.addr
+	output wire [1:0]  sdram_ba,      //      .ba
+	output wire        sdram_cas_n,   //      .cas_n
+	output wire        sdram_cke,     //      .cke
+	output wire        sdram_cs_n,    //      .cs_n
+	inout  wire [15:0] sdram_dq,      //      .dq
+	output wire [1:0]  sdram_dqm,     //      .dqm
+	output wire        sdram_ras_n,   //      .ras_n
+	output wire        sdram_we_n,     //      .we_n
+	output wire 		 sdram_clk
+
+);
+//====================================================================
+// ********** Define Parameter and Internal Signals *************
+//====================================================================
+	//波特率设置
+	parameter baud_115200 = 3'd4;
+	parameter baud_57600  = 3'd3;
+	parameter baud_38400  = 3'd2;
+	parameter baud_19200  = 3'd1;
+	parameter baud_9600   = 3'd0;
+
+	wire [7:0] data_byte;
+	
+	//串口
+	wire Tx_Done;	//发送结束一次，读一次数据
+
+//====================================================================
+// ************************* Main Code *************************
+//====================================================================
+
+	/************************* 测频模块 ****************************/
+	Freq_check Freq_check_module(
+	
+		.clk						(clk),	
+		.rst_n					(rst_n),
+		.One_Signal_in			(One_Signal_in),
+		.Two_Signal_in			(Two_Signal_in),
+		
+		.One_TestSignal_num	(One_TestSignal_num),  //A路信号在闸门时间内的个数
+		.Two_TestSignal_num	(Two_TestSignal_num)   //B路信号在闸门时间内的个数
+	);
+	
+	/************************* 测量时间间隔模块 ****************************/
+	Time_period_check Time_period_check_module(
+	
+		.clk				(clk),	
+		.rst_n			(rst_n),
+		.One_Signal_in	(One_Signal_in),	//待测信号1
+		.Two_Signal_in	(Two_Signal_in),	//待测信号2
+		
+		.Time_interval	(Time_interval)  //1000个周期内，两信号的时间间隔
+	);
+	
+	/*************************  测量占空比模块 ****************************/
+	Duty_Cycle Duty_Cycle_module(
+	
+		.clk							(clk),	
+		.rst_n						(rst_n),
+		
+		.One_Signal_in				(One_Signal_in),  //A路信号输入
+		.Two_Signal_in				(Two_Signal_in),   //B路信号输入
+		
+		.Single_Time_interval_a	(Single_Time_interval_a),  //A路信号1000个波峰时间总长
+		.Whole_Time_interval_a	(Whole_Time_interval_a),   //A路信号周期总长
+		.Single_Time_interval_b	(Single_Time_interval_b),  //b路信号1000个波峰的时间总长
+		.Whole_Time_interval_b	(Whole_Time_interval_b)    //b路信号1000个周期总长
+	);
+	
+
+	/*************************  Uart发送模块 ****************************/
+	uart_send uart_send_module(
+	
+		.clk				(clk),
+		.rst_n			(rst_n),
+		.send_en			(1'b1),			//正常传输状态位
+		.baud_set		(baud_9600),		//波特率设置信号
+		
+		.RS232_Tx		(RS232_Tx)		//Rs232信号输出
+		
+//		.Freq_data		(Freq_data),
+//		.Radio_data		(Radio_data),
+//		.TimePeriod_data(TimePeriod_data)
+
+	);
+
+
+
+endmodule

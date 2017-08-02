@@ -1,0 +1,19 @@
+
+**** Build of configuration Nios II for project mycpu_bsp ****
+
+make all 
+Makefile not up to date.
+E:/FPGA-project/ku/nios/cpu.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+
+**** Build Finished ****

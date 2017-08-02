@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project uart1 ****
+
+make all 
+Info: Building ../uart1_bsp/
+make --no-print-directory -C ../uart1_bsp/
+[BSP build complete]
+[uart1 build complete]
+
+**** Build Finished ****

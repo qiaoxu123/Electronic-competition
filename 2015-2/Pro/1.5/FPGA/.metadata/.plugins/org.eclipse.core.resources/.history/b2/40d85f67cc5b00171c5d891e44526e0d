@@ -1,0 +1,48 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include <stdio.h>
+#include "altera_avalon_uart_regs.h"
+#include "system.h"
+
+char fore_txdata[3] = {'a','c','e'};
+char latter_txdata[3] = {'b','d','f'};
+
+void delay(int z)
+{
+	int x,y;
+	for(x = z;x>0;x--)
+		for(y = 110;y>0;y--);
+}
+
+int main()
+{
+  //printf("Hello from Nios II!\n");
+  char i;
+  float data[3] = {110,111,112};
+
+  while(1){
+  	  for(i=0;i<3;i++)
+  	  {
+  		  while(!(ALTERA_AVALON_UART_STATUS_TRDY_MSK & IORD_ALTERA_AVALON_UART_STATUS(UART_BASE)));
+  		  IOWR_ALTERA_AVALON_UART_TXDATA(UART_BASE, fore_txdata[i]);
+  		  IOWR_ALTERA_AVALON_UART_TXDATA(UART_BASE, data[i]);
+  		  IOWR_ALTERA_AVALON_UART_TXDATA(UART_BASE, latter_txdata[i]);
+  	  }
+  	  delay(10);
+  }
+  return 0;
+}

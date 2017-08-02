@@ -1,0 +1,221 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=E:/FPGA-project/ku/nios/ --output-directory=E:/FPGA-project/ku/nios/cpu/ --report-file=bsf:E:/FPGA-project/ku/nios/cpu.bsf --system-info=DEVICE_FAMILY="Cyclone V" --system-info=DEVICE=5CSEMA5F31C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=E:/FPGA-project/ku/nios/cpu.qsys
+Progress: Loading nios/cpu.qsys
+Progress: Reading input file
+Progress: Adding clk_100 [clock_source 13.1]
+Progress: Parameterizing module clk_100
+Progress: Adding cpu [altera_nios2_qsys 13.1]
+Progress: Parameterizing module cpu
+Progress: Adding timer_10ms [altera_avalon_timer 13.1]
+Progress: Parameterizing module timer_10ms
+Progress: Adding sdram [altera_avalon_new_sdram_controller 13.1]
+Progress: Parameterizing module sdram
+Progress: Adding sysid0 [altera_avalon_sysid_qsys 13.1]
+Progress: Parameterizing module sysid0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 13.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding led [altera_avalon_pio 13.1]
+Progress: Parameterizing module led
+Progress: Adding data [altera_avalon_pio 13.1]
+Progress: Parameterizing module data
+Progress: Adding hex [altera_avalon_pio 13.1]
+Progress: Parameterizing module hex
+Progress: Adding hex1 [altera_avalon_pio 13.1]
+Progress: Parameterizing module hex1
+Progress: Adding hex2 [altera_avalon_pio 13.1]
+Progress: Parameterizing module hex2
+Progress: Adding uart_0 [altera_avalon_uart 13.1]
+Progress: Parameterizing module uart_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: cpu.sysid0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: cpu.sysid0: Time stamp will be automatically updated when this component is generated.
+Info: cpu.data: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=E:/FPGA-project/ku/nios/ --output-directory=E:/FPGA-project/ku/nios/cpu/synthesis/ --file-set=QUARTUS_SYNTH --report-file=html:E:/FPGA-project/ku/nios/cpu.html --report-file=sopcinfo:E:/FPGA-project/ku/nios/cpu.sopcinfo --report-file=cmp:E:/FPGA-project/ku/nios/cpu.cmp --report-file=qip:E:/FPGA-project/ku/nios/cpu/synthesis/cpu.qip --report-file=svd --report-file=regmap:E:/FPGA-project/ku/nios/cpu/synthesis/cpu.regmap --report-file=debuginfo:E:/FPGA-project/ku/nios/cpu/synthesis/cpu.debuginfo --system-info=DEVICE_FAMILY="Cyclone V" --system-info=DEVICE=5CSEMA5F31C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=E:/FPGA-project/ku/nios/cpu.qsys --language=VERILOG
+Progress: Loading nios/cpu.qsys
+Progress: Reading input file
+Progress: Adding clk_100 [clock_source 13.1]
+Progress: Parameterizing module clk_100
+Progress: Adding cpu [altera_nios2_qsys 13.1]
+Progress: Parameterizing module cpu
+Progress: Adding timer_10ms [altera_avalon_timer 13.1]
+Progress: Parameterizing module timer_10ms
+Progress: Adding sdram [altera_avalon_new_sdram_controller 13.1]
+Progress: Parameterizing module sdram
+Progress: Adding sysid0 [altera_avalon_sysid_qsys 13.1]
+Progress: Parameterizing module sysid0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 13.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding led [altera_avalon_pio 13.1]
+Progress: Parameterizing module led
+Progress: Adding data [altera_avalon_pio 13.1]
+Progress: Parameterizing module data
+Progress: Adding hex [altera_avalon_pio 13.1]
+Progress: Parameterizing module hex
+Progress: Adding hex1 [altera_avalon_pio 13.1]
+Progress: Parameterizing module hex1
+Progress: Adding hex2 [altera_avalon_pio 13.1]
+Progress: Parameterizing module hex2
+Progress: Adding uart_0 [altera_avalon_uart 13.1]
+Progress: Parameterizing module uart_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: cpu.sysid0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: cpu.sysid0: Time stamp will be automatically updated when this component is generated.
+Info: cpu.data: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: cpu: Generating cpu "cpu" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 12 modules, 44 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_initial_interconnect_transform: After transform: 12 modules, 41 connections
+Info: merlin_translator_transform: After transform: 25 modules, 80 connections
+Info: merlin_domain_transform: After transform: 51 modules, 210 connections
+Info: merlin_router_transform: After transform: 64 modules, 249 connections
+Info: merlin_traffic_limiter_transform: After transform: 66 modules, 257 connections
+Info: merlin_burst_transform: After transform: 67 modules, 260 connections
+Info: merlin_network_to_switch_transform: After transform: 92 modules, 324 connections
+Info: merlin_width_transform: After transform: 94 modules, 330 connections
+Info: limiter_update_transform: After transform: 94 modules, 332 connections
+Info: merlin_clock_and_reset_bridge_transform: After transform: 96 modules, 427 connections
+Info: merlin_hierarchy_transform: After transform: 13 modules, 40 connections
+Info: merlin_mm_transform: After transform: 13 modules, 40 connections
+Info: merlin_interrupt_mapper_transform: After transform: 14 modules, 43 connections
+Info: reset_adaptation_transform: After transform: 16 modules, 58 connections
+Warning: cpu: "No matching role found for uart_0:s1:dataavailable (dataavailable)"
+Warning: cpu: "No matching role found for uart_0:s1:readyfordata (readyfordata)"
+Info: cpu: Starting RTL generation for module 'cpu_cpu'
+Info: cpu:   Generation command is [exec D:/13.1/quartus/bin/eperlcmd.exe -I D:/13.1/quartus/bin/perl/lib -I D:/13.1/quartus/sopc_builder/bin/europa -I D:/13.1/quartus/sopc_builder/bin/perl_lib -I D:/13.1/quartus/sopc_builder/bin -I D:/13.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I D:/13.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I D:/13.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I D:/13.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- D:/13.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=cpu_cpu --dir=C:/Users/ADMINI~1/AppData/Local/Temp/alt7341_2389984472983579681.dir/0001_cpu_gen/ --quartus_dir=D:/13.1/quartus --verilog --config=C:/Users/ADMINI~1/AppData/Local/Temp/alt7341_2389984472983579681.dir/0001_cpu_gen//cpu_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2017.06.24 21:38:03 (*) Starting Nios II generation
+Info: cpu: # 2017.06.24 21:38:03 (*)   Checking for plaintext license.
+Info: cpu: # 2017.06.24 21:38:04 (*)   Couldn't query license setup in Quartus directory D:/13.1/quartus
+Info: cpu: # 2017.06.24 21:38:04 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2017.06.24 21:38:04 (*)   Plaintext license not found.
+Info: cpu: # 2017.06.24 21:38:04 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu: # 2017.06.24 21:38:06 (*)   Couldn't query license setup in Quartus directory D:/13.1/quartus
+Info: cpu: # 2017.06.24 21:38:06 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2017.06.24 21:38:06 (*)   Encrypted license found.  SOF will not be time-limited.
+Info: cpu: # 2017.06.24 21:38:06 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2017.06.24 21:38:06 (*)   Creating all objects for CPU
+Info: cpu: # 2017.06.24 21:38:06 (*)     Testbench
+Info: cpu: # 2017.06.24 21:38:06 (*)     Instruction decoding
+Info: cpu: # 2017.06.24 21:38:06 (*)       Instruction fields
+Info: cpu: # 2017.06.24 21:38:06 (*)       Instruction decodes
+Info: cpu: # 2017.06.24 21:38:07 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2017.06.24 21:38:07 (*)       Instruction controls
+Info: cpu: # 2017.06.24 21:38:07 (*)     Pipeline frontend
+Info: cpu: # 2017.06.24 21:38:07 (*)     Pipeline backend
+Info: cpu: # 2017.06.24 21:38:10 (*)   Generating RTL from CPU objects
+Info: cpu: # 2017.06.24 21:38:13 (*)   Creating encrypted RTL
+Info: cpu: # 2017.06.24 21:38:14 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'cpu_cpu'
+Info: cpu: "cpu" instantiated altera_nios2_qsys "cpu"
+Info: timer_10ms: Starting RTL generation for module 'cpu_timer_10ms'
+Info: timer_10ms:   Generation command is [exec D:/13.1/quartus/bin//perl/bin/perl.exe -I D:/13.1/quartus/bin//perl/lib -I D:/13.1/quartus/sopc_builder/bin/europa -I D:/13.1/quartus/sopc_builder/bin/perl_lib -I D:/13.1/quartus/sopc_builder/bin -I D:/13.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- D:/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=cpu_timer_10ms --dir=C:/Users/ADMINI~1/AppData/Local/Temp/alt7341_2389984472983579681.dir/0002_timer_10ms_gen/ --quartus_dir=D:/13.1/quartus --verilog --config=C:/Users/ADMINI~1/AppData/Local/Temp/alt7341_2389984472983579681.dir/0002_timer_10ms_gen//cpu_timer_10ms_component_configuration.pl  --do_build_sim=0  ]
+Info: timer_10ms: Done RTL generation for module 'cpu_timer_10ms'
+Info: timer_10ms: "cpu" instantiated altera_avalon_timer "timer_10ms"
+Info: sdram: Starting RTL generation for module 'cpu_sdram'
+Info: sdram:   Generation command is [exec D:/13.1/quartus/bin/perl/bin/perl.exe -I D:/13.1/quartus/bin/perl/lib -I D:/13.1/quartus/sopc_builder/bin/europa -I D:/13.1/quartus/sopc_builder/bin/perl_lib -I D:/13.1/quartus/sopc_builder/bin -I D:/13.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- D:/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=cpu_sdram --dir=C:/Users/ADMINI~1/AppData/Local/Temp/alt7341_2389984472983579681.dir/0003_sdram_gen/ --quartus_dir=D:/13.1/quartus --verilog --config=C:/Users/ADMINI~1/AppData/Local/Temp/alt7341_2389984472983579681.dir/0003_sdram_gen//cpu_sdram_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram: Done RTL generation for module 'cpu_sdram'
+Info: sdram: "cpu" instantiated altera_avalon_new_sdram_controller "sdram"
+Info: sysid0: "cpu" instantiated altera_avalon_sysid_qsys "sysid0"
+Info: jtag_uart_0: Starting RTL generation for module 'cpu_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec D:/13.1/quartus/bin/perl/bin/perl.exe -I D:/13.1/quartus/bin/perl/lib -I D:/13.1/quartus/sopc_builder/bin/europa -I D:/13.1/quartus/sopc_builder/bin/perl_lib -I D:/13.1/quartus/sopc_builder/bin -I D:/13.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- D:/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=cpu_jtag_uart_0 --dir=C:/Users/ADMINI~1/AppData/Local/Temp/alt7341_2389984472983579681.dir/0005_jtag_uart_0_gen/ --quartus_dir=D:/13.1/quartus --verilog --config=C:/Users/ADMINI~1/AppData/Local/Temp/alt7341_2389984472983579681.dir/0005_jtag_uart_0_gen//cpu_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'cpu_jtag_uart_0'
+Info: jtag_uart_0: "cpu" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: led: Starting RTL generation for module 'cpu_led'
+Info: led:   Generation command is [exec D:/13.1/quartus/bin/perl/bin/perl.exe -I D:/13.1/quartus/bin/perl/lib -I D:/13.1/quartus/sopc_builder/bin/europa -I D:/13.1/quartus/sopc_builder/bin/perl_lib -I D:/13.1/quartus/sopc_builder/bin -I D:/13.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=cpu_led --dir=C:/Users/ADMINI~1/AppData/Local/Temp/alt7341_2389984472983579681.dir/0006_led_gen/ --quartus_dir=D:/13.1/quartus --verilog --config=C:/Users/ADMINI~1/AppData/Local/Temp/alt7341_2389984472983579681.dir/0006_led_gen//cpu_led_component_configuration.pl  --do_build_sim=0  ]
+Info: led: Done RTL generation for module 'cpu_led'
+Info: led: "cpu" instantiated altera_avalon_pio "led"
+Info: data: Starting RTL generation for module 'cpu_data'
+Info: data:   Generation command is [exec D:/13.1/quartus/bin/perl/bin/perl.exe -I D:/13.1/quartus/bin/perl/lib -I D:/13.1/quartus/sopc_builder/bin/europa -I D:/13.1/quartus/sopc_builder/bin/perl_lib -I D:/13.1/quartus/sopc_builder/bin -I D:/13.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=cpu_data --dir=C:/Users/ADMINI~1/AppData/Local/Temp/alt7341_2389984472983579681.dir/0007_data_gen/ --quartus_dir=D:/13.1/quartus --verilog --config=C:/Users/ADMINI~1/AppData/Local/Temp/alt7341_2389984472983579681.dir/0007_data_gen//cpu_data_component_configuration.pl  --do_build_sim=0  ]
+Info: data: Done RTL generation for module 'cpu_data'
+Info: data: "cpu" instantiated altera_avalon_pio "data"
+Info: hex: Starting RTL generation for module 'cpu_hex'
+Info: hex:   Generation command is [exec D:/13.1/quartus/bin/perl/bin/perl.exe -I D:/13.1/quartus/bin/perl/lib -I D:/13.1/quartus/sopc_builder/bin/europa -I D:/13.1/quartus/sopc_builder/bin/perl_lib -I D:/13.1/quartus/sopc_builder/bin -I D:/13.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=cpu_hex --dir=C:/Users/ADMINI~1/AppData/Local/Temp/alt7341_2389984472983579681.dir/0008_hex_gen/ --quartus_dir=D:/13.1/quartus --verilog --config=C:/Users/ADMINI~1/AppData/Local/Temp/alt7341_2389984472983579681.dir/0008_hex_gen//cpu_hex_component_configuration.pl  --do_build_sim=0  ]
+Info: hex: Done RTL generation for module 'cpu_hex'
+Info: hex: "cpu" instantiated altera_avalon_pio "hex"
+Info: uart_0: Starting RTL generation for module 'cpu_uart_0'
+Info: uart_0:   Generation command is [exec D:/13.1/quartus/bin/perl/bin/perl.exe -I D:/13.1/quartus/bin/perl/lib -I D:/13.1/quartus/sopc_builder/bin/europa -I D:/13.1/quartus/sopc_builder/bin/perl_lib -I D:/13.1/quartus/sopc_builder/bin -I D:/13.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_uart -- D:/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_uart/generate_rtl.pl --name=cpu_uart_0 --dir=C:/Users/ADMINI~1/AppData/Local/Temp/alt7341_2389984472983579681.dir/0009_uart_0_gen/ --quartus_dir=D:/13.1/quartus --verilog --config=C:/Users/ADMINI~1/AppData/Local/Temp/alt7341_2389984472983579681.dir/0009_uart_0_gen//cpu_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: uart_0: Done RTL generation for module 'cpu_uart_0'
+Info: uart_0: "cpu" instantiated altera_avalon_uart "uart_0"
+Info: pipeline_bridge_swap_transform: After transform: 84 modules, 298 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 84 modules, 298 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 84 modules, 298 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 84 modules, 298 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 84 modules, 298 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 84 modules, 298 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 84 modules, 298 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 84 modules, 298 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 84 modules, 298 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 84 modules, 298 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 84 modules, 298 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 84 modules, 298 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 84 modules, 298 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 84 modules, 298 connections
+Info: mm_interconnect_0: "cpu" instantiated altera_merlin_interconnect_wrapper "mm_interconnect_0"
+Info: irq_mapper: "cpu" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "cpu" instantiated altera_reset_controller "rst_controller"
+Info: cpu_instruction_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "cpu_instruction_master_translator"
+Info: cpu_jtag_debug_module_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "cpu_jtag_debug_module_translator"
+Info: cpu_instruction_master_translator_avalon_universal_master_0_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "cpu_instruction_master_translator_avalon_universal_master_0_agent"
+Info: cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "mm_interconnect_0" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "mm_interconnect_0" instantiated altera_merlin_router "addr_router_001"
+Info: id_router: "mm_interconnect_0" instantiated altera_merlin_router "id_router"
+Info: id_router_001: "mm_interconnect_0" instantiated altera_merlin_router "id_router_001"
+Info: id_router_008: "mm_interconnect_0" instantiated altera_merlin_router "id_router_008"
+Info: limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "limiter"
+Info: Reusing file E:/FPGA-project/ku/nios/cpu/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "burst_adapter"
+Info: cmd_xbar_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: cmd_xbar_mux_008: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_xbar_mux_008"
+Info: Reusing file E:/FPGA-project/ku/nios/cpu/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_xbar_demux"
+Info: rsp_xbar_demux_008: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_008"
+Info: rsp_xbar_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file E:/FPGA-project/ku/nios/cpu/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file E:/FPGA-project/ku/nios/cpu/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "width_adapter"
+Info: Reusing file E:/FPGA-project/ku/nios/cpu/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file E:/FPGA-project/ku/nios/cpu/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: cpu: Done "cpu" with 34 modules, 56 files, 1596937 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

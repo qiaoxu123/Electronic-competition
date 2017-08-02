@@ -1,0 +1,7 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=610DB869
+eax=00000000 ebx=00000000 ecx=00000000 edx=02DFABB0 esi=00000000 edi=00000240
+ebp=02DFAB7C esp=02DFAA64 program=D:\altera\13.1\quartus\bin\cygwin\bin\bash.exe, pid 4972, thread unknown (0xF5C)
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+02DFAB7C  610DB869  (00000000, 00000000, 00000000, 00000000)

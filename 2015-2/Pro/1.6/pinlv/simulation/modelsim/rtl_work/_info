@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\FPGA-project\2015_F\pinlv\simulation\modelsim
+vpll_100m
+Z1 IJ0?JY^2zhe:=4ZzQ6YTlL0
+Z2 Vci:cWk2D[V3^FP<d[F2nN0
+Z3 dE:\FPGA-project\2015_F\pinlv\simulation\modelsim
+Z4 w1495370516
+Z5 8E:/FPGA-project/2015_F/pinlv/pll_100m_sim/pll_100m.vo
+Z6 FE:/FPGA-project/2015_F/pinlv/pll_100m_sim/pll_100m.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+o-O0
+!i10b 1
+Z8 !s100 YFnaT8iJce0Y2[C1COSzk2
+!s85 0
+Z9 !s108 1495712177.988000
+Z10 !s107 E:/FPGA-project/2015_F/pinlv/pll_100m_sim/pll_100m.vo|
+Z11 !s90 -reportprogress|300|E:/FPGA-project/2015_F/pinlv/pll_100m_sim/pll_100m.vo|
+!s101 -O0
+vpll_500
+!i10b 1
+!s100 ;bVJz2cdoE5=f9[9gTo::1
+I=D7?L]AH>LNKelXdz?0a^1
+V4ZK2dc8cJ^`hH0a[dITD63
+R3
+w1495709171
+8E:/FPGA-project/2015_F/pinlv/pll_500_sim/pll_500.vo
+FE:/FPGA-project/2015_F/pinlv/pll_500_sim/pll_500.vo
+L0 31
+R7
+r1
+!s85 0
+31
+!s108 1495712178.065000
+!s107 E:/FPGA-project/2015_F/pinlv/pll_500_sim/pll_500.vo|
+!s90 -reportprogress|300|E:/FPGA-project/2015_F/pinlv/pll_500_sim/pll_500.vo|
+!s101 -O0
+o-O0

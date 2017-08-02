@@ -1,0 +1,177 @@
+# Reading D:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do pro_nios_run_msim_rtl_verilog.do 
+# if ![file isdirectory pro_nios_iputf_libs] {
+# 	file mkdir pro_nios_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "E:/DE1-SOC/class10-Digital_Freq/pll_100M_sim/pll_100M.vo"
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pll_100M
+# 
+# Top level modules:
+# 	pll_100M
+# 
+# vlog -vlog01compat -work work +incdir+E:/DE1-SOC/class10-Digital_Freq {E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Digital_Freq_top
+# 
+# Top level modules:
+# 	Digital_Freq_top
+# vlog -vlog01compat -work work +incdir+E:/DE1-SOC/class10-Digital_Freq {E:/DE1-SOC/class10-Digital_Freq/Duty_Cycle.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Duty_Cycle
+# 
+# Top level modules:
+# 	Duty_Cycle
+# vlog -vlog01compat -work work +incdir+E:/DE1-SOC/class10-Digital_Freq {E:/DE1-SOC/class10-Digital_Freq/Freq_check.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Freq_check
+# 
+# Top level modules:
+# 	Freq_check
+# vlog -vlog01compat -work work +incdir+E:/DE1-SOC/class10-Digital_Freq {E:/DE1-SOC/class10-Digital_Freq/Time_period_check.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Time_period_check
+# 
+# Top level modules:
+# 	Time_period_check
+# 
+# vlog -vlog01compat -work work +incdir+E:/DE1-SOC/class10-Digital_Freq {E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Digital_Freq_top_tb
+# 
+# Top level modules:
+# 	Digital_Freq_top_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Digital_Freq_top_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps Digital_Freq_top_tb 
+# Loading work.Digital_Freq_top_tb
+# Loading work.Digital_Freq_top
+# Loading work.Freq_check
+# Loading work.Time_period_check
+# Loading work.Duty_Cycle
+# ** Warning: (vsim-3015) E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v(78): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'One_Signal_in'. The port definition is at: E:/DE1-SOC/class10-Digital_Freq/Freq_check.v(17).
+# 
+#         Region: /Digital_Freq_top_tb/Digital_Freq_top_module/Freq_check_module
+# ** Warning: (vsim-3015) E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v(78): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'Two_Signal_in'. The port definition is at: E:/DE1-SOC/class10-Digital_Freq/Freq_check.v(18).
+# 
+#         Region: /Digital_Freq_top_tb/Digital_Freq_top_module/Freq_check_module
+# ** Warning: (vsim-3015) E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v(78): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'One_TestSignal_num'. The port definition is at: E:/DE1-SOC/class10-Digital_Freq/Freq_check.v(20).
+# 
+#         Region: /Digital_Freq_top_tb/Digital_Freq_top_module/Freq_check_module
+# ** Warning: (vsim-3015) E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v(78): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'Two_TestSignal_num'. The port definition is at: E:/DE1-SOC/class10-Digital_Freq/Freq_check.v(21).
+# 
+#         Region: /Digital_Freq_top_tb/Digital_Freq_top_module/Freq_check_module
+# ** Warning: (vsim-3015) E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v(78): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'StandSignal_num'. The port definition is at: E:/DE1-SOC/class10-Digital_Freq/Freq_check.v(22).
+# 
+#         Region: /Digital_Freq_top_tb/Digital_Freq_top_module/Freq_check_module
+# ** Warning: (vsim-3015) E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v(89): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'Time_interval'. The port definition is at: E:/DE1-SOC/class10-Digital_Freq/Time_period_check.v(20).
+# 
+#         Region: /Digital_Freq_top_tb/Digital_Freq_top_module/Time_period_check_module
+# ** Warning: (vsim-3015) E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v(104): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'Single_Time_interval_a'. The port definition is at: E:/DE1-SOC/class10-Digital_Freq/Duty_Cycle.v(21).
+# 
+#         Region: /Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module
+# ** Warning: (vsim-3015) E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v(104): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'Whole_Time_interval_a'. The port definition is at: E:/DE1-SOC/class10-Digital_Freq/Duty_Cycle.v(22).
+# 
+#         Region: /Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module
+# ** Warning: (vsim-3015) E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v(104): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'Single_Time_interval_b'. The port definition is at: E:/DE1-SOC/class10-Digital_Freq/Duty_Cycle.v(23).
+# 
+#         Region: /Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module
+# ** Warning: (vsim-3015) E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v(104): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'Whole_Time_interval_b'. The port definition is at: E:/DE1-SOC/class10-Digital_Freq/Duty_Cycle.v(24).
+# 
+#         Region: /Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Error: (vsim-3601) Iteration limit reached at time 0 ps.
+# 
+add wave -position insertpoint  \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/One_Signal_in \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/Two_Signal_in \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/clk \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/rst_n \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/Single_Time_interval_a \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/Single_Time_interval_b \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/Whole_Time_interval_a \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/Whole_Time_interval_b \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/Numcount_a \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/Numcount_b \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/One_Rising_edge \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/One_falling_edge \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/One_flag1 \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/One_flag2 \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/SignalCount_a \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/SignalCount_b \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/Signle_TimePeriod_a \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/TimePeriod_a \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/TimePeriod_b \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/Two_Rising_edge \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/Two_falling_edge \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/Two_flag1 \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/Two_flag2 \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/count_TimePeriod_a \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/count_TimePeriod_b \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/count_wait_TimePeriod_a \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/count_wait_TimePeriod_b \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/r_Single_TimePeriod_a \
+sim:/Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module/r_Single_TimePeriod_b
+# Break key hit 
+run
+# ** Error: (vsim-3601) Iteration limit reached at time 0 ps.
+# 
+run
+# ** Error: (vsim-3601) Iteration limit reached at time 0 ps.
+# 
+restart
+# ** Warning: (vsim-3015) E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v(78): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'One_Signal_in'. The port definition is at: E:/DE1-SOC/class10-Digital_Freq/Freq_check.v(17).
+# 
+#         Region: /Digital_Freq_top_tb/Digital_Freq_top_module/Freq_check_module
+# ** Warning: (vsim-3015) E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v(78): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'Two_Signal_in'. The port definition is at: E:/DE1-SOC/class10-Digital_Freq/Freq_check.v(18).
+# 
+#         Region: /Digital_Freq_top_tb/Digital_Freq_top_module/Freq_check_module
+# ** Warning: (vsim-3015) E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v(78): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'One_TestSignal_num'. The port definition is at: E:/DE1-SOC/class10-Digital_Freq/Freq_check.v(20).
+# 
+#         Region: /Digital_Freq_top_tb/Digital_Freq_top_module/Freq_check_module
+# ** Warning: (vsim-3015) E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v(78): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'Two_TestSignal_num'. The port definition is at: E:/DE1-SOC/class10-Digital_Freq/Freq_check.v(21).
+# 
+#         Region: /Digital_Freq_top_tb/Digital_Freq_top_module/Freq_check_module
+# ** Warning: (vsim-3015) E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v(78): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'StandSignal_num'. The port definition is at: E:/DE1-SOC/class10-Digital_Freq/Freq_check.v(22).
+# 
+#         Region: /Digital_Freq_top_tb/Digital_Freq_top_module/Freq_check_module
+# ** Warning: (vsim-3015) E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v(89): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'Time_interval'. The port definition is at: E:/DE1-SOC/class10-Digital_Freq/Time_period_check.v(20).
+# 
+#         Region: /Digital_Freq_top_tb/Digital_Freq_top_module/Time_period_check_module
+# ** Warning: (vsim-3015) E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v(104): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'Single_Time_interval_a'. The port definition is at: E:/DE1-SOC/class10-Digital_Freq/Duty_Cycle.v(21).
+# 
+#         Region: /Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module
+# ** Warning: (vsim-3015) E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v(104): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'Whole_Time_interval_a'. The port definition is at: E:/DE1-SOC/class10-Digital_Freq/Duty_Cycle.v(22).
+# 
+#         Region: /Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module
+# ** Warning: (vsim-3015) E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v(104): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'Single_Time_interval_b'. The port definition is at: E:/DE1-SOC/class10-Digital_Freq/Duty_Cycle.v(23).
+# 
+#         Region: /Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module
+# ** Warning: (vsim-3015) E:/DE1-SOC/class10-Digital_Freq/Digital_Freq_top.v(104): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'Whole_Time_interval_b'. The port definition is at: E:/DE1-SOC/class10-Digital_Freq/Duty_Cycle.v(24).
+# 
+#         Region: /Digital_Freq_top_tb/Digital_Freq_top_module/Duty_Cycle_module
+run
+# ** Error: (vsim-3601) Iteration limit reached at time 0 ps.
+# 
