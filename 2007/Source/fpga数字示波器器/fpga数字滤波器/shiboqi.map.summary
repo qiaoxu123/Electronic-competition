@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Jul 04 16:25:18 2013
+Quartus II Version : 9.1 Build 350 03/24/2010 SP 2 SJ Full Version
+Revision Name : shiboqi
+Top-level Entity Name : shiboqi
+Family : Cyclone II
+Total logic elements : 5,536
+    Total combinational functions : 4,765
+    Dedicated logic registers : 1,498
+Total registers : 1498
+Total pins : 32
+Total virtual pins : 0
+Total memory bits : 294,656
+Embedded Multiplier 9-bit elements : 4
+Total PLLs : 2

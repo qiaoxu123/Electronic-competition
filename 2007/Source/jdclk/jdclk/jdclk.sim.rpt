@@ -1,0 +1,314 @@
+Simulator report for jdclk
+Thu Aug 04 16:48:04 2011
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 40.0 ns      ;
+; Simulation Netlist Size     ; 82 nodes     ;
+; Simulation Coverage         ;       1.25 % ;
+; Total Number of Transitions ; 10239        ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Functional ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;       1.25 % ;
+; Total nodes checked                                 ; 82           ;
+; Total output ports checked                          ; 80           ;
+; Total output ports with complete 1/0-value coverage ; 1            ;
+; Total output ports with no 1/0-value coverage       ; 74           ;
+; Total output ports with no 1-value coverage         ; 76           ;
+; Total output ports with no 0-value coverage         ; 77           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++-------------------------------------------------+
+; Complete 1/0-Value Coverage                     ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+; |jdclk|c0 ; |jdclk|c0        ; out              ;
++-----------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++-------------------------------------------------------+
+; Missing 1-Value Coverage                              ;
++-----------------+------------------+------------------+
+; Node Name       ; Output Port Name ; Output Port Type ;
++-----------------+------------------+------------------+
+; |jdclk|i[1]     ; |jdclk|i[1]      ; regout           ;
+; |jdclk|i~0      ; |jdclk|i~0       ; out              ;
+; |jdclk|i~1      ; |jdclk|i~1       ; out              ;
+; |jdclk|i~2      ; |jdclk|i~2       ; out              ;
+; |jdclk|i~3      ; |jdclk|i~3       ; out              ;
+; |jdclk|i~4      ; |jdclk|i~4       ; out              ;
+; |jdclk|i~5      ; |jdclk|i~5       ; out              ;
+; |jdclk|i~6      ; |jdclk|i~6       ; out              ;
+; |jdclk|i~7      ; |jdclk|i~7       ; out              ;
+; |jdclk|i~8      ; |jdclk|i~8       ; out              ;
+; |jdclk|i~9      ; |jdclk|i~9       ; out              ;
+; |jdclk|i~10     ; |jdclk|i~10      ; out              ;
+; |jdclk|i~11     ; |jdclk|i~11      ; out              ;
+; |jdclk|i~12     ; |jdclk|i~12      ; out              ;
+; |jdclk|i~13     ; |jdclk|i~13      ; out              ;
+; |jdclk|i~14     ; |jdclk|i~14      ; out              ;
+; |jdclk|i~15     ; |jdclk|i~15      ; out              ;
+; |jdclk|i~16     ; |jdclk|i~16      ; out              ;
+; |jdclk|i~17     ; |jdclk|i~17      ; out              ;
+; |jdclk|i~18     ; |jdclk|i~18      ; out              ;
+; |jdclk|i~19     ; |jdclk|i~19      ; out              ;
+; |jdclk|i~20     ; |jdclk|i~20      ; out              ;
+; |jdclk|i~21     ; |jdclk|i~21      ; out              ;
+; |jdclk|i~22     ; |jdclk|i~22      ; out              ;
+; |jdclk|i~23     ; |jdclk|i~23      ; out              ;
+; |jdclk|m[6]     ; |jdclk|m[6]      ; out              ;
+; |jdclk|m[5]     ; |jdclk|m[5]      ; out              ;
+; |jdclk|m[4]     ; |jdclk|m[4]      ; out              ;
+; |jdclk|m[3]     ; |jdclk|m[3]      ; out              ;
+; |jdclk|m[2]     ; |jdclk|m[2]      ; out              ;
+; |jdclk|m[1]     ; |jdclk|m[1]      ; out              ;
+; |jdclk|n        ; |jdclk|n         ; out              ;
+; |jdclk|i[0]     ; |jdclk|i[0]      ; regout           ;
+; |jdclk|i[2]     ; |jdclk|i[2]      ; regout           ;
+; |jdclk|i[3]     ; |jdclk|i[3]      ; regout           ;
+; |jdclk|i[4]     ; |jdclk|i[4]      ; regout           ;
+; |jdclk|i[5]     ; |jdclk|i[5]      ; regout           ;
+; |jdclk|i[6]     ; |jdclk|i[6]      ; regout           ;
+; |jdclk|i[7]     ; |jdclk|i[7]      ; regout           ;
+; |jdclk|m[7]     ; |jdclk|m[7]      ; out              ;
+; |jdclk|cyclk    ; |jdclk|cyclk     ; out              ;
+; |jdclk|Add0~0   ; |jdclk|Add0~0    ; out0             ;
+; |jdclk|Add0~1   ; |jdclk|Add0~1    ; out0             ;
+; |jdclk|Add0~2   ; |jdclk|Add0~2    ; out0             ;
+; |jdclk|Add0~3   ; |jdclk|Add0~3    ; out0             ;
+; |jdclk|Add0~4   ; |jdclk|Add0~4    ; out0             ;
+; |jdclk|Add0~5   ; |jdclk|Add0~5    ; out0             ;
+; |jdclk|Add0~6   ; |jdclk|Add0~6    ; out0             ;
+; |jdclk|Add0~7   ; |jdclk|Add0~7    ; out0             ;
+; |jdclk|Add0~8   ; |jdclk|Add0~8    ; out0             ;
+; |jdclk|Add0~9   ; |jdclk|Add0~9    ; out0             ;
+; |jdclk|Add0~10  ; |jdclk|Add0~10   ; out0             ;
+; |jdclk|Add0~11  ; |jdclk|Add0~11   ; out0             ;
+; |jdclk|Add0~12  ; |jdclk|Add0~12   ; out0             ;
+; |jdclk|Add1~0   ; |jdclk|Add1~0    ; out0             ;
+; |jdclk|Add1~1   ; |jdclk|Add1~1    ; out0             ;
+; |jdclk|Add1~2   ; |jdclk|Add1~2    ; out0             ;
+; |jdclk|Add1~3   ; |jdclk|Add1~3    ; out0             ;
+; |jdclk|Add1~4   ; |jdclk|Add1~4    ; out0             ;
+; |jdclk|Add1~5   ; |jdclk|Add1~5    ; out0             ;
+; |jdclk|Add1~6   ; |jdclk|Add1~6    ; out0             ;
+; |jdclk|Add1~7   ; |jdclk|Add1~7    ; out0             ;
+; |jdclk|Add1~8   ; |jdclk|Add1~8    ; out0             ;
+; |jdclk|Add1~9   ; |jdclk|Add1~9    ; out0             ;
+; |jdclk|Add1~10  ; |jdclk|Add1~10   ; out0             ;
+; |jdclk|Add1~11  ; |jdclk|Add1~11   ; out0             ;
+; |jdclk|Add1~12  ; |jdclk|Add1~12   ; out0             ;
+; |jdclk|Equal0~0 ; |jdclk|Equal0~0  ; out0             ;
+; |jdclk|Equal0~1 ; |jdclk|Equal0~1  ; out0             ;
+; |jdclk|Equal0~2 ; |jdclk|Equal0~2  ; out0             ;
+; |jdclk|Equal0~3 ; |jdclk|Equal0~3  ; out0             ;
+; |jdclk|Equal0~4 ; |jdclk|Equal0~4  ; out0             ;
+; |jdclk|Equal0~5 ; |jdclk|Equal0~5  ; out0             ;
+; |jdclk|Equal0~6 ; |jdclk|Equal0~6  ; out0             ;
+; |jdclk|Equal0~7 ; |jdclk|Equal0~7  ; out0             ;
+; |jdclk|Equal0~8 ; |jdclk|Equal0~8  ; out0             ;
++-----------------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++-------------------------------------------------------+
+; Missing 0-Value Coverage                              ;
++-----------------+------------------+------------------+
+; Node Name       ; Output Port Name ; Output Port Type ;
++-----------------+------------------+------------------+
+; |jdclk|i[1]     ; |jdclk|i[1]      ; regout           ;
+; |jdclk|i~0      ; |jdclk|i~0       ; out              ;
+; |jdclk|i~1      ; |jdclk|i~1       ; out              ;
+; |jdclk|i~2      ; |jdclk|i~2       ; out              ;
+; |jdclk|i~3      ; |jdclk|i~3       ; out              ;
+; |jdclk|i~4      ; |jdclk|i~4       ; out              ;
+; |jdclk|i~5      ; |jdclk|i~5       ; out              ;
+; |jdclk|i~6      ; |jdclk|i~6       ; out              ;
+; |jdclk|i~7      ; |jdclk|i~7       ; out              ;
+; |jdclk|i~8      ; |jdclk|i~8       ; out              ;
+; |jdclk|i~9      ; |jdclk|i~9       ; out              ;
+; |jdclk|i~10     ; |jdclk|i~10      ; out              ;
+; |jdclk|i~11     ; |jdclk|i~11      ; out              ;
+; |jdclk|i~12     ; |jdclk|i~12      ; out              ;
+; |jdclk|i~13     ; |jdclk|i~13      ; out              ;
+; |jdclk|i~14     ; |jdclk|i~14      ; out              ;
+; |jdclk|i~15     ; |jdclk|i~15      ; out              ;
+; |jdclk|i~16     ; |jdclk|i~16      ; out              ;
+; |jdclk|i~17     ; |jdclk|i~17      ; out              ;
+; |jdclk|i~18     ; |jdclk|i~18      ; out              ;
+; |jdclk|i~19     ; |jdclk|i~19      ; out              ;
+; |jdclk|i~20     ; |jdclk|i~20      ; out              ;
+; |jdclk|i~21     ; |jdclk|i~21      ; out              ;
+; |jdclk|i~23     ; |jdclk|i~23      ; out              ;
+; |jdclk|m[6]     ; |jdclk|m[6]      ; out              ;
+; |jdclk|m[5]     ; |jdclk|m[5]      ; out              ;
+; |jdclk|m[4]     ; |jdclk|m[4]      ; out              ;
+; |jdclk|m[3]     ; |jdclk|m[3]      ; out              ;
+; |jdclk|m[2]     ; |jdclk|m[2]      ; out              ;
+; |jdclk|m[1]     ; |jdclk|m[1]      ; out              ;
+; |jdclk|i[0]     ; |jdclk|i[0]      ; regout           ;
+; |jdclk|i[2]     ; |jdclk|i[2]      ; regout           ;
+; |jdclk|i[3]     ; |jdclk|i[3]      ; regout           ;
+; |jdclk|i[4]     ; |jdclk|i[4]      ; regout           ;
+; |jdclk|i[5]     ; |jdclk|i[5]      ; regout           ;
+; |jdclk|i[6]     ; |jdclk|i[6]      ; regout           ;
+; |jdclk|i[7]     ; |jdclk|i[7]      ; regout           ;
+; |jdclk|m[7]     ; |jdclk|m[7]      ; out              ;
+; |jdclk|rst      ; |jdclk|rst       ; out              ;
+; |jdclk|cyclk    ; |jdclk|cyclk     ; out              ;
+; |jdclk|jdclk    ; |jdclk|jdclk     ; pin_out          ;
+; |jdclk|locked   ; |jdclk|locked    ; out              ;
+; |jdclk|Add0~0   ; |jdclk|Add0~0    ; out0             ;
+; |jdclk|Add0~1   ; |jdclk|Add0~1    ; out0             ;
+; |jdclk|Add0~2   ; |jdclk|Add0~2    ; out0             ;
+; |jdclk|Add0~3   ; |jdclk|Add0~3    ; out0             ;
+; |jdclk|Add0~4   ; |jdclk|Add0~4    ; out0             ;
+; |jdclk|Add0~5   ; |jdclk|Add0~5    ; out0             ;
+; |jdclk|Add0~6   ; |jdclk|Add0~6    ; out0             ;
+; |jdclk|Add0~7   ; |jdclk|Add0~7    ; out0             ;
+; |jdclk|Add0~8   ; |jdclk|Add0~8    ; out0             ;
+; |jdclk|Add0~9   ; |jdclk|Add0~9    ; out0             ;
+; |jdclk|Add0~10  ; |jdclk|Add0~10   ; out0             ;
+; |jdclk|Add0~11  ; |jdclk|Add0~11   ; out0             ;
+; |jdclk|Add0~12  ; |jdclk|Add0~12   ; out0             ;
+; |jdclk|Add1~0   ; |jdclk|Add1~0    ; out0             ;
+; |jdclk|Add1~1   ; |jdclk|Add1~1    ; out0             ;
+; |jdclk|Add1~2   ; |jdclk|Add1~2    ; out0             ;
+; |jdclk|Add1~3   ; |jdclk|Add1~3    ; out0             ;
+; |jdclk|Add1~4   ; |jdclk|Add1~4    ; out0             ;
+; |jdclk|Add1~5   ; |jdclk|Add1~5    ; out0             ;
+; |jdclk|Add1~6   ; |jdclk|Add1~6    ; out0             ;
+; |jdclk|Add1~7   ; |jdclk|Add1~7    ; out0             ;
+; |jdclk|Add1~8   ; |jdclk|Add1~8    ; out0             ;
+; |jdclk|Add1~9   ; |jdclk|Add1~9    ; out0             ;
+; |jdclk|Add1~10  ; |jdclk|Add1~10   ; out0             ;
+; |jdclk|Add1~11  ; |jdclk|Add1~11   ; out0             ;
+; |jdclk|Add1~12  ; |jdclk|Add1~12   ; out0             ;
+; |jdclk|Equal0~0 ; |jdclk|Equal0~0  ; out0             ;
+; |jdclk|Equal0~1 ; |jdclk|Equal0~1  ; out0             ;
+; |jdclk|Equal0~2 ; |jdclk|Equal0~2  ; out0             ;
+; |jdclk|Equal0~3 ; |jdclk|Equal0~3  ; out0             ;
+; |jdclk|Equal0~4 ; |jdclk|Equal0~4  ; out0             ;
+; |jdclk|Equal0~5 ; |jdclk|Equal0~5  ; out0             ;
+; |jdclk|Equal0~6 ; |jdclk|Equal0~6  ; out0             ;
+; |jdclk|Equal0~7 ; |jdclk|Equal0~7  ; out0             ;
+; |jdclk|Equal0~8 ; |jdclk|Equal0~8  ; out0             ;
++-----------------+------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+    Info: Processing started: Thu Aug 04 16:48:03 2011
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off jdclk -c jdclk
+Info: Using vector source file "D:/jdclk/jdclk.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Error: Zero-time oscillation in node "|jdclk|m[0]" at time 40.0 ns. Check the design or vector source file for combinational loop.
+Info: Simulation coverage is       1.25 %
+Info: Number of transitions in simulation is 10239
+Error: Quartus II Simulator was unsuccessful. 1 error, 0 warnings
+    Error: Peak virtual memory: 115 megabytes
+    Error: Processing ended: Thu Aug 04 16:48:04 2011
+    Error: Elapsed time: 00:00:01
+    Error: Total CPU time (on all processors): 00:00:01
+
+

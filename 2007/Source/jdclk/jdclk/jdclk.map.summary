@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Failed - Thu Aug 04 18:25:36 2011
+Quartus II Version : 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition
+Revision Name : jdclk
+Top-level Entity Name : jdclk
+Family : Cyclone II
+Total logic elements : N/A until Partition Merge
+    Total combinational functions : N/A until Partition Merge
+    Dedicated logic registers : N/A until Partition Merge
+Total registers : N/A until Partition Merge
+Total pins : N/A until Partition Merge
+Total virtual pins : N/A until Partition Merge
+Total memory bits : N/A until Partition Merge
+Embedded Multiplier 9-bit elements : N/A until Partition Merge
+Total PLLs : N/A until Partition Merge

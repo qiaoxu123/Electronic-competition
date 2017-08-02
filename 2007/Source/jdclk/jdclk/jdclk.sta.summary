@@ -1,0 +1,69 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'c0'
+Slack : -10.039
+TNS   : -85.943
+
+Type  : Slow Model Setup 'cyclk'
+Slack : -8.407
+TNS   : -55.999
+
+Type  : Slow Model Setup 'rst'
+Slack : -1.167
+TNS   : -1.167
+
+Type  : Slow Model Hold 'c0'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Hold 'rst'
+Slack : 0.716
+TNS   : 0.000
+
+Type  : Slow Model Hold 'cyclk'
+Slack : 1.347
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'cyclk'
+Slack : -5.311
+TNS   : -36.011
+
+Type  : Slow Model Removal 'cyclk'
+Slack : 4.348
+TNS   : 0.000
+
+Type  : Fast Model Setup 'c0'
+Slack : -3.405
+TNS   : -28.937
+
+Type  : Fast Model Setup 'cyclk'
+Slack : -3.026
+TNS   : -20.033
+
+Type  : Fast Model Setup 'rst'
+Slack : 0.066
+TNS   : 0.000
+
+Type  : Fast Model Hold 'rst'
+Slack : 0.158
+TNS   : 0.000
+
+Type  : Fast Model Hold 'c0'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'cyclk'
+Slack : 0.395
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'cyclk'
+Slack : -2.062
+TNS   : -14.095
+
+Type  : Fast Model Removal 'cyclk'
+Slack : 2.133
+TNS   : 0.000
+
+------------------------------------------------------------

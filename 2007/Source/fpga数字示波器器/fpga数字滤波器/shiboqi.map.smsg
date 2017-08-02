@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at anjian.v(25): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at vga1.v(35): always construct contains both blocking and non-blocking assignments

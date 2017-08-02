@@ -1,0 +1,4 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,fuzhi:m6|lpm_mult:Mult0|mult_pat:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,fuzhi:m6|lpm_mult:Mult0|mult_pat:auto_generated|mac_out4,
+PORT_SWAPPING,PORT_SWAPPING_FINISHED,fuzhi:m6|lpm_mult:Mult0|mult_pat:auto_generated|mac_mult3,

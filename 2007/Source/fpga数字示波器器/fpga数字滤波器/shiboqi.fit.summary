@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Jul 04 16:26:17 2013
+Quartus II Version : 9.1 Build 350 03/24/2010 SP 2 SJ Full Version
+Revision Name : shiboqi
+Top-level Entity Name : shiboqi
+Family : Cyclone II
+Device : EP2C35F484C8
+Timing Models : Final
+Total logic elements : 5,454 / 33,216 ( 16 % )
+    Total combinational functions : 4,769 / 33,216 ( 14 % )
+    Dedicated logic registers : 1,498 / 33,216 ( 5 % )
+Total registers : 1498
+Total pins : 32 / 322 ( 10 % )
+Total virtual pins : 0
+Total memory bits : 294,656 / 483,840 ( 61 % )
+Embedded Multiplier 9-bit elements : 4 / 70 ( 6 % )
+Total PLLs : 1 / 4 ( 25 % )

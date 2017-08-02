@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Aug 04 18:16:28 2011
+Quartus II Version : 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition
+Revision Name : jdclk
+Top-level Entity Name : jdclk
+Family : Cyclone II
+Device : EP2C5T144C8
+Timing Models : Final
+Total logic elements : 32 / 4,608 ( < 1 % )
+    Total combinational functions : 32 / 4,608 ( < 1 % )
+    Dedicated logic registers : 9 / 4,608 ( < 1 % )
+Total registers : 9
+Total pins : 5 / 89 ( 6 % )
+Total virtual pins : 0
+Total memory bits : 0 / 119,808 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 26 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

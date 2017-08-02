@@ -1,0 +1,95 @@
+EDA Netlist Writer report for jdclk
+Thu Aug 04 18:16:43 2011
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. Simulation Settings
+  4. Simulation Generated Files
+  5. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------+
+; EDA Netlist Writer Summary                                        ;
++---------------------------+---------------------------------------+
+; EDA Netlist Writer Status ; Successful - Thu Aug 04 18:16:43 2011 ;
+; Revision Name             ; jdclk                                 ;
+; Top-level Entity Name     ; jdclk                                 ;
+; Family                    ; Cyclone II                            ;
+; Simulation Files Creation ; Successful                            ;
++---------------------------+---------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                                           ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Option                                                                                            ; Setting                   ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Tool Name                                                                                         ; ModelSim-Altera (Verilog) ;
+; Generate netlist for functional simulation only                                                   ; Off                       ;
+; Time scale                                                                                        ; 100 us                    ;
+; Truncate long hierarchy paths                                                                     ; Off                       ;
+; Map illegal HDL characters                                                                        ; Off                       ;
+; Flatten buses into individual nodes                                                               ; Off                       ;
+; Maintain hierarchy                                                                                ; Off                       ;
+; Bring out device-wide set/reset signals as ports                                                  ; Off                       ;
+; Enable glitch filtering                                                                           ; Off                       ;
+; Do not write top level VHDL entity                                                                ; Off                       ;
+; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                       ;
+; Architecture name in VHDL output netlist                                                          ; structure                 ;
+; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                       ;
+; Generate third-party EDA tool command script for gate-level simulation                            ; Off                       ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+
+
++------------------------------------------+
+; Simulation Generated Files               ;
++------------------------------------------+
+; Generated Files                          ;
++------------------------------------------+
+; D:/jdclk/simulation/modelsim/jdclk.vo    ;
+; D:/jdclk/simulation/modelsim/jdclk_v.sdo ;
++------------------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus II EDA Netlist Writer
+    Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+    Info: Processing started: Thu Aug 04 18:16:42 2011
+Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off jdclk -c jdclk
+Warning: An incorrect timescale is selected for the Verilog Output (.VO) file of this PLL design. It's required that the timescale should be 1 ps when simulating a PLL design in a third party EDA tool.
+Info: Generated files "jdclk.vo" and "jdclk_v.sdo" in directory "D:/jdclk/simulation/modelsim/" for EDA simulation tool
+Info: Quartus II EDA Netlist Writer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 129 megabytes
+    Info: Processing ended: Thu Aug 04 18:16:43 2011
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

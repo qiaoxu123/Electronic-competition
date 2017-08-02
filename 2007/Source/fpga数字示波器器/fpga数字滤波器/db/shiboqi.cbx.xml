@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="shiboqi">
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|control:m4|fifo:u8|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_79m1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|control:m4|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_3ch.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|control:m4|rom4:u4|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_8r61.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|fuzhi:m6|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_dem.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_mux:mux" CBX_FILE_NAME="mux_boc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:\adv_point_3_and_more:advance_pointer_counter" CBX_FILE_NAME="cntr_5ci.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|control:m4|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_fem.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|control:m4|lpm_mult:Mult1|multcore:mult_core|mpar_add:padder|mpar_add:sub_par_add|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_3ch.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|fuzhi:m6|lpm_divide:Div1" CBX_FILE_NAME="lpm_divide_cem.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|control:m4|lpm_divide:Div1" CBX_FILE_NAME="lpm_divide_hem.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|control:m4|ram:u0|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_v8a1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|control:m4|rom1:u1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_ts61.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|control:m4|rom5:u5|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_rg61.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|fuzhi:m6|lpm_divide:Div2" CBX_FILE_NAME="lpm_divide_dem.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:read_pointer_counter" CBX_FILE_NAME="cntr_45j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|control:m4|lpm_mult:Mult1|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_oah.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|fuzhi:m6|lpm_divide:Div3" CBX_FILE_NAME="lpm_divide_cem.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram" CBX_FILE_NAME="altsyncram_pss3.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:status_advance_pointer_counter" CBX_FILE_NAME="cntr_0ci.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|control:m4|rom2:u2|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_br61.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|control:m4|rom6:u6|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_cr61.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|fuzhi:m6|lpm_mult:Mult0" CBX_FILE_NAME="mult_pat.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_decode:wdecoder" CBX_FILE_NAME="decode_rqf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:status_read_pointer_counter" CBX_FILE_NAME="cntr_gui.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|control:m4|lpm_mult:Mult0|multcore:mult_core|mpar_add:padder|lpm_add_sub:adder[0]" CBX_FILE_NAME="add_sub_oah.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|control:m4|rom3:u3|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_s171.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|shiboqi|control:m4|rom7:u7|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_jt61.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

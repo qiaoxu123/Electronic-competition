@@ -1,0 +1,136 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 5.564 ns
+From           : sw[4]
+To             : anjian:m3|key[3]
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 10.281 ns
+From           : control:m4|rgb[1]
+To             : blue[1]
+From Clock     : clk
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 3.026 ns
+From           : altera_internal_jtag~TDO
+To             : altera_reserved_tdo
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 4.380 ns
+From           : sw[5]
+To             : control:m4|shuyi_2[0]
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Worst-case Minimum Pulse Width Requirement (Low)
+Slack          : -0.567 ns
+Required Time  : 3.067 ns
+Actual Time    : 2.500 ns
+From           : ads828:m1|pll:a1|altpll:altpll_component|_clk0
+To             : control:m4|fifo:u8|dcfifo:dcfifo_component|dcfifo_79m1:auto_generated|altsyncram_fr61:fifo_ram|altsyncram_r1f1:altsyncram11|ram_block12a0~portb_we_reg
+From Clock     : --
+To Clock       : --
+Failed Paths   : 80
+
+Type           : Worst-case Minimum Pulse Width Requirement (High)
+Slack          : -0.567 ns
+Required Time  : 3.067 ns
+Actual Time    : 2.500 ns
+From           : ads828:m1|pll:a1|altpll:altpll_component|_clk0
+To             : control:m4|fifo:u8|dcfifo:dcfifo_component|dcfifo_79m1:auto_generated|altsyncram_fr61:fifo_ram|altsyncram_r1f1:altsyncram11|ram_block12a0~portb_we_reg
+From Clock     : --
+To Clock       : --
+Failed Paths   : 80
+
+Type           : Clock Setup: 'clk'
+Slack          : -75.830 ns
+Required Time  : 50.00 MHz ( period = 20.000 ns )
+Actual Time    : 10.44 MHz ( period = 95.830 ns )
+From           : fuzhi:m6|datamax[0]
+To             : fuzhi:m6|fuzhi_r[1]
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 2501
+
+Type           : Clock Setup: 'ads828:m1|pll:a1|altpll:altpll_component|_clk0'
+Slack          : -1.769 ns
+Required Time  : 200.00 MHz ( period = 5.000 ns )
+Actual Time    : 147.73 MHz ( period = 6.769 ns )
+From           : control:m4|fifo:u8|dcfifo:dcfifo_component|dcfifo_79m1:auto_generated|a_graycounter_ggc:wrptr_gp|counter10a[9]
+To             : control:m4|fifo:u8|dcfifo:dcfifo_component|dcfifo_79m1:auto_generated|altsyncram_fr61:fifo_ram|altsyncram_r1f1:altsyncram11|ram_block12a5~portb_datain_reg1
+From Clock     : ads828:m1|pll:a1|altpll:altpll_component|_clk0
+To Clock       : ads828:m1|pll:a1|altpll:altpll_component|_clk0
+Failed Paths   : 1608
+
+Type           : Clock Setup: 'altera_internal_jtag~TCKUTAP'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 55.87 MHz ( period = 17.900 ns )
+From           : sld_hub:auto_hub|sld_shadow_jsm:shadow_jsm|state[4]
+To             : sld_hub:auto_hub|tdo
+From Clock     : altera_internal_jtag~TCKUTAP
+To Clock       : altera_internal_jtag~TCKUTAP
+Failed Paths   : 0
+
+Type           : Clock Hold: 'clk'
+Slack          : -2.912 ns
+Required Time  : 50.00 MHz ( period = 20.000 ns )
+Actual Time    : N/A
+From           : pinlv:m5|div
+To             : pinlv:m5|n[9]
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 24
+
+Type           : Clock Hold: 'ads828:m1|pll:a1|altpll:altpll_component|_clk0'
+Slack          : 0.394 ns
+Required Time  : 200.00 MHz ( period = 5.000 ns )
+Actual Time    : N/A
+From           : control:m4|wren
+To             : control:m4|fifo:u8|dcfifo:dcfifo_component|dcfifo_79m1:auto_generated|a_graycounter_ggc:wrptr_gp|counter10a[4]
+From Clock     : clk
+To Clock       : ads828:m1|pll:a1|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Other violations (see messages)
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 1
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 4294
+
+--------------------------------------------------------------------------------------
+

@@ -1,0 +1,57 @@
+--lpm_mux CBX_DECLARE_ALL_CONNECTED_PORTS="OFF" DEVICE_FAMILY="Cyclone II" LPM_SIZE=2 LPM_WIDTH=10 LPM_WIDTHS=1 data result sel
+--VERSION_BEGIN 9.1SP2 cbx_lpm_mux 2010:03:24:20:43:43:SJ cbx_mgl 2010:03:24:21:01:05:SJ  VERSION_END
+
+
+-- Copyright (C) 1991-2010 Altera Corporation
+--  Your use of Altera Corporation's design tools, logic functions 
+--  and other software and tools, and its AMPP partner logic 
+--  functions, and any output files from any of the foregoing 
+--  (including device programming or simulation files), and any 
+--  associated documentation or information are expressly subject 
+--  to the terms and conditions of the Altera Program License 
+--  Subscription Agreement, Altera MegaCore Function License 
+--  Agreement, or other applicable license agreement, including, 
+--  without limitation, that your use is for the sole purpose of 
+--  programming logic devices manufactured by Altera and sold by 
+--  Altera or its authorized distributors.  Please refer to the 
+--  applicable agreement for further details.
+
+
+
+--synthesis_resources = lut 10 
+SUBDESIGN mux_qjb
+( 
+	data[19..0]	:	input;
+	result[9..0]	:	output;
+	sel[0..0]	:	input;
+) 
+VARIABLE 
+	result_node[9..0]	: WIRE;
+	sel_node[0..0]	: WIRE;
+	w_data152w[1..0]	: WIRE;
+	w_data166w[1..0]	: WIRE;
+	w_data178w[1..0]	: WIRE;
+	w_data190w[1..0]	: WIRE;
+	w_data202w[1..0]	: WIRE;
+	w_data214w[1..0]	: WIRE;
+	w_data226w[1..0]	: WIRE;
+	w_data238w[1..0]	: WIRE;
+	w_data250w[1..0]	: WIRE;
+	w_data262w[1..0]	: WIRE;
+
+BEGIN 
+	result[] = result_node[];
+	result_node[] = ( ((sel_node[] & w_data262w[1..1]) # ((! sel_node[]) & w_data262w[0..0])), ((sel_node[] & w_data250w[1..1]) # ((! sel_node[]) & w_data250w[0..0])), ((sel_node[] & w_data238w[1..1]) # ((! sel_node[]) & w_data238w[0..0])), ((sel_node[] & w_data226w[1..1]) # ((! sel_node[]) & w_data226w[0..0])), ((sel_node[] & w_data214w[1..1]) # ((! sel_node[]) & w_data214w[0..0])), ((sel_node[] & w_data202w[1..1]) # ((! sel_node[]) & w_data202w[0..0])), ((sel_node[] & w_data190w[1..1]) # ((! sel_node[]) & w_data190w[0..0])), ((sel_node[] & w_data178w[1..1]) # ((! sel_node[]) & w_data178w[0..0])), ((sel_node[] & w_data166w[1..1]) # ((! sel_node[]) & w_data166w[0..0])), ((sel_node[] & w_data152w[1..1]) # ((! sel_node[]) & w_data152w[0..0])));
+	sel_node[] = ( sel[0..0]);
+	w_data152w[] = ( data[10..10], data[0..0]);
+	w_data166w[] = ( data[11..11], data[1..1]);
+	w_data178w[] = ( data[12..12], data[2..2]);
+	w_data190w[] = ( data[13..13], data[3..3]);
+	w_data202w[] = ( data[14..14], data[4..4]);
+	w_data214w[] = ( data[15..15], data[5..5]);
+	w_data226w[] = ( data[16..16], data[6..6]);
+	w_data238w[] = ( data[17..17], data[7..7]);
+	w_data250w[] = ( data[18..18], data[8..8]);
+	w_data262w[] = ( data[19..19], data[9..9]);
+END;
+--VALID FILE
