@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Fri Jul 21 10:45:46 2017
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : vga_test
+Top-level Entity Name : vga_top
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 1645
+Total pins : 31
+Total virtual pins : 0
+Total block memory bits : 257,536
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI TX Channels : 0
+Total PLLs : 0
+Total DLLs : 0
