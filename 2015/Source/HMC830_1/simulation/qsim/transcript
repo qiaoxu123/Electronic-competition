@@ -1,0 +1,392 @@
+# do hmc830.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module hmc830
+# 
+# Top level modules:
+# 	hmc830
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module hmc830_vlg_sample_tst
+# -- Compiling module hmc830_vlg_check_tst
+# -- Compiling module hmc830_vlg_vec_tst
+# 
+# Top level modules:
+# 	hmc830_vlg_vec_tst
+# vsim -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.hmc830_vlg_vec_tst 
+# Loading work.hmc830_vlg_vec_tst
+# Loading work.hmc830
+# Loading altera_ver.dffeas
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a0 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a1 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a2 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a3 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a4 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a5 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a6 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a7 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a8 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a9 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a10 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a11 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a12 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a13 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a14 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a15 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a16 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a17 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a18 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a19 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a20 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a21 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a22 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a23 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a24 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a25 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a26 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a27 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a28 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a29 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a30 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a31 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a32 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a33 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a34 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a35 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# ** Error: (vsim-3033) nofile(37): Instantiation of 'generic_m10k' failed. The design unit was not found.
+# 
+#         Region: /hmc830_vlg_vec_tst/i1/\auto_signaltap_0|sld_signaltap_body|sld_signaltap_body|stp_non_zero_ram_gen:stp_buffer_ram|auto_generated|ram_block1a36 
+#         Searched libraries:
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+#             D:/altera/modelsim_ase/altera/verilog/altera
+#             D:/altera/modelsim_ase/altera/verilog/altera_mf
+#             D:/altera/modelsim_ase/altera/verilog/220model
+#             D:/altera/modelsim_ase/altera/vhdl/sgate
+#             D:/altera/modelsim_ase/altera/verilog/cyclonev
+# Loading work.hmc830_vlg_sample_tst
+# Loading work.hmc830_vlg_check_tst
+# Error loading design

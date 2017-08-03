@@ -1,0 +1,19 @@
+Fitter Status : Successful - Sat Nov 14 09:15:10 2015
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : hmc830
+Top-level Entity Name : top
+Family : Cyclone V
+Device : 5CSEMA5F31C6
+Timing Models : Preliminary
+Logic utilization (in ALMs) : 669 / 32,070 ( 2 % )
+Total registers : 1356
+Total pins : 39 / 457 ( 9 % )
+Total virtual pins : 0
+Total block memory bits : 422,464 / 4,065,280 ( 10 % )
+Total DSP Blocks : 0 / 87 ( 0 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI TX Channels : 0
+Total PLLs : 0 / 6 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )

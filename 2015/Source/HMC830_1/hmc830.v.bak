@@ -1,0 +1,785 @@
+module HMC830(clk,rst_n,LD_SDO,SDI,SCK,SEN);
+input clk ,rst_n;
+input LD_SDO;
+output SDI,SCK,SEN;
+reg SDI,SEN;
+
+			 
+			 
+
+
+			
+			 
+parameter a0=0,a1=1,a2=2,a3=3,a4=4,a5=5,a6=6,a7=7,a8=8,a9=9,	
+			  a10=10,a11=11,a12=12,a13=13,a14=14,a15=15,a16=16,a17=17,a18=18;
+reg [4:0] nstate;
+
+//always@(posedge clk_r or negedge rst_n)
+//begin 
+//	if(!rst_n)
+//		cstate <= a0;
+//	else 
+//		cstate <= nstate;
+//end 
+
+//reg [19:0] cnt;
+//always@(posedge clk or negedge rst_n)
+//	begin 
+//		if(!rst_n)
+//			cnt <= 1'b0;
+//		else if(cnt==20'hFFFFF)
+//			cnt <= 1'b0;
+//		else 
+//			cnt <= cnt + 1'b1;
+//	end 
+		
+
+//reg [31:0] reg_data;
+//reg SEN_R;
+//always@(posedge clk or negedge rst_n)
+//if(!rst_n)
+//	begin 
+//		nstate <= a18;
+//		//SEN_R <= 1'b1;
+//	end 
+//else 
+//begin 	
+//		case(nstate)	
+//			a18:
+//				begin 
+//					nstate <= a0;
+//					SEN_R <= 1'b0;
+//				end 		
+//
+//			a0:
+//				begin 
+//					if(write_ok)
+//						begin 
+//						SEN_R <= 1'b0;
+//						reg_data <= 32'h02000001;//Reg 02h
+//						nstate <= a1;
+//						end 
+//					else 
+//						begin 
+//							SEN_R <= 1'b1;
+//							nstate <= a0;
+//						end 
+//				end 
+//			a1:
+//				begin 
+//					if(write_ok)
+//						begin 
+//							SEN_R <= 1'b0;
+//							reg_data <= 32'h06200B4A;
+//							nstate <= a2;
+//						end 
+//					else
+//						begin
+//							SEN_R <= 1'b1;
+//							nstate <= a1;
+//						end 
+//				end 
+//			a2:
+//				begin 
+//					if(write_ok)
+//						begin 
+//							SEN_R <= 1'b0;
+//							reg_data <= 32'h070008CD;
+//							nstate <= a3;
+//						end 
+//					else
+//						begin
+//							SEN_R <= 1'b1;
+//							nstate <= a2;
+//						end 
+//				end 
+//			a3:
+//				begin 
+//					if(write_ok)
+//						begin 
+//							SEN_R <= 1'b0;
+//							reg_data <= 32'h08C1BEFF;
+//							nstate <= a4;
+//						end 
+//					else
+//						begin
+//							SEN_R <= 1'b1;
+//							nstate <= a3;
+//						end 
+//				end 
+//			a4:
+//				begin 
+//					if(write_ok)
+//						begin 
+//							SEN_R <= 1'b0;
+//							reg_data <= 32'h09403264;
+//							nstate <= a5;
+//						end 
+//					else
+//						begin
+//							SEN_R <= 1'b1;
+//							nstate <= a4;
+//						end 
+//				end 
+//			a5:
+//				begin 
+//					if(write_ok)
+//						begin 
+//							SEN_R <= 1'b0;
+//							reg_data <= 32'h0A002046;
+//							nstate <= a6;
+//						end 
+//					else
+//						begin
+//							SEN_R <= 1'b1;
+//							nstate <= a5;
+//						end 
+//				end 
+//
+//			a6:
+//				begin 
+//					if(write_ok)
+//						begin 
+//							SEN_R <= 1'b0;
+//							reg_data <= 32'h0A002046;
+//							nstate <= a7;
+//						end 
+//					else
+//						begin
+//							SEN_R <= 1'b1;
+//							nstate <= a6;
+//						end 
+//				end 
+//			a7:
+//				begin 
+//					if(write_ok)
+//						begin 
+//							SEN_R <= 1'b0;
+//							reg_data <= 32'h05000F88;
+//							nstate <= a8;
+//						end 
+//					else
+//						begin
+//							SEN_R <= 1'b1;
+//							nstate <= a7;
+//						end 
+//				end 
+//			a8:
+//				begin 
+//					if(write_ok)
+//						begin 
+//							SEN_R <= 1'b0;
+//							reg_data <= {8'h5,11'h3,6'h26/*K*/,7'h10}; 
+//							nstate <= a9;
+//						end 
+//					else
+//						begin
+//							SEN_R <= 1'b1;
+//							nstate <= a8;
+//						end 
+//				end 
+//			a9:
+//				begin 
+//					if(write_ok)
+//						begin 
+//							SEN_R <= 1'b0;
+//							reg_data <= 32'h05002A98;
+//							nstate <= a10;
+//						end 
+//					else
+//						begin
+//							SEN_R <= 1'b1;
+//							nstate <= a9;
+//						end 
+//				end 
+//			a10:
+//				begin 
+//					if(write_ok)
+//						begin 
+//							SEN_R <= 1'b0;
+//							reg_data <= 32'h05001628;
+//							nstate <= a11;
+//						end 
+//					else
+//						begin
+//							SEN_R <= 1'b1;
+//							nstate <= a10;
+//						end 
+//				end 
+//			a11:
+//				begin 
+//					if(write_ok)
+//						begin 
+//							SEN_R <= 1'b0;
+//							reg_data <= 32'h050060A0;
+//							nstate <= a12;
+//						end 
+//					else
+//						begin
+//							SEN_R <= 1'b1;
+//							nstate <= a11;
+//						end 
+//				end 
+//			a12:
+//				begin 
+//					if(write_ok)
+//						begin 
+//							SEN_R <= 1'b0;
+//							reg_data <= 32'h05000000;
+//							nstate <= a13;
+//						end 
+//					else
+//						begin
+//							SEN_R <= 1'b1;
+//							nstate <= a12;
+//						end 
+//				end 
+//			a13:
+//				begin 
+//					if(write_ok)
+//						begin 
+//							SEN_R <= 1'b0;
+//							reg_data <= 32'h03000019;
+//							nstate <= a14;
+//						end 
+//					else
+//						begin
+//							SEN_R <= 1'b1; 
+//							nstate <= a13;
+//						end 
+//				end 
+//			a14:
+//				begin 
+//					if(write_ok)
+//						begin 
+//							SEN_R <= 1'b0;
+//							reg_data <= 32'h04000000;
+//							nstate <= a15;
+//						end 
+//					else
+//						begin
+//							SEN_R <= 1'b1;
+//							nstate <= a14;
+//						end 
+//				end 
+//			a15:
+//				begin 
+//					if(write_ok)
+//						begin 
+//							SEN_R <= 1'b0;
+//							reg_data <= 32'h00000000; 
+//							nstate <= a16;
+//						end 
+//					else
+//						begin
+//							SEN_R <= 1'b1;
+//							nstate <= a15;
+//						end
+//				end 
+//			a16:
+//				begin 
+//					SEN_R <= 1'b0;
+//					nstate <= a16;
+//				end 
+//			default:;
+//		endcase
+//end 
+
+parameter s0=0,s1=1,s2=2,s3=3,s4=4,s5=5,s6=6,
+			 s7=7,s8=8,s9=9,s10=10,s11=11,s12=12,s13=13,
+			 s14=14,s15=15,s16=16,s17=17,s18=18,s19=19,s20=20,
+			 s21=21,s22=22,s23=23,s24=24,s25=25,s26=26,
+			 s27=27,s28=28,s29=29,s30=30,s31=31,s32=32,s33=33,
+			 s34=34,s35=35,s36=36,s37=37,s38=38,s39=39,s40=40,
+			 s41=41,s42=42,s43=43,s44=44,s45=45,s46=46,s47=47,s48=48,s49=49,s50=50,
+			 s51=51,s52=52,s53=53,s54=54,s55=55,s56=56,s57=57,s58=58,s59=59,s60=60,
+			 s61=61,s62=62,s63=63,s64=64,s65=65,s66=66,s67=67,s68=68,s69=69,s70=70;
+
+reg [6:0] next_state;
+
+//always@(posedge clk_r or negedge rst_n)
+//begin 
+//	if(!rst_n)
+//		current_state <= s0;
+//	else 
+//		current_state <= next_state;
+//end 
+
+
+
+
+reg write_ok;
+reg SCK;
+always@(posedge clk or negedge rst_n)
+if(!rst_n)
+	begin 
+		next_state <= s0;
+		write_ok <= 1'b0;
+		SEN <= 1'b0;
+	end 
+			
+else 
+	begin 
+		 case(next_state)
+				s0:  
+						begin
+							//SCK <= 1'b0;
+							write_ok <= 1'b0;
+							next_state <= s1;
+						end
+				s1: 
+					if(SEN_R)
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s2;
+						 SDI <= 1'b0;
+						 SEN <= 1'b1;
+						end
+					else 
+						next_state <= s1;
+				
+				s2:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s3;
+					end 
+				s3: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s4;
+						 SDI <= reg_data[29];
+						end
+				s4:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s5;
+					end
+				s5: 
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s6;
+						 SDI <= reg_data[28];
+						end
+				
+				s6:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s7;
+					end 
+				s7: 
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s8;
+						 SDI <= reg_data[27];
+						end
+				s8:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s9;
+					end 
+				s9: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s10;
+						 SDI <= reg_data[26];
+						end
+					
+				s10:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s11;
+					end
+				s11: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s12;
+						 SDI <= reg_data[25];
+						end
+					
+				
+				s12:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s13;
+					end 
+				s13: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s14;
+						 SDI <= reg_data[24];
+						end
+					
+				s14:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s15;
+					end 
+				
+				s15: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s16;
+						 SDI <= reg_data[23];
+						end
+					
+				
+				s16:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s17;
+					end 
+				s17: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s18;
+						 SDI <= reg_data[22];
+						end
+				
+				s18:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s19;
+					end 
+				s19: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s20;
+						 SDI <= reg_data[21];
+						end
+					
+				s20:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s21;
+					end	
+				s21: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <=s22;
+						 SDI <= reg_data[20];
+						end
+					
+				
+				s22:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s23;
+					end 
+				s23: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s24;
+						 SDI <= reg_data[19];
+						end
+					
+				s24:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s25;
+					end
+				s25: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s26;
+						 SDI <= reg_data[18];
+						end
+					
+				
+				s26:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s27;
+					end 
+				s27: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s28;
+						 SDI <= reg_data[17];
+						end
+					
+				s28:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s29;
+					end 
+				s29: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s30;
+						 SDI <= reg_data[16];
+						end
+					
+				s30:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s31;
+					end
+				s31: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s32;
+						 SDI <= reg_data[15];
+						end
+					
+				
+				s32:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s33;
+					end 
+				s33: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s34;
+						 SDI <= reg_data[14];
+						end
+					
+				s34:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s35;
+					end 
+				
+				s35: 
+				
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s36;
+						 SDI <= reg_data[13];
+						end
+					
+				
+				s36:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s37;
+					end 
+				s37: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s38;
+						 SDI <= reg_data[12];
+						end
+					
+				s38:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s39;
+					end 
+				s39: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s40;
+						 SDI <= reg_data[11];
+						end
+				s40:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s41;
+					end	
+				s41: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <=s42;
+						 SDI <= reg_data[10];
+						end
+					
+				s42:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s43;
+					end 
+				s43: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s44;
+						 SDI <= reg_data[9];
+						end
+				
+				s44:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s45;
+					end
+				s45: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s46;
+						 SDI <= reg_data[8];
+						end
+			
+				
+				s46:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s47;
+					end 
+				s47: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s48;
+						 SDI <= reg_data[7];
+						end
+		
+				s48:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s49;
+					end 
+				s49: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s50;
+						 SDI <= reg_data[6];
+						end
+				
+				s50:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s51;
+					end
+				s51: 
+				
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s52;
+						 SDI <= reg_data[5];
+						end
+				
+				s52:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s53;
+					end 
+				s53: 
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s54;
+						 SDI <= reg_data[4];
+						end
+				s54:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s55;
+					end 
+				
+				s55: 
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s56;
+						 SDI <= reg_data[3];
+						end
+				
+				s56:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s57;
+					end 
+				s57: 
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s58;
+						 SDI <= reg_data[2];
+						end
+				s58:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s59;
+					end 
+				s59: 
+				
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s60;
+						 SDI <= reg_data[1];
+						end
+					
+				s60:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s61;
+					end
+				s61: 
+					
+						begin
+						 SCK <= 1'b0;
+						 next_state <= s62;
+						 SDI <= reg_data[0];
+						end
+					
+				s62:
+					begin 
+						SCK <= 1'b1;
+						next_state <= s63;
+					end 
+				s63:
+					begin 
+						SCK <= 1'b0;
+						//write_ok <= 1'b1;
+						next_state <= s64;
+						SEN <= 1'b0;
+					end 
+				s64:
+					begin 
+						next_state <= s65;
+						SEN <= 1'b0;
+					end 
+				s65:
+					begin 
+						next_state <= s66;
+						SEN <= 1'b0;
+					end 
+				s66:
+					begin 
+						next_state <= s67;
+						SEN <= 1'b0;
+					end    
+				s67:
+					begin 
+						next_state <= s0;
+						write_ok <= 1'b1;
+						SEN <= 1'b0;
+					end 
+					
+				
+						
+				
+				default:;
+			endcase
+end 
+						
+endmodule						
+						
+				
+					
+						
+						
+						
+			
+				
+			
+
+
+		
+

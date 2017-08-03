@@ -1,0 +1,9 @@
+
+#CLK
+set_location_assignment PIN_AF14  -to clk
+set_location_assignment PIN_AA14 -to rst_n
+
+set_location_assignment PIN_AC23 -to LD_SDO
+set_location_assignment PIN_AB21 -to SCK
+set_location_assignment PIN_AA21 -to SDI
+set_location_assignment PIN_AB17 -to SEN

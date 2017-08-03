@@ -1,0 +1,13 @@
+
+#CLK
+set_location_assignment PIN_AF14  -to clk
+set_location_assignment PIN_AA14 -to rst_n
+##GPIO 0
+set_location_assignment PIN_AJ19 -to hang[3]
+set_location_assignment PIN_AK19 -to hang[2]
+set_location_assignment PIN_AK18 -to hang[1]
+set_location_assignment PIN_AK16 -to hang[0]
+set_location_assignment PIN_Y18  -to lie[3]
+set_location_assignment PIN_AD17 -to lie[2]
+set_location_assignment PIN_Y17  -to lie[1]
+set_location_assignment PIN_AC18 -to lie[0]

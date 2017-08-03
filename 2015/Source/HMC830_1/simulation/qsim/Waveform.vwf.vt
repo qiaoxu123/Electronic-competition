@@ -1,0 +1,269 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "10/11/2015 18:10:08"
+                                                                        
+// Verilog Self-Checking Test Bench (with test vectors) for design :    hmc830
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module hmc830_vlg_sample_tst(
+	LD_SDO,
+	clk,
+	rst_n,
+	sampler_tx
+);
+input  LD_SDO;
+input  clk;
+input  rst_n;
+output sampler_tx;
+
+reg sample;
+time current_time;
+always @(LD_SDO or clk or rst_n)
+                                                                                
+begin                                                 
+ if ($realtime > 0)                                   
+ begin                                                
+	if ($realtime == 0 || $realtime != current_time)  
+	begin									          
+		if (sample === 1'bx)                          
+			sample = 0;                               
+		else                                          
+			sample = ~sample;                         
+	end										          
+	current_time = $realtime;					      
+ end                                                  
+end                                                   
+
+assign sampler_tx = sample;
+endmodule
+
+module hmc830_vlg_check_tst (
+	SCK,
+	SDI,
+	SEN,
+	sampler_rx
+);
+input  SCK;
+input  SDI;
+input  SEN;
+input sampler_rx;
+
+reg  SCK_expected;
+reg  SDI_expected;
+reg  SEN_expected;
+
+reg  SCK_prev;
+reg  SDI_prev;
+reg  SEN_prev;
+
+reg  SCK_expected_prev;
+reg  SDI_expected_prev;
+reg  SEN_expected_prev;
+
+reg  last_SCK_exp;
+reg  last_SDI_exp;
+reg  last_SEN_exp;
+
+reg trigger;
+
+integer i;
+integer nummismatches;
+
+reg [1:3] on_first_change ;
+
+
+initial
+begin
+trigger = 0;
+i = 0;
+nummismatches = 0;
+on_first_change = 3'b1;
+end
+
+// update real /o prevs
+
+always @(trigger)
+begin
+	SCK_prev = SCK;
+	SDI_prev = SDI;
+	SEN_prev = SEN;
+end
+
+// update expected /o prevs
+
+always @(trigger)
+begin
+	SCK_expected_prev = SCK_expected;
+	SDI_expected_prev = SDI_expected;
+	SEN_expected_prev = SEN_expected;
+end
+
+
+
+// expected SCK
+initial
+begin
+	SCK_expected = 1'bX;
+end 
+
+// expected SDI
+initial
+begin
+	SDI_expected = 1'bX;
+end 
+
+// expected SEN
+initial
+begin
+	SEN_expected = 1'bX;
+end 
+// generate trigger
+always @(SCK_expected or SCK or SDI_expected or SDI or SEN_expected or SEN)
+begin
+	trigger <= ~trigger;
+end
+
+always @(posedge sampler_rx or negedge sampler_rx)
+begin
+`ifdef debug_tbench
+	$display("Scanning pattern %d @time = %t",i,$realtime );
+	i = i + 1;
+	$display("| expected SCK = %b | expected SDI = %b | expected SEN = %b | ",SCK_expected_prev,SDI_expected_prev,SEN_expected_prev);
+	$display("| real SCK = %b | real SDI = %b | real SEN = %b | ",SCK_prev,SDI_prev,SEN_prev);
+`endif
+	if (
+		( SCK_expected_prev !== 1'bx ) && ( SCK_prev !== SCK_expected_prev )
+		&& ((SCK_expected_prev !== last_SCK_exp) ||
+			on_first_change[1])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port SCK :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", SCK_expected_prev);
+		$display ("     Real value = %b", SCK_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[1] = 1'b0;
+		last_SCK_exp = SCK_expected_prev;
+	end
+	if (
+		( SDI_expected_prev !== 1'bx ) && ( SDI_prev !== SDI_expected_prev )
+		&& ((SDI_expected_prev !== last_SDI_exp) ||
+			on_first_change[2])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port SDI :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", SDI_expected_prev);
+		$display ("     Real value = %b", SDI_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[2] = 1'b0;
+		last_SDI_exp = SDI_expected_prev;
+	end
+	if (
+		( SEN_expected_prev !== 1'bx ) && ( SEN_prev !== SEN_expected_prev )
+		&& ((SEN_expected_prev !== last_SEN_exp) ||
+			on_first_change[3])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port SEN :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", SEN_expected_prev);
+		$display ("     Real value = %b", SEN_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[3] = 1'b0;
+		last_SEN_exp = SEN_expected_prev;
+	end
+
+	trigger <= ~trigger;
+end
+initial 
+
+begin 
+$timeformat(-12,3," ps",6);
+#1000000;
+if (nummismatches > 0)
+	$display ("%d mismatched vectors : Simulation failed !",nummismatches);
+else
+	$display ("Simulation passed !");
+$finish;
+end 
+endmodule
+
+module hmc830_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg LD_SDO;
+reg clk;
+reg rst_n;
+// wires                                               
+wire SCK;
+wire SDI;
+wire SEN;
+
+wire sampler;                             
+
+// assign statements (if any)                          
+hmc830 i1 (
+// port map - connection between master ports and signals/registers   
+	.LD_SDO(LD_SDO),
+	.SCK(SCK),
+	.SDI(SDI),
+	.SEN(SEN),
+	.clk(clk),
+	.rst_n(rst_n)
+);
+
+// clk
+always
+begin
+	clk = 1'b0;
+	clk = #10000 1'b1;
+	#10000;
+end 
+
+// rst_n
+initial
+begin
+	rst_n = 1'b0;
+	rst_n = #60000 1'b1;
+end 
+
+// LD_SDO
+initial
+begin
+	LD_SDO = 1'b0;
+end 
+
+hmc830_vlg_sample_tst tb_sample (
+	.LD_SDO(LD_SDO),
+	.clk(clk),
+	.rst_n(rst_n),
+	.sampler_tx(sampler)
+);
+
+hmc830_vlg_check_tst tb_out(
+	.SCK(SCK),
+	.SDI(SDI),
+	.SEN(SEN),
+	.sampler_rx(sampler)
+);
+endmodule
+

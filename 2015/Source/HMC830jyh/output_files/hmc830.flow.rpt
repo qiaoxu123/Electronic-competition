@@ -1,0 +1,179 @@
+Flow report for hmc830
+Sat Nov 14 09:16:01 2015
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Sat Nov 14 09:16:01 2015       ;
+; Quartus II 64-Bit Version       ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
+; Revision Name                   ; hmc830                                      ;
+; Top-level Entity Name           ; top                                         ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CSEMA5F31C6                                ;
+; Timing Models                   ; Preliminary                                 ;
+; Logic utilization (in ALMs)     ; 669 / 32,070 ( 2 % )                        ;
+; Total registers                 ; 1356                                        ;
+; Total pins                      ; 39 / 457 ( 9 % )                            ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 422,464 / 4,065,280 ( 10 % )                ;
+; Total DSP Blocks                ; 0 / 87 ( 0 % )                              ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI TX Channels          ; 0                                           ;
+; Total PLLs                      ; 0 / 6 ( 0 % )                               ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
++---------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 11/14/2015 09:13:24 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; hmc830              ;
++-------------------+---------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                                                                                                                             ;
++--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
+; Assignment Name                      ; Value                                                                                                                                                                                                ; Default Value ; Entity Name ; Section Id       ;
++--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
+; COMPILER_SIGNATURE_ID                ; 13764766956252.144746360404580                                                                                                                                                                       ; --            ; --          ; --               ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                                                                                                                                                   ; --            ; --          ; hmc830_vlg_tst   ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; On                                                                                                                                                                                                   ; --            ; --          ; eda_simulation   ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; hmc830_vlg_tst                                                                                                                                                                                       ; --            ; --          ; eda_simulation   ;
+; EDA_NETLIST_WRITER_OUTPUT_DIR        ; E:/new/HMC830_1/simulation/qsim/                                                                                                                                                                     ; --            ; --          ; eda_simulation   ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                                                                                                                                                                                          ; --            ; --          ; eda_simulation   ;
+; EDA_RUN_TOOL_AUTOMATICALLY           ; Off                                                                                                                                                                                                  ; --            ; --          ; eda_simulation   ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)                                                                                                                                                                            ; <None>        ; --          ; --               ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                                                                                                                                                                                      ; --            ; --          ; eda_simulation   ;
+; EDA_TEST_BENCH_FILE                  ; simulation/qsim/hmc830.vt                                                                                                                                                                            ; --            ; --          ; hmc830_vlg_tst   ;
+; EDA_TEST_BENCH_MODULE_NAME           ; hmc830_vlg_tst                                                                                                                                                                                       ; --            ; --          ; hmc830_vlg_tst   ;
+; EDA_TEST_BENCH_NAME                  ; hmc830_vlg_tst                                                                                                                                                                                       ; --            ; --          ; eda_simulation   ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 10 s                                                                                                                                                                                                 ; --            ; --          ; hmc830_vlg_tst   ;
+; EDA_TIME_SCALE                       ; 1 ps                                                                                                                                                                                                 ; --            ; --          ; eda_simulation   ;
+; ENABLE_SIGNALTAP                     ; On                                                                                                                                                                                                   ; --            ; --          ; --               ;
+; IP_TOOL_NAME                         ; ROM: 1-PORT                                                                                                                                                                                          ; --            ; --          ; --               ;
+; IP_TOOL_NAME                         ; ROM: 1-PORT                                                                                                                                                                                          ; --            ; --          ; --               ;
+; IP_TOOL_VERSION                      ; 13.1                                                                                                                                                                                                 ; --            ; --          ; --               ;
+; IP_TOOL_VERSION                      ; 13.1                                                                                                                                                                                                 ; --            ; --          ; --               ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                                                                                                                                                                                   ; --            ; --          ; --               ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                                                                                                                                                                                    ; --            ; --          ; --               ;
+; MISC_FILE                            ; rom_bb.v                                                                                                                                                                                             ; --            ; --          ; --               ;
+; MISC_FILE                            ; rom_r_bb.v                                                                                                                                                                                           ; --            ; --          ; --               ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                                                                                                                                                                                    ; --            ; --          ; --               ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                                                                                                                                                                                    ; --            ; --          ; --               ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                                                                                                                                                                                           ; --            ; --          ; --               ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                                                                                                                                                                                           ; --            ; --          ; --               ;
+; PARTITION_COLOR                      ; 16764057                                                                                                                                                                                             ; --            ; top         ; Top              ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; PLACEMENT_AND_ROUTING                                                                                                                                                                                ; --            ; top         ; Top              ;
+; PARTITION_NETLIST_TYPE               ; SOURCE                                                                                                                                                                                               ; --            ; top         ; Top              ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                                                                                                                                                                                         ; --            ; --          ; --               ;
+; SLD_FILE                             ; db/stp1_auto_stripped.stp                                                                                                                                                                            ; --            ; --          ; --               ;
+; SLD_NODE_CREATOR_ID                  ; 110                                                                                                                                                                                                  ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_ENTITY_NAME                 ; sld_signaltap                                                                                                                                                                                        ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_RAM_BLOCK_TYPE=AUTO                                                                                                                                                                              ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_NODE_INFO=805334528                                                                                                                                                                              ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_POWER_UP_TRIGGER=0                                                                                                                                                                               ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0                                                                                                                                                        ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ATTRIBUTE_MEM_MODE=OFF                                                                                                                                                                           ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STATE_FLOW_USE_GENERATED=0                                                                                                                                                                       ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STATE_BITS=11                                                                                                                                                                                    ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_BUFFER_FULL_STOP=1                                                                                                                                                                               ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_CURRENT_RESOURCE_WIDTH=1                                                                                                                                                                         ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_LEVEL=1                                                                                                                                                                                  ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_IN_ENABLED=0                                                                                                                                                                             ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ADVANCED_TRIGGER_ENTITY=basic,1,                                                                                                                                                                 ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_LEVEL_PIPELINE=1                                                                                                                                                                         ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ENABLE_ADVANCED_TRIGGER=0                                                                                                                                                                        ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_SEGMENT_SIZE=8192                                                                                                                                                                                ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_SAMPLE_DEPTH=8192                                                                                                                                                                                ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_DATA_BITS=50                                                                                                                                                                                     ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_BITS=50                                                                                                                                                                                  ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INVERSION_MASK=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INVERSION_MASK_LENGTH=177                                                                                                                                                                        ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_NODE_CRC_LOWORD=31406                                                                                                                                                                            ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_NODE_CRC_HIWORD=43188                                                                                                                                                                            ; --            ; --          ; auto_signaltap_0 ;
+; TOP_LEVEL_ENTITY                     ; top                                                                                                                                                                                                  ; hmc830        ; --          ; --               ;
+; USE_SIGNALTAP_FILE                   ; stp1.stp                                                                                                                                                                                             ; --            ; --          ; --               ;
++--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:09     ; 1.0                     ; 628 MB              ; 00:00:09                           ;
+; Fitter                    ; 00:01:35     ; 2.0                     ; 2041 MB             ; 00:02:24                           ;
+; Assembler                 ; 00:00:21     ; 1.0                     ; 641 MB              ; 00:00:20                           ;
+; TimeQuest Timing Analyzer ; 00:00:19     ; 1.6                     ; 885 MB              ; 00:00:28                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 506 MB              ; 00:00:03                           ;
+; Total                     ; 00:02:26     ; --                      ; --                  ; 00:03:24                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; haohaoxuexi-PC   ; Windows 7 ; 6.1        ; x86_64         ;
+; Fitter                    ; haohaoxuexi-PC   ; Windows 7 ; 6.1        ; x86_64         ;
+; Assembler                 ; haohaoxuexi-PC   ; Windows 7 ; 6.1        ; x86_64         ;
+; TimeQuest Timing Analyzer ; haohaoxuexi-PC   ; Windows 7 ; 6.1        ; x86_64         ;
+; EDA Netlist Writer        ; haohaoxuexi-PC   ; Windows 7 ; 6.1        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off hmc830 -c hmc830
+quartus_fit --read_settings_files=off --write_settings_files=off hmc830 -c hmc830
+quartus_asm --read_settings_files=off --write_settings_files=off hmc830 -c hmc830
+quartus_sta hmc830 -c hmc830
+quartus_eda --read_settings_files=off --write_settings_files=off hmc830 -c hmc830
+
+
+

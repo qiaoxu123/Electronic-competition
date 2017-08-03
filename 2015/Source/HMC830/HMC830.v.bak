@@ -1,0 +1,296 @@
+module HMC830(clk,rst_n,LD_SDO,SDI,SCK,SEN);
+input clk ,rst_n;
+input LD_SDO;
+output SDI,SCK,SEN;
+reg SDI,SEN;
+parameter s0=0,s1=1,s2=2,s3=3,s4=4,s5=5,s6=6,
+			 s7=7,s8=8,s9=9,s10=10,s11=11,s12=12,s13=13,
+			 s14=14,s15=15,s16=16,s17=17,s18=18,s19=19,s20=20,
+			 s21=21,s22=22,s23=23,s24=24,s25=25,s26=26,
+			 s27=27,s28=28,s29=29,s30=30,s31=31,s32=32,s33=33;
+parameter a0=0,a1=1,a2=2,a3=3,a4=4,a5=5,a6=6,a7=7,a8=8,a9=9,	
+			  a10=10,a11=11,a12=12,a13=13,a14=14,a15=15,a16=16;
+reg [4:0] nstate,cstate;
+always@(posedge clk or negedge rst_n)
+begin 
+	if(!rst_n)
+		cstate <= a0;
+	else 
+		nstate <= cstate;
+end 
+
+
+
+
+reg [31:0] reg_data;
+always@(posedge clk  or negedge rst_n)
+begin 
+	if(!rst_n)
+		begin 
+			SEN <= 1'b0;
+			reg_data <= 32'd0;
+		end 
+	else		
+		case(cstate)
+			a0:
+				begin 
+					if(write_ok)
+						begin 
+						SEN <= 1'b0;
+						reg_data <= 32'h02000001;//Reg 02h
+						nstate <= a1;
+						end 
+					else 
+						begin 
+							SEN <= 1'b1;
+							nstate <= a0;
+						end 
+			a1:
+				begin 
+					if(write_ok)
+						begin 
+							SEN <= 1'b0;
+							reg_data <= 32'h06200B4A;
+							nstate <= a2;
+						end 
+					else
+						begin
+							SEN <= 1'b1;
+							nstate <= a1;
+						end 
+				end 
+			a2:
+				begin 
+					if(write_ok)
+						begin 
+							SEN <= 1'b0;
+							reg_data <= 32'h070008CD;
+							nstate <= a3;
+						end 
+					else
+						begin
+							SEN <= 1'b1;
+							nstate <= a2;
+						end 
+				end 
+			a3:
+				begin 
+					if(write_ok)
+						begin 
+							SEN <= 1'b0;
+							reg_data <= 32'h08C1BEFF;
+							nstate <= a4;
+						end 
+					else
+						begin
+							SEN <= 1'b1;
+							nstate <= a3;
+						end 
+				end 
+			a4:
+				begin 
+					if(write_ok)
+						begin 
+							SEN <= 1'b0;
+							reg_data <= 32'h09403264;
+							nstate <= a5;
+						end 
+					else
+						begin
+							SEN <= 1'b1;
+							nstate <= a4;
+						end 
+				end 
+			a5:
+				begin 
+					if(write_ok)
+						begin 
+							SEN <= 1'b0;
+							reg_data <= 32'h0A002046;
+							nstate <= a6;
+						end 
+					else
+						begin
+							SEN <= 1'b1;
+							nstate <= a5;
+						end 
+				end 
+			a5:
+				begin 
+					if(write_ok)
+						begin 
+							SEN <= 1'b0;
+							reg_data <= 32'h0F0000A1;
+							nstate <= a6;
+						end 
+					else
+						begin
+							SEN <= 1'b1;
+							nstate <= a5;
+						end 
+				end 
+			a6:
+				begin 
+					if(write_ok)
+						begin 
+							SEN <= 1'b0;
+							reg_data <= 32'h0A002046;
+							nstate <= a7;
+						end 
+					else
+						begin
+							SEN <= 1'b1;
+							nstate <= a6;
+						end 
+				end 
+			a7:
+				begin 
+					if(write_ok)
+						begin 
+							SEN <= 1'b0;
+							reg_data <= 32'h05000F88;
+							nstate <= a8;
+						end 
+					else
+						begin
+							SEN <= 1'b1;
+							nstate <= a7;
+						end 
+				end 
+			a8:
+				begin 
+					if(write_ok)
+						begin 
+							SEN <= 1'b0;
+							reg_data <= {8'h5,11'h3,6'h26/*K*/,7'h10}; 
+							nstate <= a9;
+						end 
+					else
+						begin
+							SEN <= 1'b1;
+							nstate <= a8;
+						end 
+				end 
+			a9:
+				begin 
+					if(write_ok)
+						begin 
+							SEN <= 1'b0;
+							reg_data <= 32'h05002A98;
+							nstate <= a10;
+						end 
+					else
+						begin
+							SEN <= 1'b1;
+							nstate <= a9;
+						end 
+				end 
+			a10:
+				begin 
+					if(write_ok)
+						begin 
+							SEN <= 1'b0;
+							reg_data <= 32'h05001628;
+							nstate <= a11;
+						end 
+					else
+						begin
+							SEN <= 1'b1;
+							nstate <= a10;
+						end 
+				end 
+			a12:
+				begin 
+					if(write_ok)
+						begin 
+							SEN <= 1'b0;
+							reg_data <= 32'h050060A0;
+							nstate <= a9;
+						end 
+					else
+						begin
+							SEN <= 1'b1;
+							nstate <= a8;
+						end 
+				end 
+			a13:
+				begin 
+					if(write_ok)
+						begin 
+							SEN <= 1'b0;
+							reg_data <= 32'h05000000;
+							nstate <= a14;
+						end 
+					else
+						begin
+							SEN <= 1'b1;
+							nstate <= a13;
+						end 
+				end 
+			a14:
+				begin 
+					if(write_ok)
+						begin 
+							SEN <= 1'b0;
+							reg_data <= 32'h03000019;
+							nstate <= a15;
+						end 
+					else
+						begin
+							SEN <= 1'b1;
+							nstate <= a14;
+						end 
+				end 
+			a15:
+				begin 
+					if(write_ok)
+						begin 
+							SEN <= 1'b0;
+							reg_data <= 32'h04000000;
+							nstate <= a9;
+						end 
+					else
+						begin
+							SEN <= 1'b1;
+							nstate <= a8;
+						end 
+				end 
+			default:;
+		endcase
+end 
+
+assign SCK = clk;	
+reg [5:0] next_state ,current_state;
+
+always@(posedge clk or negedge rst_n)
+begin 
+	if(!rst_n)
+		current_state <= s0;
+	else 
+		current_state <= next_state;
+end 
+
+reg write_ok;
+always@( posedge rst_n or posedge SCK)
+begin 
+	if(!rst_n)
+		begin 
+			write_ok <= 1'b0;
+			SDI <= 1'0b;
+		end 
+	else
+		begin 
+			case(current_state)
+				s0: 
+					begin
+					
+						
+						
+						
+			
+				
+			
+
+
+		
+

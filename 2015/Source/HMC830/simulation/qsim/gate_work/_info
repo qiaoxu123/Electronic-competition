@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\new\HMC830\simulation\qsim
+vHMC830
+IkXNWUV93ZXgOi?Q84PJ?[2
+Vdc<<07j_UB?ALcAi^DlYE0
+Z1 dE:\new\HMC830\simulation\qsim
+w1447150196
+8HMC830.vo
+FHMC830.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@h@m@c830
+!i10b 1
+!s100 G0k]4@C3<5kkIdog1IffU0
+!s85 0
+!s108 1447205180.529000
+!s107 HMC830.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|HMC830.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vHMC830_vlg_tst
+!i10b 1
+!s100 Sg:0^hG5P6FGOA^6d_Vn;1
+IQNL6^FicdzBFTaMcM?G:f3
+VoCPSkRVkK<aPOGV4Q@3kj1
+R1
+w1446961233
+8E:/new/HMC830/simulation/qsim/HMC830.vt
+FE:/new/HMC830/simulation/qsim/HMC830.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1447205181.811000
+!s107 E:/new/HMC830/simulation/qsim/HMC830.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/new/HMC830/simulation/qsim|E:/new/HMC830/simulation/qsim/HMC830.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+E:/new/HMC830/simulation/qsim -O0
+n@h@m@c830_vlg_tst

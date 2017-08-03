@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\new\HMC830_1\simulation\qsim
+vtop
+!i10b 1
+!s100 bVi[9bE?3;`hm7ZJ<VlzT2
+I7OLjYHM;];H]LfkVlKcj61
+VlS5K19a0<o;9J=dJf<S2f2
+Z1 dE:\new\HMC830_1\simulation\qsim
+w1447410121
+Z2 8hmc830.vo
+Z3 Fhmc830.vo
+L0 31
+Z4 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1447412469.762000
+!s107 hmc830.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|hmc830.vo|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+. -O0

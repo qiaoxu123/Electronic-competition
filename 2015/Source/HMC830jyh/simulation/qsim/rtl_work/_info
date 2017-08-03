@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\new\HMC830_1\simulation\qsim
+vhmc830
+I>mnafzezN[QSb`I;[1VTz0
+Vo9XjJP<mjBcN_U7l>?jGb1
+Z1 dE:\new\HMC830_1\simulation\qsim
+w1446872930
+8E:/new/HMC830_1/hmc830.v
+FE:/new/HMC830_1/hmc830.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+E:/new/HMC830_1 -O0
+!i10b 1
+!s100 n5ZWB4^]OPloEiRW@cA`^2
+!s85 0
+!s108 1446873422.334000
+!s107 E:/new/HMC830_1/hmc830.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/new/HMC830_1|E:/new/HMC830_1/hmc830.v|
+!s101 -O0
+vhmc830_vlg_tst
+!i10b 1
+!s100 [<W^QGaD1O3efDi3FAMMo0
+IllPhOTzDz02EaT`f3G@7m2
+V3kRh^K4@5a:?29SQ<c^>W2
+R1
+w1444558920
+8E:/new/HMC830_1/simulation/qsim/hmc830.vt
+FE:/new/HMC830_1/simulation/qsim/hmc830.vt
+L0 28
+R2
+r1
+!s85 0
+31
+!s108 1446873422.852000
+!s107 E:/new/HMC830_1/simulation/qsim/hmc830.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/new/HMC830_1/simulation/qsim|E:/new/HMC830_1/simulation/qsim/hmc830.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+E:/new/HMC830_1/simulation/qsim -O0
+vint_frac_data
+I65Nb7JLjGAS]TTj`b=6eU2
+V0d:lafJnM664FMF>H_keh1
+R1
+w1446810409
+8E:/new/HMC830_1/int_frac_data.v
+FE:/new/HMC830_1/int_frac_data.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 cFTF>Jg?0VEHn_LDeSHKB2
+!s85 0
+!s108 1446873422.550000
+!s107 E:/new/HMC830_1/int_frac_data.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/new/HMC830_1|E:/new/HMC830_1/int_frac_data.v|
+!s101 -O0
+vkeyboard
+I9<;_<9gJ7mY]lSWDOalD72
+V1bg7OdFg>DQ5HbaX6=oWj1
+R1
+w1446818058
+8E:/new/HMC830_1/keyboard.v
+FE:/new/HMC830_1/keyboard.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ?9lTRiPnOQcD7:inDzD<i2
+!s85 0
+!s108 1446873422.690000
+!s107 E:/new/HMC830_1/keyboard.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/new/HMC830_1|E:/new/HMC830_1/keyboard.v|
+!s101 -O0
