@@ -1,0 +1,105 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\DE1-SOC\class16-VGA\Pro\simulation\modelsim
+vrom_word
+I[njKQ1^GQ;RU^FgIRLD[J1
+V0oRMWNmg87]B0Hlb;V3cW3
+Z1 dE:\DE1-SOC\class16-VGA\Pro\simulation\modelsim
+w1500345282
+8E:/DE1-SOC/class16-VGA/Pro/rom_word.v
+FE:/DE1-SOC/class16-VGA/Pro/rom_word.v
+L0 39
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 _i_=JZ;Vabe?akA5N86TF1
+!s85 0
+!s108 1500348631.187000
+!s107 E:/DE1-SOC/class16-VGA/Pro/rom_word.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/DE1-SOC/class16-VGA/Pro|E:/DE1-SOC/class16-VGA/Pro/rom_word.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+E:/DE1-SOC/class16-VGA/Pro -O0
+vvga_control
+I3IR[[b00XY1n7Fg1OBcgK2
+V4O@K9=Udzng^lAL3ehCai0
+R1
+w1500348220
+8E:/DE1-SOC/class16-VGA/RTL/vga_control.v
+FE:/DE1-SOC/class16-VGA/RTL/vga_control.v
+L0 13
+R2
+r1
+31
+R3
+Z5 !s92 -vlog01compat -work work +incdir+E:/DE1-SOC/class16-VGA/RTL -O0
+!i10b 1
+!s100 0SP_n87d<cS<1i[4M0fOj0
+!s85 0
+!s108 1500348631.058000
+!s107 E:/DE1-SOC/class16-VGA/RTL/vga_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/DE1-SOC/class16-VGA/RTL|E:/DE1-SOC/class16-VGA/RTL/vga_control.v|
+!s101 -O0
+vvga_drive
+IGzRHeJlHHJTm8JkzC]a8K3
+VY7FB?`?=EE:iAhWUbmTRO3
+R1
+w1500335788
+8E:/DE1-SOC/class16-VGA/RTL/vga_drive.v
+FE:/DE1-SOC/class16-VGA/RTL/vga_drive.v
+L0 13
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 zIOL9NN`d2:EhO?13Po9]1
+!s85 0
+!s108 1500348631.126000
+!s107 E:/DE1-SOC/class16-VGA/RTL/vga_drive.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/DE1-SOC/class16-VGA/RTL|E:/DE1-SOC/class16-VGA/RTL/vga_drive.v|
+!s101 -O0
+vvga_test_tb
+!i10b 1
+!s100 6Y:z@II2h?`CT[S]UJZ6D2
+Imam<lz8D@HbgE93XRO_<L0
+VF;:17Hh:9QmT2bef>6Yj01
+R1
+w1500348580
+8E:/DE1-SOC/class16-VGA/Pro/vga_test_tb.v
+FE:/DE1-SOC/class16-VGA/Pro/vga_test_tb.v
+L0 16
+R2
+r1
+!s85 0
+31
+!s108 1500348631.249000
+!s107 E:/DE1-SOC/class16-VGA/Pro/vga_test_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/DE1-SOC/class16-VGA/Pro|E:/DE1-SOC/class16-VGA/Pro/vga_test_tb.v|
+!s101 -O0
+R3
+R4
+vvga_top
+IL_fRW_Za]K>>XA:9^h4l53
+VaioTb69Oej`^lZGNCHO<z1
+R1
+w1500335590
+8E:/DE1-SOC/class16-VGA/RTL/vga_top.v
+FE:/DE1-SOC/class16-VGA/RTL/vga_top.v
+L0 13
+R2
+r1
+31
+R3
+R5
+!i10b 1
+!s100 SnV:2zAO^Ukf?V^Yb@B6Q0
+!s85 0
+!s108 1500348630.978000
+!s107 E:/DE1-SOC/class16-VGA/RTL/vga_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/DE1-SOC/class16-VGA/RTL|E:/DE1-SOC/class16-VGA/RTL/vga_top.v|
+!s101 -O0

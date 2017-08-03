@@ -1,0 +1,28 @@
+Quartus II Archive log --	E:/DE1-SOC/class16-VGA2/Pro/vga_top.qarlog
+
+Archive:	E:/DE1-SOC/class16-VGA2/Pro/vga_top.qar
+Date:		Mon Jul 24 09:06:03 2017
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Full Version
+
+	=========== Files Selected: ===========
+E:/DE1-SOC/class16-VGA2/Pro/db/tmp_qic_export_dir_5/qic_export_file_list
+E:/DE1-SOC/class16-VGA2/Pro/db/tmp_qic_export_dir_5/vga_test.cmp.atm
+E:/DE1-SOC/class16-VGA2/Pro/db/tmp_qic_export_dir_5/vga_test.cmp.cfm
+E:/DE1-SOC/class16-VGA2/Pro/db/tmp_qic_export_dir_5/vga_test.cmp.dpi
+E:/DE1-SOC/class16-VGA2/Pro/db/tmp_qic_export_dir_5/vga_test.cmp.hdbx
+E:/DE1-SOC/class16-VGA2/Pro/db/tmp_qic_export_dir_5/vga_test.cmp.logdb
+E:/DE1-SOC/class16-VGA2/Pro/db/tmp_qic_export_dir_5/vga_test.cmp.map.kpt
+E:/DE1-SOC/class16-VGA2/Pro/db/tmp_qic_export_dir_5/vga_test.cmp.qxp_info
+E:/DE1-SOC/class16-VGA2/Pro/db/tmp_qic_export_dir_5/vga_test.cmp.rcf
+E:/DE1-SOC/class16-VGA2/Pro/db/tmp_qic_export_dir_5/vga_test.cmp.scidsc
+E:/DE1-SOC/class16-VGA2/Pro/db/tmp_qic_export_dir_5/vga_test.map.atm
+E:/DE1-SOC/class16-VGA2/Pro/db/tmp_qic_export_dir_5/vga_test.map.dpi
+E:/DE1-SOC/class16-VGA2/Pro/db/tmp_qic_export_dir_5/vga_test.map.hdbx
+E:/DE1-SOC/class16-VGA2/Pro/db/tmp_qic_export_dir_5/vga_test.map.logdb
+E:/DE1-SOC/class16-VGA2/Pro/db/tmp_qic_export_dir_5/vga_test.map.map.kpt
+E:/DE1-SOC/class16-VGA2/Pro/db/tmp_qic_export_dir_5/vga_test.map.qxp_info
+E:/DE1-SOC/class16-VGA2/Pro/db/tmp_qic_export_dir_5/vga_test.map.scidsc
+	======= Total: 17 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

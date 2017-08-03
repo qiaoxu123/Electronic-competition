@@ -1,0 +1,121 @@
+# Reading D:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do vga_test_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/DE1-SOC/class16-VGA/RTL {E:/DE1-SOC/class16-VGA/RTL/vga_top.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vga_top
+# 
+# Top level modules:
+# 	vga_top
+# vlog -vlog01compat -work work +incdir+E:/DE1-SOC/class16-VGA/RTL {E:/DE1-SOC/class16-VGA/RTL/vga_control.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vga_control
+# 
+# Top level modules:
+# 	vga_control
+# vlog -vlog01compat -work work +incdir+E:/DE1-SOC/class16-VGA/RTL {E:/DE1-SOC/class16-VGA/RTL/vga_drive.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vga_drive
+# 
+# Top level modules:
+# 	vga_drive
+# vlog -vlog01compat -work work +incdir+E:/DE1-SOC/class16-VGA/Pro {E:/DE1-SOC/class16-VGA/Pro/rom_word.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rom_word
+# 
+# Top level modules:
+# 	rom_word
+# 
+# vlog -vlog01compat -work work +incdir+E:/DE1-SOC/class16-VGA/Pro {E:/DE1-SOC/class16-VGA/Pro/vga_test_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module vga_test_tb
+# 
+# Top level modules:
+# 	vga_test_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  vga_test_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps vga_test_tb 
+# Loading work.vga_test_tb
+# Loading work.vga_top
+# Loading work.vga_control
+# Loading work.rom_word
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.vga_drive
+# ** Warning: (vsim-3015) E:/DE1-SOC/class16-VGA/RTL/vga_control.v(68): [PCDPC] - Port size (5 or 5) does not match connection size (10) for port 'address'. The port definition is at: E:/DE1-SOC/class16-VGA/Pro/rom_word.v(40).
+# 
+#         Region: /vga_test_tb/vga_top/vga_control/U5
+# ** Warning: (vsim-3015) E:/DE1-SOC/class16-VGA/RTL/vga_control.v(68): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'q'. The port definition is at: E:/DE1-SOC/class16-VGA/Pro/rom_word.v(42).
+# 
+#         Region: /vga_test_tb/vga_top/vga_control/U5
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+add wave -position insertpoint  \
+sim:/vga_test_tb/vga_top/vga_control/hx \
+sim:/vga_test_tb/vga_top/vga_control/vy \
+sim:/vga_test_tb/vga_top/vga_control/RGB \
+sim:/vga_test_tb/vga_top/vga_control/add \
+sim:/vga_test_tb/vga_top/vga_control/area \
+sim:/vga_test_tb/vga_top/vga_control/b \
+sim:/vga_test_tb/vga_top/vga_control/g \
+sim:/vga_test_tb/vga_top/vga_control/q \
+sim:/vga_test_tb/vga_top/vga_control/r \
+sim:/vga_test_tb/vga_top/vga_control/rom \
+sim:/vga_test_tb/vga_top/vga_control/vgalive \
+sim:/vga_test_tb/vga_top/vga_control/z1 \
+sim:/vga_test_tb/vga_top/vga_control/z2
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/DE1-SOC/class16-VGA/Pro/simulation/modelsim/wave.do
+# Break key hit 
+# Break in Module vga_control at E:/DE1-SOC/class16-VGA/RTL/vga_control.v line 41
+# Simulation Breakpoint: Break in Module vga_control at E:/DE1-SOC/class16-VGA/RTL/vga_control.v line 41
+# MACRO ./vga_test_run_msim_rtl_verilog.do PAUSED at line 20
+restart
+# ** Warning: (vsim-3015) E:/DE1-SOC/class16-VGA/RTL/vga_control.v(68): [PCDPC] - Port size (5 or 5) does not match connection size (10) for port 'address'. The port definition is at: E:/DE1-SOC/class16-VGA/Pro/rom_word.v(40).
+# 
+#         Region: /vga_test_tb/vga_top/vga_control/U5
+# ** Warning: (vsim-3015) E:/DE1-SOC/class16-VGA/RTL/vga_control.v(68): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'q'. The port definition is at: E:/DE1-SOC/class16-VGA/Pro/rom_word.v(42).
+# 
+#         Region: /vga_test_tb/vga_top/vga_control/U5
+run
+run
+run
+# Break key hit 
+restart
+# ** Warning: (vsim-3015) E:/DE1-SOC/class16-VGA/RTL/vga_control.v(68): [PCDPC] - Port size (5 or 5) does not match connection size (10) for port 'address'. The port definition is at: E:/DE1-SOC/class16-VGA/Pro/rom_word.v(40).
+# 
+#         Region: /vga_test_tb/vga_top/vga_control/U5
+# ** Warning: (vsim-3015) E:/DE1-SOC/class16-VGA/RTL/vga_control.v(68): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'q'. The port definition is at: E:/DE1-SOC/class16-VGA/Pro/rom_word.v(42).
+# 
+#         Region: /vga_test_tb/vga_top/vga_control/U5
+run
+run
+run
+run
+run
+# Break key hit 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

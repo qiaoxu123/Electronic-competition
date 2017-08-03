@@ -1,0 +1,241 @@
+/* ==================================================================
+* Family:				Cyclone V
+* Device:				5CSEMA5F31C6
+* Stage:				   DE1-SOC			
+* Version:				Quartus II 64-Bit Version & 13.1.0 Build 162 10/23/2013 SJ Full Version
+* Author: 				Qiaoxu
+* Address:				Lab
+* Data:					2017/
+* Function:				VGA控制部分
+* 
+* ==================================================================*/
+
+module vga_control(
+	
+	input wire 				clk,	
+	input	wire				rst_n,
+	
+	input wire [9:0] 		hx,		//vga的行坐标和列坐标
+	input wire [9:0] 		vy,
+	output wire [23:0] 	RGB
+
+);
+
+
+//====================================================================
+// ********** Define Parameter and Internal Signals *************
+//====================================================================
+	parameter F1 = 104857;
+	
+	
+
+//====================================================================
+// ************************* Main Code *************************
+//====================================================================
+
+	/**************************************** 背景显示 ************************************************/ 	
+	//定义坐标轴显示的位置以及颜色
+	wire vgalive;
+	
+	assign vgalive = (vy > 10'd64 && vy <= 10'd500) && (hx <= 10'd800 && hx > 10'd1);
+	
+	//显示虚线的坐标轴
+	wire z1 = vgalive && (hx%7'd50 == 1'b0 || hx == 1'b1) && vy%2'd3 == 1'b0;
+	wire z2 = vgalive && ((vy - 7'd64)%7'd50 == 1'b0) && hx%2'd3 == 1'b0;
+	
+	
+	/**************************************** 显示地址 ************************************************/
+	//频率显示地址
+	wire f1_2_1  =  (vy >= 10'd536 && vy <= 10'd567) && (hx >= 10'd50   &&  hx <= 10'd65);//f
+	wire f1_2_2  =  (vy >= 10'd536 && vy <= 10'd567) && (hx >= 10'd66   &&  hx <= 10'd81);//1
+	wire f1_1_0  =  (vy >= 10'd536 && vy <= 10'd567) && (hx >= 10'd82   &&  hx <= 10'd97);//冒号
+	wire f1_1_1  =  (vy >= 10'd536 && vy <= 10'd567) && (hx >= 10'd98   &&  hx <= 10'd113);//25 000 000
+	wire f1_1_2  =  (vy >= 10'd536 && vy <= 10'd567) && (hx >= 10'd114  &&  hx <= 10'd129);
+	wire f1_1_3  =  (vy >= 10'd536 && vy <= 10'd567) && (hx >= 10'd130  &&  hx <= 10'd145);
+	wire f1_1_4  =  (vy >= 10'd536 && vy <= 10'd567) && (hx >= 10'd146  &&  hx <= 10'd161);
+	wire f1_1_5  =  (vy >= 10'd536 && vy <= 10'd567) && (hx >= 10'd162  &&  hx <= 10'd177);
+	wire f1_1_6  =  (vy >= 10'd536 && vy <= 10'd567) && (hx >= 10'd178  &&  hx <= 10'd193);
+	wire f1_1_7  =  (vy >= 10'd536 && vy <= 10'd567) && (hx >= 10'd194  &&  hx <= 10'd209);
+	wire f1_1_8  =  (vy >= 10'd536 && vy <= 10'd567) && (hx >= 10'd210  &&  hx <= 10'd225);
+	wire f1_2_3  =  (vy >= 10'd536 && vy <= 10'd567) && (hx >= 10'd226  &&  hx <= 10'd241);//h
+	wire f1_2_4  =  (vy >= 10'd536 && vy <= 10'd567) && (hx >= 10'd242  &&  hx <= 10'd257);//z
+	
+	//相位差显示地址
+	wire a1_2_1  =  (vy >= 10'd569 && vy <= 10'd600) && (hx >= 10'd50   &&  hx <= 10'd65);//a
+	wire a1_2_2  =  (vy >= 10'd569 && vy <= 10'd600) && (hx >= 10'd66   &&  hx <= 10'd81);//1
+	wire a1_1_0  =  (vy >= 10'd569 && vy <= 10'd600) && (hx >= 10'd82   &&  hx <= 10'd97);// :
+	wire a1_1_1  =  (vy >= 10'd569 && vy <= 10'd600) && (hx >= 10'd98   &&  hx <= 10'd113);//120 000
+	wire a1_1_2  =  (vy >= 10'd569 && vy <= 10'd600) && (hx >= 10'd114  &&  hx <= 10'd129);
+	wire a1_1_3  =  (vy >= 10'd569 && vy <= 10'd600) && (hx >= 10'd130  &&  hx <= 10'd145);
+	wire a1_1_4  =  (vy >= 10'd569 && vy <= 10'd600) && (hx >= 10'd146  &&  hx <= 10'd161);
+	wire a1_1_5  =  (vy >= 10'd569 && vy <= 10'd600) && (hx >= 10'd162  &&  hx <= 10'd177);
+	wire a1_1_6  =  (vy >= 10'd569 && vy <= 10'd600) && (hx >= 10'd178  &&  hx <= 10'd193);
+	wire a1_2_3  =  (vy >= 10'd569 && vy <= 10'd600) && (hx >= 10'd194  &&  hx <= 10'd209);//m
+	wire a1_2_4  =  (vy >= 10'd569 && vy <= 10'd600) && (hx >= 10'd210  &&  hx <= 10'd225);//V
+	
+
+	/**************************************** ROM访问地址 ************************************************/
+	wire  [3:0] f1_1,f1_2,f1_3,f1_4,f1_5,f1_6,f1_7,f1_8;
+	wire [3:0] a1_1,a1_2,a1_3,a1_4,a1_5,a1_6;
+	
+	//f1
+	assign f1_1 = 1'b0;
+	assign f1_2 = F1/1_000_000;
+	assign f1_3 = F1/100_000%10;
+	assign f1_4 = F1/10_000%10;
+	assign f1_5 = F1/1000%10;
+	assign f1_6 = F1/100%10;
+	assign f1_7 = F1/10%10;
+	assign f1_8 = F1%10;
+	
+
+	
+	reg [9:0] add;
+	
+	always @(posedge clk or negedge rst_n)
+	begin 
+		if(!rst_n)
+			add <= 1'b0;
+		else if(f1_2_1)
+			add <= vy - 10'd216; 
+		else if(f1_2_2)
+			add <= vy - 10'd504;
+		else if(f1_1_0)
+			add <= vy - 10'd24; 
+		else if(f1_1_1)
+			add <= vy - 10'd536 + {f1_1,5'b0};
+		else if(f1_1_2)
+			add <= vy - 10'd536 + {f1_2,5'b0};
+		else if(f1_1_3)
+			add <= vy - 10'd536 + {f1_3,5'b0};
+		else if(f1_1_4)
+			add <= vy - 10'd536 + {f1_4,5'b0};
+		else if(f1_1_5)
+			add <= vy - 10'd536 + {f1_5,5'b0};
+		else if(f1_1_6)
+			add <= vy - 10'd536 + {f1_6,5'b0};
+		else if(f1_1_7)
+			add <= vy - 10'd536 + {f1_7,5'b0};
+		else if(f1_1_8)
+			add <= vy - 10'd536 + {f1_8,5'b0}; 
+		else if(f1_2_3)
+			add <= vy - 10'd88;
+		else if(f1_2_4)
+			add <= vy - 10'd56;
+			
+		//相位差显示
+		else if(a1_2_1)
+			add <= vy - 10'd217 ;
+		else if(a1_2_2)
+			add <= vy - 10'd537 ;
+		else if(a1_1_0)
+			add <= vy - 10'd57 ;
+		else if(a1_1_1)
+			add <= vy - 10'd569 + {a1_1,5'b0};
+		else if(a1_1_2)
+			add <= vy - 10'd569 + {a1_2,5'b0};
+		else if(a1_1_3)
+			add <= vy - 10'd569 + {a1_3,5'b0};
+		else if(a1_1_4)
+			add <= vy - 10'd569 + {a1_4,5'b0};
+		else if(a1_1_5)
+			add <= vy - 10'd569 + {a1_5,5'b0};
+		else if(a1_1_6)
+			add <= vy - 10'd569 + {a1_6,5'b0};
+		else if(a1_2_3)
+			add <= vy - 10'd185 ;
+		else if(a1_2_4)
+			add <= vy - 10'd153 ;
+		
+		
+	end
+	
+	/**************************************** ROM ************************************************/
+	wire [15:0] q;
+	
+	display_rom U5(
+		.address		(add),
+		.clock		(clk),
+		.q				(q)
+	);
+	
+	
+	
+	
+	/**************************************** 颜色分配 ************************************************/
+	reg [7:0] r,g,b;
+	
+	always @(posedge clk or negedge rst_n)
+	begin 
+		if(!rst_n) begin 
+			r <= 8'h0;
+			g <= 8'h0;
+			b <= 8'h0;
+		end 
+		else if(f1_2_1 && q[10'd67 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(f1_2_2 && q[10'd83 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(f1_1_0 && q[10'd98 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(f1_1_1 && q[10'd114 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(f1_1_2 && q[10'd130 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(f1_1_3 && q[10'd147 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(f1_1_4 && q[10'd162 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(f1_1_5 && q[10'd178 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(f1_1_6 && q[10'd194 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(f1_1_7 && q[10'd210- hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(f1_1_8 && q[10'd226 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end
+		else if(f1_2_3 && q[10'd242 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(f1_2_4 && q[10'd258 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(a1_2_1 && q[10'd67 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(a1_2_2 && q[10'd83 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(a1_1_0 && q[10'd98 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(a1_1_1 && q[10'd114 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(a1_1_2 && q[10'd130 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(a1_1_3 && q[10'd146 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(a1_1_4 && q[10'd162 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(a1_1_5 && q[10'd178 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(a1_1_6 && q[10'd194 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(a1_2_3 && q[10'd210- hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end 
+		else if(a1_2_4 && q[10'd227 - hx])
+			begin  g <= 8'hFF;	 b <= 8'hFF; end
+		
+		else if(z1 || z2)
+			begin r <= 8'h6F;  g <= 8'h1F;   b <= 8'h6F;   end 
+		else 
+			begin r <= 8'h0;  g <= 8'h0;   b <= 8'h0;   end 
+		
+
+	end 
+	
+
+	
+	assign  RGB = {r,g,b};
+	
+	
+
+
+
+endmodule
+
