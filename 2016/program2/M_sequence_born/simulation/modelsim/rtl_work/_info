@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dH:\FPGA\Project1_2016\M_sequence_born\simulation\modelsim
+vM_sequence
+IOne47Y>zNRK=oEZdPJ;H_1
+VSCb_J`0FGd2BboZiclT2C0
+Z1 dH:\FPGA\Project1_2016\M_sequence_born\simulation\modelsim
+w1495591889
+8H:/FPGA/Project1_2016/M_sequence_born/M_sequence.v
+FH:/FPGA/Project1_2016/M_sequence_born/M_sequence.v
+L0 14
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@m_sequence
+!i10b 1
+!s100 3o16oiH7_j<d4UhKTbXY;3
+!s85 0
+!s108 1495765151.240000
+!s107 H:/FPGA/Project1_2016/M_sequence_born/M_sequence.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/FPGA/Project1_2016/M_sequence_born|H:/FPGA/Project1_2016/M_sequence_born/M_sequence.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+H:/FPGA/Project1_2016/M_sequence_born -O0
+vM_sequence_tb
+!i10b 1
+!s100 <kU0Sb:GDKT2EB2LVFgNV0
+IHMW<CK:_hYfoiTU;Yg<mV1
+VLaQhlK64;i19z1aQ@?IZ?2
+R1
+w1495765013
+8H:/FPGA/Project1_2016/M_sequence_born/M_sequence_tb.v
+FH:/FPGA/Project1_2016/M_sequence_born/M_sequence_tb.v
+L0 16
+R2
+r1
+!s85 0
+31
+!s108 1495765151.377000
+!s107 H:/FPGA/Project1_2016/M_sequence_born/M_sequence_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/FPGA/Project1_2016/M_sequence_born|H:/FPGA/Project1_2016/M_sequence_born/M_sequence_tb.v|
+!s101 -O0
+R3
+R4
+n@m_sequence_tb

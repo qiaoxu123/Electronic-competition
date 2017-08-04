@@ -1,0 +1,78 @@
+# Reading D:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Bit_sync_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+H:/FPGA/Project1_2016/Bit_sync/HDL {H:/FPGA/Project1_2016/Bit_sync/HDL/M_Receive.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module M_Receive
+# 
+# Top level modules:
+# 	M_Receive
+# vlog -vlog01compat -work work +incdir+H:/FPGA/Project1_2016/Bit_sync/HDL {H:/FPGA/Project1_2016/Bit_sync/HDL/Bit_sync.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Bit_sync
+# 
+# Top level modules:
+# 	Bit_sync
+# vlog -vlog01compat -work work +incdir+H:/FPGA/Project1_2016/Bit_sync/HDL {H:/FPGA/Project1_2016/Bit_sync/HDL/sync_signal_collect.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module sync_signal_collect
+# 
+# Top level modules:
+# 	sync_signal_collect
+# vlog -vlog01compat -work work +incdir+H:/FPGA/Project1_2016/Bit_sync/HDL {H:/FPGA/Project1_2016/Bit_sync/HDL/freq_smg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module freq_smg
+# 
+# Top level modules:
+# 	freq_smg
+# vlog -vlog01compat -work work +incdir+H:/FPGA/Project1_2016/Bit_sync/HDL {H:/FPGA/Project1_2016/Bit_sync/HDL/bin_2_bcd.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bin_2_bcd
+# 
+# Top level modules:
+# 	bin_2_bcd
+# 
+# vlog -vlog01compat -work work +incdir+H:/FPGA/Project1_2016/Bit_sync/Pro/../Testbench {H:/FPGA/Project1_2016/Bit_sync/Pro/../Testbench/Bit_sync_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Bit_sync_tb
+# 
+# Top level modules:
+# 	Bit_sync_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Bit_sync_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps Bit_sync_tb 
+# Loading work.Bit_sync_tb
+# Loading work.Bit_sync
+# Loading work.M_Receive
+# Loading work.sync_signal_collect
+# Loading work.freq_smg
+# Loading work.bin_2_bcd
+# ** Warning: (vsim-3017) H:/FPGA/Project1_2016/Bit_sync/HDL/freq_smg.v(75): [TFMPC] - Too few port connections. Expected 13, found 9.
+# 
+#         Region: /Bit_sync_tb/Bit_sync_test/freq_smg_test/bin_2_bcd_test
+# ** Warning: (vsim-3722) H:/FPGA/Project1_2016/Bit_sync/HDL/freq_smg.v(75): [TFMPC] - Missing connection for port 'data_1'.
+# 
+# ** Warning: (vsim-3722) H:/FPGA/Project1_2016/Bit_sync/HDL/freq_smg.v(75): [TFMPC] - Missing connection for port 'data_2'.
+# 
+# ** Warning: (vsim-3722) H:/FPGA/Project1_2016/Bit_sync/HDL/freq_smg.v(75): [TFMPC] - Missing connection for port 'data_3'.
+# 
+# ** Warning: (vsim-3722) H:/FPGA/Project1_2016/Bit_sync/HDL/freq_smg.v(75): [TFMPC] - Missing connection for port 'data_4'.
+# 
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit 
+# Break in Module bin_2_bcd at H:/FPGA/Project1_2016/Bit_sync/HDL/bin_2_bcd.v line 46

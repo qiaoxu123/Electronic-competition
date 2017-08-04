@@ -1,0 +1,25 @@
+|M_sequence
+clk => ~NO_FANOUT~
+rst_n => A[0].ACLR
+rst_n => A[1].ACLR
+rst_n => A[2].ACLR
+rst_n => A[3].ACLR
+rst_n => A[4].ACLR
+rst_n => A[5].ACLR
+rst_n => A[6].ACLR
+rst_n => A[7].ACLR
+rst_n => A[8].PRESET
+rst_n => m_out.ENA
+bit_sync_clk => m_out.CLK
+bit_sync_clk => A[0].CLK
+bit_sync_clk => A[1].CLK
+bit_sync_clk => A[2].CLK
+bit_sync_clk => A[3].CLK
+bit_sync_clk => A[4].CLK
+bit_sync_clk => A[5].CLK
+bit_sync_clk => A[6].CLK
+bit_sync_clk => A[7].CLK
+bit_sync_clk => A[8].CLK
+M_out << m_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,17 @@
+Partition Merge Status : Successful - Fri May 26 09:50:43 2017
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : Bit_sync
+Top-level Entity Name : Bit_sync
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 1202
+Total pins : 47
+Total virtual pins : 0
+Total block memory bits : 73,728
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI TX Channels : 0
+Total PLLs : 0
+Total DLLs : 0

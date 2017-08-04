@@ -1,0 +1,128 @@
+m255
+K3
+13
+cModel Technology
+Z0 dH:\FPGA\Project1_2016\Bit_sync\Pro\simulation\modelsim
+vbin_2_bcd
+Icin4ToS]HLE21j6QIGFH82
+VecnH;9?gS@?D:DT9c8fa51
+Z1 dH:\FPGA\Project1_2016\Bit_sync\Pro\simulation\modelsim
+w1495678120
+8H:/FPGA/Project1_2016/Bit_sync/HDL/bin_2_bcd.v
+FH:/FPGA/Project1_2016/Bit_sync/HDL/bin_2_bcd.v
+L0 13
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+H:/FPGA/Project1_2016/Bit_sync/HDL -O0
+!i10b 1
+!s100 XAVN7C7;^[HmRG_lVA7VD2
+!s85 0
+!s108 1495760902.711000
+!s107 H:/FPGA/Project1_2016/Bit_sync/HDL/bin_2_bcd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/FPGA/Project1_2016/Bit_sync/HDL|H:/FPGA/Project1_2016/Bit_sync/HDL/bin_2_bcd.v|
+!s101 -O0
+vBit_sync
+INPTRGgl_UnJdY1706;Ba[2
+Vbn1PKQ2Q>dkK]<b810OzE2
+R1
+w1495680336
+8H:/FPGA/Project1_2016/Bit_sync/HDL/Bit_sync.v
+FH:/FPGA/Project1_2016/Bit_sync/HDL/Bit_sync.v
+L0 13
+R2
+r1
+31
+R3
+R4
+n@bit_sync
+!i10b 1
+!s100 i0n1XYZK[eGzJ4cojO`Qn2
+!s85 0
+!s108 1495760902.454000
+!s107 H:/FPGA/Project1_2016/Bit_sync/HDL/Bit_sync.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/FPGA/Project1_2016/Bit_sync/HDL|H:/FPGA/Project1_2016/Bit_sync/HDL/Bit_sync.v|
+!s101 -O0
+vBit_sync_tb
+!i10b 1
+!s100 X<k2a?9]RCSU^f8G]FR>n0
+IljQ6>P::2kOgA4^E;Ndm;1
+VOT8]7;H[k8=UkTE_oImWO0
+R1
+w1495760857
+8H:/FPGA/Project1_2016/Bit_sync/Pro/../Testbench/Bit_sync_tb.v
+FH:/FPGA/Project1_2016/Bit_sync/Pro/../Testbench/Bit_sync_tb.v
+L0 17
+R2
+r1
+!s85 0
+31
+!s108 1495760902.798000
+!s107 H:/FPGA/Project1_2016/Bit_sync/Pro/../Testbench/Bit_sync_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/FPGA/Project1_2016/Bit_sync/Pro/../Testbench|H:/FPGA/Project1_2016/Bit_sync/Pro/../Testbench/Bit_sync_tb.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+H:/FPGA/Project1_2016/Bit_sync/Pro/../Testbench -O0
+n@bit_sync_tb
+vfreq_smg
+IBR>LNXl1D3c@AP^fn94C83
+VI9_jj^A:=g3G?1NfbV;g40
+R1
+w1495680395
+8H:/FPGA/Project1_2016/Bit_sync/HDL/freq_smg.v
+FH:/FPGA/Project1_2016/Bit_sync/HDL/freq_smg.v
+L0 13
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 gUNYGaU[Dn4M^KI;z:=JR2
+!s85 0
+!s108 1495760902.625000
+!s107 H:/FPGA/Project1_2016/Bit_sync/HDL/freq_smg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/FPGA/Project1_2016/Bit_sync/HDL|H:/FPGA/Project1_2016/Bit_sync/HDL/freq_smg.v|
+!s101 -O0
+vM_Receive
+Ill[6C<TdQhTN5AibDdiz:1
+V?[ZmH;`DZn?obh8CKY]AT0
+R1
+w1495674409
+8H:/FPGA/Project1_2016/Bit_sync/HDL/M_Receive.v
+FH:/FPGA/Project1_2016/Bit_sync/HDL/M_Receive.v
+L0 13
+R2
+r1
+31
+R3
+n@m_@receive
+R4
+!i10b 1
+!s100 B5z_[CSL]J5ITUehbV1811
+!s85 0
+!s108 1495760902.357000
+!s107 H:/FPGA/Project1_2016/Bit_sync/HDL/M_Receive.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/FPGA/Project1_2016/Bit_sync/HDL|H:/FPGA/Project1_2016/Bit_sync/HDL/M_Receive.v|
+!s101 -O0
+vsync_signal_collect
+I;8nCKd`<2mMPzUNF7nH`52
+VME15MKTQ3Wz83C>k48M?H1
+R1
+w1495758293
+8H:/FPGA/Project1_2016/Bit_sync/HDL/sync_signal_collect.v
+FH:/FPGA/Project1_2016/Bit_sync/HDL/sync_signal_collect.v
+L0 13
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 jI7]JDAiRgzT<mhN`N;jE1
+!s85 0
+!s108 1495760902.544000
+!s107 H:/FPGA/Project1_2016/Bit_sync/HDL/sync_signal_collect.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/FPGA/Project1_2016/Bit_sync/HDL|H:/FPGA/Project1_2016/Bit_sync/HDL/sync_signal_collect.v|
+!s101 -O0

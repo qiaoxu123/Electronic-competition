@@ -1,0 +1,41 @@
+/* ==================================================================
+* Family:				Cyclone V
+* Device:				5CSEMA5F31C6
+* Stage:				   DE1-SOC			
+* Version:				Quartus II 64-Bit Version & 13.1.0 Build 162 10/23/2013 SJ Full Version
+* Author: 				Qiaoxu
+* Address:				Labortory
+* Data:					2017/5
+* Function:				测试产生的M序列
+* 
+* ==================================================================*/
+
+`timescale 1ns/1ns
+`define clk_period 20
+
+module M_sequence_tb;
+
+//source define 
+
+
+
+//probe define
+
+
+
+//instant user module
+
+
+//generate clock
+
+	initial clk = 1;
+	always #(`clk_period/2) clk = ~clk;
+	
+	initial begin 
+	
+		
+	end 
+	
+endmodule
+
+
