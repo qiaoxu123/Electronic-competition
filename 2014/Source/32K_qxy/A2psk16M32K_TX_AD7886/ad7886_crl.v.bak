@@ -1,0 +1,92 @@
+	module ad7886_crl(
+		//input
+		clk,
+		rst_n,
+		sdi,
+		//output
+		sclk,
+		cs_n,
+		data
+);
+
+input 	clk,rst_n;
+input	sdi;
+
+output	sclk,cs_n;
+output	[11:0] data;
+
+reg		sclk,cs_n;
+wire	[11:0] data;
+reg		[15:0] rdout;
+reg		[11:0]dout;
+//-----------------------------------------------  
+      // 分频信号  50M / 4  
+reg	[6:0]	cnt;
+always @(posedge clk or negedge rst_n)
+begin
+	if (!rst_n)
+		begin
+		sclk <= 0;
+		cnt <= 0;
+		end
+	else if(cnt == 7'd62)
+		begin
+		cnt <= 1'd0;
+		sclk <= ~sclk;	
+		end	
+	else	
+		cnt <= cnt + 1'b1;
+				
+end
+
+
+
+//-----------------------------------------------
+
+//the state
+reg	[4:0]	i;
+reg	[1:0]	state;
+always @(negedge sclk)
+	if (!rst_n)
+			begin
+			rdout <= 1'b0;
+			i <= 1'b0;
+			cs_n <= 1'b1;
+			state <= 1'b0;
+			end
+	else	
+			case (state) 
+	2'b00:	begin
+				cs_n <= 1'b1;
+				state <= 2'b01;
+			end
+	2'b01:  begin
+				cs_n <= 1'b0;
+				state <= 2'b10;
+				i <= 5'd16;
+			end
+	2'b10:	begin
+			if( i == 5'd0 )
+				begin
+					cs_n <= 1'b1;
+					state <= 2'b11;
+				end
+			else
+				begin
+					rdout <= {rdout[14:0],sdi};
+					i <= i - 1'b1;	
+					state <= 2'b10;
+				end
+			
+			end	
+	2'b11:	begin
+				dout  <= rdout[11:0];
+				state <= 2'b00;
+			end
+		endcase
+assign		data = dout;
+
+		
+endmodule
+
+

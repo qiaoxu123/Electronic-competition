@@ -1,0 +1,17 @@
+
+State Machine - |psk|M_array:inst3|state
+Name state.01 
+state.00 0 
+state.01 1 
+
+State Machine - |psk|ad7886_crl:inst1|state
+Name state.11 state.10 state.01 state.00 
+state.00 0 0 0 0 
+state.01 0 0 1 1 
+state.10 0 1 0 1 
+state.11 1 0 0 1 
+
+State Machine - |psk|my_uart_tx:inst6|state
+Name state.01 
+state.00 0 
+state.01 1 

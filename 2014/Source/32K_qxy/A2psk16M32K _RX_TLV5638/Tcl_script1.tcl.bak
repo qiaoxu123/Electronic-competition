@@ -1,0 +1,2 @@
+set_location_assignment PIN_AJ21 -to rs232_tx
+set_location_assignment PIN_AG18 -to RX

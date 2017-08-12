@@ -1,0 +1,35 @@
+module M_array
+(clk,rst,
+m_data
+); 
+
+input clk,rst;
+output [7:0]m_data;
+
+
+reg[1:0]state;
+reg[7:0]m_data_r;
+always@(posedge clk or negedge rst)
+begin
+	if(!rst)
+		begin
+			m_data_r<=8'd0;
+			state<=2'b00;
+		end
+	else 
+		case(state)
+			2'b00:
+				begin
+					m_data_r<=8'b10_001_110;
+					state<=2'b01;
+				end
+			2'b01:
+				begin
+					m_data_r<={{m_data_r[6]+m_data_r[5]+m_data_r[4]+m_data_r[0]},m_data_r[7:1]};
+					state<=2'b01;
+				end
+		endcase			
+end
+
+assign m_data=m_data_r;
+endmodule 

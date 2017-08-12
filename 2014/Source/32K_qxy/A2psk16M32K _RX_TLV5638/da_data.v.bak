@@ -1,0 +1,17 @@
+module da_data(clk_16M,done,rst,in_data,out_data);
+input clk_16M,done,rst;
+input [15:0]in_data;
+output[15:0]out_data;
+
+always@()
+
+reg[13:0]out_data_r;
+always@(negedge clk or negedge rst)
+begin
+	if(!rst) out_data_r<=14'd0;
+	else out_data_r<=in_data;
+end 
+
+wire [13:0]out_data;
+assign  out_data=out_data_r;
+endmodule 

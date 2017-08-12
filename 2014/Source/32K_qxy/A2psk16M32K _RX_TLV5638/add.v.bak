@@ -1,0 +1,4 @@
+module add(input [11:0]a,
+				input [11:0]b,
+				output reg [11:0]result
+				);

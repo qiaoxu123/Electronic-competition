@@ -1,0 +1,53 @@
+module my_uart_tx(clk,rst_n,tx_data,tx_en,rs232_tx,clk_bps,tx_done);
+input clk;
+input rst_n;
+input[7:0] tx_data;
+input tx_en;
+input clk_bps;
+
+output rs232_tx;
+output tx_done;
+
+
+reg [3:0] num; 
+reg rs232_tx_r;
+reg tx_done;
+
+always @(posedge clk or negedge rst_n)
+	if(!rst_n)
+			begin
+				num<=4'd0;
+				rs232_tx_r<=1'b1;
+				tx_done<=1'b0;
+			end
+	else if(tx_en)
+		begin
+			if(clk_bps)
+				begin
+					num<=num+1'b1;
+					case(num)
+						4'd0: 	rs232_tx_r<=1'b0;
+						4'd1: 	rs232_tx_r<=tx_data[0];
+						4'd2: 	rs232_tx_r<=tx_data[1];
+						4'd3: 	rs232_tx_r<=tx_data[2];
+						4'd4: 	rs232_tx_r<=tx_data[3];
+						4'd5: 	rs232_tx_r<=tx_data[4];
+						4'd6: 	rs232_tx_r<=tx_data[5];
+						4'd7: 	rs232_tx_r<=tx_data[6];
+						4'd8: 	rs232_tx_r<=tx_data[7];
+						4'd9: 	rs232_tx_r<=1'b1;
+						4'd10:	rs232_tx_r<=1'b1; 
+						4'd11:	tx_done<=1'b1;
+						default : rs232_tx_r<=1'b1;
+					endcase
+				end			
+			else if(num==4'd12) 
+				begin
+					num<=4'd0;
+					tx_done<=1'b0;
+				end	
+		end
+
+assign rs232_tx=rs232_tx_r;
+endmodule 
+

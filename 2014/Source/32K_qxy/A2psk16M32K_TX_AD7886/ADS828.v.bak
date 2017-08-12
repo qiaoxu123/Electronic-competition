@@ -1,0 +1,17 @@
+module ADS828(clk,rst,data_in,data_out,clk_DA);
+input clk,rst;
+input[9:0]data_in;
+output[9:0]data_out;
+output clk_DA;
+
+reg[9:0]data_out_r; 
+always@(negedge clk or negedge rst)
+begin
+	if(!rst)data_out_r<=10'd0;
+	else data_out_r<=data_in;
+end
+
+wire[9:0]data_out=data_out_r; 
+
+wire clk_DA=clk;
+endmodule 
