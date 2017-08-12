@@ -1,0 +1,170 @@
+C51 COMPILER V9.00   LCD                                                                   08/09/2017 19:56:30 PAGE 1   
+
+
+C51 COMPILER V9.00, COMPILATION OF MODULE LCD
+OBJECT MODULE PLACED IN lcd.OBJ
+COMPILER INVOKED BY: D:\Keil\C51\BIN\C51.EXE lcd.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include"lcd.h"
+*** ERROR C202 IN LINE 27 OF LCD.H: 'P2': undefined identifier
+*** ERROR C202 IN LINE 28 OF LCD.H: 'P2': undefined identifier
+*** ERROR C202 IN LINE 29 OF LCD.H: 'P2': undefined identifier
+   2          
+   3          /*******************************************************************************
+   4          * 函 数 名         : Lcd1602_Delay1ms
+   5          * 函数功能                 : 延时函数，延时1ms
+   6          * 输    入         : c
+   7          * 输    出         : 无
+   8          * 说    名         : 该函数是在12MHZ晶振下，12分频单片机的延时。
+   9          *******************************************************************************/
+  10          
+  11          void Lcd1602_Delay1ms(uint c)   //误差 0us
+  12          {
+  13   1          uchar a,b;
+  14   1              for (; c>0; c--)
+  15   1              {
+  16   2                       for (b=199;b>0;b--)
+  17   2                       {
+  18   3                              for(a=1;a>0;a--);
+  19   3                       }      
+  20   2              }
+  21   1              
+  22   1      }
+  23          
+  24          /*******************************************************************************
+  25          * 函 数 名         : LcdWriteCom
+  26          * 函数功能                 : 向LCD写入一个字节的命令
+  27          * 输    入         : com
+  28          * 输    出         : 无
+  29          *******************************************************************************/
+  30          #ifndef         LCD1602_4PINS    //当没有定义这个LCD1602_4PINS时
+              void LcdWriteCom(uchar com)       //写入命令
+              {
+                      LCD1602_E = 0;     //使能
+                      LCD1602_RS = 0;    //选择发送命令
+                      LCD1602_RW = 0;    //选择写入
+                      
+                      LCD1602_DATAPINS = com;     //放入命令
+                      Lcd1602_Delay1ms(1);            //等待数据稳定
+              
+                      LCD1602_E = 1;            //写入时序
+                      Lcd1602_Delay1ms(5);      //保持时间
+                      LCD1602_E = 0;
+              }
+              #else 
+  45          void LcdWriteCom(uchar com)       //写入命令
+  46          {
+  47   1              LCD1602_E = 0;   //使能清零
+*** ERROR C202 IN LINE 47 OF LCD.C: 'LCD1602_E': undefined identifier
+  48   1              LCD1602_RS = 0;  //选择写入命令
+*** ERROR C202 IN LINE 48 OF LCD.C: 'LCD1602_RS': undefined identifier
+  49   1              LCD1602_RW = 0;  //选择写入
+*** ERROR C202 IN LINE 49 OF LCD.C: 'LCD1602_RW': undefined identifier
+C51 COMPILER V9.00   LCD                                                                   08/09/2017 19:56:30 PAGE 2   
+
+  50   1      
+  51   1              LCD1602_DATAPINS = com; //由于4位的接线是接到P0口的高四位，所以传送高四位不用改
+*** ERROR C202 IN LINE 51 OF LCD.C: 'P0': undefined identifier
+  52   1              Lcd1602_Delay1ms(1);
+  53   1      
+  54   1              LCD1602_E = 1;   //写入时序
+*** ERROR C202 IN LINE 54 OF LCD.C: 'LCD1602_E': undefined identifier
+  55   1              Lcd1602_Delay1ms(5);
+  56   1              LCD1602_E = 0;
+*** ERROR C202 IN LINE 56 OF LCD.C: 'LCD1602_E': undefined identifier
+  57   1      
+  58   1      //      Lcd1602_Delay1ms(1);
+  59   1              LCD1602_DATAPINS = com << 4; //发送低四位
+*** ERROR C202 IN LINE 59 OF LCD.C: 'P0': undefined identifier
+  60   1              Lcd1602_Delay1ms(1);
+  61   1      
+  62   1              LCD1602_E = 1;   //写入时序
+*** ERROR C202 IN LINE 62 OF LCD.C: 'LCD1602_E': undefined identifier
+  63   1              Lcd1602_Delay1ms(5);
+  64   1              LCD1602_E = 0;
+*** ERROR C202 IN LINE 64 OF LCD.C: 'LCD1602_E': undefined identifier
+  65   1      }
+  66          #endif
+  67          /*******************************************************************************
+  68          * 函 数 名         : LcdWriteData
+  69          * 函数功能                 : 向LCD写入一个字节的数据
+  70          * 输    入         : dat
+  71          * 输    出         : 无
+  72          *******************************************************************************/                   
+  73          #ifndef         LCD1602_4PINS              
+              void LcdWriteData(uchar dat)                    //写入数据
+              {
+                      LCD1602_E = 0;  //使能清零
+                      LCD1602_RS = 1; //选择输入数据
+                      LCD1602_RW = 0; //选择写入
+              
+                      LCD1602_DATAPINS = dat; //写入数据
+                      Lcd1602_Delay1ms(1);
+              
+                      LCD1602_E = 1;   //写入时序
+                      Lcd1602_Delay1ms(5);   //保持时间
+                      LCD1602_E = 0;
+              }
+              #else
+  88          void LcdWriteData(uchar dat)                    //写入数据
+  89          {
+  90   1              LCD1602_E = 0;    //使能清零
+*** ERROR C202 IN LINE 90 OF LCD.C: 'LCD1602_E': undefined identifier
+  91   1              LCD1602_RS = 1;   //选择写入数据
+*** ERROR C202 IN LINE 91 OF LCD.C: 'LCD1602_RS': undefined identifier
+  92   1              LCD1602_RW = 0;   //选择写入
+*** ERROR C202 IN LINE 92 OF LCD.C: 'LCD1602_RW': undefined identifier
+  93   1      
+  94   1              LCD1602_DATAPINS = dat; //由于4位的接线是接到P0口的高四位，所以传送高四位不用改
+*** ERROR C202 IN LINE 94 OF LCD.C: 'P0': undefined identifier
+  95   1              Lcd1602_Delay1ms(1);
+  96   1      
+  97   1              LCD1602_E = 1;    //写入时序
+*** ERROR C202 IN LINE 97 OF LCD.C: 'LCD1602_E': undefined identifier
+  98   1              Lcd1602_Delay1ms(5);
+  99   1              LCD1602_E = 0;
+*** ERROR C202 IN LINE 99 OF LCD.C: 'LCD1602_E': undefined identifier
+C51 COMPILER V9.00   LCD                                                                   08/09/2017 19:56:30 PAGE 3   
+
+ 100   1      
+ 101   1              LCD1602_DATAPINS = dat << 4; //写入低四位
+*** ERROR C202 IN LINE 101 OF LCD.C: 'P0': undefined identifier
+ 102   1              Lcd1602_Delay1ms(1);
+ 103   1      
+ 104   1              LCD1602_E = 1;    //写入时序
+*** ERROR C202 IN LINE 104 OF LCD.C: 'LCD1602_E': undefined identifier
+ 105   1              Lcd1602_Delay1ms(5);
+ 106   1              LCD1602_E = 0;
+*** ERROR C202 IN LINE 106 OF LCD.C: 'LCD1602_E': undefined identifier
+ 107   1      }
+ 108          #endif
+ 109          /*******************************************************************************
+ 110          * 函 数 名       : LcdInit()
+ 111          * 函数功能               : 初始化LCD屏
+ 112          * 输    入       : 无
+ 113          * 输    出       : 无
+ 114          *******************************************************************************/                   
+ 115          #ifndef         LCD1602_4PINS
+              void LcdInit()                                            //LCD初始化子程序
+              {
+                      LcdWriteCom(0x38);  //开显示
+                      LcdWriteCom(0x0c);  //开显示不显示光标
+                      LcdWriteCom(0x06);  //写一个指针加1
+                      LcdWriteCom(0x01);  //清屏
+                      LcdWriteCom(0x80);  //设置数据指针起点
+              }
+              #else
+ 125          void LcdInit()                                            //LCD初始化子程序
+ 126          {
+ 127   1              LcdWriteCom(0x32);       //将8位总线转为4位总线
+ 128   1              LcdWriteCom(0x28);       //在四位线下的初始化
+ 129   1              LcdWriteCom(0x0c);  //开显示不显示光标
+ 130   1              LcdWriteCom(0x06);  //写一个指针加1
+ 131   1              LcdWriteCom(0x01);  //清屏
+ 132   1              LcdWriteCom(0x80);  //设置数据指针起点
+ 133   1      }
+ 134          #endif
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  21 ERROR(S)

@@ -1,0 +1,5 @@
+"main.obj",
+"key.obj",
+"AD9854.obj" 
+TO "AD9854" 
+RAMSIZE(256) 

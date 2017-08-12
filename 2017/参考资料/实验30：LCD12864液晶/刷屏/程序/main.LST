@@ -1,0 +1,89 @@
+C51 COMPILER V9.01   MAIN                                                                  01/06/2016 16:44:50 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN main.OBJ
+COMPILER INVOKED BY: D:\MRYZ\keil C51\C51\BIN\C51.EXE main.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include<reg51.h>
+   2          #include"st7565.h"
+   3          
+   4          //---声明一个全局变量---//
+   5          void Delay10ms(unsigned int c);
+   6          
+   7          /*******************************************************************************
+   8          * 函 数 名         : main
+   9          * 函数功能                 : 主函数
+  10          * 输    入         : 无
+  11          * 输    出         : 无
+  12          *******************************************************************************/
+  13          
+  14          void main()
+  15          {
+  16   1              uchar i, j;
+  17   1              Lcd12864_Init();
+  18   1              Lcd12864_ClearScreen();
+  19   1              while(1)
+  20   1              {
+  21   2                      //--左到右慢慢刷黑屏幕--//
+  22   2                      for (i=0; i<8; i++)
+  23   2                      {
+  24   3                              LcdSt7565_WriteCmd(0xB0+i); //设置Y坐标，具体可以看清屏函数里面的说明
+  25   3      
+  26   3                              LcdSt7565_WriteCmd(0x10);   //设置X坐标，具体可以看清屏函数里面的说明
+  27   3                              LcdSt7565_WriteCmd(0x04);
+  28   3                              for (j=0; j<128; j++)
+  29   3                              {
+  30   4                                      LcdSt7565_WriteData(0xFF);  //如果设置背景为白色时，清屏选择0XFF
+  31   4                                      Delay10ms(1);              //延时一下
+  32   4                              }
+  33   3                      }
+  34   2      
+  35   2                      //--左到右慢慢刷白屏幕--//
+  36   2                      for (i=0; i<8; i++)
+  37   2                      {
+  38   3                              LcdSt7565_WriteCmd(0xB0+i); //设置Y坐标，具体可以看清屏函数里面的说明
+  39   3      
+  40   3                              LcdSt7565_WriteCmd(0x10);   //设置X坐标，具体可以看清屏函数里面的说明
+  41   3                              LcdSt7565_WriteCmd(0x04);
+  42   3                              for (j=0; j<128; j++)
+  43   3                              {
+  44   4                                      LcdSt7565_WriteData(0x00);  //如果设置背景为白色时，清屏选择0XFF
+  45   4                                      Delay10ms(1);                      //延时一下
+  46   4                              }
+  47   3                      }       
+  48   2              }
+  49   1      }
+  50          
+  51          /*******************************************************************************
+  52          * 函 数 名         : Delay10ms
+  53          * 函数功能                 : 延时函数，延时10ms
+  54          * 输    入         : 无
+  55          * 输    出         : 无
+C51 COMPILER V9.01   MAIN                                                                  01/06/2016 16:44:50 PAGE 2   
+
+  56          *******************************************************************************/
+  57          
+  58          void Delay10ms(unsigned int c)   //误差 0us
+  59          {
+  60   1          unsigned char a,b;
+  61   1          for(;c>0;c--)
+  62   1              for(b=38;b>0;b--)
+  63   1                  for(a=130;a>0;a--);
+  64   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    158    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----       2
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
